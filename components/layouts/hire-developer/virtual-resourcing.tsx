@@ -40,6 +40,7 @@ const VirtualResourcing = () => {
               <VirtualCard
                 heading={val.heading}
                 description={val.description}
+                slug={val.slug}
               />
             </Grid>
           ))}

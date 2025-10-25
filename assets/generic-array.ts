@@ -1028,81 +1028,97 @@ export const VIRTUAL_CARD_DATA: VIRTUAL_CARD_PROPS[] = [
     heading: "HIRE SOFTWARE DEVELOPERS",
     description:
       "Employ Virtual lets you hire the programming brains for your organisation.",
+    slug: "hire-software-developer",
   },
   {
     heading: "HIRE JAVA DEVELOPER",
     description:
       "Build your dynamic website with virtual Java Developers from Employ Virtual. ",
+    slug: "hire-java-developer",
   },
   {
     heading: "HIRE PYTHON PROGRAMMER",
     description:
       "Hire your expert Python programmer from Employ Virtual for dynamic codes.",
+    slug: "hire-python-developer",
   },
   {
     heading: "HIRE NODEJS DEVELOPERS",
     description:
       "Hire your Node JS expert from Employ Virtual to build dynamic applications.",
+    slug: "hire-node-developer",
   },
   {
     heading: "HIRE ANGULARJS DEVELOPERS",
     description:
       "Hire AngularJS Developer from Employ Virtual to build new-age applications.",
+    slug: "hide-angular-developer",
   },
   {
     heading: "HIRE REACTJS DEVELOPERS",
     description:
       "ReactJS Developers hired from Employ Virtual creates business-powered applications.",
+    slug: "hire-react-developer",
   },
   {
     heading: "HIRE MERN STACK DEVELOPERS",
     description:
       "A single professional from Employ Virtual will bring on the expertise of MongoDB, Express, React and Node.",
+    slug: "hire-mern-stack-developer",
   },
   {
     heading: "HIRE LARAVEL DEVELOPERS",
     description:
       "Hire Laravel Developers from Employ Virtual to build SEO-optimized, enriched features applications.",
+    slug: "hire-laravel-developer",
   },
   {
     heading: "HIRE FLUTTER DEVELOPERS",
     description:
       "Hire the Flutter Developer from Employ Virtual who will be developing cross platform applications.",
+    slug: "hire-flutter-developer",
   },
   {
     heading: "HIRE WORDPRESS DEVELOPERS",
     description:
       "The WordPress Developers of Employ Virtual are known for handling complex WordPress Projects.",
+    slug: "hire-wordpress-developer",
   },
   {
     heading: "HIRE PHP DEVELOPERS",
     description:
       "Hire experience PHP Developers from Employ Virtual to build secure, fast and performance driven websites.",
+    slug: "hire-php-developer",
   },
   {
     heading: "HIRE MAGENTO DEVELOPERS",
     description:
       "Hire the Magento Developers for your ecommerce store from Employ Virtual, expertise in building a user-friendly ecommerce portal.",
+    slug: "hire-magento-developer",
   },
   {
     heading: "HIRE ANDROID DEVELOPERS",
     description:
       "Android Developers from Employ Virtual are experts in designing and developing scalable and fully-functional mobile applications.",
+    slug: "hire-android-developer",
   },
   {
     heading: "HIRE IOS DEVELOPERS",
     description:
       "iOS Developers from Employ Virtual are known for their excellent hold on coding and technical skills required for iOS application development.",
+    slug: "hire-ios-developer",
   },
   {
     heading: "HIRE FRONTEND DEVELOPERS",
     description:
       "Employ Virtual lets you hire your Front-end experts with T-shaped skills who will collaborate with experts from other disciplines.",
+    slug: "hire-frontend-developer",
   },
   {
     heading: "HIRE HTML DEVELOPERS",
     description:
       "Hire your HTML Developer from Employ Virtual who uses HTML to create website layouts based on templates and wireframes.",
+    slug: "hire-html-developer",
   },
 ];
 
@@ -1564,7 +1580,7 @@ export const HIRE_DEVELOPER_DATA: DETAILS_DATA[] = [
     details_list: [
       {
         heading:
-          "Few basic things need to be taken care while hiring ReactJS Developer:Few basic things need to be taken care while hiring Mern Stack Developer:",
+          "Few basic things need to be taken care while hiring Mern Stack Developer:",
         data: [
           {
             label:
@@ -1615,6 +1631,292 @@ export const HIRE_DEVELOPER_DATA: DETAILS_DATA[] = [
               "They have the ability to bind UI elements to JavaScript object models.",
           },
           { label: "Our experts have OOP proficiency." },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "hire-software-developer",
+    bannerHeading: "Hire Software Developers",
+    bannerDescription:
+      "Employ Virtual lets you hire the programming brains for your organisation.",
+    img: software,
+    heading: "Hire Software Developers",
+    description: [
+      {
+        label:
+          "Employ Virtual lets you hire the programming brains for your organisation. The IT industry is growing exponentially and it is one of the fastest growing sectors in the world. Our remote software developers will provide their varied expertise from the inception of the software to its post-launch.",
+      },
+      {
+        label:
+          "With this growing digital world, demand for software developer has increased significantly. Nowadays, companies are looking for developers who can develop and build their online businesses. But hiring the right developer can be a challenging task. This is possible only when the business process is clear and understanding the business need.",
+      },
+      {
+        label:
+          "Each developer will have different sets of skills required for different business needs. For a business to find the right developer, one needs to know the different type of developers and their skill sets.",
+      },
+    ],
+    details_list: [
+      {
+        heading:
+          "Few basic things need to be taken care while hiring Software Developers:",
+        data: [
+          { label: "Define and identify the tasks for the developers." },
+          {
+            label:
+              "Once tasks are known, understand the type of developer needed for the job. There are Front-end developers, Back-end developers, Full-Stack developers, Web Developers, WordPress Developers, Mobile Developers, Graphic Developers, Data Scientists, DevsOps Developers and many more.",
+          },
+          {
+            label:
+              "Look out for virtual software developer on different online talent platforms, jobs sites, word of mouth.",
+          },
+          { label: "Schedule interview for your virtual developer." },
+          { label: "Finalize your virtual developer." },
+          { label: "Onboarding your virtual developer." },
+        ],
+      },
+      {
+        heading: "Why hire Software Developer from Employ Virtual?",
+        data: [
+          { label: "Certified Software Developers at reasonable rate." },
+          { label: "Ensure project privacy." },
+          { label: "Well managed and maintained coding standards." },
+          { label: "All time security and IP protection." },
+          { label: "Timely project delivery." },
+          { label: "Defined and trusted methodologies." },
+          { label: "No hidden cost and rules." },
+          { label: "Highly secure infrastructure." },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "hire-laravel-developer",
+    bannerHeading: "Hire Laravel Developers",
+    bannerDescription:
+      "Hire Laravel Developers from Employ Virtual to build SEO-optimized, enriched features applications.",
+    img: laravel,
+    heading: "Hire Laravel Developers",
+    description: [
+      {
+        label:
+          "Hire Laravel Developers from Employ Virtual to build SEO-optimized, enriched features, dynamic, secure, scalable web and mobile applications. The expert will be handling the Laravel framework with an ease. By using PHP programming language, they will build and maintain innovative and functional web-based applications that elevate user experience as well as consistency of HTML, CSS and shared JavaScript across applications.",
+      },
+      {
+        label:
+          "Our Laravel experts are best in industry who expertise in leveraging server-side works. They follow MVC pattern architecture to develop web applications and solutions in finest way. Our experts are pragmatic technologist with a record of effectively delivering projects on time. They can develop custom PHP web applications within project timeline.",
+      },
+      {
+        label:
+          "The professionals can migrate between Laravel platforms with regular upgrades and can develop innovative Laravel extensions that will eventually improve site’s functionality and user experience.",
+      },
+    ],
+    details_list: [
+      {
+        heading:
+          "Few basic things need to be taken care while hiring Laravel Developer:",
+        data: [
+          {
+            label:
+              "Project goal is very essential before hiring your Laravel developer.",
+          },
+          {
+            label:
+              "Relevant past Laravel experience and work record is crucial.",
+          },
+          {
+            label:
+              "Technical knowledge of using Laravel to develop new web application or updating exiting ones is necessary.",
+          },
+          {
+            label:
+              "A proficient Laravel developer must have excellent command over PHP and other web development technologies such as HTML, CSS and JavaScript and even better if they know about databases.",
+          },
+          {
+            label:
+              "Soft skills like good communications, critical thinking is essential apart from strong technical knowledge.",
+          },
+          { label: "Ability to solve complex problems." },
+          { label: "Should be flexible with customer-centric approach." },
+        ],
+      },
+      {
+        heading: "Why hire Mern Stack Developer from Employ Virtual?",
+        data: [
+          {
+            label:
+              "Our Laravel professionals have expertise in object-oriented PHP and Laravel 9 PHP Framework.",
+          },
+          {
+            label:
+              "They have sound knowledge of Laravel Blade, Airlock, Routing speed.",
+          },
+          { label: "They can perform code-versioning." },
+          {
+            label:
+              "Our experts have hands-on experience on Echo, Lumen, Spark, Valet, Horizon, Sanctum.",
+          },
+          { label: "They are experienced in extensions like Forge, Vapor." },
+          {
+            label:
+              "Experts have successfully worked and combined top frameworks like Angular, React, Vue, RoR.",
+          },
+          {
+            label:
+              "Our experts can have flawless communication with microservices and serverless deployment.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "hire-flutter-developer",
+    bannerHeading: "Hire Flutter Developers",
+    bannerDescription:
+      "Hire the Flutter Developer from Employ Virtual who will be developing cross platform applications.",
+    img: flutter,
+    heading: "Hire Flutter Developers",
+    description: [
+      {
+        label:
+          "Hire the Flutter Developer from Employ Virtual who will be developing cross platform applications for Android, iOS, Linux, MacOS, Windows, Google Fuschia. Our experts are here to build your feature-loaded robust applications with next generation abilities and functionalities for your business. The applications created will be cost effective, compatible with all screen sizes and efficient in functionality with user friendliness.",
+      },
+      {
+        label:
+          "Flutter helps in designing, building and deploy applications for Android, iOS, Linux, MacOS, Windows, Google Fuschia using single codebase. This in turn reduces the application development time, market launch and development costs. Flutter itself is a strong framework developed by Google Inc.",
+      },
+      {
+        label:
+          "The Flutter Developer will bring on their diversified industry expertise through evaluated experience, they will craft and delivery next generation ready application solutions that will drive your business and enhance user engagement.",
+      },
+    ],
+    details_list: [
+      {
+        heading:
+          "Few basic things need to be taken care while hiring Flutter Developer:",
+        data: [
+          {
+            label:
+              "Expertise in Flutter Technology and version control tools like Git.",
+          },
+          {
+            label:
+              "Strong understanding of scooped Model/ Business Logic Components, Dart.",
+          },
+          {
+            label:
+              "Understanding of backend web services like Node JS, Firebase.",
+          },
+          {
+            label:
+              "High proficiency in mobile application development for iOS and Android.",
+          },
+          { label: "Strong working knowledge with Kotlin or Swift." },
+        ],
+      },
+      {
+        heading: "Why hire Flutter Developer from Employ Virtual?",
+        data: [
+          {
+            label:
+              "The Flutter Developers of Employ Virtual have strong hands-on experience in native programming languages like Java, C, C#, C++, Lua and Kotlin.",
+          },
+          {
+            label:
+              "Experience knowledge in Dart (a client-side programming language based on objects).",
+          },
+          {
+            label:
+              "Expert knowledge of Agile and Waterfall methodologies for software development.",
+          },
+          { label: "Good knowledge of GIT and GITHUB." },
+          { label: "Knowledge in SQLite." },
+          {
+            label:
+              "Well understanding of application designing and user interface.",
+          },
+          {
+            label:
+              "Our experts also have soft skills like problem solving, creativity, teamwork, good communication skills.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "hire-wordpress-developer",
+    bannerHeading: "Hire WordPress Developers",
+    bannerDescription:
+      "The WordPress Developers of Employ Virtual are known for handling complex WordPress Projects.",
+    img: wordpress,
+    heading: "Hire WordPress Developers",
+    description: [
+      {
+        label:
+          "The WordPress Developers of Employ Virtual are known for handling complex WordPress Projects. Our experts are known for top-notch projects and best customer experience across the globe. Our expert professional will build websites with WordPress, alongside they can develop Front-end and Back-end of the websites. You can get the quick, best-customized WordPress website possible.",
+      },
+      {
+        label:
+          "At least 30-31 percent of Internet world is owned by WordPress and keeping this in mind, our experts provide WordPress website development services to all verticals of a business. We ensure that the developed website contributes to the growth of the businesses and adaptable with the changing needs of the business.",
+      },
+      {
+        label:
+          "We are sure your business and project require best in-house WordPress Developers for your website and our developers are highly qualified with expertise in WordPress technology that truly adept at what they do. Our professionals provide best quality, individualized services that meet the needs of your business.",
+      },
+    ],
+    details_list: [
+      {
+        heading:
+          "Few basic things need to be taken care while hiring WordPress Developer:",
+        data: [
+          {
+            label:
+              "The Flutter Developers of Employ Virtual have strong hands-on experience in native programming languages like Java, C, C#, C++, Lua and Kotlin.",
+          },
+          {
+            label:
+              "Experience knowledge in Dart (a client-side programming language based on objects).",
+          },
+          {
+            label:
+              "Expert knowledge of Agile and Waterfall methodologies for software development.",
+          },
+          { label: "Good knowledge of GIT and GITHUB." },
+          { label: "Knowledge in SQLite." },
+          {
+            label:
+              "Well understanding of application designing and user interface.",
+          },
+          {
+            label:
+              "Our experts also have soft skills like problem solving, creativity, teamwork, good communication skills.",
+          },
+        ],
+      },
+      {
+        heading: "Why hire WordPress Developer from Employ Virtual?",
+        data: [
+          {
+            label:
+              "Our WordPress Developers are expert in programming languages such as HTML, CSS, PHP, JavaScript.",
+          },
+          {
+            label:
+              "They have strong knowledge in theme and plugin installation and plugin development.",
+          },
+          {
+            label:
+              "They have knowledge of page builders such as Elementor, Divi, Beaver.",
+          },
+          { label: "They can manage SQL, MySQL databases." },
+          {
+            label: "They have knowledge of managing Digital Marketing and SEO.",
+          },
+          { label: "They good knowledge of GIT and GITHUB." },
+          {
+            label:
+              "They have hands-on experience in UX, UI and site architecture.",
+          },
         ],
       },
     ],

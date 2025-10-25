@@ -77,6 +77,7 @@ export interface HIRE_LIST {
 export interface VIRTUAL_CARD_PROPS {
   heading: string;
   description: string;
+  slug: string;
 }
 
 export interface detailsList {
