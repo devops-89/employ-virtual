@@ -31,7 +31,7 @@ const InnerHeroSection = ({
     <Box
       sx={{
         width: "100%",
-        height: "600px",
+        minHeight: "650px",
         display: "flex",
         flexWrap: "wrap",
         flexDirection: "column",
@@ -50,6 +50,7 @@ const InnerHeroSection = ({
           zIndex: 1,
           backgroundAttachment: "fixed",
         },
+        height: "100%",
       }}
     >
       <Box
@@ -75,16 +76,17 @@ const InnerHeroSection = ({
         ></video>
       </Box>
       <Container maxWidth="xl">
-        <Box sx={{ position: "absolute", top: "25%", zIndex: 3, width: "50%" }}>
+        <Box sx={{ position: "absolute", top: "25%", zIndex: 3, width: "80%" }}>
           {/* <GlitchText speed={1}>About us</GlitchText> */}
           {/* <TextTrail text="About Us" textColor="#ffffff" /> */}
           <Typography
             sx={{
-              fontSize: 128,
+              fontSize: 120,
               fontFamily: poppins.style.fontFamily,
               color: COLORS.WHITE,
               fontWeight: 900,
               textTransform: "capitalize",
+              lineHeight: "140px",
             }}
           >
             {heading}
@@ -98,6 +100,8 @@ const InnerHeroSection = ({
               //   width: "60%",
               lineHeight: "40px",
               fontWeight: 300,
+              mt: 2,
+              width:"60%"
             }}
           >
             {description}

@@ -9,6 +9,7 @@ import {
   ListItemText,
   Typography,
 } from "@mui/material";
+import Link from "next/link";
 import React from "react";
 
 const FooterLinks = ({ heading, data }: FOOTER_LINKS) => {
@@ -27,37 +28,39 @@ const FooterLinks = ({ heading, data }: FOOTER_LINKS) => {
       </Typography>
       <List>
         {data.map((val, i) => (
-          <ListItemButton
-            sx={{
-              padding: 0,
-              width: "fit-content",
-              margin: "auto",
-              ":hover": {
-                color: COLORS.PRIMARY,
-                ".text": {
+          <Link href={val.url || ""} style={{ textDecoration: "none" }} key={i}>
+            <ListItemButton
+              sx={{
+                padding: 0,
+                width: "fit-content",
+                margin: "auto",
+                ":hover": {
                   color: COLORS.PRIMARY,
+                  ".text": {
+                    color: COLORS.PRIMARY,
+                  },
                 },
-              },
-            }}
-            key={i}
-          >
-            <ListItemText
-              primary={
-                <Typography
-                  sx={{
-                    color: COLORS.WHITE,
-                    fontFamily: poppins.style.fontFamily,
-                    fontSize: 13,
-                    textAlign: "center",
-                    fontWeight: 500,
-                  }}
-                  className="text"
-                >
-                  {val.label}
-                </Typography>
-              }
-            />
-          </ListItemButton>
+              }}
+              key={i}
+            >
+              <ListItemText
+                primary={
+                  <Typography
+                    sx={{
+                      color: COLORS.WHITE,
+                      fontFamily: poppins.style.fontFamily,
+                      fontSize: 13,
+                      textAlign: "center",
+                      fontWeight: 500,
+                    }}
+                    className="text"
+                  >
+                    {val.label}
+                  </Typography>
+                }
+              />
+            </ListItemButton>
+          </Link>
         ))}
       </List>
     </Box>

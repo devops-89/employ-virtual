@@ -39,7 +39,7 @@ const GlitchText: FC<GlitchTextProps> = ({
       style={inlineStyles}
       data-text={children}
     >
-      <Typography>{children}</Typography>
+      <Typography >{children}</Typography>
     </div>
   );
 };

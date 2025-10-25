@@ -51,3 +51,45 @@ export interface SERVICE_CARD_PROPS {
   heading: string;
   data: URLPROPS[];
 }
+
+export interface CountryType {
+  code: string;
+  label: string;
+  phone: string;
+  suggested?: boolean;
+}
+
+export interface ADDRESS_TYPE {
+  country: string;
+  streetAddress: string;
+  addressLine1: string;
+  addressLine2: string;
+  phoneNumber: string;
+  email: string;
+  img: string;
+}
+
+export interface HIRE_LIST {
+  heading: string;
+  data: LIST[];
+}
+
+export interface VIRTUAL_CARD_PROPS {
+  heading: string;
+  description: string;
+}
+
+export interface detailsList {
+  heading: string;
+  data: LIST[];
+}
+
+export interface DETAILS_DATA {
+  slug: string;
+  bannerHeading: string;
+  bannerDescription: string;
+  img: StaticImageData;
+  heading: string;
+  description: LIST[];
+  details_list: detailsList[];
+}
