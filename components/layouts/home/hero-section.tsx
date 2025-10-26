@@ -51,7 +51,7 @@ const Herosection = () => {
       >
         <Container maxWidth="lg">
           <Grid container>
-            <Grid size={10} margin="auto">
+            <Grid size={{ lg: 10, xs: 12 }} margin="auto">
               <Typography
                 sx={{
                   fontSize: 13,
@@ -76,7 +76,7 @@ const Herosection = () => {
               </Typography>
               <Typography
                 sx={{
-                  fontSize: 50,
+                  fontSize: { lg: 50, xs: 30 },
                   color: COLORS.WHITE,
                   fontFamily: impact.style.fontFamily,
                   textAlign: "center",
@@ -117,7 +117,7 @@ const Herosection = () => {
               </Grid>
               <Grid container spacing={5}>
                 {HERO_CARD_DATA.map((val, i) => (
-                  <Grid size={4} key={i}>
+                  <Grid size={{ lg: 4, xs: 12 }} key={i}>
                     <HeroCard
                       img={val.img}
                       title={val.title}
@@ -147,7 +147,14 @@ const Herosection = () => {
               </Box>
             </Grid>
           </Grid>
-          <Box sx={{ position: "absolute", right: 30, top: "30%" }}>
+          <Box
+            sx={{
+              position: "absolute",
+              right: 30,
+              top: "30%",
+              display: { lg: "flex", xs: "none" },
+            }}
+          >
             <Stack alignItems={"center"} spacing={3}>
               {socialIcons.map((val, i) => (
                 <IconButton

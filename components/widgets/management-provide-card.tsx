@@ -23,10 +23,10 @@ const ManagementSuited = ({
     >
       <Container maxWidth="xl">
         <Grid container spacing={10}>
-          <Grid size={4}>
+          <Grid size={{ lg: 4, xs: 12 }}>
             <Typography
               sx={{
-                fontSize: 50,
+                fontSize: { lg: 50, xs: 30 },
                 color: COLORS.WHITE,
                 fontWeight: 800,
                 lineHeight: 1.1,
@@ -45,10 +45,10 @@ const ManagementSuited = ({
               {description}
             </Typography>
           </Grid>
-          <Grid size={8}>
+          <Grid size={{ lg: 8, xs: 12 }}>
             <Grid container spacing={4}>
               {CARD_DATA.map((val, i) => (
-                <Grid size={4} key={i}>
+                <Grid size={{ lg: 4, xs: 12 }} key={i}>
                   <WhyEmployCard
                     img={val.img}
                     title={val.title}

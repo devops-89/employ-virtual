@@ -1,19 +1,31 @@
+"use client";
+import { COLORS } from "@/utils/enum";
+import { poppins } from "@/utils/fonts";
+import { SERVICE_CARD_PROPS } from "@/utils/types";
 import {
   Box,
   Button,
   List,
-  ListItem,
   ListItemButton,
   ListItemText,
   Typography,
+  Collapse,
 } from "@mui/material";
-import React from "react";
-import service1 from "@/services/services-icon/VIRTUAL-RESOURCING.png";
 import Image from "next/image";
-import { poppins } from "@/utils/fonts";
-import { COLORS } from "@/utils/enum";
-import { SERVICE_CARD_PROPS } from "@/utils/types";
+import { useRouter } from "next/navigation";
+import { useState } from "react";
+
 const ServicesCard = ({ img, heading, data }: SERVICE_CARD_PROPS) => {
+  const [expanded, setExpanded] = useState(false);
+
+  const toggleExpand = () => setExpanded(!expanded);
+
+  const router = useRouter();
+
+    const navigateToPage = (slug: string) => {
+      router.push(`/${slug}`);
+    };
+
   return (
     <Box>
       <Image src={img} alt="" width={80} />
@@ -27,41 +39,64 @@ const ServicesCard = ({ img, heading, data }: SERVICE_CARD_PROPS) => {
       >
         {heading}
       </Typography>
+
       <List>
-        {data.map((val, i) => (
+        {data.slice(0, 3).map((val, i) => (
           <ListItemButton
+            key={i}
             sx={{
               p: 0,
               width: "fit-content",
-              ":hover": {
-                color: COLORS.PRIMARY,
-              },
+              ":hover": { color: COLORS.PRIMARY },
             }}
-            key={i}
+            onClick={() => navigateToPage(val.url || "#")}
+           
+          
           >
             <ListItemText
               primary={val.label}
               slotProps={{
-                primary: {
-                  fontFamily: poppins.style.fontFamily,
-                  fontSize: 13,
-                },
+                primary: { fontFamily: poppins.style.fontFamily, fontSize: 13 },
               }}
             />
           </ListItemButton>
         ))}
+
+        <Collapse in={expanded} timeout="auto" unmountOnExit>
+          {data.slice(3).map((val, i) => (
+            <ListItemButton
+              key={i + 3}
+              sx={{
+                p: 0,
+                width: "fit-content",
+                ":hover": { color: COLORS.PRIMARY },
+              }}
+                onClick={() => navigateToPage(val.url || "#")}
+            >
+              <ListItemText
+                primary={val.label}
+                slotProps={{
+                  primary: {
+                    fontFamily: poppins.style.fontFamily,
+                    fontSize: 13,
+                  },
+                }}
+              />
+            </ListItemButton>
+          ))}
+        </Collapse>
       </List>
+
       <Button
         sx={{
           fontSize: 12,
           fontFamily: poppins.style.fontFamily,
           color: COLORS.PRIMARY,
-          ":hover": {
-            textDecoration: "underline",
-          },
+          ":hover": { textDecoration: "underline" },
         }}
+        onClick={toggleExpand}
       >
-        View More
+        {expanded ? "View Less" : "View More"}
       </Button>
     </Box>
   );

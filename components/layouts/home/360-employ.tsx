@@ -1,4 +1,12 @@
-import { Box, Button, Container, Grid, Typography } from "@mui/material";
+"use client";
+import {
+  Box,
+  Button,
+  Container,
+  Grid,
+  Typography,
+  useMediaQuery,
+} from "@mui/material";
 import React from "react";
 import banner_360 from "@/homepage/360-banner.jpg";
 import image360 from "@/homepage/360-employ.jpg";
@@ -6,6 +14,7 @@ import Image from "next/image";
 import { COLORS } from "@/utils/enum";
 import { fjalla, poppins } from "@/utils/fonts";
 const Employ360 = () => {
+  const phone = useMediaQuery("(max-width:600px)");
   return (
     <Box
       sx={{
@@ -26,16 +35,16 @@ const Employ360 = () => {
         }}
       >
         <Container maxWidth="lg">
-          <Grid container>
-            <Grid size={6}>
+          <Grid container spacing={3}>
+            <Grid size={{ lg: 6, xs: 12 }}>
               <Image
                 src={image360}
                 alt=""
-                width={400}
+                width={phone ? 380 : 400}
                 style={{ border: "10px solid #ffffff" }}
               />
             </Grid>
-            <Grid size={6}>
+            <Grid size={{ lg: 6, xs: 12 }}>
               <Typography
                 sx={{
                   color: COLORS.WHITE,

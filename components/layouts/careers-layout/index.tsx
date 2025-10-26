@@ -19,7 +19,7 @@ const CareersLayout = () => {
       <Box sx={{ py: 5 }}>
         <Container maxWidth="xl">
           <Grid container spacing={5}>
-            <Grid size={6}>
+            <Grid size={{ lg: 6, xs: 12 }}>
               <Typography
                 sx={{
                   fontSize: 35,
@@ -74,7 +74,7 @@ const CareersLayout = () => {
                 .
               </Typography>
             </Grid>
-            <Grid size={6}>
+            <Grid size={{ lg: 6, xs: 12 }}>
               <Image
                 src={career}
                 alt=""

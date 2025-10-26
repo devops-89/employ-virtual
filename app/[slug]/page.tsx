@@ -1,5 +1,5 @@
 "use client";
-import { HIRE_DEVELOPER_DATA } from "@/assets/generic-array";
+import { HIRE_DEVELOPER_DATA } from "@/assets/services-details";
 import HireDeveloperLayout from "@/components/layouts/hire-developer";
 import { useDetailsStore } from "@/store/useDetailsStore";
 import { COLORS } from "@/utils/enum";

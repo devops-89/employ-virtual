@@ -1,4 +1,5 @@
-import { Box, Container, Grid, Typography } from "@mui/material";
+"use client";
+import { Box, Container, Grid, Typography, useMediaQuery } from "@mui/material";
 import React from "react";
 import business from "@/services/businessman.jpg";
 import Image from "next/image";
@@ -6,18 +7,28 @@ import { poppins } from "@/utils/fonts";
 import ServicesCard from "./components/services-card";
 import { SERVICE_CARD_DATA } from "@/assets/generic-array";
 const BusinessWork = () => {
+  const phone = useMediaQuery("(max-width:600px)");
   return (
     <Box>
       <Container maxWidth="xl">
-        <Grid container alignItems={"center"} spacing={5}>
-          <Grid size={6}>
+        <Grid
+          container
+          alignItems={"center"}
+          direction={{ lg: "row", xs: "column-reverse" }}
+          spacing={5}
+        >
+          <Grid size={{ lg: 6, xs: 12 }}>
             <Image
               src={business}
               alt=""
-              style={{ width: "100%", height: 500, borderRadius: "20px" }}
+              style={{
+                width: "100%",
+                height: phone ? 400 : 500,
+                borderRadius: "20px",
+              }}
             />
           </Grid>
-          <Grid size={6}>
+          <Grid size={{ lg: 6, xs: 12 }}>
             <Typography
               sx={{
                 fontSize: 20,
@@ -41,7 +52,7 @@ const BusinessWork = () => {
         </Grid>
         <Grid container sx={{ mt: 10 }} spacing={6}>
           {SERVICE_CARD_DATA.map((val, i) => (
-            <Grid size={3} key={i}>
+            <Grid size={{ lg: 3, xs: 12 }} key={i}>
               <ServicesCard
                 img={val.img}
                 heading={val.heading}

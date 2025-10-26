@@ -12,8 +12,13 @@ const HireDeveloperEmploy = () => {
   return (
     <Box>
       <Container maxWidth="xl">
-        <Grid container spacing={6} alignItems={"center"}>
-          <Grid size={6}>
+        <Grid
+          container
+          spacing={6}
+          alignItems={"center"}
+          direction={{ lg: "row", xs: "column-reverse" }}
+        >
+          <Grid size={{ lg: 6, xs: 12 }}>
             <Image
               src={details?.img || developer}
               alt={details?.heading || "developer image"}
@@ -25,7 +30,7 @@ const HireDeveloperEmploy = () => {
               }}
             />
           </Grid>
-          <Grid size={6}>
+          <Grid size={{ lg: 6, xs: 12 }}>
             <Typography
               sx={{
                 fontSize: 30,

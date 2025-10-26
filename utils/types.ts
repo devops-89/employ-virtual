@@ -78,6 +78,7 @@ export interface VIRTUAL_CARD_PROPS {
   heading: string;
   description: string;
   slug: string;
+  img?: StaticImageData;
 }
 
 export interface detailsList {
@@ -93,4 +94,9 @@ export interface DETAILS_DATA {
   heading: string;
   description: LIST[];
   details_list: detailsList[];
+  services: {
+    heading: string;
+    description: string;
+    data: VIRTUAL_CARD_PROPS[];
+  };
 }

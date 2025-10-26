@@ -7,11 +7,11 @@ const Skilled = () => {
   return (
     <Box sx={{ backgroundColor: COLORS.WHITE, py: 5 }}>
       <Container maxWidth="xl">
-        <Grid container>
-          <Grid size={4}>
+        <Grid container spacing={{ lg: 0, xs: 4 }}>
+          <Grid size={{ lg: 4, xs: 12 }}>
             <Typography
               sx={{
-                fontSize: 35,
+                fontSize: { lg: 35, xs: 30 },
                 fontFamily: poppins.style.fontFamily,
                 fontWeight: 900,
               }}
@@ -19,11 +19,11 @@ const Skilled = () => {
               Creating skilled & dedicated pool of resources
             </Typography>
           </Grid>
-          <Grid size={8}>
+          <Grid size={{ lg: 8, xs: 12 }}>
             <Typography
               sx={{
                 fontWeight: 300,
-                fontSize: 30,
+                fontSize: { lg: 30, xs: 20 },
                 fontFamily: poppins.style.fontFamily,
               }}
             >

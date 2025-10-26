@@ -6,10 +6,15 @@ import { poppins } from "@/utils/fonts";
 import { COLORS } from "@/utils/enum";
 import { VIRTUAL_CARD_PROPS } from "@/utils/types";
 import Link from "next/link";
-const VirtualCard = ({ heading, description, slug }: VIRTUAL_CARD_PROPS) => {
+const VirtualCard = ({
+  heading,
+  description,
+  slug,
+  img,
+}: VIRTUAL_CARD_PROPS) => {
   return (
     <Box>
-      <Image src={hire} alt="" width={100} />
+      <Image src={img || hire} alt="" width={100} />
       <Typography
         sx={{ mt: 2, fontFamily: poppins.style.fontFamily, fontWeight: 700 }}
       >

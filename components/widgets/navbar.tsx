@@ -7,6 +7,7 @@ import {
   IconButton,
   Stack,
   Typography,
+  useMediaQuery,
 } from "@mui/material";
 import logo from "@/logo/employ_virtual_logo.png";
 import Image from "next/image";
@@ -53,6 +54,8 @@ const Navbar = () => {
     }, 600);
   };
 
+  const phone = useMediaQuery("(max-width:600px)");
+
   return (
     <Container maxWidth="xl">
       <Box sx={{ position: "relative" }}>
@@ -64,7 +67,9 @@ const Navbar = () => {
             alignItems="center"
             justifyContent="space-between"
           >
-            <Image src={logo} alt="logo" width={250} />
+            <Link href="/" onClick={handleClick}>
+              <Image src={logo} alt="logo" width={phone ? 150 : 250} />
+            </Link>
             <Stack direction="row" alignItems="center" spacing={2}>
               <Typography
                 sx={{

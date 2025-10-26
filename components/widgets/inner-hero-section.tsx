@@ -1,7 +1,15 @@
+"use client";
 import lines from "@/banner/lines.png";
 import { COLORS } from "@/utils/enum";
 import { poppins } from "@/utils/fonts";
-import { Box, Container, IconButton, Stack, Typography } from "@mui/material";
+import {
+  Box,
+  Container,
+  IconButton,
+  Stack,
+  Typography,
+  useMediaQuery,
+} from "@mui/material";
 import TextTrail from "./text-trail";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import { X } from "@mui/icons-material";
@@ -13,6 +21,8 @@ const InnerHeroSection = ({
   heading: string;
   description: string;
 }) => {
+  const phone = useMediaQuery("(max-width:600px)");
+
   const socialIcons = [
     {
       icon: FaFacebookF,
@@ -31,7 +41,7 @@ const InnerHeroSection = ({
     <Box
       sx={{
         width: "100%",
-        minHeight: "650px",
+        minHeight: { lg: "650px", xs: "450px" },
         display: "flex",
         flexWrap: "wrap",
         flexDirection: "column",
@@ -72,28 +82,35 @@ const InnerHeroSection = ({
           muted
           autoPlay
           loop
-          style={{ width: "100%" }}
+          style={{ width: "100%", display: phone ? "none" : "block" }}
         ></video>
       </Box>
       <Container maxWidth="xl">
-        <Box sx={{ position: "absolute", top: "25%", zIndex: 3, width: "80%" }}>
+        <Box
+          sx={{
+            position: "absolute",
+            top: "25%",
+            zIndex: 3,
+            width: { lg: "80%", xs: "90%" },
+          }}
+        >
           {/* <GlitchText speed={1}>About us</GlitchText> */}
           {/* <TextTrail text="About Us" textColor="#ffffff" /> */}
           <Typography
             sx={{
-              fontSize: 120,
+              fontSize: { lg: 120, xs: 50 },
               fontFamily: poppins.style.fontFamily,
               color: COLORS.WHITE,
               fontWeight: 900,
               textTransform: "capitalize",
-              lineHeight: "140px",
+              lineHeight: { lg: "140px", xs: "80px" },
             }}
           >
             {heading}
           </Typography>
           <Typography
             sx={{
-              fontSize: 26,
+              fontSize: { lg: 26, xs: 16 },
               fontFamily: poppins.style.fontFamily,
               color: COLORS.WHITE,
               //   fontWeight: 900,
@@ -101,13 +118,21 @@ const InnerHeroSection = ({
               lineHeight: "40px",
               fontWeight: 300,
               mt: 2,
-              width:"60%"
+              width: { lg: "60%", xs: "90%" },
             }}
           >
             {description}
           </Typography>
         </Box>
-        <Box sx={{ position: "absolute", right: 30, top: "30%", zIndex: 3 }}>
+        <Box
+          sx={{
+            position: "absolute",
+            right: 30,
+            top: "30%",
+            zIndex: 3,
+            display: { lg: "block", xs: "none" },
+          }}
+        >
           <Stack alignItems={"center"} spacing={3}>
             {socialIcons.map((val, i) => (
               <IconButton

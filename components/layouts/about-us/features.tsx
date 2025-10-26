@@ -18,7 +18,7 @@ const Features = () => {
       <Container maxWidth="xl">
         <Grid container>
           {ABOUT_FEATURES_CARD_DATA.map((val, i) => (
-            <Grid size={6} key={i}>
+            <Grid size={{ lg: 6, xs: 12 }} key={i}>
               <FeaturesCard heading={val.heading} data={val.data} />
             </Grid>
           ))}

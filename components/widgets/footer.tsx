@@ -32,11 +32,13 @@ const Footer = () => {
     },
   ];
   return (
-    <Box sx={{ backgroundColor: COLORS.BLACK, height: "80vh" }}>
+    <Box
+      sx={{ backgroundColor: COLORS.BLACK, height: { lg: "80vh", xs: "70vh" } }}
+    >
       <Box
         sx={{
           backgroundImage: `url(${footer_banner.src})`,
-          height: "80vh",
+          height: { lg: "80vh", xs: "70vh" },
           backgroundRepeat: "no-repeat",
           width: "100%",
           backgroundSize: "contain",
@@ -48,8 +50,14 @@ const Footer = () => {
         }}
       >
         <Container maxWidth="xl">
-          <Grid container>
-            <Grid size={4} sx={{ borderRight: "1px solid #ffffff", pr: 4 }}>
+          <Grid container spacing={{ lg: 0, xs: 4 }}>
+            <Grid
+              size={{ lg: 4, xs: 12 }}
+              sx={{
+                borderRight: { lg: "1px solid #ffffff", xs: "none" },
+                pr: { lg: 4, xs: 0 },
+              }}
+            >
               <Image src={logo} alt="" width={250} />
               <Typography
                 sx={{
@@ -67,7 +75,7 @@ const Footer = () => {
             </Grid>
             {FOOTER_LINKS_URL.map((val, i) => (
               <Grid
-                size={4}
+                size={{ lg: 4, xs: 6 }}
                 key={i}
                 sx={{
                   borderRight:

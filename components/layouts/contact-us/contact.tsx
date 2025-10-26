@@ -8,10 +8,10 @@ const Contact = () => {
   return (
     <Box>
       <Container maxWidth="xl">
-        <Grid container>
-          <Grid size={3}>
+        <Grid container spacing={{ lg: 0, xs: 4 }}>
+          <Grid size={{ lg: 3, xs: 12 }}>
             <Stack
-              alignItems="flex-start"
+              alignItems={"flex-start"}
               justifyContent={"flex-start"}
               spacing={4}
             >
@@ -29,7 +29,7 @@ const Contact = () => {
               ))}
             </Stack>
           </Grid>
-          <Grid size={9}>
+          <Grid size={{ lg: 9, xs: 12 }}>
             <Form />
           </Grid>
         </Grid>

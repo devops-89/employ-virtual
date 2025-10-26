@@ -11,7 +11,7 @@ const Offer = () => {
       <Container maxWidth="xl">
         <Typography
           sx={{
-            fontSize: 50,
+            fontSize: { lg: 50, xs: 30 },
             fontFamily: poppins.style.fontFamily,
             fontWeight: 900,
             textAlign: "center",
@@ -32,7 +32,7 @@ const Offer = () => {
         </Typography>
         <Grid container spacing={4} mt={4}>
           {OFFER_CARD_DATA.map((val, i) => (
-            <Grid size={3} key={i}>
+            <Grid size={{ lg: 3, xs: 12 }} key={i}>
               <OfferCard
                 img={val.img}
                 heading={val.heading}

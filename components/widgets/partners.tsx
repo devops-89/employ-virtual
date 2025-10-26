@@ -9,7 +9,7 @@ const Partners = () => {
       <Container maxWidth="xl">
         <Grid container spacing={3}>
           {PARTNER_DATA.map((val, i) => (
-            <Grid size={1.7} key={i}>
+            <Grid size={{ lg: 1.7, xs: 12 }} key={i}>
               <PartnerCard img={val.img} name={val.name} />
             </Grid>
           ))}

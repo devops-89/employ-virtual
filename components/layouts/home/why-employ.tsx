@@ -10,10 +10,10 @@ const WhyEmploy = () => {
     <Box sx={{ backgroundColor: COLORS.WHITE, py: 5 }}>
       <Container maxWidth="xl">
         <Grid container spacing={7}>
-          <Grid size={4}>
+          <Grid size={{ lg: 4, xs: 12 }}>
             <Typography
               sx={{
-                fontSize: 50,
+                fontSize: { lg: 50, xs: 30 },
                 fontFamily: poppins.style.fontFamily,
                 fontWeight: 900,
                 lineHeight: 1.1,
@@ -36,10 +36,10 @@ const WhyEmploy = () => {
               you get the real experience.
             </Typography>
           </Grid>
-          <Grid size={8}>
+          <Grid size={{ lg: 8, xs: 12 }}>
             <Grid container spacing={7}>
               {WHY_EMPLOY_DATA.map((val, i) => (
-                <Grid size={4} key={i}>
+                <Grid size={{ lg: 4, xs: 12 }} key={i}>
                   <WhyEmployCard
                     img={val.img}
                     title={val.title}

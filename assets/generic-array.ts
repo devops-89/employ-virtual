@@ -53,22 +53,7 @@ import service5 from "@/services/services-icon/D2C-SALES-MANAGEMENT.png";
 import service6 from "@/services/services-icon/workforce-solutions.png";
 import service7 from "@/services/services-icon/WEBSITE-DEVELOPMENT.png";
 import service8 from "@/services/services-icon/3D-ARVR.png";
-import hireJava from "@/hire/java-developer.jpg";
-import hirePython from "@/hire/python-development.png";
-import node from "@/hire/node-js.png";
-import angular from "@/hire/angular-js.png";
-import react from "@/hire/react.png";
-import mern from "@/hire/mern.png";
-import software from "@/hire/software-developer.png";
-import laravel from "@/hire/laravel.png";
-import flutter from "@/hire/flutter.png";
-import wordpress from "@/hire/wordpress.png";
-import php from "@/hire/php.png";
-import magento from "@/hire/magento.png";
-import android from "@/hire/android.png";
-import ios from "@/hire/ios.png";
-import frontend from "@/hire/frontend.png";
-import html from "@/hire/html.png";
+
 export const NAVBAR_LINKS = [
   {
     label: "Home",
@@ -449,12 +434,67 @@ export const SERVICE_CARD_DATA: SERVICE_CARD_PROPS[] = [
     data: [
       {
         label: "Hire Software Developers",
+        url: "hire-software-developer",
       },
       {
         label: "Hire Java Developers",
+        url: "hire-java-developer",
       },
       {
         label: "Hire Python Developers",
+        url: "hire-python-developer",
+      },
+      {
+        label: "Hire Nodejs Developers",
+        url: "hire-node-developer",
+      },
+      {
+        label: "Hire Angular Js Developers",
+        url: "hire-angular-developer",
+      },
+      {
+        label: "Hire React Js Developers",
+        url: "hire-react-developer",
+      },
+      {
+        label: "Hire Mern Stack Developers",
+        url: "hire-mern-stack-developer",
+      },
+      {
+        label: "Hire Laravel Developers",
+        url: "hire-laravel-developer",
+      },
+      {
+        label: "Hire Flutter Developers",
+        url: "hire-flutter-developer",
+      },
+      {
+        label: "Hire Wordpress Developers",
+        url: "hire-wordpress-developer",
+      },
+      {
+        label: "Hire PHP Developers",
+        url: "hire-php-developer",
+      },
+      {
+        label: "Hire Magento Developers",
+        url: "hire-magento-developer",
+      },
+      {
+        label: "Hire Android Developer",
+        url: "hire-android-developer",
+      },
+      {
+        label: "Hire Ios Developers",
+        url: "hire-ios-developer",
+      },
+      {
+        label: "Hire Frontend Developers",
+        url: "hire-frontend-developer",
+      },
+      {
+        label: "Hire HTML Developers",
+        url: "hire-html-developer",
       },
     ],
   },
@@ -464,12 +504,63 @@ export const SERVICE_CARD_DATA: SERVICE_CARD_PROPS[] = [
     data: [
       {
         label: "Cloud Consulting",
+        url: "cloud-consulting",
       },
       {
         label: "Cloud Migration",
+        url: "cloud-migration",
       },
       {
         label: "Cloud Assessment",
+        url: "cloud-assessment",
+      },
+      {
+        label: "Cloud Cost Optimization",
+        url: "cloud-cost-optimization",
+      },
+      {
+        label: "Managed Services",
+        url: "managed-services",
+      },
+      {
+        label: "Cloud Native Applications",
+        url: "cloud-native-applications",
+      },
+      {
+        label: "Data engineering & Analytics",
+        url: "data-engineering-analytics",
+      },
+      {
+        label: "Devops Automation",
+        url: "devops-automation",
+      },
+      {
+        label: "Cloud Security",
+        url: "cloud-security",
+      },
+      {
+        label: "Devops",
+        url: "devops",
+      },
+      {
+        label: "Big Data",
+        url: "big-data",
+      },
+      {
+        label: "Machine Learning",
+        url: "machine-learning",
+      },
+      {
+        label: "Artificial Intelligence",
+        url: "artificial-intelligence",
+      },
+      {
+        label: "Digital Transformation",
+        url: "digital-transformation",
+      },
+      {
+        label: "Technology Advisory and Virtualisation services",
+        url: "technology-advisory-and-virtualisation-services",
       },
     ],
   },
@@ -479,12 +570,51 @@ export const SERVICE_CARD_DATA: SERVICE_CARD_PROPS[] = [
     data: [
       {
         label: "Brand Strategy",
+        url: "brand-strategy",
       },
       {
         label: "Press Ads",
+        url: "press-ads",
       },
       {
         label: "Radio",
+        url: "radio",
+      },
+      {
+        label: "Outdoor",
+        url: "outdoor",
+      },
+      {
+        label: "TV Commercial",
+        url: "tv-commercial",
+      },
+      {
+        label: "Packaging Design",
+        url: "packaging-design",
+      },
+      {
+        label: "AV (Audio visuals)",
+        url: "audio-visuals",
+      },
+      {
+        label: "Marketing Collateral",
+        url: "marketing-collateral",
+      },
+      {
+        label: "Corporate Identity",
+        url: "corporate-identity",
+      },
+      {
+        label: "Logo & Brand Manual",
+        url: "logo-brand-manual",
+      },
+      {
+        label: "360°Creative Campaigns",
+        url: "creative-campaigns",
+      },
+      {
+        label: "Online Media Planning & Buying",
+        url: "online-media-planning-buying",
       },
     ],
   },
@@ -494,12 +624,51 @@ export const SERVICE_CARD_DATA: SERVICE_CARD_PROPS[] = [
     data: [
       {
         label: "Search Engine Optimization",
+        url: "search-engine-optimization",
       },
       {
         label: "Search Engine Marketing",
+        url: "search-engine-marketing",
       },
       {
         label: "Mobile Marketing",
+        url: "mobile-marketing",
+      },
+      {
+        label: "Social Selling",
+        url: "social-selling",
+      },
+      {
+        label: "Social Media Optimization",
+        url: "social-media-optimization",
+      },
+      {
+        label: "Social Media Marketing",
+        url: "social-media-marketing",
+      },
+      {
+        label: "Campaign Planning",
+        url: "campaign-planning",
+      },
+      {
+        label: "Campaign Execution",
+        url: "campaign-execution",
+      },
+      {
+        label: "Campaign Optimisation",
+        url: "campaign-optimisation",
+      },
+      {
+        label: "E-mail Marketing",
+        url: "email-marketing",
+      },
+      {
+        label: "Creative & Content",
+        url: "creative-and-content",
+      },
+      {
+        label: "Analytics & Reporting",
+        url: "analytics-and-reporting",
       },
     ],
   },
@@ -509,12 +678,59 @@ export const SERVICE_CARD_DATA: SERVICE_CARD_PROPS[] = [
     data: [
       {
         label: "Ecommerce Sales Management",
+        url: "ecommerce-sales-management",
       },
       {
         label: "Amazon Sales Management",
+        url: "amazon-sales-management",
       },
       {
         label: "Inventory Management",
+        url: "inventory-management",
+      },
+      {
+        label: "Listing Setup & Optimization",
+        url: "listing-setup-and-optimization",
+      },
+      {
+        label: "Catalogue Management",
+        url: "catalogue-management",
+      },
+      {
+        label: "Campaign Management",
+        url: "campaign-management",
+      },
+      {
+        label: "Brand Protection",
+        url: "brand-protection",
+      },
+      {
+        label: "Error Management",
+        url: "error-management",
+      },
+      {
+        label: "Complete Reporting",
+        url: "complete-reporting",
+      },
+      {
+        label: "A+ Content",
+        url: "a-plus-content",
+      },
+      {
+        label: "Creatives for eCommerce",
+        url: "creatives-for-ecommerce",
+      },
+      {
+        label: "Partners value added service management",
+        url: "partners-value-added-service-management",
+      },
+      {
+        label: "Purpose-Driven Campaigning",
+        url: "purpose-driven-campaigning",
+      },
+      {
+        label: "Full-Service Ecommerce Growth",
+        url: "full-service-ecommerce-growth",
       },
     ],
   },
@@ -524,12 +740,47 @@ export const SERVICE_CARD_DATA: SERVICE_CARD_PROPS[] = [
     data: [
       {
         label: "Staffing",
+        url: "staffing",
       },
       {
         label: "Staff Augmentation",
+        url: "staff-augmentation",
       },
       {
         label: "Direct Hire Strategy",
+        url: "direct-hire-strategy",
+      },
+      {
+        label: "Captive Client Servicing",
+        url: "captive-client-servicing",
+      },
+      {
+        label: "Transitioning",
+        url: "transitioning",
+      },
+      {
+        label: "Recruitment Process Outsourcing",
+        url: "recruitment-process-outsourcing",
+      },
+      {
+        label: "Managed Service Provider",
+        url: "managed-service-provider",
+      },
+      {
+        label: "Onsite recruitment",
+        url: "onsite-recruitment",
+      },
+      {
+        label: "Statement of Work (SOW)",
+        url: "statement-of-work-sow",
+      },
+      {
+        label: "Payroll Management",
+        url: "payroll-management",
+      },
+      {
+        label: "Business Process Outsourcing (BPO)",
+        url: "business-process-outsourcing-bpo",
       },
     ],
   },
@@ -539,12 +790,39 @@ export const SERVICE_CARD_DATA: SERVICE_CARD_PROPS[] = [
     data: [
       {
         label: "Customised Applications",
+        url: "customised-applications",
       },
       {
         label: "Web Application",
+        url: "web-application",
       },
       {
         label: "Mobile Application",
+        url: "mobile-application",
+      },
+      {
+        label: "Portal Development",
+        url: "portal-development",
+      },
+      {
+        label: "Microservices Based Applications",
+        url: "microservices-based-applications",
+      },
+      {
+        label: "Content Management System",
+        url: "content-management-system",
+      },
+      {
+        label: "E-commerce Development",
+        url: "ecommerce-development",
+      },
+      {
+        label: "Marketplace Development",
+        url: "marketplace-development",
+      },
+      {
+        label: "Progressive Web Application (PWA)",
+        url: "progressive-web-application-pwa",
       },
     ],
   },
@@ -554,15 +832,23 @@ export const SERVICE_CARD_DATA: SERVICE_CARD_PROPS[] = [
     data: [
       {
         label: "3D Product Modelling",
+        url: "3d-product-modelling",
       },
       {
         label: "3D AV’s (Audio Visuals)",
+        url: "3d-avs-audio-visuals",
       },
       {
         label: "3D AR Applications",
+        url: "3d-ar-applications",
       },
       {
         label: "3D VR Applications",
+        url: "3d-vr-applications",
+      },
+      {
+        label: "Interactive 3D",
+        url: "interactive-3d",
       },
     ],
   },
@@ -1119,806 +1405,5 @@ export const VIRTUAL_CARD_DATA: VIRTUAL_CARD_PROPS[] = [
     description:
       "Hire your HTML Developer from Employ Virtual who uses HTML to create website layouts based on templates and wireframes.",
     slug: "hire-html-developer",
-  },
-];
-
-export const HIRE_DEVELOPER_DATA: DETAILS_DATA[] = [
-  {
-    slug: "hire-java-developer",
-    bannerHeading: "Hire Java Developers",
-    bannerDescription:
-      "Build your dynamic website with virtual Java Developers from Employ Virtual.",
-    img: hireJava,
-    heading: "Hire Java Developer",
-    description: [
-      {
-        label:
-          "With Employ Virtual, you can hire your JavaScript developers to build your dynamic, performance-based website or mobile application interfaces. We have strong talented JavaScript development team which includes coders, programmers, architects, java consultants with vast experience of JavaScript programming language for client-side and server-side scripting.",
-      },
-      {
-        label:
-          "Our virtual programmers have expertise in designing, developing and managing Java-based application. With most large organizations using Java to implement software systems and backend services, a Java developer is one of the most sought-after jobs today.",
-      },
-      {
-        label:
-          "Our Java Developers are experts in Spring, Sturts, Hibernate, Core Java, Advanced Java, J2EE, J2ME, hands on experience in other server applications, can develop web, mobile and desktop software applications, have their expertise in testing tools.",
-      },
-    ],
-    details_list: [
-      {
-        heading:
-          "Few basic things need to be taken care while hiring Java Developers:",
-        data: [
-          {
-            label:
-              "Scope of your Java Application like project description, project categories, models under which it will be operated.",
-          },
-          {
-            label:
-              "A clear and explained job description makes the task easier for the business to hire talents and also for the talents to understand the expectations.",
-          },
-          {
-            label: "Find the right Virtual Java Developers.",
-          },
-          {
-            label: "Review applications.",
-          },
-          {
-            label:
-              "Evaluate technical skills that are must for Java Developers and for your project.",
-          },
-          {
-            label: "Schedule online interview.",
-          },
-          {
-            label: "Finalize and onboard your virtual Java Developer",
-          },
-        ],
-      },
-      {
-        heading: "Why hire Java Developers from Employ Virtual?",
-        data: [
-          {
-            label:
-              "Our Java Developers will sketch out and develop scalable and secured Java projects for your business.",
-          },
-          {
-            label:
-              "Our experts will discuss and understand project requirements with the clients.",
-          },
-          {
-            label:
-              "Our experts are up to date with latest Java tools and follow best practices.",
-          },
-          {
-            label: "Test-driven approach.",
-          },
-          {
-            label: "Support on full-stack Java SDLC services.",
-          },
-          {
-            label:
-              "Our professionals are experienced with SCRUM, Agile and all other approved industry-grade approaches.",
-          },
-          {
-            label:
-              "Our experts will be scaling and descaling the projects according to client’s need.",
-          },
-          {
-            label:
-              "Experts will be up to date on work and project submission basis deadlines.",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    slug: "hire-python-developer",
-    bannerHeading: "Hire Python Developer",
-    bannerDescription:
-      "Hire your expert Python programmer from Employ Virtual for dynamic codes.",
-    img: hirePython,
-    heading: "Hire Python Developer",
-    description: [
-      {
-        label:
-          "Hire your hands on expert Python programmer from Employ Virtual who will write effective and scalable python codes and server-side web application logic. Our expert Python developers have in-depth knowledge and experience in highly secured, high performing, valued Python web application development. Our experts will be responsible in writing server-side web application logic, where they will be developing back-end components, will connect the application with third-party web services and supports front-end developers by merging their work with the Python application.",
-      },
-      {
-        label:
-          "As people from technological background knows that Python language is of 2 variations, i.e., Python 2 and Python 3 and a good Python developer easily adapts to the differences between these two. Our Python developers will be responsible for managing the data interchange between the servers and the users. With their expertise skill set they will be developing server-side logic, ensuring high performance with no/negligible downtime and connectivity of front-end with the servers.",
-      },
-      {
-        label:
-          "Our Python developers bring top-scoring combination of expertise and experience on table.  We are here to guide you and help with hiring Python Developers experienced in multiple domains including software development, retail, e-commerce, businesses, content management, financial and non-financial services, healthcare, pharmaceuticals and many more.",
-      },
-    ],
-    details_list: [
-      {
-        heading:
-          "Few basic things need to be taken care while hiring Python Programmer:",
-        data: [
-          {
-            label:
-              "The Python programmer should have sound knowledge of Python language and of using latest tools in coding, frameworks, front-end data libraries and technologies.",
-          },
-          {
-            label:
-              "More the expertise and experience in using different tools, the programmer will be more dedicated and mature towards his work.",
-          },
-          {
-            label:
-              "A creative Python programmer is essential in building applications, as it is quite difficult to visualise codes into innovative and meaningful content for the users.",
-          },
-          {
-            label:
-              "A Python programmer should be well versed with encryption knowledge as security and data protection is a crucial part of application development.",
-          },
-          {
-            label:
-              "Any time a bug can arise in an application and a proficient Python programmer should be able to detect and fix the bugs.",
-          },
-        ],
-      },
-      {
-        heading: "Why hire Python Programmer from Employ Virtual?",
-        data: [
-          {
-            label:
-              "Our experts have experience and knowledge in Python and its web framework, such as Django, Flask, Web2py frameworks.",
-          },
-          {
-            label:
-              "They have familiarity with Object Relational Mapper libraries.",
-          },
-          {
-            label:
-              "They can integrate multiple data sources and databases into a single system.",
-          },
-          {
-            label:
-              "They are able to understand the threading limitations of Python and its architecture.",
-          },
-          {
-            label:
-              "They have immense understanding of server-side languages, such as Jinja 2, Mako depending on the technology stack.",
-          },
-          {
-            label: "They have understanding of JavaScript, HTML5, CSS3.",
-          },
-          {
-            label: "They have sound knowledge of security and compliance.",
-          },
-          {
-            label: "They have strong debugging skills.",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    slug: "hire-angular-developer",
-    bannerHeading: "Hire Angular Developer",
-    bannerDescription:
-      "Hire Angular Developer from Employ Virtual to build new-age applications.",
-    img: angular,
-    heading: "Hire Angular Developers",
-    description: [
-      {
-        label:
-          "Hire AngularJS Developer from Employ Virtual to build new-age applications and cutting-edge web solutions. Employ Virtual provides the best Angular minds with top-line expertise in all versions of Angular development services. The professional will build highly scalable, interactive, dynamic front-ends with latest Angular tools and skills.",
-      },
-      {
-        label:
-          "Our highly-skilled JavaScript developers will build the Single Page Applications (SPAs) with Angular Java Coding. The expert will be the backbone for your user interface of your webpage. Our professionals use their core expertise of development and programming to build custom web-applications for businesses. Our top AngularJS Developers offer best in house API integration to give your existing and new projects an upgrade that you never thought about.",
-      },
-      {
-        label:
-          "In case you want to develop safe, highly scalable and interactive e-learning platform or user-friendly UI/UX designs for your applications, then AngularJS Developers from Employ Virtual is the solution. You will get your customer driven approach with AngularJS framework.",
-      },
-    ],
-    details_list: [
-      {
-        heading:
-          "Few basic things need to be taken care while hiring AngularJS Developer:",
-        data: [
-          {
-            label:
-              "The AngularJS expert should be proficient with Angular framework. A quick learner to understand and work on new updated versions of Angular framework.",
-          },
-          {
-            label:
-              "The expert should be versatile in their front-end development skills.",
-          },
-          {
-            label: "Expertise in Core Javascript, CSS and HTML.",
-          },
-          {
-            label: "Should be a reasonable problem solver.",
-          },
-          {
-            label:
-              "Schedule one-on-one online interview to assess knowledge and skillsets.",
-          },
-          {
-            label:
-              "The professional should be able to pay attention to details and communication skills.",
-          },
-        ],
-      },
-      {
-        heading: "Why hire AngularJS Developer from Employ Virtual?",
-        data: [
-          {
-            label:
-              "Our AngularJS Developers have expertise in HTML, CSS, RxJS Library.",
-          },
-          {
-            label:
-              "Hands-on experience on frameworks like Vue, React, AngularUI Bootstrap, Ionic, Mobile Angular UI, Angular Material.",
-          },
-          {
-            label:
-              "Our experts have worked on platforms like WebStorm, DJAngular, Ment.io.",
-          },
-          {
-            label:
-              "Your hired AngularJS Developers will efficiently create and perform all coding work.",
-          },
-          {
-            label:
-              "There will be better coordination and administration of your project with our AngularJS Developer; with minimal instructions and supervision.",
-          },
-          {
-            label:
-              "Our experts are up-to-date with latest web and mobile application technologies.",
-          },
-          {
-            label: "There will customer solutions as per your business needs.",
-          },
-          {
-            label: "Employ Virtual guarantees you on trust and transparency.",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    slug: "hire-node-developer",
-    bannerHeading: "Hire Node Developer",
-    bannerDescription:
-      "Hire your Node expert from Employ Virtual to build dynamic applications.",
-    img: node,
-    heading: "Hire Node Developers",
-    description: [
-      {
-        label:
-          "Hire your Node JS expert from Employ Virtual to build dynamic, enhanced feature, and robust software applications. The professional will manage the multi-facets network applications, from managing the exchange of data between servers and users, develop back-end components and connect applications with other web services.",
-      },
-      {
-        label:
-          "Our experience Node JS follows permitted project development cycle, which includes details gathering, business investigation, and authorized procedures to result in successful and productive outcomes. Our experts help businesses to define their scope in various segments in this evolving technological world. Our Node JS Developers have wide experience in working on various development technologies, different tech tools, program languages and framework.",
-      },
-      {
-        label:
-          "Our Node JS Developers have depth knowledge on Amazon Web Services and google cloud platform to provide reliable end solutions. Our experts are versatile enough to assist you with distinguishing difficulties by assessing your business needs or existing web or applications and suggest the appropriate proposal for your business.",
-      },
-    ],
-    details_list: [
-      {
-        heading:
-          "Few basic things need to be taken care while hiring Node JS Developer:",
-        data: [
-          {
-            label:
-              "The expert should have experience with different frameworks.",
-          },
-          {
-            label:
-              "Professional understanding of architectural patterns like REST, alternatives to APIs like WebSockets and GraphQL.",
-          },
-          {
-            label:
-              "Expert should have hands on experience on refactoring, debugging and testing.",
-          },
-          {
-            label:
-              "The professional should be comfortable in setting up, using and managing CI/CD pipelines.",
-          },
-          {
-            label:
-              "As all applications requires security measures, the Node JS Developer should be familiar and expert in security protocols like OAuth, OpenID Connect, JWTs and access control management like RBAC and ACLs.",
-          },
-        ],
-      },
-      {
-        heading: "Why hire Node JS Developer from Employ Virtual?",
-        data: [
-          {
-            label:
-              "Our Node JS Developer have vast knowledge on systems, containers, serverless solutions, Amazon Web Services.",
-          },
-          {
-            label:
-              "Our expert applies their expertise to build scalable applications.",
-          },
-          {
-            label:
-              "Our professionals develop APIs as per the project need, where the APIs can be connected internally to a component of the application or externally to a service.",
-          },
-          {
-            label:
-              "Our Node JS Developers can create private plugins and custom plugins as per your project.",
-          },
-          {
-            label:
-              "They will build scalable and sustainable backend for your mobile applications.",
-          },
-          {
-            label:
-              "They will be responsible for entire maintenance and support services for the platforms already present in Node JS.",
-          },
-          {
-            label:
-              "Our developers will use the right NPM packages to speed up the development and risks will be tested before use.",
-          },
-          {
-            label: "Our experts will ensure bug free coding and application.",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    slug: "hire-react-developer",
-    bannerHeading: "Hire React Developers",
-    bannerDescription:
-      "React Developers hired from Employ Virtual creates business-powered applications.",
-    img: react,
-    heading: "Hire React Developers",
-    description: [
-      {
-        label:
-          "ReactJS Developers hired from Employ Virtual creates business-powered applications with high-end UI/UX and high-performance value with ReactJS Development solutions. The professional will put in their expert knowledge to build and improvise modern day user interface (UI). They leverage their knowledge about JavaScript, HTML, CSS and work closely testers, designers, web-designers and project managers.",
-      },
-      {
-        label:
-          "Employ Virtuals’ team of ReactJS Developers are professionals at creating web applications varying use-cases and technologies. Our experts provide speed, simplicity and scalability to construct types of quick and interactive user interfaces. Our ReactJS Developer will be highly involved in all stages of web application development. They will develop front-end features like icons, images and gesture-driven features such as swiping, long-pressing, drag-and-drop. They will be easily converting screen blueprints into code and will work on CSS and HTML tags.",
-      },
-      {
-        label:
-          "Our ReactJS Developers apart from developing User Interface, will also have knowledge and expertise on server-side frameworks and languages like Node.js, Django and Python.",
-      },
-    ],
-    details_list: [
-      {
-        heading:
-          "Few basic things need to be taken care while hiring ReactJS Developer:",
-        data: [
-          {
-            label:
-              "The professional should be well versed in creating front-end user interfaces for websites and applications.",
-          },
-          {
-            label:
-              "Be able to write React and its related codes to implement new portal features.",
-          },
-          {
-            label:
-              "Should be able to test the developed codes and be able to fix bugs after deployment.",
-          },
-          {
-            label: "Adequate knowledge of JavaScript, HTML, CSS.",
-          },
-          {
-            label: "Experience in front-end and back-end applications.",
-          },
-          {
-            label:
-              "Have professional knowledge on tools like Django, npm, Flux, Redux, Reactide, React Cosmos, React Sight.",
-          },
-          {
-            label: "Be able to convert designs and wireframes into code.",
-          },
-        ],
-      },
-      {
-        heading: "Why hire ReactJS Developer from Employ Virtual?",
-        data: [
-          {
-            label:
-              "The ReactJS Developers at Employ Virtual are highly skilled and professional.",
-          },
-          {
-            label:
-              "The experts are up-to-date with latest technologies and modern trends in tech world.",
-          },
-          {
-            label:
-              "Are passionate learners and have an innovative approach towards any project.",
-          },
-          {
-            label:
-              "Our developers are well trained and highly productive to meet your business’s custom requirements.",
-          },
-          {
-            label:
-              "With our virtual developers, you can save upto 70-80% of operations costs.",
-          },
-          {
-            label:
-              "They have familiarity with JSX, high-level proficiency in JavaScript and ES6.",
-          },
-          { label: "Well understanding of Redux, Hooks, Node.js, NPM." },
-          { label: "They can write clean codes for the programme." },
-          { label: "They have knowledge on MVC design pattern." },
-        ],
-      },
-    ],
-  },
-  {
-    slug: "hire-mern-stack-developer",
-    bannerHeading: "Hire Mern Stack Developers",
-    bannerDescription:
-      "A single professional from Employ Virtual will bring on the expertise of MongoDB, Express, React and Node.",
-    img: mern,
-    heading: "Hire Mern Stack Developers",
-    description: [
-      {
-        label:
-          "A single professional from Employ Virtual will bring on the expertise of MongoDB, Express, React and Node. They are proficient in JavaScript and use HTML, CSS to handle front-end operations and JavaScript with Nodejs to handle backend operations. The expert will design and customize web applications that will directly enhance your revenue and overall business profits.",
-      },
-      {
-        label:
-          "Our Mern Stack developer is highly skilled and experienced with latest technology and coding. Employ Virtual provides a complete suite of professional services with our expertise team of Mern stack developers, designers, QA teams, support teams, and many more with end-to-end services. Employ Virtuals’ aim is to provide robust, intuitive, user-interactive solutions. The experts are focused towards delivering web applications according to your business needs and requirements.",
-      },
-      {
-        label:
-          "Our Mern Stack Developer will build interactive, enriched with features and powerful web applications for your business. We at Employ Virtual aim at creating a better experience for your clients and customers by developing web and mobile applications. Our experts are providing innovative solutions for all business sectors.",
-      },
-    ],
-    details_list: [
-      {
-        heading:
-          "Few basic things need to be taken care while hiring Mern Stack Developer:",
-        data: [
-          {
-            label:
-              "The expert should be able to translate wireframes and PSD Designs into functional web applications using HTML5, Angular JS, React, Node JS, Mongo.",
-          },
-          {
-            label:
-              "Fluent knowledge of latest HTML/CSS trends, standards and practices.",
-          },
-          { label: "Working knowledge of JavaScript, Express." },
-          {
-            label:
-              "Strong understanding of HTTP protocol, how server-side code is processed on client’s end.",
-          },
-          {
-            label:
-              "Hands-on experience of front-end optimization and performances.",
-          },
-          {
-            label:
-              "Able to learn, develop, clean and organize front-end codes.",
-          },
-          {
-            label:
-              "Should be able to do cross-browser development and troubleshooting.",
-          },
-        ],
-      },
-      {
-        heading: "Why hire Mern Stack Developer from Employ Virtual?",
-        data: [
-          {
-            label:
-              "Our experts have sound knowledge of JavaScript and they have upper hand above all the technological stacks and can use multiple programming languages.",
-          },
-          {
-            label:
-              "They have knowledge on Node JS to create efficient and perfect platform to make use of real-time applications that runs on different devices and which are laden with loads of data.",
-          },
-          {
-            label:
-              "They have immense knowledge of React JS. It enables to handle rapidly changing data and users can codify things in the JavaScript language, which will in turn create UI components. The same is used in a MERN Stack to build a single-page applications and mobile applications.",
-          },
-          { label: "They are expert in PARSE (Backend Service Framework)." },
-          { label: "They have knowledge of ExpressJS and Restify." },
-          {
-            label:
-              "They have the ability to bind UI elements to JavaScript object models.",
-          },
-          { label: "Our experts have OOP proficiency." },
-        ],
-      },
-    ],
-  },
-  {
-    slug: "hire-software-developer",
-    bannerHeading: "Hire Software Developers",
-    bannerDescription:
-      "Employ Virtual lets you hire the programming brains for your organisation.",
-    img: software,
-    heading: "Hire Software Developers",
-    description: [
-      {
-        label:
-          "Employ Virtual lets you hire the programming brains for your organisation. The IT industry is growing exponentially and it is one of the fastest growing sectors in the world. Our remote software developers will provide their varied expertise from the inception of the software to its post-launch.",
-      },
-      {
-        label:
-          "With this growing digital world, demand for software developer has increased significantly. Nowadays, companies are looking for developers who can develop and build their online businesses. But hiring the right developer can be a challenging task. This is possible only when the business process is clear and understanding the business need.",
-      },
-      {
-        label:
-          "Each developer will have different sets of skills required for different business needs. For a business to find the right developer, one needs to know the different type of developers and their skill sets.",
-      },
-    ],
-    details_list: [
-      {
-        heading:
-          "Few basic things need to be taken care while hiring Software Developers:",
-        data: [
-          { label: "Define and identify the tasks for the developers." },
-          {
-            label:
-              "Once tasks are known, understand the type of developer needed for the job. There are Front-end developers, Back-end developers, Full-Stack developers, Web Developers, WordPress Developers, Mobile Developers, Graphic Developers, Data Scientists, DevsOps Developers and many more.",
-          },
-          {
-            label:
-              "Look out for virtual software developer on different online talent platforms, jobs sites, word of mouth.",
-          },
-          { label: "Schedule interview for your virtual developer." },
-          { label: "Finalize your virtual developer." },
-          { label: "Onboarding your virtual developer." },
-        ],
-      },
-      {
-        heading: "Why hire Software Developer from Employ Virtual?",
-        data: [
-          { label: "Certified Software Developers at reasonable rate." },
-          { label: "Ensure project privacy." },
-          { label: "Well managed and maintained coding standards." },
-          { label: "All time security and IP protection." },
-          { label: "Timely project delivery." },
-          { label: "Defined and trusted methodologies." },
-          { label: "No hidden cost and rules." },
-          { label: "Highly secure infrastructure." },
-        ],
-      },
-    ],
-  },
-  {
-    slug: "hire-laravel-developer",
-    bannerHeading: "Hire Laravel Developers",
-    bannerDescription:
-      "Hire Laravel Developers from Employ Virtual to build SEO-optimized, enriched features applications.",
-    img: laravel,
-    heading: "Hire Laravel Developers",
-    description: [
-      {
-        label:
-          "Hire Laravel Developers from Employ Virtual to build SEO-optimized, enriched features, dynamic, secure, scalable web and mobile applications. The expert will be handling the Laravel framework with an ease. By using PHP programming language, they will build and maintain innovative and functional web-based applications that elevate user experience as well as consistency of HTML, CSS and shared JavaScript across applications.",
-      },
-      {
-        label:
-          "Our Laravel experts are best in industry who expertise in leveraging server-side works. They follow MVC pattern architecture to develop web applications and solutions in finest way. Our experts are pragmatic technologist with a record of effectively delivering projects on time. They can develop custom PHP web applications within project timeline.",
-      },
-      {
-        label:
-          "The professionals can migrate between Laravel platforms with regular upgrades and can develop innovative Laravel extensions that will eventually improve site’s functionality and user experience.",
-      },
-    ],
-    details_list: [
-      {
-        heading:
-          "Few basic things need to be taken care while hiring Laravel Developer:",
-        data: [
-          {
-            label:
-              "Project goal is very essential before hiring your Laravel developer.",
-          },
-          {
-            label:
-              "Relevant past Laravel experience and work record is crucial.",
-          },
-          {
-            label:
-              "Technical knowledge of using Laravel to develop new web application or updating exiting ones is necessary.",
-          },
-          {
-            label:
-              "A proficient Laravel developer must have excellent command over PHP and other web development technologies such as HTML, CSS and JavaScript and even better if they know about databases.",
-          },
-          {
-            label:
-              "Soft skills like good communications, critical thinking is essential apart from strong technical knowledge.",
-          },
-          { label: "Ability to solve complex problems." },
-          { label: "Should be flexible with customer-centric approach." },
-        ],
-      },
-      {
-        heading: "Why hire Mern Stack Developer from Employ Virtual?",
-        data: [
-          {
-            label:
-              "Our Laravel professionals have expertise in object-oriented PHP and Laravel 9 PHP Framework.",
-          },
-          {
-            label:
-              "They have sound knowledge of Laravel Blade, Airlock, Routing speed.",
-          },
-          { label: "They can perform code-versioning." },
-          {
-            label:
-              "Our experts have hands-on experience on Echo, Lumen, Spark, Valet, Horizon, Sanctum.",
-          },
-          { label: "They are experienced in extensions like Forge, Vapor." },
-          {
-            label:
-              "Experts have successfully worked and combined top frameworks like Angular, React, Vue, RoR.",
-          },
-          {
-            label:
-              "Our experts can have flawless communication with microservices and serverless deployment.",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    slug: "hire-flutter-developer",
-    bannerHeading: "Hire Flutter Developers",
-    bannerDescription:
-      "Hire the Flutter Developer from Employ Virtual who will be developing cross platform applications.",
-    img: flutter,
-    heading: "Hire Flutter Developers",
-    description: [
-      {
-        label:
-          "Hire the Flutter Developer from Employ Virtual who will be developing cross platform applications for Android, iOS, Linux, MacOS, Windows, Google Fuschia. Our experts are here to build your feature-loaded robust applications with next generation abilities and functionalities for your business. The applications created will be cost effective, compatible with all screen sizes and efficient in functionality with user friendliness.",
-      },
-      {
-        label:
-          "Flutter helps in designing, building and deploy applications for Android, iOS, Linux, MacOS, Windows, Google Fuschia using single codebase. This in turn reduces the application development time, market launch and development costs. Flutter itself is a strong framework developed by Google Inc.",
-      },
-      {
-        label:
-          "The Flutter Developer will bring on their diversified industry expertise through evaluated experience, they will craft and delivery next generation ready application solutions that will drive your business and enhance user engagement.",
-      },
-    ],
-    details_list: [
-      {
-        heading:
-          "Few basic things need to be taken care while hiring Flutter Developer:",
-        data: [
-          {
-            label:
-              "Expertise in Flutter Technology and version control tools like Git.",
-          },
-          {
-            label:
-              "Strong understanding of scooped Model/ Business Logic Components, Dart.",
-          },
-          {
-            label:
-              "Understanding of backend web services like Node JS, Firebase.",
-          },
-          {
-            label:
-              "High proficiency in mobile application development for iOS and Android.",
-          },
-          { label: "Strong working knowledge with Kotlin or Swift." },
-        ],
-      },
-      {
-        heading: "Why hire Flutter Developer from Employ Virtual?",
-        data: [
-          {
-            label:
-              "The Flutter Developers of Employ Virtual have strong hands-on experience in native programming languages like Java, C, C#, C++, Lua and Kotlin.",
-          },
-          {
-            label:
-              "Experience knowledge in Dart (a client-side programming language based on objects).",
-          },
-          {
-            label:
-              "Expert knowledge of Agile and Waterfall methodologies for software development.",
-          },
-          { label: "Good knowledge of GIT and GITHUB." },
-          { label: "Knowledge in SQLite." },
-          {
-            label:
-              "Well understanding of application designing and user interface.",
-          },
-          {
-            label:
-              "Our experts also have soft skills like problem solving, creativity, teamwork, good communication skills.",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    slug: "hire-wordpress-developer",
-    bannerHeading: "Hire WordPress Developers",
-    bannerDescription:
-      "The WordPress Developers of Employ Virtual are known for handling complex WordPress Projects.",
-    img: wordpress,
-    heading: "Hire WordPress Developers",
-    description: [
-      {
-        label:
-          "The WordPress Developers of Employ Virtual are known for handling complex WordPress Projects. Our experts are known for top-notch projects and best customer experience across the globe. Our expert professional will build websites with WordPress, alongside they can develop Front-end and Back-end of the websites. You can get the quick, best-customized WordPress website possible.",
-      },
-      {
-        label:
-          "At least 30-31 percent of Internet world is owned by WordPress and keeping this in mind, our experts provide WordPress website development services to all verticals of a business. We ensure that the developed website contributes to the growth of the businesses and adaptable with the changing needs of the business.",
-      },
-      {
-        label:
-          "We are sure your business and project require best in-house WordPress Developers for your website and our developers are highly qualified with expertise in WordPress technology that truly adept at what they do. Our professionals provide best quality, individualized services that meet the needs of your business.",
-      },
-    ],
-    details_list: [
-      {
-        heading:
-          "Few basic things need to be taken care while hiring WordPress Developer:",
-        data: [
-          {
-            label:
-              "The Flutter Developers of Employ Virtual have strong hands-on experience in native programming languages like Java, C, C#, C++, Lua and Kotlin.",
-          },
-          {
-            label:
-              "Experience knowledge in Dart (a client-side programming language based on objects).",
-          },
-          {
-            label:
-              "Expert knowledge of Agile and Waterfall methodologies for software development.",
-          },
-          { label: "Good knowledge of GIT and GITHUB." },
-          { label: "Knowledge in SQLite." },
-          {
-            label:
-              "Well understanding of application designing and user interface.",
-          },
-          {
-            label:
-              "Our experts also have soft skills like problem solving, creativity, teamwork, good communication skills.",
-          },
-        ],
-      },
-      {
-        heading: "Why hire WordPress Developer from Employ Virtual?",
-        data: [
-          {
-            label:
-              "Our WordPress Developers are expert in programming languages such as HTML, CSS, PHP, JavaScript.",
-          },
-          {
-            label:
-              "They have strong knowledge in theme and plugin installation and plugin development.",
-          },
-          {
-            label:
-              "They have knowledge of page builders such as Elementor, Divi, Beaver.",
-          },
-          { label: "They can manage SQL, MySQL databases." },
-          {
-            label: "They have knowledge of managing Digital Marketing and SEO.",
-          },
-          { label: "They good knowledge of GIT and GITHUB." },
-          {
-            label:
-              "They have hands-on experience in UX, UI and site architecture.",
-          },
-        ],
-      },
-    ],
   },
 ];

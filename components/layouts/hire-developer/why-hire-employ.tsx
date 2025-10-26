@@ -13,7 +13,7 @@ const WhyHireEmploy = () => {
           {details?.details_list.map(
             (val: { heading: string; data: LIST[] }, i: number) => (
               <Grid
-                size={6}
+                size={{ lg: 6, xs: 12 }}
                 key={i}
                 sx={{
                   borderRight:

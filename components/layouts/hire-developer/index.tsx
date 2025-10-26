@@ -13,7 +13,7 @@ import { useDetailsStore } from "@/store/useDetailsStore";
 const HireDeveloperLayout = () => {
   const { details } = useDetailsStore();
 
-
+  console.log("data", details);
   return (
     <Box>
       <InnerHeroSection
