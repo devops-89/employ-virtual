@@ -528,7 +528,7 @@ export const SERVICE_CARD_DATA: SERVICE_CARD_PROPS[] = [
       },
       {
         label: "Data engineering & Analytics",
-        url: "data-engineering-analytics",
+        url: "data-engineering-and-analytics",
       },
       {
         label: "Devops Automation",

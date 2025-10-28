@@ -1347,6 +1347,7 @@ export const HIRE_DEVELOPER_DATA: DETAILS_DATA[] = [
       },
     ],
   },
+  //   infrastructure & cloud
   {
     services: {
       heading: "Infrastructure & Cloud",
@@ -1372,43 +1373,195 @@ export const HIRE_DEVELOPER_DATA: DETAILS_DATA[] = [
     ],
     details_list: [
       {
-        heading:
-          "Few basic things need to be taken care while hiring HTML Developer:",
+        heading: "Benefits of Cloud Consulting",
         data: [
-          { label: "Define your business challenges." },
-          { label: "Define and decide working model." },
           {
             label:
-              "Choose HTML Developers skills according to your business need.",
+              "There will be consultations for management and Q&A meetings will be conducted, email correspondence.",
           },
-          { label: "Searching for the right developer." },
-          { label: "Examine the overall team’s expertise." },
+          {
+            label:
+              "The consultant will assess business cases to understand TCO, ROI and effect on cost and speed.",
+          },
+          {
+            label:
+              "The consultant will be responsible for regulating the process descriptions and polices after cloud migration.",
+          },
+          {
+            label:
+              "There will designing and development of risk management plan.",
+          },
+          {
+            label:
+              "There will be designing of cloud architecture for applications, data warehouses, cloud native or hybrid infrastructure.",
+          },
+          {
+            label:
+              "Consultant will guide on cloud transformation and knowledge transfer.",
+          },
+          { label: "There will be infrastructure review and code reviews." },
         ],
       },
       {
-        heading: "Why hire HTML Developer from Employ Virtual?",
+        heading: "Why choose Employ Virtual for Cloud Consulting?",
         data: [
           {
-            label: "Our developers have excellent knowledge of HTML5 and CSS3.",
+            label: "A decade of experience in cloud development and migration.",
+          },
+          { label: "Certified Microsoft Partner." },
+          { label: "AWS Select Services Partner." },
+          {
+            label: "Meeting customers’ quality, time and budget expectations.",
+          },
+          { label: "Security and compliance guaranteed." },
+          {
+            label:
+              "Expert in major public cloud platforms such as Amazon Web Services, Microsoft Azure and Google Cloud Platform.",
+          },
+          { label: "Reduced cloud migration cost." },
+          { label: "Effective and high development speed." },
+          { label: "Reliable with fast recovery." },
+          { label: "Optimized cloud costs and performance." },
+        ],
+      },
+    ],
+  },
+  {
+    services: {
+      heading: "Infrastructure & Cloud",
+      description:
+        "Employ virtual cloud offering include a wide range of technology service offerings such as Cloud Consulting, Containerisation, DevOps, Digital Transformation, Identity and Access Management, Managed Services, Cloud Security, Big Data, Machine Learning, AI, Technology Advisory and Virtualisation Services.",
+      data: CLOUD_INFRASTRUCTURE_DATA,
+    },
+    slug: "cloud-migration",
+    bannerHeading: "Cloud Migration",
+    bannerDescription:
+      "Migrating to the cloud involves moving critical services from different on-premise cloud servers and collocated hardware to different cloud servers.",
+    img: cloudConsulting,
+    heading: "Cloud Migration",
+    description: [
+      {
+        label:
+          "The Cloud Migration is an overwhelming process. As with cloud migration, there comes stability concerns, cost concerns and most importantly security and compliance concern. With successful cloud migration cost can be reduced, improvement of scalability and significant reduction in cyber risk that will affect the business.",
+      },
+      {
+        label:
+          "Everyone uses cloud services these days. Migrating to the cloud involves moving critical services from different on-premise cloud servers and collocated hardware to Amazon Web Services, Google Cloud Platform, Microsoft Azure or any other cloud servers.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Cloud Migration",
+        data: [
+          { label: "Increased agility and flexibility." },
+          { label: "Faster innovation." },
+          { label: "Easing of increasing resource demands." },
+          { label: "Better management of increasing customer demands." },
+          { label: "Cost reductions." },
+          { label: "Immediate business results and IT simplification." },
+          {
+            label:
+              "The shift to everything as-a-service, cloud scalability and performance improvement.",
+          },
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for Cloud Migration?",
+        data: [
+          {
+            label: "A decade of experience in cloud development and migration.",
+          },
+          { label: "Certified Microsoft Partner." },
+          { label: "AWS Select Services Partner." },
+          {
+            label: "Meeting customers’ quality, time and budget expectations.",
+          },
+          { label: "Security and compliance guaranteed." },
+          {
+            label:
+              "Expert in major public cloud platforms such as Amazon Web Services, Microsoft Azure and Google Cloud Platform.",
+          },
+          { label: "Reduced cloud migration cost." },
+          { label: "Effective and high development speed." },
+          { label: "Reliable with fast recovery." },
+          { label: "Optimized cloud costs and performance." },
+        ],
+      },
+    ],
+  },
+  {
+    services: {
+      heading: "Infrastructure & Cloud",
+      description:
+        "Employ virtual cloud offering include a wide range of technology service offerings such as Cloud Consulting, Containerisation, DevOps, Digital Transformation, Identity and Access Management, Managed Services, Cloud Security, Big Data, Machine Learning, AI, Technology Advisory and Virtualisation Services.",
+      data: CLOUD_INFRASTRUCTURE_DATA,
+    },
+    slug: "cloud-assessment",
+    bannerHeading: "Cloud Assessment",
+    bannerDescription:
+      "Successful cloud migrations need understanding of how strengths and constraints align with your application portfolio.",
+    img: cloudConsulting,
+    heading: "Cloud Assessment",
+    description: [
+      {
+        label:
+          "Successful cloud migrations need understanding of how strengths and constraints align with your application portfolio. A cloud readiness assessment is a process where a business assesses its resources and IT environment to determine if it is capable of migrating to the cloud.",
+      },
+      {
+        label:
+          "It is one of the best practices of a business when migrating all its IT infrastructure or a single application to the cloud environment. This ensures cloud readiness with smooth cloud migration and set up a cloud environment that fits the organization’s requirements.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Cloud Assessment",
+        data: [
+          {
+            label:
+              "Time effectiveness by reducing time to assess an application for cloud readiness.",
+          },
+          { label: "Reduction in cloud cost." },
+          {
+            label:
+              "It aligns the cloud computing strategy with business strategy.",
+          },
+          { label: "Roadmap recommendations for cloud." },
+          { label: "Quantitative assessment of costs and benefits." },
+          {
+            label:
+              "Best Practices, tools and framework with detailed map of migration opportunities.",
           },
           {
             label:
-              "Have in-depth knowledge of JavaScript, jQuery, PHP, web APIs, and other front-end technologies.",
+              "Automation in managed services, improvement in operational efficiency and enhanced security.",
+          },
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for Cloud Assessment?",
+        data: [
+          {
+            label:
+              "Partnership with leading cloud servers Microsoft Azure, AWS, IBM Cloud and Google Cloud.",
+          },
+          { label: "Top-notch cloud assessment tools ensure best results." },
+          {
+            label:
+              "Experience with both small, medium and large-scale enterprises accounts to customize their servers.",
+          },
+          { label: "A range of cloud services." },
+          {
+            label:
+              "Gap analysis to formulate a cloud strategy and migration roadmap.",
           },
           {
             label:
-              "Our experts are well-versed in using CSS tools and frameworks such as Bootstrap and Semantic UI.",
+              "Identification of vulnerabilities and bugs for managing cloud security and compliance.",
           },
-          { label: "They have hands-on experience on SQL, ASP and ASP.NET." },
-          { label: "Working knowledge of Sass and Less." },
-          {
-            label:
-              "They have experience with and working knowledge of WordPress Platform.",
-          },
-          {
-            label:
-              "They are familiar with applications such as Photoshop and other image-editing applications.",
-          },
+          { label: "Cost effective." },
+          { label: "Enhanced performance of cloud servers." },
+          { label: "It gives a strong back bone for business practices." },
+          { label: "De-risk your cloud servers." },
         ],
       },
     ],
