@@ -15,9 +15,23 @@ import ios from "@/hire/ios.png";
 import frontend from "@/hire/frontend.png";
 import html from "@/hire/html.png";
 import cloudConsulting from "@/hire/cloud/cloud-consulting.png";
+import cloudCostOptimization from "@/hire/cloud/cloud-cost-optimization.png";
+import cloudManagedServices from "@/hire/cloud/cloud-managed-services.png";
+import cloudNativeApps from "@/hire/cloud/cloud-native-apps.png";
+import dataEngineeringAnalytics from "@/hire/cloud/data-engineering-analytics.png";
+import cloudSecurity from "@/hire/cloud/cloud-security.png";
+import devOps from "@/hire/cloud/devops.png";
+import devops from "@/hire/cloud/devops-automation.png";
+import bigData from "@/hire/cloud/big-data.png";
+import machineLearning from "@/hire/cloud/machine-learning.png";
+import digitalTransformation from "@/hire/cloud/digital-transformation.png";
+import artificialIntelligence from "@/hire/cloud/artificial-intelligence.png";
+import technologyy from "@/hire/cloud/technology.png"
 import { DETAILS_DATA } from "@/utils/types";
 import { VIRTUAL_CARD_DATA } from "./generic-array";
 import { CLOUD_INFRASTRUCTURE_DATA } from "./infrastructure-cloud-data";
+import { BRAND_SOLUTION } from "./brand-solution";
+
 export const HIRE_DEVELOPER_DATA: DETAILS_DATA[] = [
   {
     slug: "hire-java-developer",
@@ -1566,4 +1580,1277 @@ export const HIRE_DEVELOPER_DATA: DETAILS_DATA[] = [
       },
     ],
   },
+  {
+    services: {
+      heading: "Infrastructure & Cloud",
+      description:
+        "Employ virtual cloud offering include a wide range of technology service offerings such as Cloud Consulting, Containerisation, DevOps, Digital Transformation, Identity and Access Management, Managed Services, Cloud Security, Big Data, Machine Learning, AI, Technology Advisory and Virtualisation Services.",
+      data: CLOUD_INFRASTRUCTURE_DATA,
+    },
+    slug: "cloud-cost-optimization",
+    bannerHeading: "Cloud Cost Optimization",
+    bannerDescription:
+      " It is a way to determine that your cloud environment is the right size according to your business need and there is no overpaying for cloud services.",
+    img: cloudCostOptimization,
+    heading: "Cloud Cost Optimization",
+    description: [
+      {
+        label:
+          "Cloud Cost Optimization is a way to identify and eliminate unused or underused cloud resources. It is a way to determine that your cloud environment is the right size according to your business need and there is no overpaying for cloud services, while still maintaining your organization’s performance.",
+      },
+      {
+        label:
+          "In a cloud environment you can track the utilization of data of each cloud service. To optimize your cloud cost, the data should be based on availability of resources across your organization and when to deploy those resources. This overall process includes few key methods such as monitoring of underutilized resources, resource usage management, cost control, rightsizing and training, managing and communications. Our professional will find ways to run applications in the cloud, performing work or providing value to the business, at the lowest possible cost, and using cloud providers as cost-efficiently as possible.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Cloud Cost Optimization",
+        data: [
+          {
+            label: "Cost reduction.",
+          },
+          { label: "Boosts visibility." },
+          {
+            label: "Boosts cloud optimization.",
+          },
+          { label: "Increases productivity and innovation." },
+          { label: "Helps in right-sizing of resources." },
+          {
+            label: "Optimization of storage and subscriptions.",
+          },
+          {
+            label: "Helps in monitoring of software licenses.",
+          },
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for Cloud Cost Optimization?",
+        data: [
+          {
+            label: "Set up your AWS, Azure or GCP Data source with us.",
+          },
+          {
+            label:
+              "Align cloud costs to teams, customers, product features, unit cost KPIs and with this you will be known about the cloud budget.",
+          },
+          {
+            label:
+              "Cost per customer can be measured and spend per customer can be calculated.",
+          },
+          {
+            label:
+              "With our Cloud Cost Optimization, you will be able to analyse which resource is most popular and which is unpopular, so that you can decommission it.",
+          },
+          {
+            label:
+              "Get your daily updates on cost anomalies, cost increase, cost decrease to avoid expensive cost overruns.",
+          },
+          {
+            label:
+              "Get real-time cost monitoring across all the cloud environment.",
+          },
+          { label: "Expert advice on cost to make informed decision.." },
+          {
+            label:
+              "AI and ML will be involved to identify AWS cloud cost management best practices and savings opportunities.",
+          },
+          { label: "Improved cloud resources." },
+          { label: "Maximize savings." },
+        ],
+      },
+    ],
+  },
+
+  {
+    services: {
+      heading: "Infrastructure & Cloud",
+      description:
+        "Employ virtual cloud offering include a wide range of technology service offerings such as Cloud Consulting, Containerisation, DevOps, Digital Transformation, Identity and Access Management, Managed Services, Cloud Security, Big Data, Machine Learning, AI, Technology Advisory and Virtualisation Services.",
+      data: CLOUD_INFRASTRUCTURE_DATA,
+    },
+    slug: "managed-services",
+    bannerHeading: "MANAGED SERVICES",
+    bannerDescription:
+      " Managed Services is a practice of outsourcing business administration and management responsibilities by third party.",
+    img: cloudManagedServices,
+    heading: "Managed Services",
+    description: [
+      {
+        label:
+          "Managed Services is a practice of outsourcing business administration and management responsibilities by third party. It is a cost-effective way to increase competitiveness in business. The services remain the same as your in-house resources. The dedicated professional will partially or completely manage your cloud resources or infrastructure. Management responsibilities can include migration, configuration, optimization, security, and maintenance depending upon business needs.",
+      },
+      {
+        label:
+          "The demand of managed services has been growing exponentially over the years. This increase in demand is due to small and medium-sized businesses, who require access to latest technology in order to maintain a healthy competition in their respective markets.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Managed Services",
+        data: [
+          {
+            label: "Predictable low cost.",
+          },
+          { label: "Scalability." },
+          {
+            label: "Focus on core objectives.",
+          },
+          { label: "Expert opinion. " },
+          { label: "Reduced downtime." },
+          {
+            label: "Support and security.",
+          },
+          {
+            label: "Round-the-clock support.",
+          },
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for Managed Services?",
+        data: [
+          {
+            label:
+              "Years of technological experience and with strategic partnership with known IT brands, helps in with the managed services requirements.",
+          },
+          {
+            label:
+              "We not only provide IT services but other value-added services such as business consulting, providing solutions, data assessments and many more.",
+          },
+          {
+            label:
+              "Support end users with our Service Desk solutions round-the-clock.",
+          },
+          { label: "Support to your infrastructure." },
+          {
+            label:
+              " Support to remote locations and users.                                                                                                                    ",
+          },
+          {
+            label: "Management of security and compliance for your business.",
+          },
+          { label: "It will be one point contact for your vendors." },
+          { label: "Help you with future roadmap." },
+          { label: "Expertise and experience." },
+          { label: "Customize your business needs." },
+        ],
+      },
+    ],
+  },
+  {
+    services: {
+      heading: "Infrastructure & Cloud",
+      description:
+        "Employ virtual cloud offering include a wide range of technology service offerings such as Cloud Consulting, Containerisation, DevOps, Digital Transformation, Identity and Access Management, Managed Services, Cloud Security, Big Data, Machine Learning, AI, Technology Advisory and Virtualisation Services.",
+      data: CLOUD_INFRASTRUCTURE_DATA,
+    },
+    slug: "cloud-native-applications",
+    bannerHeading: "Cloud Native Apps",
+    bannerDescription:
+      "The applications that are developed and deployed using cloud-based technologies are known as Cloud Native Applications.",
+    img: cloudNativeApps,
+    heading: "Cloud Native Apps",
+    description: [
+      {
+        label:
+          "The applications that are developed and deployed using cloud-based technologies are known as Cloud Native Applications. These applications will be functional and hosted in the cloud environment. Our experts will design and maintain the cloud-based applications.",
+      },
+      {
+        label:
+          "Cloud Native Applications can be easily mistaken as another tool in this ever-growing technological world. But this is a complete different set of practices, automated testing, design, customer centric model and an accelerated production environment. Cloud native database is versatile and requires transformation within the entire development team of an organization.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Cloud Native Apps",
+        data: [
+          {
+            label: "Cost effectiveness.",
+          },
+          { label: "Improved customer experiences." },
+          {
+            label: "Adaptability and scalability.",
+          },
+          {
+            label:
+              "Automation and flexibility.                                                                                              ",
+          },
+          { label: "Serverless platforms." },
+          {
+            label: "Troubleshooting is much easier.",
+          },
+          {
+            label: "Real-time analytics, compliance and enhanced security.",
+          },
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for Managed Services?",
+        data: [
+          {
+            label: "Cost reduction.",
+          },
+          { label: "Enhanced productivity." },
+          {
+            label:
+              "Reduced build time of application and the cloud application will be functional within 2 weeks.",
+          },
+          { label: "Simplified deployment and management." },
+          {
+            label: " Increase agility and architectural choices.",
+          },
+          {
+            label:
+              "Open and transparent communication.                                                  ",
+          },
+          { label: "Agile methodology framework." },
+          { label: "Extremely skilled techno-functional professionals." },
+          { label: "Consultation by our industry experts." },
+          { label: "Future-looking solutions." },
+        ],
+      },
+    ],
+  },
+
+  {
+    services: {
+      heading: "Infrastructure & Cloud",
+      description:
+        "Employ virtual cloud offering include a wide range of technology service offerings such as Cloud Consulting, Containerisation, DevOps, Digital Transformation, Identity and Access Management, Managed Services, Cloud Security, Big Data, Machine Learning, AI, Technology Advisory and Virtualisation Services.",
+      data: CLOUD_INFRASTRUCTURE_DATA,
+    },
+    slug: "data-engineering-and-analytics",
+    bannerHeading: "Data Engineering & Analytics",
+    bannerDescription:
+      "In today’s world, information is the power. Data is the power. These two components can give you the best for your business when we are able to make best use of these components.",
+    img: dataEngineeringAnalytics,
+    heading: "Data Engineering & Analytics",
+    description: [
+      {
+        label:
+          "In today’s world, information is the power. Data is the power. These two components can give you the best for your business when we are able to make best use of these components. Data engineering is also known as information engineering and it includes steps such as sourcing of data, transformation of data and managing data from various systems. And the analytics behind all these data is Data Analytics.",
+      },
+      {
+        label:
+          "The Data engineers at Employ Virtual are vital members of the enterprise data analytics team, responsible for managing, optimizing, overseeing, and monitoring data retrieval, storage, and distribution throughout the organization. They create data pipelines used by data scientists, data-centric applications, and other data consumers. Our experts will be responsible to build the information architecture or data ecosystem of the company that enables them to process the big data.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of  Data Engineering and Analytics",
+        data: [
+          {
+            label: "Helping in making informed decisions.",
+          },
+          { label: "Proactivity and anticipating business needs." },
+          {
+            label: "Mitigating Risk and Fraud.",
+          },
+          { label: "Relevant product delivery." },
+          { label: "Monitoring the outcomes of the decisions." },
+          {
+            label: "Improved user experience.",
+          },
+          {
+            label: "Able to identify new business opportunities.",
+          },
+        ],
+      },
+      {
+        heading:
+          "Why choose Employ Virtual for Data Engineering and Analytics                                                                                              ?",
+        data: [
+          {
+            label:
+              "Employ Virtual ensures consistency and quality of data being used for Data Engineering and Analytics.",
+          },
+          { label: "We reduce data retrieval issues." },
+          {
+            label:
+              "We ensure that you make more efficient decisions with a highly visual representation of data.",
+          },
+          {
+            label:
+              "We also use digital analytics for a 360-degree view of data.",
+          },
+          {
+            label:
+              " We allow customization and personalization to have better connect with the viewers.                                                                                                                    ",
+          },
+          {
+            label:
+              "We track quality of content and viewership to reach out to target audiences.",
+          },
+          { label: "We help businesses to uncover new revenue streams." },
+          { label: "Quality assurance at every step." },
+          { label: "Consultation by our Industry Experts." },
+          { label: "Support and maintenance." },
+        ],
+      },
+    ],
+  },
+  {
+    services: {
+      heading: "Infrastructure & Cloud",
+      description:
+        "Employ virtual cloud offering include a wide range of technology service offerings such as Cloud Consulting, Containerisation, DevOps, Digital Transformation, Identity and Access Management, Managed Services, Cloud Security, Big Data, Machine Learning, AI, Technology Advisory and Virtualisation Services.",
+      data: CLOUD_INFRASTRUCTURE_DATA,
+    },
+    slug: "devops-automation",
+    bannerHeading: "Devops Automation",
+    bannerDescription:
+      "DevOps Automation is a process of using specialized software tools and methodologies to automate manual and repetitive tasks.",
+    img: devops,
+    heading: "Devops Automation",
+    description: [
+      {
+        label:
+          "The DevOps Automation is a process of using specialized software tools and methodologies to automate manual and repetitive tasks throughout software development cycle. DevOps Automation across the software process chain ensures effective resource utilization and timely deliveries. This in turn is a balancing act and enhances developers’ productivity by reducing the burden of manual tasks, chances of failures and managing other tasks across the cross-projects requirements.",
+      },
+      {
+        label:
+          "Employ Virtual provides DevOps Automation service by adopting focused approach on collaboration, communication, integration and automation. We are here to help you integrate the required changes in your technology ecosystem and culture. Employ Virtual leverage monitoring, collaboration, tool-chain pipelines, automation and cloud adoption to ensure the rapid-onboarding of applications. Our expert will add the technology that performs tasks with reduced human assistance to processes that facilitate feedback loops between operations and development teams so that iterative updates can be deployed faster to applications in production.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of DevOps Automation",
+        data: [
+          {
+            label: "Consistency of processes after automation.",
+          },
+          { label: "Automation means speed." },
+          {
+            label: "Scalability of processes.",
+          },
+          { label: "Rapid application development." },
+          { label: "Reduced production costs." },
+          {
+            label: "Enhanced developer productivity.",
+          },
+          {
+            label: "Enhanced project transparency.",
+          },
+        ],
+      },
+      {
+        heading:
+          "Why choose Employ Virtual for DevOps Automation?                                                                                              ?",
+        data: [
+          {
+            label: "Project focused with faster product development cycle.",
+          },
+          { label: "Experienced and efficient team." },
+          {
+            label:
+              "WAssurance of automation of end-to-end delivery and deployment.",
+          },
+          { label: "Continuous testing, releasing and maintaining." },
+          {
+            label:
+              " With development, we also focus on cost and time reduction.                                                                                                                    ",
+          },
+          {
+            label:
+              "Maximum efficiency with lesser time-to-market of a product.",
+          },
+          { label: "Customer centric development activities." },
+          { label: "Quality assurance at every step." },
+          { label: "Consultation by our Industry Experts." },
+          { label: "Support and maintenance." },
+        ],
+      },
+    ],
+  },
+
+  {
+    services: {
+      heading: "Infrastructure & Cloud",
+      description:
+        "Employ virtual cloud offering include a wide range of technology service offerings such as Cloud Consulting, Containerisation, DevOps, Digital Transformation, Identity and Access Management, Managed Services, Cloud Security, Big Data, Machine Learning, AI, Technology Advisory and Virtualisation Services.",
+      data: CLOUD_INFRASTRUCTURE_DATA,
+    },
+    slug: "devops",
+    bannerHeading: "Devops",
+    bannerDescription:
+      "Successful cloud migrations need understanding of how strengths and constraints align with your application portfolio.",
+    img: devOps,
+    heading: "Devops",
+    description: [
+      {
+        label:
+          "DevOps is a set of practices that promote and enhances better collaboration and widespread automation of the processes happening between operational and development teams. These practices are not limited one sector but can be extended to other business units as well. “Dev” is an abbreviation for developers, QA, Product and other teams involved in development of the software. “Ops” stands for operational professionals – all the involved personnel.",
+      },
+      {
+        label:
+          "DevOps aims to shorten the systems development life cycle and provide continuous delivery with high software quality. DevOps is complementary with Agile software development; several DevOps aspects came from the Agile methodology. Our DevOps experts will assist you with your DevOps requirements.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of DevOps",
+        data: [
+          {
+            label:
+              "Faster and effective time-to-market for new products and features.",
+          },
+          { label: "Resilient, more stable operating environment." },
+          {
+            label:
+              "Effective and improved cross-department collaboration and communication.",
+          },
+          {
+            label:
+              "Productive of developers increases, which in turn increases time to innovate and create new features for customers with minimal focus on maintenance and fixing known bugs.",
+          },
+          { label: "Less complex project management process." },
+          {
+            label: "More efficient and faster problem resolution.",
+          },
+          {
+            label: "Smoother and faster product life cycle.",
+          },
+        ],
+      },
+      {
+        heading:
+          "Why choose Employ Virtual for DevOps?                                                                                              ?",
+        data: [
+          {
+            label:
+              "Our DevOps experts are aimed for high quality results with reduced inception-to-market time.",
+          },
+          {
+            label:
+              "Significantly lesser hurdles to ensure seamless DevOps services.",
+          },
+          {
+            label:
+              "Our experts are focused on enhanced efficiency and higher Return on Investment.",
+          },
+          {
+            label: "Enormous cost and time saving.",
+          },
+          {
+            label:
+              "With years of expertise across various sectors, our DevOps experts ensures technological growth for your business.",
+          },
+          {
+            label: "We align your business goals with DevOps project.",
+          },
+          {
+            label: "We have rich pool of engineers for your DevOps project.",
+          },
+          {
+            label:
+              "Transparent communication between our team and your designated project team.",
+          },
+          { label: "Support and maintenance round-the-clock." },
+          { label: "Quality assurance at every step.  " },
+        ],
+      },
+    ],
+  },
+
+  {
+    services: {
+      heading: "Infrastructure & Cloud",
+      description:
+        "Employ virtual cloud offering include a wide range of technology service offerings such as Cloud Consulting, Containerisation, DevOps, Digital Transformation, Identity and Access Management, Managed Services, Cloud Security, Big Data, Machine Learning, AI, Technology Advisory and Virtualisation Services.",
+      data: CLOUD_INFRASTRUCTURE_DATA,
+    },
+    slug: "cloud-security",
+    bannerHeading: "Cloud Security",
+    bannerDescription:
+      "Successful cloud migrations need understanding of how strengths and constraints align with your application portfolio.",
+    img: cloudSecurity,
+    heading: "Cloud Security",
+    description: [
+      {
+        label:
+          "With the growing use of cloud-based technologies for agility, flexibility and scalability advantages; cloud security is an indispensable component for all organizations. Cloud Security is a set of policies, strategies, controls, procedures and practices designed to safeguard the data, resources and applications hosted on cloud.",
+      },
+      {
+        label:
+          "The experts at Employ Virtual will design the collective security measures to protect your cloud-based infrastructure, applications and data. These measures ensure user and device authentication, data and resource access control, and data privacy protection. Overall, the expert will work on access control, security policy and strategies, redundancy, data center security, compliance and many more.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Cloud Security",
+        data: [
+          {
+            label: "Proactive threat management with regular visibility.",
+          },
+          { label: "Higher availability of applications/ resources." },
+          {
+            label:
+              "Reduced and effective protection against Denial-of-service-attack.",
+          },
+          { label: "Provide data security." },
+          { label: "Advanced threat detection." },
+          {
+            label: "Regulatory compliance.",
+          },
+          {
+            label: "Scalability",
+          },
+        ],
+      },
+      {
+        heading:
+          "Why choose Employ Virtual for Cloud Security?                                                                                              ?",
+        data: [
+          {
+            label:
+              "Real-time threat prevention against known and unknown threats.",
+          },
+          {
+            label:
+              "Consistent security across all components with shared threat intelligence across networks, cloud and mobile.",
+          },
+          {
+            label:
+              "Unified and efficient management of the entire security network.",
+          },
+          {
+            label:
+              "Rich integrations with 3rdparty solutions with flexible APIs.",
+          },
+          {
+            label:
+              "Our service is a fully consolidated cyber security architecture that protects your business against cyber-attacks.                                                                                                                    ",
+          },
+          {
+            label:
+              "Leveraging the threat latest threat preventing applications.",
+          },
+          { label: "Can apply security controls to any cloud server." },
+          { label: "Can prevent data loss." },
+          {
+            label:
+              "Configuration best practices support and guidance is another key value of Employ Virtual.",
+          },
+          {
+            label:
+              "The Policy Compliance module enables with automated security configuration assessments across on-premises and cloud assets.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    services: {
+      heading: "Infrastructure & Cloud",
+      description:
+        "Employ virtual cloud offering include a wide range of technology service offerings such as Cloud Consulting, Containerisation, DevOps, Digital Transformation, Identity and Access Management, Managed Services, Cloud Security, Big Data, Machine Learning, AI, Technology Advisory and Virtualisation Services.",
+      data: CLOUD_INFRASTRUCTURE_DATA,
+    },
+    slug: "big-data",
+    bannerHeading: "Big Data ",
+    bannerDescription:
+      "Successful cloud migrations need understanding of how strengths and constraints align with your application portfolio.",
+    img: bigData,
+    heading: "Big Data",
+    description: [
+      {
+        label:
+          "Big data is a combination of structured, semi structured and unstructured data collected by organizations that can be mined for information and used in machine learning projects, predictive modelling and other advanced analytics applications. Systems that process and store big data have become a common component of data management architectures in organizations, combined with tools that support big data analytics uses. Our Big Data professionals will assist you with sorting the data.",
+      },
+      {
+        label:
+          "With the development and increase of applications and social media; people and businesses are moving online and this has led to huge increase in data. The huge amount is data is handled by Big Data and Analytics. This is a revolution in the field of IT, enhancing and adding added advantage to organizations. Big Data involves the use of analytics, new age technology such as machine learning, data mining, data statistics and many more.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Big Data",
+        data: [
+          {
+            label:
+              "With Big Data, businesses can have better customer insights.",
+          },
+          { label: "It enhances and improves operations." },
+          {
+            label: "More insightful market intelligence and market trend.",
+          },
+          { label: "Agile supply chain management." },
+          { label: "Innovations are data-driven." },
+          {
+            label: "Smarter recommendations and audience targeting.",
+          },
+          {
+            label:
+              "Big Data allows to test different variations of computer-aided designs.",
+          },
+        ],
+      },
+      {
+        heading:
+          "Why choose Employ Virtual for Big Data ?                                                                                              ?",
+        data: [
+          {
+            label: "Big Data implementation with detailed roadmaps.",
+          },
+          {
+            label:
+              "Our experts’ recommendations on data quality and its management.",
+          },
+          {
+            label: "Our experts provide user adoption strategies.",
+          },
+          {
+            label: "Our experts work on proof of concept for complex projects.",
+          },
+          {
+            label: "Analysis of Big Data sets.",
+          },
+          {
+            label: "Our experts will design Big Data solution architecture.",
+          },
+          { label: "Big Data solution development and deployment." },
+          { label: "Machine Learning models development." },
+          { label: "Big Data solutions health checks." },
+          { label: "Big Data cleaning, backup and recovery." },
+        ],
+      },
+    ],
+  },
+
+  {
+    services: {
+      heading: "Infrastructure & Cloud",
+      description:
+        "Employ virtual cloud offering include a wide range of technology service offerings such as Cloud Consulting, Containerisation, DevOps, Digital Transformation, Identity and Access Management, Managed Services, Cloud Security, Big Data, Machine Learning, AI, Technology Advisory and Virtualisation Services.",
+      data: CLOUD_INFRASTRUCTURE_DATA,
+    },
+    slug: "machine-learning",
+    bannerHeading: "Machine Learning",
+    bannerDescription:
+      "Machine Learning has been amongst us for more than a decade but in the era of Big Data, this type of Artificial Intelligence is in high demand.",
+    img: machineLearning,
+    heading: "Machine Learning",
+    description: [
+      {
+        label:
+          "Machine Learning (ML) is a field of inquiry devoted to understanding and building methods that ‘learn’, that is, methods that leverage data to improve performance on some set of tasks. It is seen as a part of artificial intelligence. Machine learning algorithms build a model based on sample data, known as training data, in order to make predictions or decisions without being explicitly programmed to do so. The professional will incorporate the methods of machine learning for your business.",
+      },
+      {
+        label:
+          "Machine Learning has been amongst us for more than a decade but in the era of Big Data, this type of Artificial Intelligence is in high demand. Nowadays, organizations need help with the extraordinary amount of data that our systems generate on daily basis. Machine Learning provides a platform for the businesses to build automated models that can process large volumes of data quickly and can process the data to solve the business problems.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Machine Learning",
+        data: [
+          {
+            label: "Machine Learning will automate business processes.",
+          },
+          {
+            label: "It is reliable and helps businesses to think creatively.",
+          },
+          {
+            label:
+              "Machine Learning includes wide variety of application and hence, it can be used in any field of business.",
+          },
+          {
+            label:
+              "Machine Learning keeps on evolving. Thus, this helps to improve both hardware and software.",
+          },
+          {
+            label: "Flawless data handling with Machine Learning.",
+          },
+          {
+            label: "Fast decision making with Machine Learning.",
+          },
+          {
+            label: "Demand forecasting is better with Machine Learning.",
+          },
+        ],
+      },
+      {
+        heading:
+          "Why choose Employ Virtual for Big Data ?                                                                                              ?",
+        data: [
+          {
+            label:
+              "Machine Learning team of employ virtual works on a goal to keep your business moving forward with power efficiency insights and enable simplicity.",
+          },
+          {
+            label:
+              "Use of Deep learning architecture (BERT, GPT, EfficientNet).",
+          },
+          {
+            label:
+              "Machine Learning solutions such as linear and logistic regression, SVM, K-means, collaborative filtering.",
+          },
+          {
+            label: "We follow gradient tree boosting.",
+          },
+          {
+            label:
+              "Rich visualization capacity for transparent and accessibility.",
+          },
+          {
+            label: "There will be privacy by design.",
+          },
+          {
+            label:
+              "Solutions for cloud-based AI and on-device mobile intelligence.",
+          },
+          {
+            label: "We can work on high-load Machine Learning.",
+          },
+          {
+            label:
+              "Our experts have proven track records of different projects.",
+          },
+          {
+            label: "Our experts work toward problem solving.",
+          },
+        ],
+      },
+    ],
+  },
+
+  {
+    services: {
+      heading: "Infrastructure & Cloud",
+      description:
+        "Employ virtual cloud offering include a wide range of technology service offerings such as Cloud Consulting, Containerisation, DevOps, Digital Transformation, Identity and Access Management, Managed Services, Cloud Security, Big Data, Machine Learning, AI, Technology Advisory and Virtualisation Services.",
+      data: CLOUD_INFRASTRUCTURE_DATA,
+    },
+    slug: "artificial-intelligence",
+    bannerHeading: "Artificial Intelligence",
+    bannerDescription:
+      "Successful cloud migrations need understanding of how strengths and constraints align with your application portfolio.",
+    img: artificialIntelligence,
+    heading: "Artificial Intelligence",
+    description: [
+      {
+        label:
+          "Artificial Intelligence is the ability to simulate human intelligence processes by machine, such as computer systems. Artificial Intelligence rationalize and take actions that have the best chance of achieving a specific goal. This though requires a foundation of specialized hardware and software for writing and training machine learning algorithms.",
+      },
+      {
+        label:
+          "AI works on large amount of labelled training data, analysing the data for patterns and correlations, then AI uses these data for future predictions. Chatbots are an example of AI, where pre-fed texts chats are present to produce lifelike exchanges with people or an image recognition tool can learn and recognize objects in images by reviewing multiple examples.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Artificial Intelligence",
+        data: [
+          {
+            label: "Less human error with AI.",
+          },
+          {
+            label: "AI takes risks, which are limitations to humans.",
+          },
+          {
+            label: "AI is available round-the-clock.",
+          },
+          {
+            label: "Repetitive tasks with AI can be sorted and avoided.",
+          },
+          {
+            label: "AI is your digital assistance.",
+          },
+          {
+            label:
+              "Human takes time in decision making but AI makes faster and logical decisions.",
+          },
+          {
+            label: "New inventions for daily applications.",
+          },
+        ],
+      },
+      {
+        heading:
+          "Why choose Employ Virtual for Artificial Intelligence?                                                                                              ?",
+        data: [
+          {
+            label:
+              "Our AI consulting team ensures that our clients have full expertise to have smooth transformation and ROI on AI.",
+          },
+          {
+            label:
+              "We encourage ambitious business objectives, targeting large value pools and identifying capabilities gaps.",
+          },
+          {
+            label:
+              "We establish benchmarks so our clients can assess their data maturity and AI capabilities against their market competitors.",
+          },
+          {
+            label:
+              "Our industry experts select defined use cases, launch pilots, build, test and repeat.",
+          },
+          {
+            label:
+              "Use of agile, sprint-based approach to drive change in an integrated way.",
+          },
+          {
+            label:
+              "We ensure results are delivered quickly and right to users’ fingertips.",
+          },
+          {
+            label:
+              "We help in building the digital and human capabilities needed to manage and scale business’ AI strategy.",
+          },
+          {
+            label: "Our data analytics offers and accelerates use cases.",
+          },
+          {
+            label:
+              "Our approved methodology allows clients to build internal capabilities; both digital and nondigital to generate long-term AI benefits.",
+          },
+          {
+            label:
+              "Our AI approach allows clients to understand the rapid shifts in demand with dynamic planning and resource allocation.",
+          },
+        ],
+      },
+    ],
+  },
+
+  {
+    services: {
+      heading: "Infrastructure & Cloud",
+      description:
+        "Employ virtual cloud offering include a wide range of technology service offerings such as Cloud Consulting, Containerisation, DevOps, Digital Transformation, Identity and Access Management, Managed Services, Cloud Security, Big Data, Machine Learning, AI, Technology Advisory and Virtualisation Services.",
+      data: CLOUD_INFRASTRUCTURE_DATA,
+    },
+    slug: "digital-transformation",
+    bannerHeading: "DIGITAL TRANSFORMATION",
+    bannerDescription:
+      "Successful cloud migrations need understanding of how strengths and constraints align with your application portfolio.",
+    img: digitalTransformation,
+    heading: "DIGITAL TRANSFORMATION",
+    description: [
+      {
+        label:
+          "Digital transformation is the process of using digital technologies to transform existing traditional and non-digital business processes and services, or creating new ones, to meet with the evolving market and customer expectations, thus completely altering the way businesses are managed and operated, and how value is delivered to customers.",
+      },
+      {
+        label:
+          "Adopting and adapting to digital interface is important for businesses across all sectors to compete and succeed in this highly evolving market. It sounds easy but many face difficulty to navigate their way through digital transformation to connect with customers and have an influence online. Essentially any transformation in a business needs to have digitally trained future-proof workforce.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of digitalTransformation",
+        data: [
+          {
+            label: "Increase customer engagement and customer satisfaction.",
+          },
+          {
+            label: "Digital Transformation always drives data-based insights.",
+          },
+          {
+            label: "Software monetization happens.",
+          },
+          {
+            label: "High-quality user experience.",
+          },
+          {
+            label: "Enhanced collaboration and improved communication.",
+          },
+          {
+            label: "Increases agility.",
+          },
+          {
+            label: "Limits human error.",
+          },
+        ],
+      },
+      {
+        heading:
+          "Why choose Employ Virtual for  Digital Transformation?                                                                                             ?",
+        data: [
+          {
+            label:
+              "We have experienced software engineering team offering software engineering, testing, development and deployment of projects.",
+          },
+          {
+            label:
+              "Our expert team transforms your data into valuable, actionable information to make better business decisions.",
+          },
+          {
+            label:
+              "We work on AI and Automations to remove repeated tasks to achieve business goal.",
+          },
+          {
+            label:
+              "At Employ Virtual there are dedicated development teams for each task and for different phases in digital transformations.",
+          },
+          {
+            label:
+              "Our industry experts will always be there for process consulting. They will improve your results and processes by aligning strategies with your business requirements.",
+          },
+          {
+            label:
+              "Our expert team will re-engineer business processes and enhance business efficiency by including innovation in your business.",
+          },
+        ],
+      },
+    ],
+  },
+
+  {
+    services: {
+      heading: "Infrastructure & Cloud",
+      description:
+        "Employ virtual cloud offering include a wide range of technology service offerings such as Cloud Consulting, Containerisation, DevOps, Digital Transformation, Identity and Access Management, Managed Services, Cloud Security, Big Data, Machine Learning, AI, Technology Advisory and Virtualisation Services.",
+      data: CLOUD_INFRASTRUCTURE_DATA,
+    },
+    slug: "technology-advisory-and-virtualisation-services",
+    bannerHeading: "Technology Advisory Services",
+    bannerDescription:
+      "Virtualization enables to centralize administrative tasks and reduce hardware costs while improving scalability and workloads.",
+    img: technologyy,
+    heading: "Technology Advisory Services",
+    description: [
+      {
+        label:
+          "Virtualization enables to centralize administrative tasks and reduce hardware costs while improving scalability and workloads. Our experienced technology expert, specifically chosen for your business needs, works with you to ease and support IT initiatives, outline tech strategies, and manage technology infrastructure, tools, and teams.",
+      },
+      {
+        label:
+          "Technology advisory and virtualisation services are a suite of consulting, implementation and support services that help clients with the results of virtualization. Through this service, we help clients develop a virtualization strategy that matches each business and its technological needs. Our expert team design the solutions and we install the solutions. We also assist you with the transition phase.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Technology Advisory and Virtualisation Services",
+        data: [
+          {
+            label: "Better scalability.",
+          },
+          {
+            label: "Better business continuity.",
+          },
+          {
+            label: "Increased ROI.",
+          },
+          {
+            label: "Centralized management.",
+          },
+          {
+            label: "Enhanced and improved security.",
+          },
+          {
+            label: "Smooth data migration.",
+          },
+          {
+            label: "Flexibility.",
+          },
+        ],
+      },
+      {
+        heading:
+          "Why choose Employ Virtual for Technology Advisory and Virtualisation Services?                                                                                              ?",
+        data: [
+          {
+            label:
+              "We help businesses in running their operations smoothly with reduced risk of downtime.",
+          },
+          {
+            label:
+              "Provide better business services by improving IT productivity.",
+          },
+          {
+            label: "New services are deployed faster.",
+          },
+          {
+            label: "Enhance business agility.",
+          },
+          {
+            label: "We encourage cost-effective computing model.",
+          },
+          {
+            label: "Advanced resource optimization.",
+          },
+          {
+            label: "We provide back-up support and disaster recovery.",
+          },
+        ],
+      },
+    ],
+  },
+
+
+  {
+    services: {
+      heading: "Infrastructure & Cloud",
+      description:
+        "Employ virtual cloud offering include a wide range of technology service offerings such as Cloud Consulting, Containerisation, DevOps, Digital Transformation, Identity and Access Management, Managed Services, Cloud Security, Big Data, Machine Learning, AI, Technology Advisory and Virtualisation Services.",
+      data: CLOUD_INFRASTRUCTURE_DATA,
+    },
+    slug: "artificial-intelligence",
+    bannerHeading: "Artificial Intelligence",
+    bannerDescription:
+      "Successful cloud migrations need understanding of how strengths and constraints align with your application portfolio.",
+    img: artificialIntelligence,
+    heading: "Artificial Intelligence",
+    description: [
+      {
+        label:
+          "Artificial Intelligence is the ability to simulate human intelligence processes by machine, such as computer systems. Artificial Intelligence rationalize and take actions that have the best chance of achieving a specific goal. This though requires a foundation of specialized hardware and software for writing and training machine learning algorithms.",
+      },
+      {
+        label:
+          "AI works on large amount of labelled training data, analysing the data for patterns and correlations, then AI uses these data for future predictions. Chatbots are an example of AI, where pre-fed texts chats are present to produce lifelike exchanges with people or an image recognition tool can learn and recognize objects in images by reviewing multiple examples.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Artificial Intelligence",
+        data: [
+          {
+            label: "Less human error with AI.",
+          },
+          {
+            label: "AI takes risks, which are limitations to humans.",
+          },
+          {
+            label: "AI is available round-the-clock.",
+          },
+          {
+            label: "Repetitive tasks with AI can be sorted and avoided.",
+          },
+          {
+            label: "AI is your digital assistance.",
+          },
+          {
+            label:
+              "Human takes time in decision making but AI makes faster and logical decisions.",
+          },
+          {
+            label: "New inventions for daily applications.",
+          },
+        ],
+      },
+      {
+        heading:
+          "Why choose Employ Virtual for Artificial Intelligence?                                                                                              ?",
+        data: [
+          {
+            label:
+              "Our AI consulting team ensures that our clients have full expertise to have smooth transformation and ROI on AI.",
+          },
+          {
+            label:
+              "We encourage ambitious business objectives, targeting large value pools and identifying capabilities gaps.",
+          },
+          {
+            label:
+              "We establish benchmarks so our clients can assess their data maturity and AI capabilities against their market competitors.",
+          },
+          {
+            label:
+              "Our industry experts select defined use cases, launch pilots, build, test and repeat.",
+          },
+          {
+            label:
+              "Use of agile, sprint-based approach to drive change in an integrated way.",
+          },
+          {
+            label:
+              "We ensure results are delivered quickly and right to users’ fingertips.",
+          },
+          {
+            label:
+              "We help in building the digital and human capabilities needed to manage and scale business’ AI strategy.",
+          },
+          {
+            label: "Our data analytics offers and accelerates use cases.",
+          },
+          {
+            label:
+              "Our approved methodology allows clients to build internal capabilities; both digital and nondigital to generate long-term AI benefits.",
+          },
+          {
+            label:
+              "Our AI approach allows clients to understand the rapid shifts in demand with dynamic planning and resource allocation.",
+          },
+        ],
+      },
+    ],
+  },
+
+  {
+    services: {
+      heading: "Infrastructure & Cloud",
+      description:
+        "Employ virtual cloud offering include a wide range of technology service offerings such as Cloud Consulting, Containerisation, DevOps, Digital Transformation, Identity and Access Management, Managed Services, Cloud Security, Big Data, Machine Learning, AI, Technology Advisory and Virtualisation Services.",
+      data: CLOUD_INFRASTRUCTURE_DATA,
+    },
+    slug: "digital-transformation",
+    bannerHeading: "DIGITAL TRANSFORMATION",
+    bannerDescription:
+      "Successful cloud migrations need understanding of how strengths and constraints align with your application portfolio.",
+    img: digitalTransformation,
+    heading: "DIGITAL TRANSFORMATION",
+    description: [
+      {
+        label:
+          "Digital transformation is the process of using digital technologies to transform existing traditional and non-digital business processes and services, or creating new ones, to meet with the evolving market and customer expectations, thus completely altering the way businesses are managed and operated, and how value is delivered to customers.",
+      },
+      {
+        label:
+          "Adopting and adapting to digital interface is important for businesses across all sectors to compete and succeed in this highly evolving market. It sounds easy but many face difficulty to navigate their way through digital transformation to connect with customers and have an influence online. Essentially any transformation in a business needs to have digitally trained future-proof workforce.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of digitalTransformation",
+        data: [
+          {
+            label: "Increase customer engagement and customer satisfaction.",
+          },
+          {
+            label: "Digital Transformation always drives data-based insights.",
+          },
+          {
+            label: "Software monetization happens.",
+          },
+          {
+            label: "High-quality user experience.",
+          },
+          {
+            label: "Enhanced collaboration and improved communication.",
+          },
+          {
+            label: "Increases agility.",
+          },
+          {
+            label: "Limits human error.",
+          },
+        ],
+      },
+      {
+        heading:
+          "Why choose Employ Virtual for  Digital Transformation?                                                                                             ?",
+        data: [
+          {
+            label:
+              "We have experienced software engineering team offering software engineering, testing, development and deployment of projects.",
+          },
+          {
+            label:
+              "Our expert team transforms your data into valuable, actionable information to make better business decisions.",
+          },
+          {
+            label:
+              "We work on AI and Automations to remove repeated tasks to achieve business goal.",
+          },
+          {
+            label:
+              "At Employ Virtual there are dedicated development teams for each task and for different phases in digital transformations.",
+          },
+          {
+            label:
+              "Our industry experts will always be there for process consulting. They will improve your results and processes by aligning strategies with your business requirements.",
+          },
+          {
+            label:
+              "Our expert team will re-engineer business processes and enhance business efficiency by including innovation in your business.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    services: {
+      heading: "BRAND SOLUTIONS",
+      description:
+        "Employ virtual resources have creativity flowing in their veins.",
+      data: BRAND_SOLUTION,
+    },
+    slug: "brand-strategy",
+    bannerHeading: "Brand Strategy",
+    bannerDescription:
+      "Brand strategy refers to a long-term plan that focuses on the development of a successful brand. The plan is used by businesses to create a particular image among current and potential customers.",
+    img: technologyy,
+    heading: "Technology Advisory Services",
+    description: [
+      {
+        label:
+          "Virtualization enables to centralize administrative tasks and reduce hardware costs while improving scalability and workloads. Our experienced technology expert, specifically chosen for your business needs, works with you to ease and support IT initiatives, outline tech strategies, and manage technology infrastructure, tools, and teams.",
+      },
+      {
+        label:
+          "Technology advisory and virtualisation services are a suite of consulting, implementation and support services that help clients with the results of virtualization. Through this service, we help clients develop a virtualization strategy that matches each business and its technological needs. Our expert team design the solutions and we install the solutions. We also assist you with the transition phase.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Technology Advisory and Virtualisation Services",
+        data: [
+          {
+            label: "Better scalability.",
+          },
+          {
+            label: "Better business continuity.",
+          },
+          {
+            label: "Increased ROI.",
+          },
+          {
+            label: "Centralized management.",
+          },
+          {
+            label: "Enhanced and improved security.",
+          },
+          {
+            label: "Smooth data migration.",
+          },
+          {
+            label: "Flexibility.",
+          },
+        ],
+      },
+      {
+        heading:
+          "Why choose Employ Virtual for Technology Advisory and Virtualisation Services?                                                                                              ?",
+        data: [
+          {
+            label:
+              "We help businesses in running their operations smoothly with reduced risk of downtime.",
+          },
+          {
+            label:
+              "Provide better business services by improving IT productivity.",
+          },
+          {
+            label: "New services are deployed faster.",
+          },
+          {
+            label: "Enhance business agility.",
+          },
+          {
+            label: "We encourage cost-effective computing model.",
+          },
+          {
+            label: "Advanced resource optimization.",
+          },
+          {
+            label: "We provide back-up support and disaster recovery.",
+          },
+        ],
+      },
+    ],
+  },
+
+
+
+
+
+
+
+
+
+
+
+
 ];
