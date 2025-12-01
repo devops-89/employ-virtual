@@ -2,21 +2,16 @@ import cloud1 from "@/services/services-icon/cloud-consulting/brand-strategy.png
 import cloud15 from "@/services/services-icon/cloud-consulting/technology.png";
 import { VIRTUAL_CARD_PROPS } from "@/utils/types";
 export const BRAND_SOLUTION: VIRTUAL_CARD_PROPS[] = [
-
    {
     heading: "Brand Strategy",
     img: cloud1,
     description:
       "Brand strategy refers to a long-term plan that focuses on the development of a successful brand. The plan is used by businesses to create a particular image among current and potential customers.",
     slug: "brand-strategy",
-  },
-  
-
-  
-   
+  }, 
    {
     heading: "Press Ads",
-    // img: cloud15,
+     img: cloud15,
     description:
       "Press advertising describes advertising in a printed medium such as a newspaper, magazine, or trade journal. This encompasses everything from media with a very broad readership base.",
     slug: "press-ads",
@@ -64,13 +59,7 @@ export const BRAND_SOLUTION: VIRTUAL_CARD_PROPS[] = [
       "Marketing collateral is a collection of media used to support the sales of a product or service. The term collateral specifically referred to brochures or sell sheets developed as sales support tools.",
     slug:"marketing-collateral",
   },
-{
-    heading: "AV (Audio visuals)",
-    img: cloud15,
-    description:
-      "Audio Visuals have a powerful impact when it comes to branding. It helps in retaining the concepts better and for longer duration. Audio Visuals plays an important role in almost every facet of our lives.",
-    slug:"audio-visuals",
-  },
+
 {
     heading: "Corporate Identity",
     img: cloud15,
@@ -99,9 +88,5 @@ export const BRAND_SOLUTION: VIRTUAL_CARD_PROPS[] = [
       "Media planning is the use of ad-banners to gain the mileage from a campaign in order to attract consumers to participate rather than become spectators. Media planning and buying depends upon the experience.",
     slug:"online-media-planning-buying",
   },
-
-
-
-
 
 ];

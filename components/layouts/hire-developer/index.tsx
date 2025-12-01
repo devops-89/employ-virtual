@@ -14,7 +14,7 @@ const HireDeveloperLayout = () => {
   const { details } = useDetailsStore();
 
   return (
-    <Box>
+    <Box >
       <InnerHeroSection
         heading={details?.bannerHeading}
         description={details?.bannerDescription}

@@ -98,7 +98,7 @@ const InnerHeroSection = ({
           {/* <TextTrail text="About Us" textColor="#ffffff" /> */}
           <Typography
             sx={{
-              fontSize: { lg: 120, xs: 50 },
+              fontSize: { lg: 80, xs: 50 },
               fontFamily: poppins.style.fontFamily,
               color: COLORS.WHITE,
               fontWeight: 900,

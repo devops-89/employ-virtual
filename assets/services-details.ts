@@ -26,12 +26,40 @@ import bigData from "@/hire/cloud/big-data.png";
 import machineLearning from "@/hire/cloud/machine-learning.png";
 import digitalTransformation from "@/hire/cloud/digital-transformation.png";
 import artificialIntelligence from "@/hire/cloud/artificial-intelligence.png";
-import technologyy from "@/hire/cloud/technology.png"
+import Brand from "@/hire/cloud/BrandStrategy.png";
+import press from "@/hire/cloud/press.png";
+import radio from "@/hire/cloud/radio.png";
+import outdoor from "@/hire/cloud/outdoor.png";
+import technologyy from "@/hire/cloud/technology.png";
+import tv from "@/hire/cloud/tv-commercial.png";
+import packaging from "@/hire/cloud/packaging.png";
+import audio from "@/hire/cloud/audio.png";
+import marketing from "@/hire/cloud/marketing.png";
+import corporate from "@/hire/cloud/corporate.png";
+import logo from "@/hire/cloud/logo.png";
+import creative from "@/hire/cloud/creative.png";
+import online from "@/hire/cloud/online.png";
+import search from "@/hire/cloud/search.png";
+import searchEngineMarketing from "@/hire/cloud/search-engine-marketing.png";
+import socialSelling from "@/hire/cloud/social-seeling.png";
+import mobileMarketing from "@/hire/cloud/mobile-marketing.png";
+import socialMediaOptimization from "@/hire/cloud/social-media-optimization.png";
+import socialMediaMarketing from "@/hire/cloud/social-media-marketing.png";
+import campaign from "@/hire/cloud/campaign.png";
+import campaignExecution from "@/hire/cloud/campaign-execution.png";
+import campaignOptimisation from "@/hire/cloud/cloud-cost-optimization.png";
+import emailMarketing from "@/hire/cloud/e-mail-marketing.png";
+import creativeAndContent from "@/hire/cloud/creative-and-content.png";
+import analytics from "@/hire/cloud/analytics.png";
+import ecommerceSalesManagement from "@/hire/cloud/e-commerce-sales-management.png";
+import amazonSalesManagement from "@/hire/cloud/amazon-sales-management.png";
+import inventory from "@/hire/cloud/inventory.png";
 import { DETAILS_DATA } from "@/utils/types";
 import { VIRTUAL_CARD_DATA } from "./generic-array";
 import { CLOUD_INFRASTRUCTURE_DATA } from "./infrastructure-cloud-data";
 import { BRAND_SOLUTION } from "./brand-solution";
-
+import { DIGITAL_MEDIA } from "./digital-media";
+import { D2C_SALES_MANAGEMENT } from "./sales-management";
 export const HIRE_DEVELOPER_DATA: DETAILS_DATA[] = [
   {
     slug: "hire-java-developer",
@@ -2270,8 +2298,7 @@ export const HIRE_DEVELOPER_DATA: DETAILS_DATA[] = [
         ],
       },
       {
-        heading:
-          "Why choose Employ Virtual for Big Data ?                                                                                              ?",
+        heading: "Why choose Employ Virtual for Big Data ?",
         data: [
           {
             label:
@@ -2366,8 +2393,7 @@ export const HIRE_DEVELOPER_DATA: DETAILS_DATA[] = [
         ],
       },
       {
-        heading:
-          "Why choose Employ Virtual for Artificial Intelligence?                                                                                              ?",
+        heading: "Why choose Employ Virtual for Artificial Intelligence?",
         data: [
           {
             label:
@@ -2464,8 +2490,7 @@ export const HIRE_DEVELOPER_DATA: DETAILS_DATA[] = [
         ],
       },
       {
-        heading:
-          "Why choose Employ Virtual for  Digital Transformation?                                                                                             ?",
+        heading: "Why choose Employ Virtual for  Digital Transformation?",
         data: [
           {
             label:
@@ -2548,7 +2573,7 @@ export const HIRE_DEVELOPER_DATA: DETAILS_DATA[] = [
       },
       {
         heading:
-          "Why choose Employ Virtual for Technology Advisory and Virtualisation Services?                                                                                              ?",
+          "Why choose Employ Virtual for Technology Advisory and Virtualisation Services?",
         data: [
           {
             label:
@@ -2577,7 +2602,6 @@ export const HIRE_DEVELOPER_DATA: DETAILS_DATA[] = [
       },
     ],
   },
-
 
   {
     services: {
@@ -2631,8 +2655,7 @@ export const HIRE_DEVELOPER_DATA: DETAILS_DATA[] = [
         ],
       },
       {
-        heading:
-          "Why choose Employ Virtual for Artificial Intelligence?                                                                                              ?",
+        heading: "Why choose Employ Virtual for Artificial Intelligence? ",
         data: [
           {
             label:
@@ -2729,8 +2752,7 @@ export const HIRE_DEVELOPER_DATA: DETAILS_DATA[] = [
         ],
       },
       {
-        heading:
-          "Why choose Employ Virtual for  Digital Transformation?                                                                                             ?",
+        heading: "Why choose Employ Virtual for  Digital Transformation?",
         data: [
           {
             label:
@@ -2771,86 +2793,2327 @@ export const HIRE_DEVELOPER_DATA: DETAILS_DATA[] = [
     bannerHeading: "Brand Strategy",
     bannerDescription:
       "Brand strategy refers to a long-term plan that focuses on the development of a successful brand. The plan is used by businesses to create a particular image among current and potential customers.",
-    img: technologyy,
-    heading: "Technology Advisory Services",
+    img: Brand,
+    heading: "Brand Strategy",
     description: [
       {
         label:
-          "Virtualization enables to centralize administrative tasks and reduce hardware costs while improving scalability and workloads. Our experienced technology expert, specifically chosen for your business needs, works with you to ease and support IT initiatives, outline tech strategies, and manage technology infrastructure, tools, and teams.",
+          "Brand strategy refers to a long-term plan that focuses on the development of a successful brand. The plan is used by businesses to create a particular image among current and potential customers. Once a company has executed a successful brand strategy, customers will associate with the brand and what it does, without being told who the company is. Our expert will plan out the brand strategy for your brand.",
       },
       {
         label:
-          "Technology advisory and virtualisation services are a suite of consulting, implementation and support services that help clients with the results of virtualization. Through this service, we help clients develop a virtualization strategy that matches each business and its technological needs. Our expert team design the solutions and we install the solutions. We also assist you with the transition phase.",
+          "All the world’s most successful companies have one thing in common; all are powerful brands. These brands are instantly recognized by everybody and what they stand for. Branding Strategy is one of the foundational pillars of a business. A unified brand message has powerful impact on the audiences. The brand strategy should sum up the problems that your business is trying to solve in a way that will reflect with those who have suffered them.",
       },
     ],
     details_list: [
       {
-        heading: "Benefits of Technology Advisory and Virtualisation Services",
+        heading: "Benefits of  Brand Strategy",
         data: [
           {
-            label: "Better scalability.",
+            label:
+              "Branding communicates a company’s value proposition. It defines the value of a company.",
           },
           {
-            label: "Better business continuity.",
+            label: "Branding develops trust and loyalty amongst audiences.",
           },
           {
-            label: "Increased ROI.",
+            label:
+              "Branding gives a uniqueness to your business and distinguishes it from competitors.",
           },
           {
-            label: "Centralized management.",
+            label: "Company value is boosted by branding.",
           },
           {
-            label: "Enhanced and improved security.",
+            label:
+              "Right branding and branding strategy attracts right workforce and retain them.",
           },
           {
-            label: "Smooth data migration.",
+            label: "It encourages customers to share the brand values.",
           },
           {
-            label: "Flexibility.",
+            label: "Brands work on customer’s pain points.",
           },
         ],
       },
       {
-        heading:
-          "Why choose Employ Virtual for Technology Advisory and Virtualisation Services?                                                                                              ?",
+        heading: "Why choose Employ Virtual for  Brand Strategy?",
         data: [
           {
             label:
-              "We help businesses in running their operations smoothly with reduced risk of downtime.",
+              "Employ Virtual is here to revamp your brand or rework your brand strategy or create a new one from scratch.",
           },
           {
             label:
-              "Provide better business services by improving IT productivity.",
+              "We are thorough with research, our team is fuelled by creativity and driven by clear vision of thought.",
           },
           {
-            label: "New services are deployed faster.",
+            label:
+              "We have years of experience to objectively analyse the brand building process and walk-you through the process.",
           },
           {
-            label: "Enhance business agility.",
+            label:
+              "We help you execute long-term plan until we achieve desired success for your brand.",
           },
           {
-            label: "We encourage cost-effective computing model.",
+            label:
+              "Our success in helping brands to reach their maximum potential speaks volumes about our expertise in the industry.",
           },
           {
-            label: "Advanced resource optimization.",
+            label:
+              "Employ Virtual assists with brand positioning and brand value.",
           },
           {
-            label: "We provide back-up support and disaster recovery.",
+            label:
+              "Our expert team will re-engineer brand strategy and enhance business efficiency by including innovation in your business.",
           },
         ],
       },
     ],
   },
 
+  {
+    services: {
+      heading: "BRAND SOLUTIONS",
+      description:
+        "Employ virtual resources have creativity flowing in their veins.",
+      data: BRAND_SOLUTION,
+    },
+    slug: "press-ads",
+    bannerHeading: "Press Ads",
+    bannerDescription:
+      "Press advertising describes advertising in a printed medium such as a newspaper, magazine, or trade journal.",
+    img: press,
+    heading: "Press advertising",
+    description: [
+      {
+        label:
+          "Press advertising describes advertising in a printed medium such as a newspaper, magazine, or trade journal. This encompasses everything from media with a very broad readership base, such as a major national newspaper or magazine, to more narrowly targeted media such as local newspapers and trade journals on very specialized topics.",
+      },
+      {
+        label:
+          "Press Ads have increased ROI as compared to other mode of advertisements. Brands which are cutting back on newspaper advertising are missing an important part of their branding. Promotional medium newspaper increases overall branding and campaign effectiveness as well as boosting other media – press advertising can make TV advertising twice as effective and online digital display four times more effective.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Press Advertisements",
+        data: [
+          {
+            label: "Press Ads builds relationship with loyal customer base.",
+          },
+          {
+            label:
+              "It is more flexible and has a series of benefits for the advertisers.",
+          },
+          {
+            label: "It is cost-effective.",
+          },
+          {
+            label: "There will be positive reception.",
+          },
+          {
+            label: "Strong area focus.",
+          },
+          {
+            label: "Trusted medium.",
+          },
+          {
+            label: "Proactive audiences.",
+          },
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for  Press Advertisements?",
+        data: [
+          {
+            label: "Employ Virtual knows your company and brand needs.",
+          },
+          {
+            label:
+              "We design the advertisement according to your target audience.",
+          },
+          {
+            label:
+              "Employ Virtual is a market expert to capture the space according to the design.",
+          },
+          {
+            label:
+              "We believe in colourful and communicative ads that people relate in a specific way.",
+          },
+          {
+            label: "We believe in time management according to your design.",
+          },
+        ],
+      },
+    ],
+  },
 
+  {
+    services: {
+      heading: "BRAND SOLUTIONS",
+      description:
+        "Employ virtual resources have creativity flowing in their veins.",
+      data: BRAND_SOLUTION,
+    },
+    slug: "radio",
+    bannerHeading: "Radio",
+    bannerDescription:
+      "Radio advertising has long been a consistent form of advertising, broadcasting media, news, and marketing material to listeners across thousands of stations around the world.",
+    img: radio,
+    heading: "Radio",
+    description: [
+      {
+        label:
+          "Radio advertising has long been a consistent form of advertising, broadcasting media, news, and marketing material to listeners across thousands of stations around the world. Radio advertisements traditionally referred to broadcasting audio-based short commercials on the AM, FM, satellite, and the internet radio. However, the modern definition of radio advertisements also includes podcasts and music streaming services as a medium.",
+      },
+      {
+        label:
+          "The main characteristics of radio ads are their short duration (10-30 second commercials), call-to-action driven approach, and repetitiveness. Our expert team will guide you and will purchase ad spots on popular radio stations to promote your products and services. Every pay that you do for every second of airtime will be beneficiary for your business. Implementing the best advertisement strategy will help you to extract the most value from your initial investment.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Radio Advertisements",
+        data: [
+          {
+            label: "We can target selective audiences.",
+          },
+          {
+            label: "We can repeat messages on radio and have high-frequency.",
+          },
+          {
+            label:
+              "Radio Advertisements can have memorable experiences for customers.",
+          },
+          {
+            label:
+              "Radio Ads are simpler to invest in and deliver a superior ROI. It stands out to be one of the cost-effective modes of advertisements.",
+          },
+          {
+            label: "Creating a radio advertisement takes less time.",
+          },
+          {
+            label: "Radio is anywhere, anytime and anytime medium.",
+          },
+          {
+            label: "Radio is influential.",
+          },
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for  Radio Advertisements?",
+        data: [
+          {
+            label: "Employ Virtual helps advertise your product with ease.",
+          },
+          {
+            label: "We are affordable and best in the market.",
+          },
+          {
+            label:
+              "Our industry experts will guide you through the process of choosing the right type of brand for your business.",
+          },
+          {
+            label:
+              "We create a feasible and top-notch marketing strategy that will allow you to optimize and grow your brand.",
+          },
+          {
+            label:
+              "We work intending to provide high-quality solutions that incorporate innovative ideas and workable pricing strategies.",
+          },
+          {
+            label: "We believe in excellent publicity.",
+          },
+        ],
+      },
+    ],
+  },
 
+  {
+    services: {
+      heading: "BRAND SOLUTIONS",
+      description:
+        "Employ virtual resources have creativity flowing in their veins.",
+      data: BRAND_SOLUTION,
+    },
+    slug: "outdoor",
+    bannerHeading: "Outdoor",
+    bannerDescription:
+      "Outdoor advertising means ads that take a broader picture at public places and addresses a specific target.",
+    img: outdoor,
+    heading: "Outdoor Advertisements",
+    description: [
+      {
+        label:
+          "Outdoor advertising means ads that take a broader picture at public places and addresses a specific target. This mode of advertising seems to be a perfect solution to contact our customers while they are outside their homes or offices. Outdoor advertising media are in various forms such as posters, billboards, signs, digital screens etc. All these installations happen at public places where people visit often for any public gathering.",
+      },
+      {
+        label:
+          "Outdoor branding solutions include complete packages of varied advertising items that are designed to withstand long-term exposure to different weather conditions. When opting for any of these advertising solutions, it is best to seek out professional assistance with the branding of them. Branding your outdoor advertising items should be taken seriously.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Outdoor Advertisements",
+        data: [
+          {
+            label: "Ample coverage of local markets.",
+          },
+          {
+            label: "Outdoor ads create awareness among masses.",
+          },
+          {
+            label:
+              "It is one of the cost-saving methods when it comes to advertisement.",
+          },
+          {
+            label:
+              "Business can opt for higher frequency of outdoor marketing.",
+          },
+          {
+            label: "Visualisation acts as a method for impulse buying.",
+          },
+          {
+            label: "It’s a mode of active communication.",
+          },
+          {
+            label: "It helps to address the concept towards certain segments.",
+          },
+        ],
+      },
+      {
+        heading:
+          "Why choose Employ Virtual for  Outdoor Advertisements?                                                                                              ?",
+        data: [
+          {
+            label:
+              "Employ Virtual has been in the advertising horizon for years.",
+          },
+          {
+            label:
+              "Our clients rely on us for their brand awareness, outreach and visibility.",
+          },
+          {
+            label:
+              "We devise sustainable brand advertising and promotion solutions for our clients.",
+          },
+          {
+            label:
+              "Our outdoor advertising includes a wide variety of services such as billboards, bus stops, bus shelters, park benches, bus side ads, ads on trains, metros etc.",
+          },
+          {
+            label:
+              "Rich experience in handling outdoor advertising and campaigns.",
+          },
+          {
+            label:
+              "Worked across different industries like Agro, Consumer Durable, FMCG, Automobile, and IT.",
+          },
+          {
+            label:
+              "We blend in the right strategy, content, design and technology.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    services: {
+      heading: "BRAND SOLUTIONS",
+      description:
+        "Employ virtual resources have creativity flowing in their veins.",
+      data: BRAND_SOLUTION,
+    },
+    slug: "tv-commercial",
+    bannerHeading: "Tv Commercial",
+    bannerDescription:
+      "TV advertising is still one of the most effective ways to create awareness about a product or brand.",
+    img: tv,
+    heading: "Tv Commercial",
+    description: [
+      {
+        label:
+          "TV advertising is still one of the most effective ways to create awareness about a product or brand. TV advertising consistently delivers companies the highest rate of investment of all media advertisements. For your business you can have engaged fans through TV Ads. TV Ads can be persuasive and evoke emotional connections. TV is still a viable choice when you are considering your media mix.",
+      },
+      {
+        label:
+          "TV Ads have always the power and attention, which combines sight and sound and has a great impact on the audiences. Your brand’s presence on TV can lend credibility. It exposes your brand more as compared to online advertising. It drives all forms of promotions, aiming to market, a product or service for your brand.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of TV Commercial",
+        data: [
+          {
+            label: "It grabs attention.",
+          },
+          {
+            label: "It reaches larger audiences.",
+          },
+          {
+            label: "More time is spent on TV as compared to digital medium.",
+          },
+          {
+            label: "Loyal customers get attracted to TV Ads.",
+          },
+          {
+            label: "TV and online work hand-in-hand.",
+          },
+          {
+            label: "TV Ads provide improved viewing experience.",
+          },
+          {
+            label: "TV Ads are affordable.",
+          },
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for  TV Commercial?",
+        data: [
+          {
+            label:
+              "Employ Virtual has been in the advertising horizon for years.",
+          },
+          {
+            label:
+              "Our clients rely on us for their brand awareness, outreach and visibility.",
+          },
+          {
+            label:
+              "We devise sustainable brand advertising and promotion solutions for our clients.",
+          },
+          {
+            label: "Rich experience in handling TV advertising and campaigns.",
+          },
+          {
+            label:
+              "Worked across different industries like Agro, Consumer Durable, FMCG, Automobile, and IT.",
+          },
+          {
+            label:
+              "We blend in the right strategy, content, design and technology.",
+          },
+        ],
+      },
+    ],
+  },
 
+  {
+    services: {
+      heading: "BRAND SOLUTIONS",
+      description:
+        "Employ virtual resources have creativity flowing in their veins.",
+      data: BRAND_SOLUTION,
+    },
+    slug: "packaging-design",
+    bannerHeading: "Packaging Design",
+    bannerDescription:
+      "The products first point of contact is your product’s packaging. Packaging design is an important marketing and branding tool.",
+    img: packaging,
+    heading: "Packaging Design",
+    description: [
+      {
+        label:
+          "The products first point of contact is your product’s packaging. Packaging design is an important marketing and branding tool. Customers are attracted and drawn towards products that look good. The product packaging designs plays an important role in branding your products in the retail environment. The packaging should be “catchy” to attract audiences. A good packaging also enables your brand to be distinctive from your competitors.",
+      },
+      {
+        label:
+          "Packaging will help your product stand out on the shelf, eye catcher for the audiences with an array of convenience features and play to motivational triggers. Multiple teams of designers, buyers, technologists and quality managers work for months to launch a product and packaging will be the difference to a sale or no sale.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Packaging Design",
+        data: [
+          {
+            label: "Standout among your competitors.",
+          },
+          {
+            label: "Increased social media attention.",
+          },
+          {
+            label: "Reinforcement of brand.",
+          },
+          {
+            label:
+              "Customer psyche is that high-quality packaging means high-quality product.",
+          },
+          {
+            label:
+              "Environment friendly and will protect your product from any sort of damage.",
+          },
+          {
+            label:
+              "Packaging creates emotional connect with your customers and increases loyalty.",
+          },
+          {
+            label: "Packaging gives a strong statement for your product.",
+          },
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for  Packaging Design?",
+        data: [
+          {
+            label: "Employ Virtual see things differently.",
+          },
+          {
+            label:
+              "Our maverick minds go for the unusual and believe in ocean of opportunities in small things.",
+          },
+          {
+            label:
+              "We are in the market for years providing branding and advertising solutions for all your marketing communications.",
+          },
+          {
+            label:
+              "We are a team of creative scientists and media strategists.",
+          },
+          {
+            label:
+              "We believe that Packaging Design is a combination of process and artistry.",
+          },
+          {
+            label:
+              "We keep your audience’s mind before designing the packages.",
+          },
+          {
+            label:
+              "Lastly, once design is finished, then we create the print file and make sure packaging gets to be printed as we thought about it.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    services: {
+      heading: "BRAND SOLUTIONS",
+      description:
+        "Employ virtual resources have creativity flowing in their veins.",
+      data: BRAND_SOLUTION,
+    },
+    slug: "audio-visuals",
+    bannerHeading: "Audio Visuals",
+    bannerDescription:
+      "Audio Visuals have a powerful impact when it comes to branding. It helps in retaining the concepts better and for longer duration.",
+    img: audio,
+    heading: "Audio Visuals(AV)",
+    description: [
+      {
+        label:
+          "Audio Visuals have a powerful impact when it comes to branding. It helps in retaining the concepts better and for longer duration. Audio Visuals plays an important role in almost every facet of our lives especially in building a brand. In this type of system, the speakers emit sound while displaying content on screens like video walls. AV systems are all around us, which help us in entertain, inform and enlighten us on daily basis.",
+      },
+      {
+        label:
+          "The most common types of AV systems include motion pictures, live radio and television programs, recordings and presentations. AV always serve as a primary channel between companies, customers and employees. Businesses that need to implement communication systems for their brand should utilize AV solutions. Employ Virtual is one such firm equipped to manage and handle any requirements and offer the best AV solutions for their clients.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Audio Visuals",
+        data: [
+          {
+            label:
+              "Communication and collaboration, which helps us to move forward as a community.",
+          },
+          {
+            label: "We can enhance employee productivity.",
+          },
+          {
+            label: "AV plays an important role in training and education.",
+          },
+          {
+            label: "AV is an essential component in marketing and branding.",
+          },
+          {
+            label:
+              "Event management is a rapidly growing industry and AV solutions can help event planners to manage events in a better way.",
+          },
+          {
+            label:
+              "Advanced AV solutions are increasingly important in safety and security.",
+          },
+          {
+            label: "Cost savings.",
+          },
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for Audio Visuals  ?",
+        data: [
+          {
+            label:
+              "Employ Virtual offers pioneering technology in installation of AV conferencing systems for corporate AV design.",
+          },
+          {
+            label:
+              "We provide powerful, interactive and comprehensive systems to our clients.",
+          },
+          {
+            label:
+              "We offer excellent AV services through instant whiteboard and lesson delivery software with high efficiency to classrooms/conferences.",
+          },
+          {
+            label: "We have featured products for huddle rooms.",
+          },
+          {
+            label:
+              "With Employ Virtual, you can have the latest solution on cloud collaboration.",
+          },
+          {
+            label:
+              "With years of experience and industry experts, Employ Virtual has been serving clients for AV solutions.",
+          },
+          {
+            label:
+              "Employ Virtual believes in relations that last really long.",
+          },
+        ],
+      },
+    ],
+  },
 
+  {
+    services: {
+      heading: "BRAND SOLUTIONS",
+      description:
+        "Employ virtual resources have creativity flowing in their veins.",
+      data: BRAND_SOLUTION,
+    },
+    slug: "marketing-collateral",
+    bannerHeading: "Marketing Collateral",
+    bannerDescription:
+      "Marketing collateral is a collection of media used to support the sales of a product or service.",
+    img: marketing,
+    heading: "Marketing Collateral",
+    description: [
+      {
+        label:
+          "Marketing collateral is a collection of media used to support the sales of a product or service. The term “collateral” specifically referred to brochures or sell sheets developed as sales support tools. This form of communication helps in promoting company’s brand message, products, or services. These includes a variety of formats ranging from printed brochures to POS posters, videos, e-books, newsletters, graphics and many more. So, when determining the right type of marketing collateral, one need to know what it has to achieve for the business.",
+      },
+      {
+        label:
+          "Marketing collateral is leveraged to spread awareness and drive adoption for offering. Businesses can rely on it to attract and gain new, qualified leads. These in-turn drives support to existing customers, loyalty and to win repeat business. Therefore, Marketing Collateral is not only an asset to the sales teams but also to the overall business. There are many organizations that use Marketing Collateral to achieve business goals unrelated to revenue.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of  Marketing Collateral",
+        data: [
+          {
+            label: "It represents your business.",
+          },
+          {
+            label:
+              "Marketing Collateral is useful in communicating business value proposition.",
+          },
+          {
+            label:
+              "Marketing Collateral is the best way to connect to your customers and audiences.",
+          },
+          {
+            label: "It promotes thought leadership.",
+          },
+          {
+            label: "It communicates standard information.",
+          },
+          {
+            label: "It supports sales materials and sales conversions.",
+          },
+          {
+            label: "It acts as a branding tool.",
+          },
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for   Marketing Collateral?",
+        data: [
+          {
+            label:
+              "Our experts believe in lasting impression with the marketing collateral.",
+          },
+          {
+            label:
+              "We provide beautiful and clearly designed materials for marketing campaigns for your audiences.",
+          },
+          {
+            label:
+              "Our exposure to various industry verticals gives us an edge to an innovative approach.",
+          },
+          {
+            label: "With us, grow your business and your happy customer list.",
+          },
+          {
+            label:
+              "We design collaterals that communicate clearly with your audiences.",
+          },
+          {
+            label: "We provide impactful marketing collateral.",
+          },
+          {
+            label: "Employ Virtual believes in creativity.",
+          },
+        ],
+      },
+    ],
+  },
 
+  {
+    services: {
+      heading: "BRAND SOLUTIONS",
+      description:
+        "Employ virtual resources have creativity flowing in their veins.",
+      data: BRAND_SOLUTION,
+    },
+    slug: "corporate-identity",
+    bannerHeading: "Corporate Identity",
+    bannerDescription:
+      "Brand strategy refers to a long-term plan that focuses on the development of a successful brand. The plan is used by businesses to create a particular image among current and potential customers.",
+    img: corporate,
+    heading: "Corporate Identity",
+    description: [
+      {
+        label:
+          "Every company goes with a name. Imaging a company without a name is hard. We humans associate certain identification attributes to a person, things and call them as its identity. This same phenomenon is applicable for companies and businesses. Companies are given names, personalities and are humanized to reach out to their target audiences, to relate to it and differentiate in the market. This unique identity of companies is known as Corporate Identity.",
+      },
+      {
+        label:
+          "We will help you achieve your business identity and how your business will be represented to the public. This will help your company get recognized and differentiated in the market space. Corporate Identity includes three elements such as corporate communications, corporate design and corporate behaviour. Each of these elements have important role to play while designing and deciding on corporate identity.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of  Corporate Identity",
+        data: [
+          {
+            label: "Corporate Identity is necessary to differentiate.",
+          },
+          {
+            label: "It creates brand awareness.",
+          },
+          {
+            label: "It increases and elevates market presence.",
+          },
+          {
+            label: "It builds reputation.",
+          },
+          {
+            label: "It builds customer loyalty.",
+          },
+          {
+            label: "It increases competitive edge for the company.",
+          },
+          {
+            label:
+              "It gives a sense of culture or personality of the business.",
+          },
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for Corporate Identity?",
+        data: [
+          {
+            label:
+              "Employ Virtual believes in unconventional and striking ways for corporate identity.",
+          },
+          {
+            label:
+              "We are the changemakers and creative geniuses for making your brand impactful.",
+          },
+          {
+            label: "We believe in radical thinking.",
+          },
+          {
+            label:
+              "With our wide span of experiences in different industries, we are pretty much process oriented and follow latest trends.",
+          },
+          {
+            label:
+              "We can proudly say that we are a boutique of age-old combination of youth and experience.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    services: {
+      heading: "BRAND SOLUTIONS",
+      description:
+        "Employ virtual resources have creativity flowing in their veins.",
+      data: BRAND_SOLUTION,
+    },
+    slug: "logo-brand-manual",
+    bannerHeading: "Logo & Brand Manual",
+    bannerDescription:
+      "Brand strategy refers to a long-term plan that focuses on the development of a successful brand. The plan is used by businesses to create a particular image among current and potential customers.",
+    img: logo,
+    heading: "Logo & Brand Manual",
+    description: [
+      {
+        label:
+          "Brand logo is a polished example of the tone, aesthetic, and values of the entire brand. Setting logo and brand guidelines ensures that the logo is used properly and as intended. Logo and Brand Manual is as important as the brand strategy and brand style guide. It is a part of every company’s logo and brand manual because it offers a way to exercise control over how a logo looks over different.",
+      },
+      {
+        label:
+          "Logo and Brand Manual helps in avoiding logo alteration, losing its integrity or presenting it in a non-harmonious way with the rest of the brand’s voice. These guidelines are used by designers, writers and anyone else using brand’s elements for creating marketing materials. No two brands will have the same brand logo and its elements and here is where Employ Virtual plays its role and will create the logo & brand manual for your brand",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of  Logo & Brand Manual",
+        data: [
+          {
+            label: "It gives brand consistency.",
+          },
+          {
+            label: "It sets standards and rules.",
+          },
+          {
+            label: "It provides tools for the marketing materials.",
+          },
+          {
+            label: "It avoids confusion.",
+          },
+          {
+            label: "It gives value to your brand.",
+          },
+          {
+            label: "It provides perception for your brand.",
+          },
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for  Logo & Brand Manual ?",
+        data: [
+          {
+            label: "Each of our clients are unique and important for us.",
+          },
+          {
+            label:
+              "We understand each and every requirement and use our working methods and processes accordingly.",
+          },
+          {
+            label:
+              "We consistently interact and work together to create intelligent solutions that meet our client’s demands.",
+          },
+          {
+            label: "We bridge gap between business and technology.",
+          },
+          {
+            label: "Communication is key to all our successful projects.",
+          },
+          {
+            label:
+              "Responsibilities are shared among our team members for smooth and timely progression of the projects.",
+          },
+        ],
+      },
+    ],
+  },
 
+  {
+    services: {
+      heading: "BRAND SOLUTIONS",
+      description:
+        "Employ virtual resources have creativity flowing in their veins.",
+      data: BRAND_SOLUTION,
+    },
+    slug: "creative-campaigns",
+    bannerHeading: "360° Creative Campaigns",
+    bannerDescription:
+      "The 360° marketing approach has its roots in the holistic marketing strategy and this is a sought-after approach of the organizations.",
+    img: creative,
+    heading: "360° Creative Campaigns",
+    description: [
+      {
+        label:
+          "The 360° marketing approach has its roots in the holistic marketing strategy and this is a sought-after approach of the organizations. A 360° Marketing Campaign is a complete creative campaign idea across all the brand’s marketing mix elements, designed to implement a strategic brand strategy (usually positioning). In simple words, a 360-marketing campaign focuses on communicating a consistent message through all the marketing mix elements.",
+      },
+      {
+        label:
+          "With this approach brands launch their new products or old products are revived. The marketing campaign includes an integrated promotional approach. With this, brand focuses on packaging and visual looks to fit the positioning strategy. Depending on brand’s niche, it usually happens that products that belong to the 360° campaigns are usually marketed at different prices. 360° campaigns are effective when all the possible touch points have been exploited.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of  360° Creative Campaigns",
+        data: [
+          {
+            label: "It is used to set the brand positioning.",
+          },
+          {
+            label: "It is used for altering brand positioning.",
+          },
+          {
+            label: "It is effective in rebranding strategy.",
+          },
+          {
+            label:
+              "It is useful for running yearly renewal and membership drives.",
+          },
+          {
+            label: "Use this to revive an underperforming product/s.",
+          },
+          {
+            label: "It is effective for brand success.",
+          },
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for 360° Creative Campaigns?",
+        data: [
+          {
+            label:
+              "Employ Virtual believes that the services reflect who we are.",
+          },
+          {
+            label: "We work swift, smart and seamlessly.",
+          },
+          {
+            label:
+              "With the evolving digital landscape, we are advanced and agile to achieve the project goal.",
+          },
+          {
+            label:
+              "Our experts understand the entire dynamics of the advertising and the advanced digital spheres.",
+          },
+          {
+            label:
+              "We are known for incorporating stellar creative ideas into clever marketing strategies.",
+          },
+          {
+            label: "We believe in achieving quality.",
+          },
+        ],
+      },
+    ],
+  },
 
+  {
+    services: {
+      heading: "BRAND SOLUTIONS",
+      description:
+        "Employ virtual resources have creativity flowing in their veins.",
+      data: BRAND_SOLUTION,
+    },
+    slug: "online-media-planning-buying",
+    bannerHeading: "Online Media Planning and Buying",
+    bannerDescription:
+      "Media planning is the use of ad-banners to gain the mileage from a campaign in order to attract consumers to participate rather than become spectators.",
+    img: online,
+    heading: "Online Media Planning and Buying",
+    description: [
+      {
+        label:
+          "Media planning is the use of ad-banners to gain the mileage from a campaign in order to attract consumers to participate rather than become spectators. Media planning and buying depends upon the experience and understanding of demographics, profitable web properties and how you can extract their visitor base. Employ Virtual will guide you in the process of purchasing ad space and time on digital and offline platforms, such as websites, YouTube, radio and TV.",
+      },
+      {
+        label:
+          "This does not function as social media where user come and find you. It is an outbound strategy that is effective when there is a well-off strategy in place. The businesses need to think through their marketing goals. All ad placements might not be effective for all set of goals. This is the reason why media planning is an important step to get most out of your ads. Media Buying utilizes the media planning information and strategy to connect with the sales executives of the related channels to negotiate placement, price and timeframe.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of  Online Media Planning & Buying",
+        data: [
+          {
+            label: "Increase conversion rates for your brand.",
+          },
+          {
+            label: "Improve brand awareness.",
+          },
+          {
+            label:
+              "Reach out to prospective customers and get sign-ups for an event or a product launch.",
+          },
+          {
+            label: "You can have access to better inventory slots.",
+          },
+          {
+            label: "No worry negotiation of good deals.",
+          },
+          {
+            label: "Better reach.",
+          },
+          {
+            label: "Quality leads.",
+          },
+        ],
+      },
+      {
+        heading:
+          "Why choose Employ Virtual for Online Media Planning & Buying?",
+        data: [
+          {
+            label:
+              "Employ Virtual is a complete package for your digital media planning and buying.",
+          },
+          {
+            label: "We work with brands to get the most of your media buys.",
+          },
+          {
+            label: "We provide conversion tracking solutions.",
+          },
+          {
+            label:
+              "We work with leading brand measurement partners for brand lift analyses.",
+          },
+          {
+            label:
+              "We define clear strategies and detailed targeting to reach the right target.",
+          },
+          {
+            label: "We manage campaigns across major media buying platforms.",
+          },
+        ],
+      },
+    ],
+  },
 
+  {
+    services: {
+      heading: "Digital Media",
+      description:
+        "Employ virtual resources ideate, feel, breathe and live digital & are born to deliver fruitful and effective results to increase the satisfaction of the clients, be it SEO, SEM, SMO, SMM or performance marketing, these people deliver.",
+      data: DIGITAL_MEDIA,
+    },
+    slug: "search-engine-optimization",
+    bannerHeading: "Search Engine Optimization (SEO)",
+    bannerDescription:
+      "Search engine optimization is the process of improving the quality and quantity of website traffic to a website or a web page from search engines.",
+    img: search,
+    heading: "Search engine optimization(SEO)",
+    description: [
+      {
+        label:
+          "Search engine optimization is the process of improving the quality and quantity of website traffic to a website or a web page from search engines. It targets unpaid traffic rather than direct traffic or paid traffic. SEO overall improves the process of visibility when people search for products or services related to your business in Google, Bing and other search engines. More the visibility of your pages in search results, more you will garner attention and attract prospective and existing customers to your business.",
+      },
+      {
+        label:
+          "Search engines use bot system to move across pages on the web and collecting information about those pages and arrange them in an index. Then algorithms analyse these pages in the index and rank them according to different factors to manage the order, the pages should appear in the search results for the given query. SEO success factors are directly related to aspects of the user experience.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Search engine optimization(SEO)",
+        data: [
+          {
+            label: "It improves digital marketing experience and ROI.",
+          },
+          {
+            label: "It boosts business credibility.",
+          },
+          {
+            label: "It directs high-quality traffic to your website.",
+          },
+          {
+            label: "It provides actionable data.",
+          },
+          {
+            label:
+              "It provides real-time promotion for your company every day.",
+          },
+          {
+            label: "It increases brand awareness.",
+          },
+          {
+            label: "It reduces advertisement costs.",
+          },
+        ],
+      },
+      {
+        heading:
+          "Why choose Employ Virtual for Search engine optimization(SEO)?",
+        data: [
+          {
+            label: "We deliver revenue generating digital solutions.",
+          },
+          {
+            label:
+              "Our team is made up of industry experts who believe in real-time results.",
+          },
+          {
+            label: "We have a track record to provide the best SEO services.",
+          },
+          {
+            label:
+              "With our SEO services, you will get a customized marketing strategy to suit your business needs, world-class technology and expert SEO team.",
+          },
+          {
+            label: "We grow your website traffic and ROI.",
+          },
+          {
+            label:
+              "In SEO services, we involve various techniques from targeted keywords on your web pages to earning links to your site.",
+          },
+        ],
+      },
+    ],
+  },
 
+  {
+    services: {
+      heading: "Digital Media",
+      description:
+        "Employ virtual resources ideate, feel, breathe and live digital & are born to deliver fruitful and effective results to increase the satisfaction of the clients, be it SEO, SEM, SMO, SMM or performance marketing, these people deliver.",
+      data: DIGITAL_MEDIA,
+    },
+    slug: "mobile-marketing",
+    bannerHeading: "Mobile Marketing",
+    bannerDescription:
+      "Mobile marketing is a multi-channel online marketing technique focused at reaching a specific audience on their smartphones, feature phones, tablets, or any other related devices through websites, e-mail, SMS and MMS, social media, or mobile applications.",
+    img: mobileMarketing,
+    heading: "Mobile Marketing",
+    description: [
+      {
+        label:
+          "Mobile marketing is a multi-channel online marketing technique focused at reaching a specific audience on their smartphones, feature phones, tablets, or any other related devices through websites, e-mail, SMS and MMS, social media, or mobile applications. Mobile marketing content is optimized and standardized to appeal specifically to mobiles (smartphones). Mobile marketing can be more effective based on the way people interact with their phones.",
+      },
+      {
+        label:
+          "As people increasingly rely on their phones, mobile marketing is necessary and important. Everyone is hooked to their phones for so much of the day, it presents massive opportunities for the businesses. So, as business you implement mobile marketing and take advantage to grow your business.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Mobile Marketing",
+        data: [
+          {
+            label: "There is a large audience out there.",
+          },
+          {
+            label: "We can access a broad audience.",
+          },
+          {
+            label:
+              "We can provide localization marketing to a particular geography.",
+          },
+          {
+            label: "You can personalize mobile marketing content.",
+          },
+          {
+            label:
+              "You can optimize your campaigns based on audience feedback.",
+          },
+          {
+            label: "Mobile marketing content can be easily shared.",
+          },
+          {
+            label:
+              "Mobile ads have better response as compared to other digital ads.",
+          },
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for Mobile Marketing?",
+        data: [
+          {
+            label: "Enjoy your digital limelight with Employ Virtual.",
+          },
+          {
+            label:
+              "Employ Virtual brings the experience of working with 1000+ brands.",
+          },
+          {
+            label:
+              "We have a huge team of creative artists and scientists, who work relentlessly to give the extraverted and extra creative ideas for the brands.",
+          },
+          {
+            label: "You dream it and we do it for you.",
+          },
+          {
+            label: "We believe in brand’s objective and meet the goal.",
+          },
+          {
+            label: "Our efforts drive us to do the extra.",
+          },
+        ],
+      },
+    ],
+  },
 
+  {
+    services: {
+      heading: "Digital Media",
+      description:
+        "Employ virtual resources ideate, feel, breathe and live digital & are born to deliver fruitful and effective results to increase the satisfaction of the clients, be it SEO, SEM, SMO, SMM or performance marketing, these people deliver.",
+      data: DIGITAL_MEDIA,
+    },
+    slug: "search-engine-marketing",
+    bannerHeading: "Search Engine Marketing(SEM)",
+    bannerDescription:
+      "Search engine marketing is a form of Internet marketing that involves the promotion of websites by increasing their visibility in search engine results pages primarily through paid advertising.",
+    img: searchEngineMarketing,
+    heading: "Search Engine Marketing(SEM)",
+    description: [
+      {
+        label:
+          "Search engine marketing is a form of Internet marketing that involves the promotion of websites by increasing their visibility in search engine results pages primarily through paid advertising. Businesses uses SEM for paid search advertisement campaigns, like Google Ads. SEM can also be used for all marketing actions that take place within a search engine, whether it is paid or not.",
+      },
+      {
+        label:
+          "One can say that SEM is a wider discipline of SEO. SEM will include both paid search results and organic search results (SEO). Most marketers use SEM exclusively for search engine advertisements or paid results. In today’s digital world, SEM is necessity. And SEM is more powerful when it is used with other digital tools such as SEO.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Search Engine Marketing",
+        data: [
+          {
+            label: "It increases traffic through Ad visibility.",
+          },
+          {
+            label: "You can target audiences through keyword match.",
+          },
+          {
+            label: "You can pay only per action.",
+          },
+          {
+            label:
+              "Your products and services can appear on competitor’s keywords.",
+          },
+          {
+            label: "You can test and measure your performance.",
+          },
+          {
+            label:
+              "You can have segmentation to reach the public that is actively interested in you.",
+          },
+          {
+            label: "Real-time monitoring.",
+          },
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for Search Engine Marketing?",
+        data: [
+          {
+            label: "We help in scaling your business digitally.",
+          },
+          {
+            label:
+              "We are data-driven digital experts to customize marketing strategies.",
+          },
+          {
+            label: "We focus on exceeding sales goals and maximizing ROI.",
+          },
+          {
+            label:
+              "With our digital marketing strategy, we attract intent-based audiences with ROI driven pay-per-click campaigns.",
+          },
+          {
+            label: "We solidify your SERP position.",
+          },
+          {
+            label:
+              "We tailor social strategies designed to create meaningful experiences.",
+          },
+          {
+            label: "We reach out to masses with our marketing solutions.",
+          },
+        ],
+      },
+    ],
+  },
 
+  {
+    services: {
+      heading: "Digital Media",
+      description:
+        "Employ virtual resources ideate, feel, breathe and live digital & are born to deliver fruitful and effective results to increase the satisfaction of the clients, be it SEO, SEM, SMO, SMM or performance marketing, these people deliver.",
+      data: DIGITAL_MEDIA,
+    },
+    slug: "social-media-optimization",
+    bannerHeading: "Social Media Optimization ",
+    bannerDescription:
+      "Social media optimization (SMO) is the use of social media networks to manage and grow an organization’s message and online presence.",
+    img: socialMediaOptimization,
+    heading: "Social Media Optimization (SMO)",
+    description: [
+      {
+        label:
+          "Social media optimization (SMO) is the use of social media networks to manage and grow an organization’s message and online presence. As a digital marketing strategy, social media optimization can be used to increase awareness of new products and services, connect with customers, and mitigate potential damaging news.",
+      },
+      {
+        label:
+          "It’s been many years that search engine optimization (SEO) has been the standard method for digital marketing. Both SMO and SEO have similar goals in generating website traffic and to increase awareness for the company’s website. SMO directs the public from different social media platforms to the company’s website, where the public can access more information about the company and the brand.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Social Media Optimization",
+        data: [
+          {
+            label:
+              "It encourages and strengthens online presence of your brand.",
+          },
+          {
+            label:
+              "Your brand can connect and engage with your audiences on a deeper level.",
+          },
+          {
+            label: "It increases brand awareness on social media platforms.",
+          },
+          {
+            label: "It ensures and improves reach on social media platforms.",
+          },
+          {
+            label:
+              "It increases and improves quality of leads from social media.",
+          },
+          {
+            label:
+              "You can increase your sales and services through social channels.",
+          },
+          {
+            label: "It increases knowledge distribution amongst the public.",
+          },
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for Social Media Optimization?",
+        data: [
+          {
+            label:
+              "Employ Virtual experts use proven methods and create innovative methods to help you with the SMO.",
+          },
+          {
+            label:
+              "We help in gaining visibility amongst your target audiences.",
+          },
+          {
+            label:
+              "Your audiences engage with the informative, useful and creative content marketing.",
+          },
+          {
+            label:
+              "Your business gets positive and increased results on social media platforms.",
+          },
+          {
+            label:
+              "With our in-depth knowledge in SMO, it helps us synthesize more acceptable strategy for different social media platforms.",
+          },
+          {
+            label:
+              "We know how to reach masses and make them believe in your brand.",
+          },
+        ],
+      },
+    ],
+  },
+
+  {
+    services: {
+      heading: "Digital Media",
+      description:
+        "Employ virtual resources ideate, feel, breathe and live digital & are born to deliver fruitful and effective results to increase the satisfaction of the clients, be it SEO, SEM, SMO, SMM or performance marketing, these people deliver.",
+      data: DIGITAL_MEDIA,
+    },
+    slug: "social-selling",
+    bannerHeading: "Social Selling                  ",
+    bannerDescription:
+      "Social selling is building trusted relationship among your networks and nurture sales prospects.",
+    img: socialSelling,
+    heading: "Social selling",
+    description: [
+      {
+        label:
+          "Social selling is the process of developing relationships as part of the sales process. Today this often takes place via social networks such as LinkedIn, Twitter, Facebook, and Pinterest, but can take place either online or offline. Social selling is building trusted relationship among your networks and nurture sales prospects. This allows the sales team to attract right audiences and engage with prospective buyers in social and answering questions through thoughtful content interactions.",
+      },
+      {
+        label:
+          "Social selling can be a key marketing strategy for brands to meet its sales goals and vision. Social selling requires support of sales and marketing team to engage on digital social platforms and build relationships with potential clients. Based on these, sales can be closed rapidly than by using other marketing methods. One can use social selling for business-to-business and business-to-consumer marketing.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Social Selling",
+        data: [
+          {
+            label: "It increases brand visibility.",
+          },
+          {
+            label: "It generates high-quality leads.",
+          },
+          {
+            label: "It boosts website traffic.",
+          },
+          {
+            label:
+              "It benefits employees in building their personal brand by creating a variety of new contacts.",
+          },
+          {
+            label: "Sales cycle can be reduced.",
+          },
+          {
+            label:
+              "It helps in forming long term and deeper connections with clients.",
+          },
+          {
+            label: "More decision makers can see content.",
+          },
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for Social Selling?",
+        data: [
+          {
+            label:
+              "We believe in commitment driven results without compromising integrity of the project.",
+          },
+          {
+            label:
+              "We work towards helping businesses earn more customers and sales.",
+          },
+          {
+            label:
+              "Our expert team works towards brand growth and brand visibility.",
+          },
+          {
+            label:
+              "We work as partners with our clients to achieve the goal of marketing.",
+          },
+          {
+            label:
+              "We have proven work records and ethical practices that boost online traffic and conversions.",
+          },
+        ],
+      },
+    ],
+  },
+
+  {
+    services: {
+      heading: "Digital Media",
+      description:
+        "Employ virtual resources ideate, feel, breathe and live digital & are born to deliver fruitful and effective results to increase the satisfaction of the clients, be it SEO, SEM, SMO, SMM or performance marketing, these people deliver.",
+      data: DIGITAL_MEDIA,
+    },
+    slug: "social-media-marketing",
+    bannerHeading: "Social Media Marketing",
+    bannerDescription:
+      "Social media marketing (SMM) uses social media and social networks—like Facebook, Twitter, and Instagram—to market products and services, engage with existing customers, and reach new ones.",
+    img: socialMediaMarketing,
+    heading: "Social Media Marketing",
+    description: [
+      {
+        label:
+          "Social media marketing (SMM) uses social media and social networks—like Facebook, Twitter, and Instagram—to market products and services, engage with existing customers, and reach new ones. Social media marketing has established itself as an important part of any modern digital marketing strategy. With the passing days, social media platforms have grown to address large audiences and the need for having a right and proper social media marketing strategy have increased and is very crucial when building a successful business online.",
+      },
+      {
+        label:
+          "Social media marketing includes both free and paid methods of promotion and offers unique approaches to gain online tractions for the offerings. To engage and promote your offerings to the masses, you need to have an engaging content that your audiences enjoy and can relate to and this is irrespective of the social media platform. Social media platforms have always been a place for communications and engagements.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of  Social Media Marketing",
+        data: [
+          {
+            label: "It increases online traffic.",
+          },
+          {
+            label: "There will be global reach and visibility with SMM.",
+          },
+          {
+            label: "Positive and increased brand awareness.",
+          },
+          {
+            label: "More engaging content marketing.",
+          },
+          {
+            label: "More engaging customer service and experience.",
+          },
+          {
+            label: "Increase positive leads, sales and conversions.",
+          },
+          {
+            label: "Stay ahead of market competitions.",
+          },
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for Social Media Marketing?",
+        data: [
+          {
+            label: "Employ Virtual will maximize your ROI on social media.",
+          },
+          {
+            label:
+              "We believe in success from your authentic relationship with your customers.",
+          },
+          {
+            label:
+              "We use data driven methods to understand your social audiences to create and publish impactful content.",
+          },
+          {
+            label:
+              "We believe in designing relatable and memorable social experiences.",
+          },
+          {
+            label:
+              "We create a seamless journey for your customers while they move from social platform ads to your website or home page.",
+          },
+        ],
+      },
+    ],
+  },
+
+  {
+    services: {
+      heading: "Digital Media",
+      description:
+        "Employ virtual resources ideate, feel, breathe and live digital & are born to deliver fruitful and effective results to increase the satisfaction of the clients, be it SEO, SEM, SMO, SMM or performance marketing, these people deliver.",
+      data: DIGITAL_MEDIA,
+    },
+    slug: "campaign-execution",
+    bannerHeading: "Campaign Execution",
+    bannerDescription:
+      "Every marketer develops marketing strategy and campaign and creating an amazing marketing campaign is not the end",
+    img: campaignExecution,
+    heading: "Campaign Execution",
+    description: [
+      {
+        label:
+          "Every marketer develops marketing strategy and campaign and creating an amazing marketing campaign is not the end. One needs to have the vision to get it in front of your prospects. Today’s marketing campaign are well-planned mix of a variety of media communication with a single message about your company. Executing marketing campaign requires a proper and steady hand, careful planning and constant evaluation of potential and existing marketing techniques to understand what is working and what is not.",
+      },
+      {
+        label:
+          "Campaign execution needs clearly defined goals as the campaign will have to communicate the brands speech and how the brand would want the audiences to perceive them. Lot of brainstorming is needed. We need to have a target audience. The budget should be in place and in accordance with the campaign planning and execution. Lastly, the medium to be used for the campaign need to be decided.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Campaign Execution",
+        data: [
+          {
+            label: "We have clear campaign goals and objectives.",
+          },
+          {
+            label:
+              "With campaign planning, team members' roles and objectives can be clearly defined.",
+          },
+          {
+            label: "There will be coordinated planning of marketing campaigns.",
+          },
+          {
+            label: "Execution of marketing strategies.",
+          },
+          {
+            label: "There will be organized collaboration among team members.",
+          },
+          {
+            label: "Performance monitoring of marketing campaigns.",
+          },
+          {
+            label: "It keeps spending within the budget.",
+          },
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for Campaign Execution ?",
+        data: [
+          {
+            label: "Employ Virtual will be your growth partner.",
+          },
+          {
+            label: "We design and implement growth marketing framework.",
+          },
+          {
+            label:
+              "We have industry-leading experience and a dedicated team for campaign planning.",
+          },
+          {
+            label:
+              "We are partnered with numerous reputed brands across industries.",
+          },
+          {
+            label: "We are known for targeting the right audiences globally.",
+          },
+          {
+            label: "We have an industry-optimized set-up.",
+          },
+        ],
+      },
+    ],
+  },
+
+  {
+    services: {
+      heading: "Digital Media",
+      description:
+        "Employ virtual resources ideate, feel, breathe and live digital & are born to deliver fruitful and effective results to increase the satisfaction of the clients, be it SEO, SEM, SMO, SMM or performance marketing, these people deliver.",
+      data: DIGITAL_MEDIA,
+    },
+    slug: "campaign-planning",
+    bannerHeading: "Campaign Planning",
+    bannerDescription:
+      "Campaign plan is a plan to achieve an objective, usually of a large-scale over an extended period of time.",
+    img: campaign,
+    heading: "Campaign Planning",
+    description: [
+      {
+        label:
+          "Campaign plan is a plan to achieve an objective, usually of a large-scale over an extended period of time. It usually coordinates many activities and uses of resources involving multiple organizations. A campaign plan could also have subordinate objectives or intermediate milestones and is often broken down by phases. Effective campaign planning has to be engaging, shareable campaign concept and design that utilizes both online and offline marketing communications tools and digital channels.",
+      },
+      {
+        label:
+          "A proper campaign needs to have clear, realistic goals, best and appropriate strategy, sufficient details of the tactics and actions and a method to check that we are on right track with campaign planning. A campaign plan is used to maximize the reach of online campaigns and acquire new customers.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of  Campaign Planning",
+        data: [
+          {
+            label: "We have clear campaign goals and objectives.",
+          },
+          {
+            label:
+              "With campaign planning, team members' roles and objectives can be clearly defined.",
+          },
+          {
+            label: "There will be coordinated planning of marketing campaigns.",
+          },
+          {
+            label: "Execution of marketing strategies.",
+          },
+          {
+            label: "There will be organized collaboration among team members.",
+          },
+          {
+            label: "Performance monitoring of marketing campaigns.",
+          },
+          {
+            label: "It keeps spending within the budget.",
+          },
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for Campaign Planning?",
+        data: [
+          {
+            label: "Employ Virtual will be your growth partner.",
+          },
+          {
+            label: "We design and implement growth marketing framework.",
+          },
+          {
+            label:
+              "We have industry-leading experience and dedicated team for campaign planning.",
+          },
+          {
+            label:
+              "We are partnered with numerous reputed brands across industries.",
+          },
+          {
+            label: "We are known for targeting the right audiences globally.",
+          },
+          {
+            label: "We have industry optimized set-up.",
+          },
+        ],
+      },
+    ],
+  },
+
+  {
+    services: {
+      heading: "Digital Media",
+      description:
+        "Employ virtual resources ideate, feel, breathe and live digital & are born to deliver fruitful and effective results to increase the satisfaction of the clients, be it SEO, SEM, SMO, SMM or performance marketing, these people deliver.",
+      data: DIGITAL_MEDIA,
+    },
+    slug: "campaign-optimisation",
+    bannerHeading: "Campaign Optimisation",
+    bannerDescription:
+      "Campaign Optimisation is a part of marketing strategy wherein an advertiser takes to enhance performance from an advertising or marketing campaign.",
+    img: campaignOptimisation,
+    heading: "Campaign Optimisation",
+    description: [
+      {
+        label:
+          "Campaign Optimisation is a part of marketing strategy wherein an advertiser takes to enhance performance from an advertising or marketing campaign. By this advertiser gets the maximum results and impact from their advertising or marketing campaign. Optimization is not benefit for the marketer but also for the organizations and this can yield more profit, more insight into their data, specific patterns and the effect of their current activities.",
+      },
+      {
+        label:
+          "Optimisation is done for certain goals, such as website clicks, audience engagement, reach or lead conversions. Companies use digital marketing services to optimize their campaigns to ensure the best chance of success. Campaign optimisation includes basic elements like Return on Ad Spend (ROAS) to show the conversion rate in comparison to money spent on digital advertising. The next element is Cost Per Click to track the cost where there is overpaying per click. And the last element is Conversion Rate which shows how many visitors actually visited and converted.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of  Campaign Optimisation",
+        data: [
+          {
+            label:
+              "It drives traffic for your website by improving ad performance.",
+          },
+          {
+            label: "It increases Return on Investment (ROI).",
+          },
+          {
+            label: "It helps in developing cost-effective strategies.",
+          },
+          {
+            label: "You have customer segmentation with campaign optimisation.",
+          },
+          {
+            label: "Campaign optimisation is an ongoing process.",
+          },
+          {
+            label:
+              "We can compare thousands of potential combinations of budget allocation.",
+          },
+          {
+            label:
+              "With campaign optimisation, we can eliminate inefficient budget allocation.",
+          },
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for Campaign Optimisation?",
+        data: [
+          {
+            label:
+              "Our industry experts work on a set of keywords, which are modified over time and new sets of keywords can be incorporated into existing campaigns.",
+          },
+          {
+            label:
+              "The daily keyword bids keep on fluctuating and thus regular monitoring is required. With this, we can develop new keywords that otherwise might have been missed.",
+          },
+          {
+            label:
+              "Employ Virtual team will also work on advertisements that are related to the campaigns and require changes and updates based on need.",
+          },
+          {
+            label:
+              "We also work on changing the structure of the campaign. Over time, the structure of the campaign needs amendments to attract more customers.",
+          },
+        ],
+      },
+    ],
+  },
+
+  {
+    services: {
+      heading: "Digital Media",
+      description:
+        "Employ virtual resources ideate, feel, breathe and live digital & are born to deliver fruitful and effective results to increase the satisfaction of the clients, be it SEO, SEM, SMO, SMM or performance marketing, these people deliver.",
+      data: DIGITAL_MEDIA,
+    },
+    slug: "email-marketing",
+    bannerHeading: "E-mail Marketing",
+    bannerDescription:
+      "E-mail marketing is a form of direct marketing channel and it has become an integral part of digital marketing strategy.",
+    img: emailMarketing,
+    heading: "E-mail Marketing",
+    description: [
+      {
+        label:
+          "E-mail marketing is a form of direct marketing channel and it has become an integral part of digital marketing strategy. Whether you want to grow your brand or promote your products and services, email marketing is one of the most effective tools. The point to be noted here is that customer engagement and attention is very competitive and fierce. Every email that hits the inbox of a targeted customer must be interesting and valuable for the customer to open the email. This is not entirely the fault of customers as on daily basis our inboxes are flooded with automated emails that provide little to no value.",
+      },
+      {
+        label:
+          "Email marketing delivers the highest ROI over the time. It is always considered as a best investment in digital marketing. Almost, all retail and e-commerce increasingly depend on digital marketing to reach targeted leads, prospects and existing customers. With e-mail marketing you can reach out to the customer at the right time with personalised messages with the right offer. Also, it does not mean that since the customers have subscribed to your marketing emails will lead to conversions or sell of your products or services.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of   E-mail Marketing",
+        data: [
+          {
+            label:
+              "With email marketing, you can deliver personalized content.",
+          },
+          {
+            label: "You can boost leads and revenue.",
+          },
+          {
+            label: "Cost-effective campaigns can be generated.",
+          },
+          {
+            label: "Collect customer feedback through email marketing.",
+          },
+          {
+            label: "Flexible design.",
+          },
+          {
+            label: "Highly scalable.",
+          },
+          {
+            label: "It can be shared.",
+          },
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for  E-mail Marketing?",
+        data: [
+          {
+            label:
+              "Employ Virtual has an expert team with game-changing tools for game-changing results.",
+          },
+          {
+            label:
+              "Our email marketing tools make it easy to stand out in the crowd while the word gets out.",
+          },
+          {
+            label: "We have hundreds of email templates.",
+          },
+          {
+            label: "We have customer list growth tools.",
+          },
+          {
+            label: "There will be real-time reporting.",
+          },
+          {
+            label: "We have social posting checks as well.",
+          },
+        ],
+      },
+    ],
+  },
+
+  {
+    services: {
+      heading: "Digital Media",
+      description:
+        "Employ virtual resources ideate, feel, breathe and live digital & are born to deliver fruitful and effective results to increase the satisfaction of the clients, be it SEO, SEM, SMO, SMM or performance marketing, these people deliver.",
+      data: DIGITAL_MEDIA,
+    },
+    slug: "creative-and-content",
+    bannerHeading: "Creative & Content",
+    bannerDescription:
+      "Creative and content are the major part of digital marketing. It is a way to use different types of media that companies use to communicate and promote their products and services and their brand as well.",
+    img: creativeAndContent,
+    heading: "Creative & Content",
+    description: [
+      {
+        label:
+          "Creative and content are the major part of digital marketing. It is a way to use different types of media that companies use to communicate and promote their products and services and their brand as well. This includes variety of creatives (infographics, gifs etc) and contents like blogs, e-books, photos, and brochures, this also includes rich media assets such as promotional videos, digital ads and photography.",
+      },
+      {
+        label:
+          "Creative and content goes hand-in-hand and these are prepared by design team but brands may use specialized services of a creative content organization. Creative and content need to be high-quality that promotes the brand effectively and organizations can rely on a number of products and available software designed to support creative services and streamline workflow processes. It is very crucial to maintain the brand consistency throughout the creatives and content.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Creative & Content",
+        data: [
+          {
+            label: "It boosts SEO and website traffic.",
+          },
+          {
+            label: "It establishes expertise, authority, and trust.",
+          },
+          {
+            label: "It creates brand awareness and visibility.",
+          },
+          {
+            label: "Your brand shines through creative and content.",
+          },
+          {
+            label:
+              "You can connect with your audiences through multiple learning formats.",
+          },
+          {
+            label:
+              "There will be an increase in social media engagements and public relations.",
+          },
+          {
+            label:
+              "Through creative and content, you will be supporting your audiences throughout the conversion funnel.",
+          },
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for  Creative & Content?",
+        data: [
+          {
+            label:
+              "Employ Virtual expert creative consultants known for providing scalable production services.",
+          },
+          {
+            label: "We work for brands to turn them into credible brands.",
+          },
+          {
+            label:
+              "We deploy our creative excellence in creating a powerful and interactive visualization around your product.",
+          },
+          {
+            label:
+              "We spend time in understanding and identifying the key points and then create impactful creatives and content.",
+          },
+          {
+            label:
+              "Over the years, we have built trusted partnerships with brands from various industries.",
+          },
+        ],
+      },
+    ],
+  },
+
+  {
+    services: {
+      heading: "Digital Media",
+      description:
+        "Employ virtual resources ideate, feel, breathe and live digital & are born to deliver fruitful and effective results to increase the satisfaction of the clients, be it SEO, SEM, SMO, SMM or performance marketing, these people deliver.",
+      data: DIGITAL_MEDIA,
+    },
+    slug: "analytics-and-reporting",
+    bannerHeading: "Analytics & Reporting",
+    bannerDescription:
+      "Every marketing strategy needs tracking and measuring to know how your marketing efforts are at delivering you leads and sales.",
+    img: analytics,
+    heading: "Analytics & Reporting",
+    description: [
+      {
+        label:
+          "Every marketing strategy needs tracking and measuring to know how your marketing efforts are at delivering you leads and sales. And this can be done with analytics and reporting of your marketing campaigns. Organizations have to compile, organize and compare data to understand about your campaigns performance and for this we need effective ways to track data to learn and understand from it for change implementation.",
+      },
+      {
+        label:
+          "To optimize the performance of your digital marketing campaigns, analytics plays an important role in digital marketing. There are tools to manage and understand the analytics of all the data collected. Analytics can compare and analyse your marketing efforts to determine the exact return on investment you are getting from your budget and make necessary changes accordingly.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of  Analytics & Reporting",
+        data: [
+          {
+            label: "You can reach to your customers in a timely manner.",
+          },
+          {
+            label:
+              "You will be able to understand the users of your products and services.",
+          },
+          {
+            label: "Gain insights from real customer activity.",
+          },
+          {
+            label: "It helps in trend forecasting using customer behaviour.",
+          },
+          {
+            label: "We can understand the media spend and resource allocation.",
+          },
+          {
+            label:
+              "Brand will have strong focus over the market and market trends.",
+          },
+          {
+            label: "Resource prioritization.",
+          },
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for  Creative & Content?",
+        data: [
+          {
+            label:
+              "Our brand experts believe that marketing campaign decisions should be driven by data.",
+          },
+          {
+            label:
+              "We analyse and segment the data to better target and engage customers.",
+          },
+          {
+            label: "We analyse and guide to achieve the marketing ROI.",
+          },
+          {
+            label:
+              "Speed to action is our aim with marketing analytics and reporting.",
+          },
+          {
+            label: "Our data-driven approach is profitable for the brands.",
+          },
+        ],
+      },
+    ],
+  },
+
+  {
+    services: {
+      heading: "D2C Sales Management",
+      description:
+        "Employ virtual resources are leading marketing experts in eCommerce intelligence, sales optimisation, and marketplace management. These resources will take you from surviving to thriving.",
+      data: D2C_SALES_MANAGEMENT,
+    },
+    slug: "amazon-sales-management",
+    bannerHeading: "Amazon Sales Management",
+    bannerDescription:
+      "Build your dynamic website with virtual Java Developers from Employ Virtual.",
+    img: amazonSalesManagement,
+    heading: "Amazon Sales Management",
+    description: [
+      {
+        label:
+          "As we all know that Amazon is one of the world’s largest e-commerce platforms and if you have decided to go online for your products, then Amazon is the right platform for your e-commerce journey. There is Seller Central in the Amazon platform where sellers list their products, handle logistics, reply to customer messages, and set up your brand profile to sell on the marketplace. But the entire Amazon dashboard is tricky and you would need help to access the dashboard and understand its functionality.",
+      },
+      {
+        label:
+          "In Amazon sales management, the consultant can help you sort everything out, from setting up your initial Amazon seller account to filling and completing necessary brand registry requirements. They will also assist with taking your products Prime by setting your Amazon Prime seller account on your behalf. In other words, the consultant will provide seller support making cases and issues resolved as quickly as possible.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Amazon Sales Management",
+        data: [
+          {
+            label: "Get noticed with advertisements.",
+          },
+          {
+            label: "Reach out to customers across the globe.",
+          },
+          {
+            label: "Online orders management.",
+          },
+          {
+            label: "Increased efficiency.",
+          },
+          {
+            label: "Brand protection.",
+          },
+          {
+            label: "Hassle-free order shipments.",
+          },
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for Amazon Sales Management ?",
+        data: [
+          {
+            label:
+              "With our e-commerce services, your online website will be available round the clock.",
+          },
+          {
+            label:
+              "You will have better insights and reports on your e-commerce business.",
+          },
+          {
+            label: "We ensure better and increased reach to customer base.",
+          },
+          {
+            label:
+              "With our expert team, you can expand your business and e-commerce sales.",
+          },
+          {
+            label:
+              "You can devote your time to other essential business activities, while we take care of your strategic tasks.",
+          },
+        ],
+      },
+    ],
+  },
+
+  {
+    services: {
+      heading: "D2C Sales Management",
+      description:
+        "Employ virtual resources are leading marketing experts in eCommerce intelligence, sales optimisation, and marketplace management. These resources will take you from surviving to thriving.",
+      data: D2C_SALES_MANAGEMENT,
+    },
+    slug: "ecommerce-sales-management",
+    bannerHeading: "E-Commerce Sales Management",
+    bannerDescription:
+      "Build your dynamic website with virtual Java Developers from Employ Virtual.",
+    img: ecommerceSalesManagement,
+    heading: "E-Commerce Sales Management",
+    description: [
+      {
+        label:
+          "With billion online buyers, E-commerce websites and online shopping are increasing. Nowadays, everyone wants to save time and at the same time want to complete their shopping on e-commerce websites and online platforms. With the E-commerce, the traditional store concept is getting eliminated and allows businesses to expand their customer base. E-commerce always offers the business to reach more customers than our retail service or physical store. Due to this, many retailers with physical stores have come up with their online stores.",
+      },
+      {
+        label:
+          "E-commerce and online shopping are booming, but it also requires proper management to get the best possible results. This is where it becomes tricky; it is not easy to manage all the customers and their data. In this you will require help and assistance for sure. That is when E-commerce Sales Management comes into picture.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of  E-commerce Sales Management",
+        data: [
+          {
+            label: "Reduction of workload for the online store.",
+          },
+          {
+            label: "Time and cost saving.",
+          },
+          {
+            label: "Knowledge and skill gap can be managed.",
+          },
+          {
+            label: "Reduction of monotonous activities.",
+          },
+          {
+            label: "Can focus on essential services.",
+          },
+          {
+            label: "Manage online orders.",
+          },
+          {
+            label: "Increased efficiency.",
+          },
+        ],
+      },
+      {
+        heading:
+          "Why choose Employ Virtual for   E-commerce Sales Management ?",
+        data: [
+          {
+            label:
+              "With our e-commerce services, your online website will be available round the clock.",
+          },
+          {
+            label:
+              "You will have better insights and reports on your e-commerce business.",
+          },
+          {
+            label: "We ensure better and increased reach to customer base.",
+          },
+          {
+            label:
+              "With our expert team, you can expand your business and e-commerce sales.",
+          },
+          {
+            label:
+              "You can devote your time to other essential business activities, while we take care of your strategic tasks.",
+          },
+        ],
+      },
+    ],
+  },
+
+  {
+    services: {
+      heading: "D2C Sales Management",
+      description:
+        "Employ virtual resources are leading marketing experts in eCommerce intelligence, sales optimisation, and marketplace management. These resources will take you from surviving to thriving.",
+      data: D2C_SALES_MANAGEMENT,
+    },
+    slug: "ecommerce-sales-management",
+    bannerHeading: "E-Commerce Sales Management",
+    bannerDescription:
+      "Build your dynamic website with virtual Java Developers from Employ Virtual.",
+    img: ecommerceSalesManagement,
+    heading: "E-Commerce Sales Management",
+    description: [
+      {
+        label:
+          "With billion online buyers, E-commerce websites and online shopping are increasing. Nowadays, everyone wants to save time and at the same time want to complete their shopping on e-commerce websites and online platforms. With the E-commerce, the traditional store concept is getting eliminated and allows businesses to expand their customer base. E-commerce always offers the business to reach more customers than our retail service or physical store. Due to this, many retailers with physical stores have come up with their online stores.",
+      },
+      {
+        label:
+          "E-commerce and online shopping are booming, but it also requires proper management to get the best possible results. This is where it becomes tricky; it is not easy to manage all the customers and their data. In this you will require help and assistance for sure. That is when E-commerce Sales Management comes into picture.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of  E-commerce Sales Management",
+        data: [
+          {
+            label: "Reduction of workload for the online store.",
+          },
+          {
+            label: "Time and cost saving.",
+          },
+          {
+            label: "Knowledge and skill gap can be managed.",
+          },
+          {
+            label: "Reduction of monotonous activities.",
+          },
+          {
+            label: "Can focus on essential services.",
+          },
+          {
+            label: "Manage online orders.",
+          },
+          {
+            label: "Increased efficiency.",
+          },
+        ],
+      },
+      {
+        heading:
+          "Why choose Employ Virtual for   E-commerce Sales Management ?",
+        data: [
+          {
+            label:
+              "With our e-commerce services, your online website will be available round the clock.",
+          },
+          {
+            label:
+              "You will have better insights and reports on your e-commerce business.",
+          },
+          {
+            label: "We ensure better and increased reach to customer base.",
+          },
+          {
+            label:
+              "With our expert team, you can expand your business and e-commerce sales.",
+          },
+          {
+            label:
+              "You can devote your time to other essential business activities, while we take care of your strategic tasks.",
+          },
+        ],
+      },
+    ],
+  },
+
+  {
+    services: {
+      heading: "D2C Sales Management",
+      description:
+        "Employ virtual resources are leading marketing experts in eCommerce intelligence, sales optimisation, and marketplace management. These resources will take you from surviving to thriving.",
+      data: D2C_SALES_MANAGEMENT,
+    },
+    slug: "inventory-management",
+    bannerHeading: "Inventory Management",
+    bannerDescription:
+      "Build your dynamic website with virtual Java Developers from Employ Virtual.",
+    img: inventory,
+    heading: "Inventory Management",
+    description: [
+      {
+        label:
+          "To be a successful and known ecommerce retailer, few things apart from other is crucial like functional and engaging website, a good and reliable shipping strategy and visibility into the inventory counts and locations. Many a times, online retailers have a false view of the inventory that can cost them considerably and that is where Inventory Management solution takes up its shape.",
+      },
+      {
+        label:
+          "Ecommerce Inventory Management helps online retailers grow in every aspect of their online businesses. This system enables online retailers in making informed decisions on streamlining their warehouse operations and financial makeovers. Intelligent inventory management is backbone of any online retail business. It functions in frontend and backend of your operations. On the backend, it’s an important part of the supply chain, acting as bridge between suppliers and customers.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of  Inventory Management",
+        data: [
+          {
+            label: "Better inventory accuracy.",
+          },
+          {
+            label: "Reduced risk of overselling.",
+          },
+          {
+            label: "Cost savings.",
+          },
+          {
+            label: "Can avoid stockouts and excess stocks.",
+          },
+          {
+            label: "Clear and greater insights.",
+          },
+          {
+            label: "Better terms with vendors and suppliers.",
+          },
+          {
+            label: "More productivity.",
+          },
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for Inventory Management ?",
+        data: [
+          {
+            label:
+              "With our industry expert teams, you can understand inventory levels across business.",
+          },
+          {
+            label: "We help you with manual tasks automations.",
+          },
+          {
+            label: "Data-driven decision making.",
+          },
+          {
+            label: "Greater visibility with real time data.",
+          },
+          {
+            label: "Improved business forecasting.",
+          },
+          {
+            label: "Uninterrupted production.",
+          },
+          {
+            label: "Optimization of inventory.",
+          },
+        ],
+      },
+    ],
+  },
+
+  {
+    services: {
+      heading: "D2C Sales Management",
+      description:
+        "Employ virtual resources are leading marketing experts in eCommerce intelligence, sales optimisation, and marketplace management. These resources will take you from surviving to thriving.",
+      data: D2C_SALES_MANAGEMENT,
+    },
+    slug: "manage-discount-and-sales",
+    bannerHeading: "Manage Discount & Sales",
+    bannerDescription:
+      "Build your dynamic website with virtual Java Developers from Employ Virtual.",
+    img: inventory,
+    heading: "Manage Discount & Sales",
+    description: [
+      {
+        label:
+          "Pricing, offers, discounts and sales are important attributes of your online retail business. These are so much crucial that right type and right combination of all these qualities can maximize sales, prevent customers from abandoning their shopping carts and can encourage prospective customers to try the brand. At the same time, wrong type of all these can have adverse consequences, including but not limited to lowered profits and devalued brand.",
+      },
+      {
+        label:
+          "Many ecommerce businesses lean heavily on discount pricing to help carry their brand through difficult economic times or to drive customer conversions. This is a clear picture immediately after pandemic as consumers have become more mindful of where they spend their money due to a drastic shift in their purchasing power, which in turn leading the consumers to move to less expensive brands and products to save money.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Manage Discount & Sales",
+        data: [
+          {
+            label: "Increased sales.",
+          },
+          {
+            label: "Effective brand awareness.",
+          },
+          {
+            label: "Boosting brand reputation.",
+          },
+          {
+            label: "Increased customer loyalty.",
+          },
+          {
+            label: "Meeting sales objectives.",
+          },
+          {
+            label: "It gives a competitive edge.",
+          },
+          {
+            label: "Steady level of inventory.",
+          },
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for Manage Discount & Sales ?",
+        data: [
+          {
+            label:
+              "We have expertise in developing, managing and sustaining discount and sales for e-commerce businesses.",
+          },
+          {
+            label: "We make all aspects meaningful for business and customers.",
+          },
+          {
+            label: "We believe in making consumer important.",
+          },
+          {
+            label:
+              "We have rich diversified experience which adds flavours to these aspects.",
+          },
+          {
+            label:
+              "We also work on coupons for Amazon platform for your product and opt-ins on Flipkart platform.",
+          },
+        ],
+      },
+    ],
+  },
 ];
