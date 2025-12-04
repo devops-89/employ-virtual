@@ -14,7 +14,10 @@ const VirtualCard = ({
 }: VIRTUAL_CARD_PROPS) => {
   return (
     <Box>
-      <Image src={img || hire} alt="" width={100} />
+      {img && (
+
+      <Image src={img} alt="" width={100} />
+      )}
       <Typography
         sx={{ mt: 2, fontFamily: poppins.style.fontFamily, fontWeight: 700 }}
       >

@@ -60,6 +60,44 @@ import { CLOUD_INFRASTRUCTURE_DATA } from "./infrastructure-cloud-data";
 import { BRAND_SOLUTION } from "./brand-solution";
 import { DIGITAL_MEDIA } from "./digital-media";
 import { D2C_SALES_MANAGEMENT } from "./sales-management";
+import { STAFFING_DATA } from "./staff";
+import { WEBSITE } from "./website-develoment";
+import { AR } from "./AR";
+import staffing from "@/hire/Images ev/saffing.jpg"
+import campaigning from "@/hire/Images ev/campaigning.jpg"
+import captive from "@/hire/Images ev/captive.jpg"
+import catalogue from "@/hire/Images ev/catalogue.jpg"
+import complete from "@/hire/Images ev/complete.jpg"
+import creatives from "@/hire/Images ev/creatives.jpg"
+import ecommerce from "@/hire/Images ev/ecommerce.jpg"
+import full from "@/hire/Images ev/full.jpg"
+import managed from "@/hire/Images ev/managed.jpg"
+import onsite from "@/hire/Images ev/onsite.jpg"
+import partner from "@/hire/Images ev/partner.jpg"
+import purpose from "@/hire/Images ev/purpose.jpg"
+import recruitment from "@/hire/Images ev/recruitment.jpg"
+import staff from "@/hire/Images ev/staff.jpg"
+import statement from "@/hire/Images ev/statement.jpg"
+import web from "@/hire/Images ev/web.jpg"
+import progressive from "@/hire/Images ev/progressive.jpg"
+import audioo from "@/hire/Images ev/audioo.jpg";
+import vr from "@/hire/Images ev/vr.jpg"
+import direct from "@/hire/Images ev/direct.jpg"
+import ar from "@/hire/Images ev/ar.jpg"
+import modelling from "@/hire/Images ev/modelling.jpg"
+import content from "@/hire/Images ev/content.jpg"
+import micro from "@/hire/Images ev/micro.jpg"
+import portal from "@/hire/Images ev/portal.jpg"
+import mobile from "@/hire/Images ev/mobile.jpg"
+import business from "@/hire/Images ev/business.jpg"
+import payroll from "@/hire/Images ev/payroll.jpg"
+import transitioning from "@/hire/Images ev/transitioning.jpg"
+import listing from "@/hire/Images ev/listing.jpg"
+import brand from "@/hire/Images ev/brand.jpg"
+import error from "@/hire/Images ev/error.jpg"
+import customised from "@/hire/Images ev/customised.jpg"
+import market from "@/hire/Images ev/market.jpg"
+
 export const HIRE_DEVELOPER_DATA: DETAILS_DATA[] = [
   {
     slug: "hire-java-developer",
@@ -5116,4 +5154,2790 @@ export const HIRE_DEVELOPER_DATA: DETAILS_DATA[] = [
       },
     ],
   },
+  {
+    services: {
+      heading: "D2C Sales Management",
+      description:
+        "Employ virtual resources are leading marketing experts in eCommerce intelligence, sales optimisation, and marketplace management. These resources will take you from surviving to thriving.",
+      data: D2C_SALES_MANAGEMENT,
+    },
+    slug: "listing-setup-and-optimization",
+    bannerHeading: "Listing Setup & Optimization",
+    bannerDescription:
+      "Build your dynamic website with virtual Java Developers from Employ Virtual.",
+    img: listing,
+    heading: "Listing Setup & Optimization",
+    description: [
+      {
+        label:
+          "Product listing is simply the pages that display your products, typically within a specific category or filter. The product listings are usually the result of a search, which can be from browser or on a website for a specific product type. For example, if a user searches for “winter socks for men”, the product listing pages will display all products that contain these keywords. Many digital gurus neglect product listing pages when it comes to SEO with an assumption that search engine optimization is only reserved for blogs and main webpages. But this is not true and product listing pages do deserve your SEO attention and this can lead to contribute to store traffic and ranking in SEO.",
+      },
+      {
+        label:
+          "Similarly, product listing optimization is a process to help a product rank high in the search results. If it’s done in a right way, it can lead to higher traffic and conversions. There are few essential elements in a product listing. There should be a well-constructed and precise title that tells the shoppers what your product is, enhances its searchability and boosts its visibility. The title should include brand, model and specifications. There should be product images, product descriptions.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Listing Setup & Optimization",
+        data: [
+          {
+            label: "To simplify the task of search engines.",
+          },
+          {
+            label: "To analyse the product pages by search engines..",
+          },
+          {
+            label: "Defining conditions for the content to become more informative.",
+          },
+          {
+            label: "Improves keyword matching metrics.",
+          },
+          {
+            label: "Increases competitiveness of the website.",
+          },
+          {
+            label: "Increases quality of internal linking.",
+          },
+          {
+            label: "It forms user-friendly resource navigation system.",
+          },
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for Listing Setup & Optimization?",
+        data: [
+          {
+            label:
+              "With our industry expert teams, you can understand product listing pages and its attributes.",
+          },
+          {
+            label: "We help you with setting up the product listing pages and optimization.",
+          },
+          {
+            label: "Data-driven decision making.",
+          },
+          {
+            label:
+              "Greater visibility with real time data.",
+          },
+          {
+            label:
+              "Improved business forecasting",
+          },
+           {
+            label:
+              "Uninterrupted production and sales.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    services: {
+      heading: "D2C Sales Management",
+      description:
+        "Employ virtual resources are leading marketing experts in eCommerce intelligence, sales optimisation, and marketplace management. These resources will take you from surviving to thriving.",
+      data: D2C_SALES_MANAGEMENT,
+    },
+    slug: "catalogue-management",
+    bannerHeading: "Catalogue Management",
+    bannerDescription:
+      "Build your dynamic website with virtual Java Developers from Employ Virtual.",
+    img: catalogue,
+    heading: "Catalogue Management",
+    description: [
+      {
+        label:
+          "The actual definition of a catalog is a complete list of products in a systematic way. Having this type of organization has proofed to be fundamental and effective to selling and same is being continued in this ecommerce era. This combination of organizing catalogs with ecommerce management applications is known as ecommerce catalog management.",
+      },
+      {
+        label:
+          "Over the decades, we have noticed changes in catalogs and how they have evolved over the time. Its combination of fashion and function, which will speak thousands of words in images, descriptions. Today, instead of printed paper catalog, we have digital catalog on different online platforms. Even though, the catalog is available in digital form, sellers need to provide accurate product details to build the brand, attract and engage customers and to provide positive customer experience.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Catalogue Management",
+        data: [
+          {
+            label: "Centralized repository for all product data.",
+          },
+          {
+            label: "Easy access to product data for business users.",
+          },
+          {
+            label: "You can access and upload ready product data sheets for different marketplaces.",
+          },
+          {
+            label: "We can transform images according to different marketplaces.",
+          },
+          {
+            label: "We can classify and categorize products.",
+          },
+          {
+            label: "Reduced overhead cost.",
+          },
+          {
+            label: "Reduced risk of data entry errors.",
+          },
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for Catalogue Management?",
+        data: [
+          {
+            label:
+              "We simplify and streamline product information for your e-commerce brand.",
+          },
+          {
+            label: "We provide data entry services of your supplier information, product description writing, product data updating and image processing.",
+          },
+          {
+            label: "We have seasoned e-commerce specialist team managing e-commerce development and online store management.",
+          },
+          {
+            label:
+              "We have robust infrastructure with state-of-the-art tools and latest technologies.",
+          },
+          {
+            label:
+              "We are a value conscious service providers with years of experience in e-commerce management.",
+          },
+        ],
+      },
+    ],
+  },
+   {
+    services: {
+      heading: "D2C Sales Management",
+      description:
+        "Employ virtual resources are leading marketing experts in eCommerce intelligence, sales optimisation, and marketplace management. These resources will take you from surviving to thriving.",
+      data: D2C_SALES_MANAGEMENT,
+    },
+    slug: "campaign-management",
+    bannerHeading: "Campaign Management",
+    bannerDescription:
+      "Build your dynamic website with virtual Java Developers from Employ Virtual.",
+    img: campaigning,
+    heading: "Campaign Management",
+    description: [
+      {
+        label:
+          "In constantly changing and increasingly competitive environment, online retailers come across tough competition and every online store wants to increase traffic, high conversion rate, less churn rate. And even after putting together all the applicable strategies, it can become challenging to decide on the marketing strategy.",
+      },
+      {
+        label:
+          "Ecommerce campaigns need to have clear product images with proper lighting, where product features are visible. Nowadays, on Amazon and other major online market places, videos are also added to showcase the product features, usage etc. Ecommerce campaigns are important for brand visibility, customer engagement which ultimately should lead to purchase action. This thought process starts with thinking about any awesome brand, product, or service and its related awareness in form of its marketing campaign. It’s whether we saw an ad on digital media, read a promotional email in inbox, or a simple recommendation from friend, an effective campaign is ultimately at the root of purchase.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Campaign Management",
+        data: [
+          {
+            label: "Clear campaign goals and objectives.",
+          },
+          {
+            label: "Roles of every employee involved is clearly defined.",
+          },
+          {
+            label: "Coordinated planning of marketing campaigns.",
+          },
+          {
+            label: "There will be systematic execution of marketing strategies.",
+          },
+          {
+            label: "Proper organized collaboration among team members.",
+          },
+          {
+            label: "Schedule is set and maintained.",
+          },
+          {
+            label: "Monitoring and reporting of performance of marketing campaigns.",
+          },
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for Campaign Management?",
+        data: [
+          {
+            label:
+              "We have a team of business experts that can guide you in creating a roadmap for your campaign.",
+          },
+          {
+            label: "We have innovative technology and mechanisms for campaign management.",
+          },
+          {
+            label: "Our expert team with prodigious knowledge manages your campaign for your brand.",
+          },
+          {
+            label:
+              "We plan and execute your campaigns.",
+          },
+          {
+            label:
+              "We monitor, measure and prepare a report on campaign effectiveness.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    services: {
+      heading: "D2C Sales Management",
+      description:
+        "Employ virtual resources are leading marketing experts in eCommerce intelligence, sales optimisation, and marketplace management. These resources will take you from surviving to thriving.",
+      data: D2C_SALES_MANAGEMENT,
+    },
+    slug: "brand-protection",
+    bannerHeading: "Brand Protection",
+    bannerDescription:
+      "Build your dynamic website with virtual Java Developers from Employ Virtual.",
+    img: brand,
+    heading: "Brand Protection",
+    description: [
+      {
+        label:
+          "As the name suggest, Brand protection is pretty straightforward. It’s a collective of processes and activities a brand needs to undergo to ensure that your company suffers minimal damage due to counterfeiting. You can do this by registering your brand trademark and battle unauthorized websites; brand success requires a concrete strategy and sound technological capabilities to detect and mitigate incidents. In today’s world, brand protection requires lawsuits and publicity to expose the counterfeits. So, brand protection is not only for protection the brand image but also its customer who might get tricked into believing a product is genuine.",
+      },
+      {
+        label:
+          "Counterfeits are persistent and its elimination cannot happen in one go. It is an ongoing process that does not end with one counterfeit. So, your brand protection isn’t what your brand should be but it’s how customers perceive it online. Even if your services are reliable, in reality counterfeiters can all too quickly disillusion unknowing customers. It is recommended that cyber monitoring should be in place to manage brand protection and brand abuse.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Brand Protection",
+        data: [
+          {
+            label: "Brand protection ensures customers trusts.",
+          },
+          {
+            label: "Security and risk management.",
+          },
+          {
+            label: "Less dependency on third parties.",
+          },
+          {
+            label: "Verification of brands becomes easier.",
+          },
+          {
+            label: "No usability issues.",
+          },
+          {
+            label: "Brand awareness.",
+          },
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for Brand Protection?",
+        data: [
+          {
+            label:
+              "Our industry expert provides ultimate solution for brand authentication, impossible to copy.",
+          },
+          {
+            label: "Unique information is integrated in secured material.",
+          },
+          {
+            label: "We have an in-depth knowledge of the complex problems faced by businesses from regulators, enforcement agencies, other businesses and consumers.",
+          },
+          {
+            label:
+              "We drive our innovative mindset, ensuring that our services are delivered on our core values.",
+          },
+          {
+            label:
+              "We strive on transparency, trust and ethics to manage any project.",
+          },
+        ],
+      },
+    ],
+  },
+    {
+    services: {
+      heading: "D2C Sales Management",
+      description:
+        "Employ virtual resources are leading marketing experts in eCommerce intelligence, sales optimisation, and marketplace management. These resources will take you from surviving to thriving.",
+      data: D2C_SALES_MANAGEMENT,
+    },
+    slug: "error-management",
+    bannerHeading: "Error Management",
+    bannerDescription:
+      "Build your dynamic website with virtual Java Developers from Employ Virtual.",
+    img: error,
+    heading: "Error Management",
+    description: [
+      {
+        label:
+          "Learning from errors is essential for human development. Learning in business context is best when mind-set of acceptance of human error and experimental trials lead to successful innovation. Error management is the process of identifying, monitoring and reporting errors in a software solutions, mobile applications, or websites to assist and help organizations streamline the process of development and deployment. The ultimate goal of error management is to know the underlying cause of errors, which in turn make possible for the IT teams to permanently correct the issue for all users.",
+      },
+      {
+        label:
+          "Better error management always fosters innovation and learning. Error management has always been the key component of software development. This has increased with increasing expectation of employees and end-users for cloud servers and mobile applications that supports always on-connections and real-time interactions, which means organizations cannot afford to wait for right time to eliminate errors.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Error Management",
+        data: [
+          {
+            label: "We can reduce customer churn.",
+          },
+          {
+            label: "Critical events can be captured.",
+          },
+          {
+            label: "Reliable analysis can be created.",
+          },
+          {
+            label: "Development speed can be increased.",
+          },
+          {
+            label: "Root cause analysis can be done.",
+          },
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for Error Management?",
+        data: [
+          {
+            label:
+              "We are known for providing critical data management services.",
+          },
+          {
+            label: "Our team of experts and analyst review RCA of errors during development and deployment.",
+          },
+          {
+            label: "Fixes for the errors are strategically placed without affecting the core application.",
+          },
+          {
+            label:
+              "We follow strict data protection rules to protect data from all sort of misuse.",
+          },
+        
+        ],
+      },
+    ],
+  },
+   {
+    services: {
+      heading: "D2C Sales Management",
+      description:
+        "Employ virtual resources are leading marketing experts in eCommerce intelligence, sales optimisation, and marketplace management. These resources will take you from surviving to thriving.",
+      data: D2C_SALES_MANAGEMENT,
+    },
+    slug: "complete-reporting",
+    bannerHeading: "Complete Reporting",
+    bannerDescription:
+      "Build your dynamic website with virtual Java Developers from Employ Virtual.",
+    img: complete,
+    heading: "Complete Reporting",
+    description: [
+      {
+        label:
+          "Every business strategy needs tracking and measuring to know how your efforts are at delivering you the business leads and sales. And this can be done with reporting of each business activities. Organizations have to compile, organize and compare data to understand about your business performance and for this we need effective ways to track data to learn and understand from it for change implementation.",
+      },
+      {
+        label:
+          "To optimize the performance, reporting plays an important role in for every company. There are tools to manage and understand the reporting of all the data generated from each business vertical. Reporting can compare and analyse your marketing efforts to determine the exact return on investment you are getting from your budget and make necessary changes accordingly.",
+      },
+    ],
+    details_list: [
+      {
+        heading: " Benefits of Complete Reporting",
+        data: [
+          {
+            label: "You can reach to your customers in a timely manner.",
+          },
+          {
+            label: "You will be able to understand the users of your products and services.",
+          },
+          {
+            label: "Gain insights from real customer activity.",
+          },
+          {
+            label: "It helps in trend forecasting using customer behaviour.",
+          },
+          {
+            label: "We can understand the media spend and resource allocation.",
+          },
+          {
+            label: "Brand will have strong focus over the market and market trends.",
+          },
+          {
+            label: "Resource prioritization.",
+          },
+        ],
+      },
+      {
+        heading: " Why choose Employ Virtual for Complete Reporting?",
+        data: [
+          {
+            label:
+              "Our brand experts believe that marketing campaigns decisions should be driven by data.",
+          },
+          {
+            label: "We analyse and segment the data to better target and engage customers.",
+          },
+          {
+            label: "We analyse and guide to achieve the marketing ROI.",
+          },
+          {
+            label:
+              "Speed to action is our aim with marketing analytics and reporting.",
+          },
+           {
+            label:
+              "Our data-driven approach is profitable for the brands.",
+          },
+        
+        ],
+      },
+    ],
+  },
+  {
+    services: {
+      heading: "D2C Sales Management",
+      description:
+        "Employ virtual resources are leading marketing experts in eCommerce intelligence, sales optimisation, and marketplace management. These resources will take you from surviving to thriving.",
+      data: D2C_SALES_MANAGEMENT,
+    },
+    slug: "a-plus-content",
+    bannerHeading: "A+ Content",
+    bannerDescription:
+      "Build your dynamic website with virtual Java Developers from Employ Virtual.",
+    img: content,
+    heading: "A+ Content",
+    description: [
+      {
+        label:
+          "A+ content refers to a listing’s product description of brand owners which allows them to tell their brand story with enhanced image and video content. It will include comparison charts of competitors, high-quality images, HD videos. A+ content is an advanced feature for brand sellers to post premium and valuable content on their product listing. This in turn allows to describe products in a different way. You can describe the brand, add new and improved images and can add additional blocks of texts.",
+      },
+      {
+        label:
+          "With A+ content, online businesses can have most effective and important ways to increase customer trust, boost conversion rates and acquire higher ranking on SERPs. The idea behind using enriched multimedia content is to enhance the user experience which drives high conversions and huge traffic to the listings.",
+      },
+    ],
+    details_list: [
+      {
+        heading: " Benefits of A+ Content",
+        data: [
+          {
+            label: "Higher conversion rate.",
+          },
+          {
+            label: "More customer reviews.",
+          },
+          {
+            label: "Less cancellation and return of products.",
+          },
+          {
+            label: "ROI increases and ACOS reduces.",
+          },
+          {
+            label: "It brings focus to your product.",
+          },
+          {
+            label: "It enhances search engine search rank.",
+          },
+          
+        ],
+      },
+      {
+        heading: " Why choose Employ Virtual for A+ Content?",
+        data: [
+          {
+            label:
+              "We empower brands to win in the competitive digital market.",
+          },
+          {
+            label: "We look forward to change the way an industry works by incorporating our expertise and knowledge.",
+          },
+          {
+            label: "We believe that with the growing digital world, digital touchpoints also need evolution to engage customers with brands.",
+          },
+          {
+            label:
+              "We execute commerce strategies fast as the e-commerce market is ever changing.",
+          },
+           {
+            label:
+              "With the A+ content you can engage your shoppers everywhere.",
+          },
+        
+        ],
+      },
+    ],
+  },
+   {
+    services: {
+      heading: "D2C Sales Management",
+      description:
+        "Employ virtual resources are leading marketing experts in eCommerce intelligence, sales optimisation, and marketplace management. These resources will take you from surviving to thriving.",
+      data: D2C_SALES_MANAGEMENT,
+    },
+    slug: "creatives-for-ecommerce",
+    bannerHeading: "Creatives For E-commerce",
+    bannerDescription:
+      "Build your dynamic website with virtual Java Developers from Employ Virtual.",
+    img: creatives,
+    heading: "Creatives For E-commerce",
+    description: [
+      {
+        label:
+          "E-commerce creatives is the most fundamental of all the job titles in e-commerce. No e-commerce company can thrive with bad design of website, inconclusive or low quality of product descriptions or unengaging ad with poor content with no relevance to brand. E-commerce creatives makes sure that all these are taken care of and are top-notch. E-commerce creatives does the job of copywriting and design related activities such as creating product descriptions, website copy, or ad campaigns. So, in this many people like product copywriter, digital marketing specialist and graphic designer are involved to achieve creatives for e-commerce.",
+      },
+      {
+        label:
+          "With hundreds and thousands of contents produced every second to engage audiences, it seems an ongoing war of truly creative content. Social media content, short videos and messaging are ways the customers discover new brands. And it is not always that these contents are created by the brands only, it is created by their followers, influencers, customers. Creatives help e-commerce brands stand out in this ongoing war.",
+      },
+    ],
+    details_list: [
+      {
+        heading: " Benefits of Creatives for E-commerce",
+        data: [
+          {
+            label: "Creatives sell an idea.",
+          },
+          {
+            label: "It helps to stand out in the crowd.",
+          },
+          {
+            label: "It evokes the emotional feature.",
+          },
+          {
+            label: "It builds brand recognition.",
+          },
+          {
+            label: "Creativity means originality.",
+          },
+          {
+            label: "Value proposition.",
+          },
+          
+        ],
+      },
+      {
+        heading: " Why choose Employ Virtual for Creatives for E-commerce?",
+        data: [
+          {
+            label:
+              "We empower brands to win in the competitive digital market.",
+          },
+          {
+            label: "We look forward to change the way an industry works by incorporating our expertise and knowledge.",
+          },
+          {
+            label: "We believe that with the growing digital world, digital touchpoints also need evolution to engage customers with brands.",
+          },
+          {
+            label:
+              "We execute commerce strategies fast as the e-commerce market is ever changing.",
+          },
+           {
+            label:
+              "With the creatives you can engage your shoppers everywhere.",
+          },
+        
+        ],
+      },
+    ],
+  },
+  {
+    services: {
+      heading: "D2C Sales Management",
+      description:
+        "Employ virtual resources are leading marketing experts in eCommerce intelligence, sales optimisation, and marketplace management. These resources will take you from surviving to thriving.",
+      data: D2C_SALES_MANAGEMENT,
+    },
+    slug: "partners-value-added-service-management",
+    bannerHeading: "Partners Value Added Service Management",
+    bannerDescription:
+      "Build your dynamic website with virtual Java Developers from Employ Virtual.",
+    img: partner,
+    heading: "Partners Value Added Service Management",
+    description: [
+      {
+        label:
+          "In today’s competitive world, all consumers have ample number of providers available when it comes to purchasing any product or service and at the same time the providers need to stand out in the crowd to have an array of loyal consumers.  So how does an online business stay competitive and appeal to their consumers when their consumers can switch to a multitude of competitors who all offer a similar product or service? It’s by adding value to this consumer-brand bond and this is possible by offering additional services, which is over and above that will be a value-add to the consumers and will compliment your brand’s core values.",
+      },
+      {
+        label:
+          "A value-added service should have oneness with the brand offerings and services, either be able to generate additional revenue by increasing sales for the brand or by contributing in increasing in consumer retention. Value-added service itself is profitable as the return-on-investment of offering the product or service pays for the cost of the product or service or it is funded by offering it at a reasonable charge.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Partners Value Added Service Management",
+        data: [
+          {
+            label: "Superior customer service.",
+          },
+          {
+            label: "Improved pricing.",
+          },
+          {
+            label: "Increased service availability.",
+          },
+          {
+            label: "Optimized investment/cost.",
+          },
+          {
+            label: "Enhanced growth of revenue.",
+          },
+          {
+            label: "Faster time to market.",
+          },
+          {
+            label: "Loyalty offerings.",
+          },
+          
+        ],
+      },
+      {
+        heading: " Why choose Employ Virtual for Partners Value Added Service Management?",
+        data: [
+          {
+            label:
+              "We have a team of business experts that can guide you in planning and executing value added services.",
+          },
+          {
+            label: "We have innovative technology and mechanisms to manage VAS.",
+          },
+          {
+            label: "Our expert team with prodigious knowledge manages VAS for your brand.",
+          },
+          {
+            label:
+              "We monitor, measure and prepare a report on VAS effectiveness.",
+          },
+        
+        
+        ],
+      },
+    ],
+  },
+   {
+    services: {
+      heading: "D2C Sales Management",
+      description:
+        "Employ virtual resources are leading marketing experts in eCommerce intelligence, sales optimisation, and marketplace management. These resources will take you from surviving to thriving.",
+      data: D2C_SALES_MANAGEMENT,
+    },
+    slug: "purpose-driven-campaigning",
+    bannerHeading: "Purpose Driven Campaigning",
+    bannerDescription:
+      "Build your dynamic website with virtual Java Developers from Employ Virtual.",
+    img: campaigning,
+    heading: "Purpose Driven Campaigning",
+    description: [
+      {
+        label:
+          "The common theory behind purchase from a business is that consumers increasingly want to buy from people and businesses that they identify with, who have the same values and who they actually like. This is the same strategy that is being followed in Purpose-driven marketing campaigns, which creates the opportunity for organizations to show support for the audiences which they serve. With the purpose-driven campaigning businesses demonstrate that they are not only focused for revenue and sales but also shares values with the customers. Like all the campaign, it should capture customer’s attention and every marketing campaign, should have 3 minimum content that entertains the customer, interesting for the customer and helpful for the customer.",
+      },
+      {
+        label:
+          "The main aim of purpose-driven campaigning is to develop an even deeper rapport with consumers, it should not only tickle their funny bones but it should also make them understand what matters the most in the long run. And this approach makes sense to most of the marketers. Brands get their traction by becoming a part of how customers want to see themselves. Marketing has always been about brand’s identity, through this customer can see themselves in the brands they admire.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Purpose-Driven Campaigning",
+        data: [
+          {
+            label: "Excelling in business.",
+          },
+          {
+            label: "Improving the surrounding world.",
+          },
+          {
+            label: "Engage your customers in innovative ways.",
+          },
+          {
+            label: "Create brand trust.",
+          },
+          {
+            label: "Effectiveness of marketing strategies.",
+          },
+    
+          
+        ],
+      },
+      {
+        heading: " Why choose Employ Virtual for Purpose-Driven Campaigning?",
+        data: [
+          {
+            label:
+              "We empower brands to win in the competitive digital market.",
+          },
+          {
+            label: "We look forward to change the way an industry works by incorporating our expertise and knowledge.",
+          },
+          {
+            label: "We believe that with the growing digital world, digital touchpoints also need evolution to engage customers with brands.",
+          },
+          {
+            label:
+              "We execute the strategies fast as the digital marketing is an evolving process.",
+          },
+          {
+            label:
+              "With the purpose-driven campaigning you can engage your shoppers everywhere.",
+          },
+        
+        
+        ],
+      },
+    ],
+  },
+   {
+    services: {
+      heading: "D2C Sales Management",
+      description:
+        "Employ virtual resources are leading marketing experts in eCommerce intelligence, sales optimisation, and marketplace management. These resources will take you from surviving to thriving.",
+      data: D2C_SALES_MANAGEMENT,
+    },
+    slug: "full-service-ecommerce-growth",
+    bannerHeading: "Full service E-commerce Growth",
+    bannerDescription:
+      "Build your dynamic website with virtual Java Developers from Employ Virtual.",
+    img: full,
+    heading: "Inventory Management",
+    description: [
+      {
+        label:
+          "In today’s era, full-service sounds pretty good and nobody would refuse. This is also applicable when people have no clue what it means and people assume that full-service means getting all the services they expect. Full-service e-commerce agency focuses on all the services related to e-commerce. E-commerce is a growing industry with many new players. Therefore, businesses and agency that work with e-commerce are working towards providing services to this sector. And these agencies that support e-commerce businesses haven’t been around forever.",
+      },
+      {
+        label:
+          "With this, it is logical to think that all e-commerce agencies provide full services, though this seems tempting but this not be the actual scenario. Like you might find an e-commerce agency which specializes in development, another one provides digital marketing services (B2B, B2C or D2C), the third agency might offer content marketing and so on. While all these three agencies work in e-commerce industry but they provide three different services. So, all these specializations are solved by full-service e-commerce agencies and this led to full-service e-commerce growth.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Full-Service E-commerce Growth",
+        data: [
+          {
+            label: "Long term strategy and growth.",
+          },
+          {
+            label: "Up to date with latest technologies.",
+          },
+          {
+            label: "Makes in-house teams redundant.",
+          },
+          {
+            label: "Utilizes multi-channel opportunities.",
+          },
+          {
+            label: "Full-funnel advertising.",
+          },
+          {
+            label: "High-converting rate.",
+          },
+          {
+            label: "Better prospecting margins.",
+          },
+    
+          
+        ],
+      },
+      {
+        heading: " Why choose Employ Virtual for Full-Service E-commerce Growth?",
+        data: [
+          {
+            label:
+              "We provide hassle free solution to all your e-commerce business needs.",
+          },
+          {
+            label: "Our expert team handles everything from e-commerce websites, custom feature development, overall marketing strategy, digital marketing.",
+          },
+          {
+            label: "We make marketing efforts easier.",
+          },
+          {
+            label:
+              "We handle increased workload on relatively short notice.",
+          },
+        
+        
+        
+        ],
+      },
+    ],
+  },
+  {
+    services: {
+      heading: "Workforce Solutions",
+      description:
+        "Employ virtual enable its clients to reduce the cost while ensuring reliability, scalability, and manageability.",
+      data: STAFFING_DATA,
+    },
+    slug: "staffing",
+    bannerHeading: "Staffing",
+    bannerDescription:
+      "Staffing is the backbone for any organisation and for smooth functioning of its operations and it can affect quality of work.",
+    img: staffing,
+    heading: "Staffing",
+    description: [
+      {
+        label:
+          "Staffing is the backbone for any organisation and for smooth functioning of its operations. Staffing affects the overall quality of work and its related processes in an organisation. This process basically aides and focuses in addition of required workforces in an organisation. It will assist in building and retaining the workforce. Though this process seems to be manageable but it comes with its own set of challenges and hurdles. Choosing the right set of people to fill the positions in the establishment plan or staffing plan is a very crucial step.",
+      },
+      {
+        label:
+          "Staffing process starts with an assessment of the workforce requirements that need to be fulfilled within the stipulated time. Mistake in this process can hamper your workforce budget and can become a time taking process. More and more organisations are working on flexibility in staffing process to give a competitive edge in the market full of talents. With the growing economy and new innovations in the IT and communication, the staffing, recruiting and workforce domain is ready to provide support to the businesses to grow and flourish.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Staffing",
+        data: [
+          {
+            label: "Staffing helps in streamlining the HR processes.",
+          },
+          {
+            label: "Budget allocation can be done properly.",
+          },
+          {
+            label: "It focuses on future needs of the organisation.",
+          },
+          {
+            label: "Maximize productivity and staff utilization.",
+          },
+          {
+            label: "Reduces hiring concerns.",
+          },
+          {
+            label: "Right staffing encourages existing employees to work towards new opportunities and feel valued.",
+          },
+      
+    
+          
+        ],
+      },
+      {
+        heading: " Why choose Employ Virtual for Staffing??",
+        data: [
+          {
+            label:
+              "Employ Virtual is known for providing several human resources services.",
+          },
+          {
+            label: "Our dedicated team works towards catering the entire employment and business process.",
+          },
+          {
+            label: "We work on qualitative resources..",
+          },
+          {
+            label:
+              "We have a vast database, HR and professional portals and wide network to work on staffing needs.",
+          },
+        {
+            label:
+              "We understand that organizations need right people at right cost in less time.",
+          },
+        
+        
+        
+        ],
+      },
+    ],
+  },
+   {
+    services: {
+     heading: "Workforce Solutions",
+      description:
+        "Employ virtual enable its clients to reduce the cost while ensuring reliability, scalability, and manageability.",
+      data: STAFFING_DATA,
+    },
+    slug: "staff-augmentation",
+    bannerHeading: "Staff Augmentation",
+    bannerDescription:
+      "Staff Augmentation is the utilization of outside personnel on a temporary basis to augment the capacity of your organization.",
+    img: staff,
+    heading: "Staff Augmentation",
+    description: [
+      {
+        label:
+          "Staff Augmentation is the utilization of outside personnel on a temporary basis to augment the capacity of your organization. It is considered as one of the powerful tools in the workforce industry. This process helps in addition of competent staff to a project who can add value in less time. It helps in smooth out peaks throughout enterprise’s journey. Companies partner with supplying firms to have access to a short-term workforce for a specific duration.",
+      },
+      {
+        label:
+          "Based on your organization requirement, staff augmentation can take up different forms, can be increase in workforce onsite to remote professionals. More and more IT companies are preferring staff augmentation over other businesses owing to the long list of benefits it offers. With growing businesses, many small firms prefer to augment their entire workforce with a very minute percentage of permanent staff.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Staff Augmentation",
+        data: [
+          {
+            label: "You can hire talent on the go.",
+          },
+          {
+            label: "You have an access to larger talent pool.",
+          },
+          {
+            label: "The business will have cost effective competitive edge.",
+          },
+          {
+            label: "There will be operational efficiency.",
+          },
+          {
+            label: "Businesses can expand and adapt.",
+          },
+          {
+            label: "There will be lot of new and contemporary opinions.",
+          },
+          {
+            label: "There will be sustainable control and management.",
+          },
+      
+    
+          
+        ],
+      },
+      {
+        heading: " Why choose Employ Virtual for Staff Augmentation?",
+        data: [
+          {
+            label:
+              "Employ Virtual provides remote and nearshore staffing.",
+          },
+          {
+            label: "We have large talent pool.",
+          },
+          {
+            label: "We believe in on-demand talent.",
+          },
+          {
+            label:
+              "You can have hands-off from hiring.",
+          },
+        {
+            label:
+              "Our virtual team will integrate seamlessly with your in-house team and infrastructure.",
+          },
+         {
+            label:
+              "Adaptable pricing based on your requirement.",
+          },
+        
+        
+        ],
+      },
+    ],
+  },
+  {
+    services: {
+     heading: "Workforce Solutions",
+      description:
+        "Employ virtual enable its clients to reduce the cost while ensuring reliability, scalability, and manageability.",
+      data: STAFFING_DATA,
+    },
+    slug: "direct-hire-strategy",
+    bannerHeading: "Direct Hire Strategy",
+    bannerDescription:
+      "Many employers prefer hiring directly to save up front cost without any involvement of third-party organization but with this there is a chance of missing out on the value of engaging a reliable, effective and mission-focused workforce solution firm.",
+    img: direct,
+    heading: "Direct Hire Strategy",
+    description: [
+      {
+        label:
+          "Many employers prefer hiring directly to save up front cost without any involvement of third-party organization but with this there is a chance of missing out on the value of engaging a reliable, effective and mission-focused workforce solution firm. And hiring senior-level positions is a complex, time consuming and expensive process. Every organization wants a long-term employee and employee departure costs is much higher depending on the role and position.",
+      },
+      {
+        label:
+          "Therefore, opting for direct hire process through a trustworthy staffing firm has become more and more valuable to organizations that want to hire mid to senior level employees who are looking for long term professional relationship. You can hire a talent permanently for full-time roles and positions. The assigned staffing firm handles the recruiting and other processes and negotiations with the talents.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Direct Hire Strategy",
+        data: [
+          {
+            label: "The staffing firm will take charge of entire hiring process.",
+          },
+          {
+            label: "With extensive experience and connections, staffing firm find, identify, and contact top talents suitable for the role.",
+          },
+          {
+            label: "Background checks and verifications are completed by the staffing firm.",
+          },
+          {
+            label: "Maintains and manages contact with talents who are not looking for a new role but are suitable for any future roles.",
+          },
+          {
+            label: "You get a chance to attract top industry professionals and stay ahead of competition and organizational goals.",
+          },
+          {
+            label: "Direct hires offer more to the role and organization.",
+          },
+          {
+            label: "Professionals always prefer direct hire route for their jobs and career growth.",
+          },
+      
+    
+          
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for Direct Hire Strategy?",
+        data: [
+          {
+            label:
+              "Employ Virtual cater to staffing needs of companies of all sizes and industries.",
+          },
+          {
+            label: "We have access to vast database of pre-screened qualified professionals.",
+          },
+          {
+            label: "We have a team of expert recruiters with professional networks and excellent follow-up.",
+          },
+          {
+            label:
+              "We have streamlined processes for identifying, recruiting, qualifying and onboarding candidates that meet your hiring needs.",
+          },
+        {
+            label:
+              "Complete support throughout the process.",
+          },
+         {
+            label:
+              "We focus on hiring stable workforce.",
+          },
+        
+        
+        ],
+      },
+    ],
+  },
+   {
+    services: {
+     heading: "Workforce Solutions",
+      description:
+        "Employ virtual enable its clients to reduce the cost while ensuring reliability, scalability, and manageability.",
+      data: STAFFING_DATA,
+    },
+    slug: "captive-client-servicing",
+    bannerHeading: "Captive Client Servicing",
+    bannerDescription:
+      "Client servicing is important for every organization. Businesses need to add confidence to their captive business models with right talents and professionals.",
+    img: captive,
+    heading: "Captive Client Servicing",
+    description: [
+      {
+        label:
+          "Client servicing is important for every organization. Businesses need to add confidence to their captive business models with right talents and professionals. Captive clients need not be coercive relationship but can be about wants satisfaction with the services provided. The captive client offers great potential value to businesses and firms are interested in increasing their captive customers for greater economic benefit.",
+      },
+      {
+        label:
+          "Captive client encourages business model innovation and providing services for such business model is essential. Firms plans to not only produce a product or service at a lower cost than competitors but they might think about changing their business model to increase producer surplus and profit.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Captive Client Servicing",
+        data: [
+          {
+            label: "Dedicated team will communicate with the client.",
+          },
+          {
+            label: "It supports operating models.",
+          },
+          {
+            label: "It helps in innovation in existing model.",
+          },
+          {
+            label: "It offers unique business services solutions.",
+          },
+          {
+            label: "Get scale benefits.",
+          },
+          {
+            label: "Reduced costs and pricing.",
+          },
+          {
+            label: "Fast transformation.",
+          },
+      
+    
+          
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for Captive Client Servicing?",
+        data: [
+          {
+            label:
+              "Years of experience in various industries.",
+          },
+          {
+            label: "Experienced team focused on understanding evolving staffing needs.",
+          },
+          {
+            label: "Collaborative communication with the captive client.",
+          },
+          {
+            label:
+              "Adaptable pricing based on requirements.",
+          },
+        {
+            label:
+              "We believe in hyper-connected organization.",
+          },
+         
+        
+        ],
+      },
+    ],
+  },
+  {
+    services: {
+      heading: "Workforce Solutions",
+      description:
+        "Employ virtual enable its clients to reduce the cost while ensuring reliability, scalability, and manageability.",
+      data:STAFFING_DATA,
+    },
+    slug: "transitioning",
+    bannerHeading: "Transitioning",
+    bannerDescription:
+      "Transitioning in workforce is multi-faceted. Workforce transitioning is to help people to move to next phase in their career, which include new job transfer with the same organisation or helping former employees transition to new job outside the organisation.",
+    img: transitioning,
+    heading: "Transitioning",
+    description: [
+      {
+        label:
+          "Transitioning in workforce is multi-faceted. Workforce transitioning is to help people to move to next phase in their career, which include new job transfer with the same organisation or helping former employees transition to new job outside the organisation. These services are delivered either in one-on-one sessions or in a group. Different topics such as career guidance, career evaluation, resume writing and interview preparation, networking, job search and skills, targeting job market and different assessments to understand personal and professional preferences, strengths and areas for improvement.",
+      },
+      {
+        label:
+          "Workforce transitioning assist in resolving the challenges to provide an attractive work environment for the upcoming generation of workers with increased expectations for alternative work arrangements and different benefits public sector can offer. There is also loss of intuitional knowledge when tenured and experienced employees transition to new jobs or retire. Workforce transitioning includes documentation of processes and succession planning.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Transitioning",
+        data: [
+          {
+            label: "Dedicated transition team.",
+          },
+          {
+            label: "End-to-end process documentation.",
+          },
+          {
+            label: "There will be step-by-step transition planning.",
+          },
+          {
+            label: "Efficient migration planning.",
+          },
+          {
+            label: "There will be continuous monitoring and quality management.",
+          },
+          {
+            label: "Hiring and workforce management improvements and business continuity.",
+          },
+          {
+            label: "Effective and faster results.",
+          },
+      
+    
+          
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for Transitioning?",
+        data: [
+          {
+            label:
+              "We eliminate the risk associated with workforce transitioning process.",
+          },
+          {
+            label: "Retain expertise and ensure continuity of knowledge.",
+          },
+          {
+            label: "We ensure continued alignment with company culture.",
+          },
+          {
+            label:
+              "Jobs are retained in a particular region.",
+          },
+        {
+            label:
+              "We ensure ease of transition.",
+          },
+            {
+            label:
+              "There will be financial flexibility.",
+          },
+         
+        
+        ],
+      },
+    ],
+  },
+   {
+    services: {
+     heading: "Workforce Solutions",
+      description:
+        "Employ virtual enable its clients to reduce the cost while ensuring reliability, scalability, and manageability.",
+      data: STAFFING_DATA,
+    },
+    slug: "recruitment-process-outsourcing",
+    bannerHeading: "Recruitment Process Outsourcing",
+    bannerDescription:
+      "Though recruiting seems to be an easy and sorted process but the people and the organization associated with this process directly or indirectly will say the opposite.",
+    img: recruitment,
+    heading: "Recruitment Process Outsourcing",
+    description: [
+      {
+        label:
+          "Though recruiting seems to be an easy and sorted process but the people and the organization associated with this process directly or indirectly will say the opposite. The recruiting environment is rather complex. One needs to navigate the tough labour market to proceed with the new hiring, be proficient with set of relevant technologies and manage and nurture candidates and hiring managers.  This is where recruitment process outsourcing takes place and have enormous advantage over the traditional recruitment process.",
+      },
+      {
+        label:
+          "The RPO providers are experts with talent acquisition as their core competency. They are the reach out person who knows how to navigate the recruiting environment, stay updated with the latest technologies and have talent pool of resources to stay ahead of recruiting capacity to meet hiring demands. RPOs act as a bridge between people, technology, processes and metrics into talent acquisition function. RPO brings lot of benefits into the recruitment process of an organization.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Recruitment Process Outsourcing",
+        data: [
+          {
+            label: "Higher quality of talent pool.",
+          },
+          {
+            label: "RPO is cost effective as compared to traditional recruitment methods.",
+          },
+          {
+            label: "RPO is agile, scalable and permanent recruitment.",
+          },
+          {
+            label: "RPO adheres to global compliance applicable to recruitment.",
+          },
+          {
+            label: "Less cost in advertising expenditure.",
+          },
+          {
+            label: "Decreased spend in talent acquisition.",
+          },
+          {
+            label: "Benefit from latest technology.",
+          },
+      
+    
+          
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for Recruitment Process Outsourcing?",
+        data: [
+          {
+            label:
+              "Expert team who defines organization specific RPO strategy.",
+          },
+          {
+            label: "We offer powerful, flexible and personalized recruiting solutions to deliver talented people for your organization.",
+          },
+          {
+            label: "Our expert team will be present at your site with you and provide end-to-end recruitment solutions.",
+          },
+          {
+            label:
+              "We have global reach with local expertise.",
+          },
+        {
+            label:
+              "We are in the industry for a decade and we know the game of RPO.",
+          },
+            {
+            label:
+              "Our experts are from different industries and are recruitment specialists.",
+          },
+         
+        
+        ],
+      },
+    ],
+  },
+   {
+    services: {
+      heading: "Workforce Solutions",
+      description:
+        "Employ virtual enable its clients to reduce the cost while ensuring reliability, scalability, and manageability.",
+      data: STAFFING_DATA,
+    },
+    slug: "managed-service-provider",
+    bannerHeading: "Managed Service Provider",
+    bannerDescription:
+      "Now a days managed services have become a popular buzzword in business environments. In laymen’s language managed services gives a third-party service provider complete responsibility for any aspect of the company and it is often related to technology support.",
+    img: managed,
+    heading: "Managed Service Provider",
+    description: [
+      {
+        label:
+          "Now a days managed services have become a popular buzzword in business environments. In laymen’s language managed services gives a third-party service provider complete responsibility for any aspect of the company and it is often related to technology support. With this evolving technology world, businesses can succeed or fail based on their IT infrastructure. Every organization runs electronically these days and few do not suffer losses in case of major IT issues; this is because of managed service providers.",
+      },
+      {
+        label:
+          "MSPs handle management services on a daily basis, so client organizations can focus on their operations and improving services without worrying about system downtimes or service interruptions. Many MSPs are into IT segment and provide services for the IT infrastructure and others focuses on remaining verticals such as legal, financial services, healthcare or manufacturing. MSPs do provide specialized types of services such as remote firewall administration and other security services for the organizations.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Managed Service Provider",
+        data: [
+          {
+            label: "Lower technology costs.",
+          },
+          {
+            label: "Efficient delivery of services in MSP’s area of expertise.",
+          },
+          {
+            label: "Experienced and highly specialized talent.",
+          },
+          {
+            label: "Knowledge of emerging applications and technology.",
+          },
+          {
+            label: "Work towards future aspects of MSP’s area of expertise.",
+          },
+          
+          
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for Managed Service Provider?",
+        data: [
+          {
+            label:
+              "We have industry experts specialized in your business.",
+          },
+          {
+            label: "We are committed to growth of your business.",
+          },
+          {
+            label: "We have flexible service level agreements.",
+          },
+          {
+            label:
+              "Exceptional customer service round the clock.",
+          },
+        {
+            label:
+              "Cost effective services.",
+          },
+          
+        
+        ],
+      },
+    ],
+  },
+  {
+    services: {
+      heading: "Workforce Solutions",
+      description:
+        "Employ virtual enable its clients to reduce the cost while ensuring reliability, scalability, and manageability.",
+      data: STAFFING_DATA,
+    },
+    slug: "onsite-recruitment",
+    bannerHeading: "Onsite Recruitment",
+    bannerDescription:
+      "Onsite Recruitment is part of workforce management service where a recruitment agency effectively becomes part of an organisation to take care of all aspects of recruitment for that business.",
+    img: onsite,
+    heading: "Onsite Recruitment",
+    description: [
+      {
+        label:
+          "Onsite Recruitment is part of workforce management service where a recruitment agency effectively becomes part of an organisation to take care of all aspects of recruitment for that business. The recruitment services are tailored as per the business needs and this establishes an efficient working partnership. In other words, the recruitment agency becomes an extension of the workforce, working to improve the hiring process, reducing risks and costs involved while managing retention and employees.",
+      },
+      {
+        label:
+          "Onsite Recruitment services is extremely useful for organizations to streamline the recruitment process to achieve high turnover of workers, by bringing in seasonal fluctuations or trends. This approach works as everything is handled at source by the agency. Communication is much easier in onsite recruitment as the agency recruiter works at the same onsite as of the company, sits in the same office and attends the same meetings as employees get the information faster than casual emails.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Onsite Recruitment",
+        data: [
+          {
+            label: "It is 100% risk and compliant oriented process.",
+          },
+          {
+            label: "Full inductions are carried out similar to the in-house recruitment process.",
+          },
+          {
+            label: "We can manage all temporary staff.",
+          },
+          {
+            label: "We can measure competency and performance.",
+          },
+          {
+            label: "Onsite Recruitment improves role, company briefing and training.",
+          },
+          {
+            label: "Relationship management can be simplified.",
+          },
+          {
+            label: "Increased efficiency and effectiveness.",
+          },
+          
+          
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for Onsite Recruitment?",
+        data: [
+          {
+            label:
+              "Employ Virtual have expertise in working with volume contracts on onsite recruitment.",
+          },
+          {
+            label: "Our industry experts have solid understanding of onsite recruitment solutions.",
+          },
+          {
+            label: "We apply our knowledge to increase your staff efficiency and effectiveness by decreasing your risks and costs.",
+          },
+          {
+            label:
+              "We have round the clock customer service and knowledge about local marketplace.",
+          },
+        {
+            label:
+              "We are known for meeting the demands of this consistently evolving industry.",
+          },
+           {
+            label:
+              "Our team have their own field expertise assuring that complete understanding of requirements is known and met.",
+          },
+          
+        
+        ],
+      },
+    ],
+  },
+   {
+    services: {
+     heading: "Workforce Solutions",
+      description:
+        "Employ virtual enable its clients to reduce the cost while ensuring reliability, scalability, and manageability.",
+      data: STAFFING_DATA,
+    },
+    slug: "statement-of-work-sow",
+    bannerHeading: "Statement of Work",
+    bannerDescription:
+      "Statement of Work is a form of agreement or contract between an organization and a recruitment agency or individual that agrees to pay a contractual worker for their efforts and work based on the achievement of pre-determined project outcomes.",
+    img: statement,
+    heading: "Statement of Work(SOW)",
+    description: [
+      {
+        label:
+          "Statement of Work is a form of agreement or contract between an organization and a recruitment agency or individual that agrees to pay a contractual worker for their efforts and work based on the achievement of pre-determined project outcomes. These are formed around project milestones.  Party responsible for SOW management is responsible for creating efficiencies, risk mitigation, special requirements and supplier management and negotiations. This helps in saving cost and reporting on a project’s overall success.",
+      },
+      {
+        label:
+          "Creating a thorough and explanatory SOW will eliminate the risk that may arise if there are any misunderstandings or disputes between parties. A well-written SOW eliminates risk of overspend by ensuring both supplier and organisation have a clear understanding and accountability of the work involved. It is essential to include all the scope of services in detailed manner in SOW. Though, it is a complex process but an important one which cannot be avoided.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Statement of Work",
+        data: [
+          {
+            label: "We can save costing.",
+          },
+          {
+            label: "We can assess and manage supplier performance and risk mitigation.",
+          },
+          {
+            label: "We can have greater process efficiencies.",
+          },
+          {
+            label: "There will be detailed reporting.",
+          },
+          {
+            label: "We can manage project performance.",
+          },
+          {
+            label: "There will be single purview of all outsourced projects.",
+          },
+          {
+            label: "Improved workforce management.",
+          },
+          
+          
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for Statement of Work?",
+        data: [
+          {
+            label:
+              "We have industry experts specialized in your business.",
+          },
+          {
+            label: "We are committed to growth of your business.",
+          },
+          {
+            label: "We have flexible service level agreements.",
+          },
+          {
+            label:
+              "Exceptional customer service round the clock.",
+          },
+        {
+            label:
+              "Cost effective services.",
+          },
+          
+        
+        ],
+      },
+    ],
+  },
+  {
+    services: {
+     heading: "Workforce Solutions",
+      description:
+        "Employ virtual enable its clients to reduce the cost while ensuring reliability, scalability, and manageability.",
+      data: STAFFING_DATA,
+    },
+    slug: "payroll-management",
+    bannerHeading: "Payroll Management",
+    bannerDescription:
+      "With the recruitment, employees come the payroll and its management. Payroll is an important document that every company and organization use to effectively and efficiently carry out daily staff and employee management activities.",
+    img: payroll,
+    heading: "Payroll Management",
+    description: [
+      {
+        label:
+          "With the recruitment, employees come the payroll and its management. Payroll is an important document that every company and organization use to effectively and efficiently carry out daily staff and employee management activities. The payroll document contains the list of employees who will be paid compensation for the services they have provided and the work they have done for the organization. Also, it includes the summary of all the money that is to be paid to the staff and the employees within a specific time by the organization is also included.",
+      },
+      {
+        label:
+          "To manage payroll system; payroll software and dedicated teams are involved to streamline and manage employee payments. It manages and automates payments to employees, ensuring on-time payment delivery and compliance with local and government regulations. With these system in place, human resources can work towards people management and relationship in the organization. ",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Payroll Management",
+        data: [
+          {
+            label: "To minimize errors in payroll document.",
+          },
+          {
+            label: "Payroll system provides graphical representation of company’s salary.",
+          },
+          {
+            label: "Payroll system saves time of human resource department and HR team can focus on other key areas.",
+          },
+          {
+            label: "Payroll system ensures security of payroll database.",
+          },
+          {
+            label: "Payroll system saves cost and time.",
+          },
+          {
+            label: "Time and attendance tracking can be done through payroll system.",
+          },
+          {
+            label: "Payroll system can store different forms required to be filled by the employee during their tenure in the organization.",
+          },
+          
+          
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for Payroll Management?",
+        data: [
+          {
+            label:
+              "We have industry experts specialized in your business.",
+          },
+          {
+            label: "We are committed to growth of your business.",
+          },
+          {
+            label: "We have flexible service level agreements.",
+          },
+          {
+            label:
+              "Exceptional customer service round the clock.",
+          },
+        {
+            label:
+              "Cost effective services.",
+          },
+          
+        
+        ],
+      },
+    ],
+  },
+ {
+    services: {
+      heading: "Workforce Solutions",
+      description:
+        "Employ virtual enable its clients to reduce the cost while ensuring reliability, scalability, and manageability.",
+      data: STAFFING_DATA,
+    },
+    slug: "business-process-outsourcing-bpo",
+    bannerHeading: "Business Process Outsourcing",
+    bannerDescription:
+      "Business Process Outsourcing is a common term that is used frequently in small or medium scale and even in large organizations who hires staff and employees to perform full essential processes but non-primary business functions.",
+    img: business,
+    heading: "Business Process Outsourcing(BPO)",
+    description: [
+      {
+        label:
+          "Business Process Outsourcing is a common term that is used frequently in small or medium scale and even in large organizations who hires staff and employees to perform full essential processes but non-primary business functions. Like a media agency might outsource a financial firm to handle payroll or company’s financials. External services from dedicated firms can help the client to improve its efficiency and in turn be more successful.",
+      },
+      {
+        label:
+          "Companies usually prefer BPO option when they think that the specialized organisation can do and complete the job at hand more efficiently. Many a times, businesses find outsourcing more innovative and efficient than recruiting and hiring new employees and establishing a new department within the company itself. BPO is of interest for businesses across the globe. ",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Business Process Outsourcing",
+        data: [
+          {
+            label: "Time and cost savings.",
+          },
+          {
+            label: "More efficiency.",
+          },
+          {
+            label: "Businesses can focus on core business functions.",
+          },
+          {
+            label: "Outsource employees come with expertise for the process.",
+          },
+          {
+            label: "Businesses can have global expansion with BPO.",
+          },
+      
+          
+          
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for Business Process Outsourcing?",
+        data: [
+          {
+            label:
+              "We have industry experts specialized in your business.",
+          },
+          {
+            label: "We are committed to growth of your business.",
+          },
+          {
+            label: "We have flexible service level agreements.",
+          },
+          {
+            label:
+              "Exceptional customer service round the clock.",
+          },
+        {
+            label:
+              "Cost effective services.",
+          },
+          
+        
+        ],
+      },
+    ],
+  },
+ {
+    services: {
+      heading: "Website Development",
+      description:
+        "Employ virtual offers highly qualified offshore employees with a brief knowledge of Node, Python, REACT, PHP, HTML, AJAX, J2EE, PWA, Microservices etc. for Website Design and Development work on basically all frameworks.",
+      data: WEBSITE,
+    },
+    slug: "customised-applications",
+    bannerHeading: "Customised Aapplications",
+    bannerDescription:
+      "Build your customised application with virtual Developers from Employ Virtual.",
+    img: customised,
+    heading: "Customised Applications",
+    description: [
+      {
+        label:
+          "A customised web application can open a business to new horizons and possibilities. Nowadays, customised web application is everywhere and everyone is using them on daily basis. These applications offer customers a convenient way of shopping, booking services, getting information and to carry out important tasks. Web applications have lot of benefits over other types of applications and the most important one is that they are designed in such a way for easy adaptation to any type of operating system, project management and size of business.",
+      },
+      {
+        label:
+          "Also, the other advantage of customised web application is that it does not need to be downloaded as it is hosted on a remote server and can be accessed using the browser of the user’s choice. Native applications do allow more complex custom web applications, which is often not required and can be expensive on pocket. It gives a feel of downloadable application and it can be either static or responsive and interactive. Many businesses develop customised web applications for better user engagement with their services. ",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Customised Applications:",
+        data: [
+          {
+            label: "It provides better SEO results.",
+          },
+          {
+            label: "Users have longer session times.",
+          },
+          {
+            label: "Better user experience.",
+          },
+          {
+            label: "Increased conversion rates and profits.",
+          },
+          {
+            label: "Customised applications will have unique features according to your specific business.",
+          },
+          {
+            label: "Loading time gets reduced.",
+          },
+          {
+            label: "Improved website security and compliance.",
+          },
+          
+      
+          
+          
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for Customised Applications?",
+        data: [
+          {
+            label:
+              "We have been delivering exceptional quality of work with our industry expert team.",
+          },
+          {
+            label: "With our work, businesses have scaled faster, smarter, and in a much easier way.",
+          },
+          {
+            label: "Our data-driven solutions have helped thousands of clients gain competitive edge.",
+          },
+          {
+            label:
+              "We empower businesses to thrive and grow.",
+          },
+        {
+            label:
+              "We believe in continuous improvement and accept challenges to provide out of the box solutions.",
+          },
+          {
+            label:
+              "We help your business to differentiate to drive sales.",
+          },
+          {
+            label:
+              "We guide you to make your product better in this competitive market.",
+          },
+          
+          
+        
+        ],
+      },
+    ],
+  },
+
+
+  {
+    services: {
+      heading: "Website Development",
+      description:
+        "Employ virtual offers highly qualified offshore employees with a brief knowledge of Node, Python, REACT, PHP, HTML, AJAX, J2EE, PWA, Microservices etc. for Website Design and Development work on basically all frameworks.",
+      data:  WEBSITE,
+    },
+    slug: "web-application",
+    bannerHeading: "Web Applications",
+    bannerDescription:
+      "Build your web application with virtual Developers from Employ Virtual.",
+    img: web,
+    heading: "Web Applications",
+    description: [
+      {
+        label:
+          "A web application is an interactive program that runs on a web server and can be accessed via a web browser. Everyone has the access to web applications. While designing a web application, one need to design the user interface and this shares information with the team responsible for developing the application. These data help the business to understand a lot about the customers and assist in building product and marketing strategy. It improves optimization and other parts of desktop and mobile applications.",
+      },
+      {
+        label:
+          "Web Application development requires web technologies such as HTML, CSS and JS that can store and manipulates data. Web applications works as create, read, update and delete (CRUD) model. These applications are accessible only after logging in or sign up by creating an account. This happens because these applications are accessible through web browsers. It is similar to checking your email in your laptop or checking your bank accounts; all these can be done with the help of web applications. ",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Web Applications",
+        data: [
+          {
+            label: "Web applications provides cross platform compatibility.",
+          },
+          {
+            label: "It is more manageable and easier to use.",
+          },
+          {
+            label: "Highly deployable.",
+          },
+          {
+            label: "More secured live data.",
+          },
+          {
+            label: "Lowers cost drastically.",
+          },
+          {
+            label: "Easy maintenance.",
+          },
+          {
+            label: "Better discovery on search engines.",
+          },
+          
+      
+          
+          
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for Web Applications?",
+        data: [
+          {
+            label:
+              "We transform your ideas into products.",
+          },
+          {
+            label: "We build the smartest platform for your business.",
+          },
+          {
+            label: "We have executed hundreds of projects in cutting edge web technologies.",
+          },
+          {
+            label:
+              "Your business value proposition will be effectively communicated to your customers through your web applications.",
+          },
+        {
+            label:
+              "We help your business to differentiate to drive sales.",
+          },
+          {
+            label:
+              "We guide you to make your product better in this competitive market.",
+          },
+          {
+            label:
+              "Earn your long-term clientele through your web applications.",
+          },
+          
+          
+        
+        ],
+      },
+    ],
+  },
+
+  {
+    services: {
+      heading: "Website Development",
+      description:
+        "Employ virtual offers highly qualified offshore employees with a brief knowledge of Node, Python, REACT, PHP, HTML, AJAX, J2EE, PWA, Microservices etc. for Website Design and Development work on basically all frameworks.",
+      data:  WEBSITE,
+    },
+    slug: "mobile-application",
+    bannerHeading: "Mobile Applications",
+    bannerDescription:
+      "Build your Mobile Application with virtual Developers from Employ Virtual.",
+    img: mobile,
+    heading: "Mobile Application",
+    description: [
+      {
+        label:
+          "Mobile application has been trending upward for years. It is a subcategory of software development, which specifically designed for mobile devices. Mobile application is developed for different operating systems, like iOS and Android. With the features of smartphones, mobile applications provide enhanced user experience compared to mobile web browsing. With the growing usage of smartphones, people are spending more time on their hand-held devices and are using multiple applications on daily basis. The mobile applications have wide range of categories, including gaming applications, music applications, calendars, communication applications and many more.",
+      },
+      {
+        label:
+          "Designing, developing and deployment of a mobile application is a great decision for any business. In the mobile application development process codes are written to create the software and designing the application. Application development is similar to other software development but the main difference is the ability for mobile applications to use native features on a mobile device. ",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Mobile Applications",
+        data: [
+          {
+            label: "Smooth and faster operation.",
+          },
+          {
+            label: "Personalized experience to end users.",
+          },
+          {
+            label: "Mobile applications can be used online and offline.",
+          },
+          {
+            label: "It utilizes device features.",
+          },
+          {
+            label: "There will be instant updates and notifications.",
+          },
+          {
+            label: "Mobile applications help in branding.",
+          },
+          {
+            label: "It is affordable and productive.",
+          },
+          
+      
+          
+          
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for Mobile Applications?",
+        data: [
+          {
+            label:
+              "We are experts who build digital products for our clients.",
+          },
+          {
+            label: "We design and develop solution and provide consulting services to all sizes of companies.",
+          },
+          {
+            label: "We are known for developing and building software and technology that supports your business and its vision.",
+          },
+          {
+            label:
+              "We help your business to differentiate to drive sales.",
+          },
+        {
+            label:
+              "We guide you to make your product better in this competitive market.",
+          },
+          {
+            label:
+              "Earn your long-term clientele through your mobile applications.",
+          },  
+        
+        ],
+      },
+    ],
+  },
+
+    {
+    services: {
+      heading: "Website Development",
+      description:
+        "Employ virtual offers highly qualified offshore employees with a brief knowledge of Node, Python, REACT, PHP, HTML, AJAX, J2EE, PWA, Microservices etc. for Website Design and Development work on basically all frameworks.",
+      data:  WEBSITE,
+    },
+    slug: "portal-development",
+    bannerHeading: "portal Development",
+    bannerDescription:
+      "Build your portal with virtual Developers from Employ Virtual.",
+    img: portal,
+    heading: "Portal Development",
+    description: [
+      {
+        label:
+          "For any business who want to represent their organization’s different facets not only through one website can think of portal development. It is where developers have accumulated different websites for their products or services as a single object and call it as web portal. Web portal development involves advanced web development skills and best practices like rich application development, registration systems, server-side and client-side scripting. Developing web portal is an overwhelming process, even with the all the knowledge required for its development.",
+      },
+      {
+        label:
+          "There are different types of web portals such as corporate portal development, Business Process & Collaborative Portal, Education Portal Development, Information Publishing Portal, HR & Talent Management Portal and E-commerce Portal. All these types of portals have one thing in common that is it offers consolidated view of company information and access to personalized and custom data. By developing these portals, each business gain numerous benefits such as better customer experience, automation, improvement of business processes and many more. ",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Portal Development:",
+        data: [
+          {
+            label: "Your brand will have global influence.",
+          },
+          {
+            label: "You can give personalized experience to customers.",
+          },
+          {
+            label: "Higher conversions when compared to other engagement channels.",
+          },
+          {
+            label: "Web portals have significant results.",
+          },
+          {
+            label: "Its cost and time effective.",
+          },
+          {
+            label: "Seamless access to your products and services.",
+          },
+          {
+            label: "Web portals are centralized and user-friendly.",
+          },
+          
+      
+          
+          
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for Portal Development?",
+        data: [
+          {
+            label:
+              "We utilize our industry expertise with advanced technology and work as best portal development team.",
+          },
+          {
+            label: "Our decades of work and achievements has made us strong enough to help enterprises gain huge results.",
+          },
+          {
+            label: "We deliver world-class solutions to our clients.",
+          },
+          {
+            label:
+              "We perceive dedication and commitment towards clientele’s dreams.",
+          },
+        {
+            label:
+              "We help your business to differentiate to drive sales.",
+          },
+          {
+            label:
+              "We guide you to make your product better in this competitive market.",
+          },  
+        
+        ],
+      },
+    ],
+  },
+
+    {
+    services: {
+      heading: "Website Development",
+      description:
+        "Employ virtual offers highly qualified offshore employees with a brief knowledge of Node, Python, REACT, PHP, HTML, AJAX, J2EE, PWA, Microservices etc. for Website Design and Development work on basically all frameworks.",
+      data:  WEBSITE,
+    },
+    slug: "microservices-based-applications",
+    bannerHeading: "Microservices Based Applications",
+    bannerDescription:
+      "Build your Microservices based applications with virtual Developers from Employ Virtual.",
+    img: micro,
+    heading: "Microservices Based Applications",
+    description: [
+      {
+        label:
+          "Microservices based applications are an architectural approach to create cloud applications. Each application is designed as a set of services and each of these service runs in its own processes and communicates to each other through APIs. It can be also be defined as distinctive method of developing software services that focuses on single-modules with well-defined interfaces and operations. This is growing with the latest technology trends and enterprises look to become more agile and move towards DevOps and continuous testing. This enables applications to mature over time into best practice.",
+      },
+      {
+        label:
+          "So, one can say that microservice is a way to build applications optimized for DevOps and CI/CD. Each function is called a service and can be designed and deployed independently, which means individual services can function and fail with negatively affecting the others. Thus, we can say that microservice is a core function of an application and it runs independent of other services. This type of service prepares for inevitable failures, future scalability and new feature integration. Microservices have many benefits for Agile and DevOps teams and many well-known technology applications to microservices architecture. ",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Microservices Based Applications",
+        data: [
+          {
+            label: "Applications can be ready faster for the market.",
+          },
+          {
+            label: "High scalability.",
+          },
+          {
+            label: "High resilience.",
+          },
+          {
+            label: "Can be easily deployed.",
+          },
+          {
+            label: "Applications are easily accessible.",
+          },
+          {
+            label: "Reusable across business.",
+          },
+          {
+            label: "Defect can be easily identified and isolated.",
+          },
+          
+      
+          
+          
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for Microservices Based Applications?",
+        data: [
+          {
+            label:
+              "Our industry expert team work towards scalability of the services.",
+          },
+          {
+            label: "We focus on specific service and its functions.",
+          },
+          {
+            label: "We guide in migration from monolithic architecture to microservices.",
+          },
+          {
+            label:
+              "With microservices, your business can achieve phenomenal growth.",
+          },
+        {
+            label:
+              "Our team work towards development of new features within the microservices.",
+          },
+         
+        ],
+      },
+    ],
+  },
+
+    {
+    services: {
+      heading: "Website Development",
+      description:
+        "Employ virtual offers highly qualified offshore employees with a brief knowledge of Node, Python, REACT, PHP, HTML, AJAX, J2EE, PWA, Microservices etc. for Website Design and Development work on basically all frameworks.",
+      data:  WEBSITE,
+    },
+    slug: "content-management-system",
+    bannerHeading: "Content Management System",
+    bannerDescription:
+      "Build your dynamic website with virtual Developers from Employ Virtual.",
+    img: content,
+    heading: "Content Management System",
+    description: [
+      {
+        label:
+          "Content management system is a software application that allows users to build and manage a website without having to write the code from the start. With content management system (CMS), you can design, create, manage, modify and publish content in a user-friendly interface. Customization can be done for the design and functionality of your site by downloading or purchasing templates and extensions, instead of coding. So, with these multiple users can be working in the back-end of the same tool and much more can be done.",
+      },
+      {
+        label:
+          "CMS have two core parts; one is content management application (CMA) and second one is content delivery application (CDA). Both of these when combined, can handle all the codes, database queries and infrastructure in the back end and business can focus on front end of the site. Instead of starting with a blank HTML, you can directly open up the content editor and add required bold texts, add links and CTAs with images and tables by simply drag and drop some modules or clicking few buttons rather than writing HTML, CSS and JavaScript. ",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Content Management System",
+        data: [
+          {
+            label: "Coding knowledge is not required to use CMS.",
+          },
+          {
+            label: "Can be easily collaborated.",
+          },
+          {
+            label: "Defined user roles and permissions while using CMS.",
+          },
+          {
+            label: "CMS includes SEO features and extensions.",
+          },
+          {
+            label: "CMS has security features and extensions.",
+          },
+          {
+            label: "CMS have predesigned templates and can be used with ease.",
+          },
+          {
+            label: "CMS updates are simple.",
+          },
+          
+      
+          
+          
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for Content Management System?",
+        data: [
+          {
+            label:
+              "Our expert team helps you create personalised experiences with CMS.",
+          },
+          {
+            label: "We build experiences as unique as your strategy.",
+          },
+          {
+            label: "We work with latest technology and make the CMS better.",
+          },
+          {
+            label:
+              "Direct integrations are powered by the experience technology experts.",
+          },
+        {
+            label:
+              "We help your business to differentiate to drive sales.",
+          },
+           {
+            label:
+              "We guide you to make your product better in this competitive market.",
+          },
+         
+        ],
+      },
+    ],
+  },
+
+     {
+    services: {
+      heading: "Website Development",
+      description:
+        "Employ virtual offers highly qualified offshore employees with a brief knowledge of Node, Python, REACT, PHP, HTML, AJAX, J2EE, PWA, Microservices etc. for Website Design and Development work on basically all frameworks.",
+      data:  WEBSITE,
+    },
+    slug: "ecommerce-development",
+    bannerHeading: "E-commerce Development",
+    bannerDescription:
+      "Build your E-commerce website with virtual Developers from Employ Virtual.",
+    img: ecommerce,
+    heading: "E-commerce Development",
+    description: [
+      {
+        label:
+          "E-commerce web development is process of designing, developing an e-commerce website. It includes both frontend and backend development for e-commerce sites including checkout systems, payment processing, site security and many more. As the number of online customers are increasing, developing an e-commerce website can help your business take advantages of online shopping into a revenue-driving solutions. Your e-commerce website ensures that you stand out from competitors. The development of e-commerce website is the most popular option for businesses, as it provides immense scope of online transaction and sales. Your e-commerce website will enable users to purchase goods and services without visiting the market physically.",
+      },
+      {
+        label:
+          "To develop an e-commerce website, few factors must be analysed such as capabilities, creativity, and specialization of the company, which must be reviewed time to time to select better options for the business development. As e-commerce business have promising and glorious future, it is very important for the business to have its dedicated e-commerce website for the customers. Successful e-commerce will become the new trend, which will be inseparable from the web because online shopping is becoming more popular and natural. ",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of E-commerce Development",
+        data: [
+          {
+            label: "It will be convenient for your e-commerce business.",
+          },
+          {
+            label: "With the e-commerce website, there will be round the clock service.",
+          },
+          {
+            label: "It provides wide platform.",
+          },
+          {
+            label: "It will enhance brand personality and business promotion.",
+          },
+          {
+            label: "Cost effective and economical.",
+          },
+          {
+            label: "Easy setup.",
+          },
+          {
+            label: "It will have better product information.",
+          },
+          
+      
+          
+          
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for E-commerce Development?",
+        data: [
+          {
+            label:
+              "We drive results with your e-commerce website.",
+          },
+          {
+            label: "Our expert team is known for developing custom e-commerce websites to drive traffic sales for our clients.",
+          },
+          {
+            label: "We are certified experts in e-commerce solutions.",
+          },
+          {
+            label:
+              "We have team of professionals with more than decade of experience in digital communication and innovative e-commerce development solutions.",
+          },
+        {
+            label:
+              "Direct integrations are powered by the experience technology experts.",
+          },
+           {
+            label:
+              "We perceive dedication and commitment towards clientele’s dreams.",
+          },
+         
+        ],
+      },
+    ],
+  },
+
+    {
+    services: {
+      heading: "Website Development",
+      description:
+        "Employ virtual offers highly qualified offshore employees with a brief knowledge of Node, Python, REACT, PHP, HTML, AJAX, J2EE, PWA, Microservices etc. for Website Design and Development work on basically all frameworks.",
+      data:  WEBSITE,
+    },
+    slug: "marketplace-development",
+    bannerHeading: "Marketplace Development",
+    bannerDescription:
+      "Build your Marketplace online with virtual Developers from Employ Virtual.",
+    img: market,
+    heading: "Marketplace Development",
+    description: [
+      {
+        label:
+          "Marketplace development in e-commerce or online store is common nowadays. The revenue from buys through different marketplace is exceeding year on year. There is a growing demand for selling platforms for providing excellent user experience derived from the ability to find all necessary products and services in one place. With marketplaces, users can compare prices and features of products and services from different sellers and vendors. This gives lot of option to the customers to choose the best from the price/quality/feature perspective. The popularity will keep on growing in the upcoming years. There will be more multi-purpose platforms such as Amazon, eBay and narrow-focused platforms as well to cater niche customers.",
+      },
+      {
+        label:
+          "The marketplace owner is responsible for attracting consumers and processed transactions and third-party merchants deal with manufacturing and shipping. Online marketplace streamlines the production process through single portal, where the manufacturers can sell their products directly to the consumers and can easily avoid the process of stocks holding. Amazon, eBay, Flipkart have massive success as platforms in the e-commerce marketplace. These companies follow omnichannel model, which has proven to be most profitable business in web e-commerce. The entire platform of marketplace runs on one software infrastructure and the designing and development of such infrastructure is known as marketplace development. ",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Marketplace Development",
+        data: [
+          {
+            label: "With marketplace, you can charge a percentage on the products that the vendors sell and thus increase your profit exponentially.",
+          },
+          {
+            label: "Marketplaces provide transparent purchasing process.",
+          },
+          {
+            label: "Better opportunities for suppliers and buyers.",
+          },
+          {
+            label: "Better customer experience.",
+          },
+          {
+            label: "Marketplaces operate round the clock.",
+          },
+          {
+            label: "Inventory can be updated real time on marketplace.",
+          },
+          {
+            label: "Marketplace build trust in customers about the products and services.",
+          },
+          
+      
+          
+          
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for Marketplace Development?",
+        data: [
+          {
+            label:
+              "We follow the latest industry trends to design and develop custom marketplace.",
+          },
+          {
+            label: "We create vertical and horizontal B2B marketplaces.",
+          },
+          {
+            label: "We analyse challenges and opportunities associated with domain to build secure, stable and fast-loading software solutions.",
+          },
+          {
+            label:
+              "We are experts into mobile marketplace development services, multi-vendor marketplace services and e-commerce product marketplace development services.",
+          },
+        {
+            label:
+              "We provide all sort of digital solutions for job search marketplace to on-demand service platforms.",
+          },
+          
+         
+        ],
+      },
+    ],
+  },
+
+    {
+    services: {
+     heading: "Website Development",
+      description:
+        "Employ virtual offers highly qualified offshore employees with a brief knowledge of Node, Python, REACT, PHP, HTML, AJAX, J2EE, PWA, Microservices etc. for Website Design and Development work on basically all frameworks.",
+      data:  WEBSITE,
+    },
+    slug: "progressive-web-application-pwa",
+    bannerHeading: "Progressive Web Application",
+    bannerDescription:
+      "Build your progressive web application with virtual Developers from Employ Virtual.",
+    img: progressive,
+    heading: "Progressive Web Application",
+    description: [
+      {
+        label:
+          "Progressive Web Application (PWA) are the applications that are designed and developed with web technologies such as HTML, CSS and JavaScript. But the distinguish factor is that PWA have the feel and functionality of an actual native application. A native application is a software application built in a specific programming language for a specific device platform, that is either iOS or Android. PWAs have the capacity like push notifications and the ability to work offline. They are enhanced with modern APIs, which makes it easy to deliver latest and improved capabilities along with functionality and ability to install them on any device.",
+      },
+      {
+        label:
+          "PWAs entirely depends on web ecosystem and this also includes plugins, and community and it becomes ease of deployment. This keeps a website contrary to a native application, which is little challenging in developing. PWA can easily and quickly be developed. As the popularity of PWA is increasing, many businesses have shifted into this. PWA can easily be installed on your home screen, able to work offline from where you have left last time and have a comparable experience and features to the native applications. ",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of Progressive Web Application",
+        data: [
+          {
+            label: "No middle program involved in the application download and installation.",
+          },
+          {
+            label: "Application will have independent update process.",
+          },
+          {
+            label: "Undisturbed digital journey.",
+          },
+          {
+            label: "Minimum loading time.",
+          },
+          {
+            label: "High user engagement and conversion rates.",
+          },
+          {
+            label: "Supports search engine results.",
+          },
+          {
+            label: "Decreased cost of user acquisition (CAC).",
+          },
+          
+      
+          
+          
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for Progressive Web Application?",
+        data: [
+          {
+            label:
+              "Our expert team helps you create custom PWAs.",
+          },
+          {
+            label: "We build experiences as unique as your strategy.",
+          },
+          {
+            label: "We work with latest technology and make PWAs better.",
+          },
+          {
+            label:
+              "Direct integrations are powered by the experience technology experts.",
+          },
+        {
+            label:
+              "We help your business to differentiate to drive sales.",
+          },
+           {
+            label:
+              "We guide you to make your product better in this competitive market.",
+          },
+          
+         
+        ],
+      },
+    ],
+  },
+
+    {
+    services: {
+      heading: "3D & AR/VR",
+      description:
+        "Employ virtual has a creative and a dedicated team of professionals who make the most realistic designs with sound effects which produce a virtual tour effect.",
+      data: AR,
+    },
+    slug: "3d-product-modelling",
+    
+    bannerHeading: "3D Product Modelling",
+    bannerDescription:
+      "3D product modelling has transformed and revolutionized the product development field. It being used by several industries today and has been massively impacting their businesses.",
+    img: modelling,
+    heading: "3D Product Modeling",
+    description: [
+      {
+        label:
+          "3D product modelling has transformed and revolutionized the product development field. It being used by several industries today and has been massively impacting their businesses. So, basically 3D product modelling is a combination of science, geometry, design and mathematics. It is the process of creating a mathematical portray of a 3D mathematical portrayal of a 3D structure using specialized software. This representation of product modelling is known as 3D product modelling. By this, one can visualize the real product. 3D artists can easily make life-like product modelling prototypes on their digital screens.",
+      },
+      {
+        label:
+          "With this concept, we can develop product modelling within the stipulated amount of time and overall enhancement of the design process. The 3D product models can facilitate the magnificent representation of your new and innovative product designs. This gives high level of clarity to the team members working on product designs and will have better understanding of the work and designs. Usually, 3D product modelling has minor changes as all the flaws in the design are visible when the prototype is ready. ",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of 3D Product Modelling",
+        data: [
+          {
+            label: "It aids in developing best-quality and almost flawless prototypes.",
+          },
+          {
+            label: "Easy remodelling process.",
+          },
+          {
+            label: "3D models can be accurate and precise.",
+          },
+          {
+            label: "3D product modelling is easier on pockets.",
+          },
+          {
+            label: "It enhances the artistic views and 360-degree product looks.",
+          },
+          {
+            label: "It assists the marketing of the business.",
+          },
+          {
+            label: "3D product model is easier to understand.",
+          },
+          
+      
+          
+          
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for 3D Product Modelling?",
+        data: [
+          {
+            label:
+              "We believe reaching the customers should be the ultimate objective for any brand and we build that path for you.",
+          },
+          {
+            label: "Our every work is backed up by measurable data.",
+          },
+          {
+            label: "We lead with technology.",
+          },
+          {
+            label:
+              "For different problems, we have multitude of solutions.",
+          },
+        {
+            label:
+              "We are actually the extension of your marketing and branding team. Our team is an experience guide in a world of endless innovation and new-media.",
+          },
+      
+          
+      
+        ],
+      },
+    ],
+  },
+
+   {
+    services: {
+      heading: "3D & AR/VR",
+      description:
+        "Employ virtual has a creative and a dedicated team of professionals who make the most realistic designs with sound effects which produce a virtual tour effect.",
+      data: AR,
+    },
+    slug: "3d-avs-audio-visuals",
+   
+    bannerHeading: "3D Audio Visuals",
+    bannerDescription:
+      "3D Audio Visuals is the sound and video simulations of natural positioning of sounds and videos. It relies on a variety of technologies to create life-like experience.",
+    img: audioo,
+    heading: "3D Audio Visuals",
+    description: [
+      {
+        label:
+          "3D Audio Visuals is the sound and video simulations of natural positioning of sounds and videos. It relies on a variety of technologies to create a more life-like or dramatic immersive experience for music, movie, game and virtual reality. This will include virtual placement of sound sources and video sources anywhere in the 3D space including behind, above or below the listener. 3D audio visuals add great impact and depth of a virtual reality experience. It offers more experience to the audience. 3D AV is not limited to the field of view of the display and can be rendered to give you a 360- degree experiences.",
+      },
+      {
+        label:
+          "With 3D AV you will have the user’s attention and it is similar technique used in live theatre. 3D AV is the creative possibility that opens up in terms of storytelling, emotions and interactivity. 3D AV always gives a real experience for any content. This is how cinematic virtual reality is created and audiences around the world enjoys it to the core. Much of work goes into the visual elements, whether it’s a game or a film and in this sometimes audio takes a stand back. ",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of 3D AV",
+        data: [
+          {
+            label: "It replicates sound and video processed in real life.",
+          },
+          {
+            label: "It provides immersive and dynamic experience.",
+          },
+          {
+            label: "It improves clarity and accuracy of audio and visuals.",
+          },
+          {
+            label: "It has the power to leverage any video game or applications.",
+          },
+          {
+            label: "Video streaming with 3D AV reduces waiting time online.",
+          }, 
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for 3D AV?",
+        data: [
+          {
+            label:
+              "We have the mission to empower the most talented web voices and their audiences.",
+          },
+          {
+            label: "We bring you the award-winning 3D AV technology for your videos and podcasts.",
+          },
+          {
+            label: "We believe in the revolution in media and work towards incorporating the new technologies to our 3D AV methods.",
+          },
+          {
+            label:
+              "For different problems, we have multitude of solutions.",
+          },
+        {
+            label:
+              "We are actually the extension of your marketing and branding team. Our team is an experience guide in a world of endless innovation and new-media.",
+          },
+      
+          
+      
+        ],
+      },
+    ],
+  },
+
+   {
+    services: {
+     heading: "3D & AR/VR",
+      description:
+        "Employ virtual has a creative and a dedicated team of professionals who make the most realistic designs with sound effects which produce a virtual tour effect.",
+      data: AR,
+    },
+    slug: "3d-ar-applications",
+    bannerHeading: "3D Augmented Reality Application",
+    bannerDescription:
+      "Augmented Reality (AR) is considered as biggest technological trend spreading across the globe and with this technology you can see the real-life environment.",
+    img: ar,
+    heading: "3D Augmented Reality Application",
+    description: [
+      {
+        label:
+          "Augmented Reality (AR) is considered as biggest technological trend spreading across the globe and with this technology you can see the real-life environment with a digital augmentation laid on it. There has always been a question whether augmented reality and virtual reality are different or not. AR is highly visual and interactive in nature for the overlaying digital content and sounds, videos, GPS, and graphics into real work environment through camera. The AR applications are easily delivered on your smartphones, tablets etc. Many known companies are using AR software and applications to enhance productivity.",
+      },
+      {
+        label:
+          "AR is either used to visually change natural environments in some way or to provide information to the end users. The main benefit of AR is that it blends digital and 3D components with an individual’s perception of the real world and environment. With this AR can actually help users in decision-making to entertainment. It does delivers visual elements, sound and other sensory information to ends users through different devices. To deliver AR, it requires hardware components, a display and input devices. Since AR is easily available on mobile devices, this makes AR easily accessible to the everyday users.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of 3D AR Applications",
+        data: [
+          {
+            label: "With 3D AR you can create unique customer experiences.",
+          },
+          {
+            label: "It eliminates manual/ user guides to fix a product.",
+          },
+          {
+            label: "It increases user engagement.",
+          },
+          {
+            label: "With 3D AR applications, you can be at edge in market competitiveness.",
+          },
+          {
+            label: "3D AR helps in creating immersive training modules for employees.",
+          }, 
+           {
+            label: "It gives real-time analytics and reporting.",
+          }, 
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for 3D AR Applications?",
+        data: [
+          {
+            label:
+              "We provide the latest industry accepted 3D AR Application support at competitive price.",
+          },
+          {
+            label: "We believe in continuous improvement and innovation to help clients experience the best and effective solutions.",
+          },
+          {
+            label: "We track the project progress and implementation by qualifying the solutions into quantifiable parameters.",
+          },
+          {
+            label:
+              "We have industry expertise from all sectors to serve our clients.",
+          },
+        {
+            label:
+              "With years of experience, we have developed problem-solving capabilities.",
+          },
+      
+          
+      
+        ],
+      },
+    ],
+  },
+
+  {
+    services: {
+      heading: "3D & AR/VR",
+      description:
+        "Employ virtual has a creative and a dedicated team of professionals who make the most realistic designs with sound effects which produce a virtual tour effect.",
+      data: AR,
+    },
+    slug: "3d-vr-applications",
+    bannerHeading: "3D VR Application",
+    bannerDescription:
+      "Virtual Reality is a technology that works on to regenerate computer images and videos to produce real-life visual experiences that are not usually achievable.",
+    img: vr,
+    heading: "3D VR Application",
+    description: [
+      {
+        label:
+          "Virtual Reality is a technology that works on to regenerate computer images and videos to produce real-life visual experiences that are not usually achievable on ordinary computer monitor and phone. VR systems uses computer vision and advanced graphics to generate 3D images and video by adding depth and more sense by reconstructing the scale and distances between 2D contents. The end user will have the rights to explore and control these 3D environments using VR headsets, eye glasses and controllers which will have sensors for the users to experience the effect of VR content.",
+      },
+      {
+        label:
+          "Creating VR content starts with understanding and having knowledge of computer vision, the technology that enables devices such as phones and computers to process images, videos and contents so that it has the human touch to make it similar the way a human visual system does. Devices that are enabled with VR technology interprets images and videos using image location, surroundings, and appearance. So altogether there will be usage of camera with artificial intelligence, big data, and vision processing unit.",
+      },
+    ],
+    details_list: [
+      {
+        heading: "Benefits of 3D VR Applications",
+        data: [
+          {
+            label: "With 3D VR Application, you can encourage the “try before you buy” concept for the users.",
+          },
+          {
+            label: "It’s a good medium to introduce established products to new audiences.",
+          },
+          {
+            label: "It helps in product prototyping and designing.",
+          },
+          {
+            label: "It assists in navigating system.",
+          },
+          {
+            label: "For gaming and entertainment industry, it gives unique experiences to the users.",
+          }, 
+           {
+            label: "For travel industry, it gives visualization of upcoming trips.",
+          }, 
+           {
+            label: "For e-commerce and retail industry, with VR you can have in-store VR navigation.",
+          }, 
+        ],
+      },
+      {
+        heading: "Why choose Employ Virtual for 3D VR Applications?",
+        data: [
+          {
+            label:
+              "We provide the latest industry accepted 3D VR Application support at competitive price.",
+          },
+          {
+            label: "We believe in continuous improvement and innovation to help clients experience the best and effective solutions.",
+          },
+          {
+            label: "We track the project progress and implementation by qualifying the solutions into quantifiable parameters.",
+          },
+          {
+            label:
+              "We have industry expertise from all sectors to serve our clients.",
+          },
+        {
+            label:
+              "With years of experience, we have developed problem-solving capabilities.",
+          },
+      
+          
+      
+        ],
+      },
+    ],
+  },
+
+
+
+
+
+  
 ];

@@ -5,6 +5,7 @@ import React from "react";
 import VirtualCard from "./components/virtual-card";
 import { VIRTUAL_CARD_DATA } from "@/assets/generic-array";
 import { useDetailsStore } from "@/store/useDetailsStore";
+import { StaticImageData } from "next/image";
 
 const VirtualResourcing = () => {
   const { details } = useDetailsStore();
@@ -36,7 +37,7 @@ const VirtualResourcing = () => {
         <Grid container sx={{ mt: 6 }} spacing={4}>
           {details?.services.data.map(
             (
-              val: { heading: string; description: string; slug: string },
+              val: { heading: string; description: string; slug: string,img:StaticImageData },
               i: number
             ) => (
               <Grid size={{ lg: 3, xs: 12 }} key={i}>
@@ -44,6 +45,7 @@ const VirtualResourcing = () => {
                   heading={val.heading}
                   description={val.description}
                   slug={val.slug}
+                  img={ val.img}
                 />
               </Grid>
             )
