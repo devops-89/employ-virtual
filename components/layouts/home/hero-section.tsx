@@ -17,6 +17,7 @@ import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import { LiaLinkedinIn } from "react-icons/lia";
 import HeroCard from "./components/hero-card";
 import { HERO_CARD_DATA } from "@/assets/generic-array";
+import Link from "next/link";
 const Herosection = () => {
   const socialIcons = [
     {
@@ -127,23 +128,25 @@ const Herosection = () => {
                 ))}
               </Grid>
               <Box sx={{ textAlign: "center" }}>
-                <Button
-                  sx={{
-                    backgroundColor: COLORS.TRANSPARENT,
-                    border: `2px solid ${COLORS.WHITE}`,
-                    borderRadius: 0,
-                    p: 1.5,
-                    mt: 4,
-                    fontFamily: poppins.style.fontFamily,
-                    color: COLORS.WHITE,
-                    ":hover": {
-                      color: COLORS.PRIMARY,
-                      backgroundColor: COLORS.BLACK,
-                    },
-                  }}
-                >
-                  Schedule Meeting
-                </Button>
+                <Link href="/contact-us">
+                  <Button
+                    sx={{
+                      backgroundColor: COLORS.TRANSPARENT,
+                      border: `2px solid ${COLORS.WHITE}`,
+                      borderRadius: 0,
+                      p: 1.5,
+                      mt: 4,
+                      fontFamily: poppins.style.fontFamily,
+                      color: COLORS.WHITE,
+                      ":hover": {
+                        color: COLORS.PRIMARY,
+                        backgroundColor: COLORS.BLACK,
+                      },
+                    }}
+                  >
+                    Schedule Meeting
+                  </Button>
+                </Link>
               </Box>
             </Grid>
           </Grid>

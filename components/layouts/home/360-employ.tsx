@@ -13,6 +13,7 @@ import image360 from "@/homepage/360-employ.jpg";
 import Image from "next/image";
 import { COLORS } from "@/utils/enum";
 import { fjalla, poppins } from "@/utils/fonts";
+import Link from "next/link";
 const Employ360 = () => {
   const phone = useMediaQuery("(max-width:600px)");
   return (
@@ -79,24 +80,26 @@ const Employ360 = () => {
                 Employ Virtual have hundreds of resources, who can be part of
                 your integral team and work for you dedicatedly.
               </Typography>
-              <Button
-                sx={{
-                  border: "2px solid #ffffff",
-                  borderRadius: 0,
-                  color: COLORS.WHITE,
-                  ":hover": {
-                    color: COLORS.PRIMARY,
-                    backgroundColor: COLORS.BLACK,
-                  },
-                  backgroundColor: COLORS.TRANSPARENT,
-                  fontFamily: poppins.style.fontFamily,
-                  p: 1.5,
-                  mt: 4,
-                  width: 150,
-                }}
-              >
-                Know More
-              </Button>
+              <Link href="/about-us">
+                <Button
+                  sx={{
+                    border: "2px solid #ffffff",
+                    borderRadius: 0,
+                    color: COLORS.WHITE,
+                    ":hover": {
+                      color: COLORS.PRIMARY,
+                      backgroundColor: COLORS.BLACK,
+                    },
+                    backgroundColor: COLORS.TRANSPARENT,
+                    fontFamily: poppins.style.fontFamily,
+                    p: 1.5,
+                    mt: 4,
+                    width: 150,
+                  }}
+                >
+                  Know More
+                </Button>
+              </Link>
             </Grid>
           </Grid>
         </Container>
