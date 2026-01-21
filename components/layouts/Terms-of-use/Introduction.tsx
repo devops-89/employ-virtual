@@ -306,14 +306,14 @@ const Introduction = () => {
             <Box
               sx={{
                 position: "sticky",
-                top: "120px",
+                top: "0px",
                 p: 4,
                 borderRadius: 4,
                 background: "rgba(255, 255, 255, 0.8)",
                 backdropFilter: "blur(10px)",
                 border: "1px solid rgba(255, 255, 255, 0.3)",
                 boxShadow: "0 20px 40px rgba(0,0,0,0.06)",
-                maxHeight: "calc(100vh - 160px)",
+                // maxHeight: "calc(100vh - 160px)",
                 overflowY: "auto",
                 "&::-webkit-scrollbar": {
                   width: "4px",
@@ -329,7 +329,7 @@ const Introduction = () => {
                 sx={{
                   fontFamily: poppins.style.fontFamily,
                   fontWeight: 800,
-                  mb: 4,
+                  mb: 1,
                   color: COLORS.TEXT_BLACK,
                   letterSpacing: -0.5,
                   fontSize: 20,
@@ -348,7 +348,7 @@ const Introduction = () => {
                       onClick={() => handleScroll(targetId)}
                       sx={{
                         p: 0,
-                        mb: 1.5,
+                        // mb: 1,
                         borderRadius: 2,
                         transition: "all 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
                         "&:hover": {
