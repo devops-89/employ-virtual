@@ -41,7 +41,7 @@ const InnerHeroSection = ({
     <Box
       sx={{
         width: "100%",
-        minHeight: { lg: "650px", xs: "450px" },
+        minHeight: {lg: "650px", xs: "450px"},
         display: "flex",
         flexWrap: "wrap",
         flexDirection: "column",
@@ -53,7 +53,7 @@ const InnerHeroSection = ({
           content: '""',
           width: "100%",
           height: "100%",
-          position: "absoulte",
+          position: "absolute",
           left: 0,
           top: 0,
           background: `url(${lines.src})`,
@@ -82,43 +82,43 @@ const InnerHeroSection = ({
           muted
           autoPlay
           loop
-          style={{ width: "100%", display: phone ? "none" : "block" }}
+          style={{width: "100%", display: phone ? "none" : "block"}}
         ></video>
       </Box>
       <Container maxWidth="xl">
         <Box
           sx={{
             position: "absolute",
-            top: "25%",
+            top: {lg: "25%", xs: "30%"},
             zIndex: 3,
-            width: { lg: "80%", xs: "90%" },
+            width: {lg: "80%", xs: "90%"},
           }}
         >
           {/* <GlitchText speed={1}>About us</GlitchText> */}
           {/* <TextTrail text="About Us" textColor="#ffffff" /> */}
           <Typography
             sx={{
-              fontSize: { lg: 80, xs: 50 },
+              fontSize: {lg: 80, xs: 42},
               fontFamily: poppins.style.fontFamily,
               color: COLORS.WHITE,
               fontWeight: 900,
               textTransform: "capitalize",
-              lineHeight: { lg: "140px", xs: "80px" },
+              lineHeight: {lg: "140px", xs: "80px"},
             }}
           >
             {heading}
           </Typography>
           <Typography
             sx={{
-              fontSize: { lg: 26, xs: 16 },
+              fontSize: {lg: 20, xs: 15},
               fontFamily: poppins.style.fontFamily,
               color: COLORS.WHITE,
               //   fontWeight: 900,
               //   width: "60%",
-              lineHeight: "40px",
+              lineHeight: {lg: "40px", xs: "26px"},
               fontWeight: 300,
               mt: 2,
-              width: { lg: "60%", xs: "90%" },
+              width: {lg: "60%", xs: "100%"},
             }}
           >
             {description}
@@ -127,10 +127,10 @@ const InnerHeroSection = ({
         <Box
           sx={{
             position: "absolute",
-            right: 30,
+            right: {lg: 30, md: 20},
             top: "30%",
             zIndex: 3,
-            display: { lg: "block", xs: "none" },
+            display: {lg: "block", xs: "none"},
           }}
         >
           <Stack alignItems={"center"} spacing={3}>

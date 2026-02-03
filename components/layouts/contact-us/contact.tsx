@@ -11,7 +11,7 @@ const Contact = () => {
         <Grid container spacing={{ lg: 0, xs: 4 }}>
           <Grid size={{ lg: 3, xs: 12 }}>
             <Stack
-              alignItems={"flex-start"}
+              alignItems={{ xs: "center", lg: "flex-start" }}
               justifyContent={"flex-start"}
               spacing={4}
             >

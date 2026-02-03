@@ -28,8 +28,8 @@ const Navbar = () => {
       setSlide("out");
       setTimeout(() => {
         setSlide("none");
-      }, 600);
-    }, 600);
+      }, 1200);
+    }, 1200);
   };
 
   const handleClose = () => {
@@ -39,8 +39,8 @@ const Navbar = () => {
       setSlide("out");
       setTimeout(() => {
         setSlide("none");
-      }, 600);
-    }, 600);
+      }, 1200);
+    }, 1200);
   };
 
   const handleClick = async () => {
@@ -50,8 +50,8 @@ const Navbar = () => {
       setSlide("out");
       setTimeout(() => {
         setSlide("none");
-      }, 600);
-    }, 600);
+      }, 1200);
+    }, 1200);
   };
 
   const phone = useMediaQuery("(max-width:600px)");
@@ -68,7 +68,7 @@ const Navbar = () => {
             justifyContent="space-between"
           >
             <Link href="/" onClick={handleClick}>
-              <Image src={logo} alt="logo" width={phone ? 150 : 250} />
+              <Image src={logo} alt="logo" width={phone ? 160 : 250} />
             </Link>
             <Stack direction="row" alignItems="center" spacing={2}>
               <Typography
@@ -153,7 +153,7 @@ const Navbar = () => {
                 <Typography
                   sx={{
                     color: COLORS.WHITE,
-                    fontSize: 40,
+                    fontSize: {md: 40,sm: 38, xs: 35},
                     fontFamily: fjalla.style.fontFamily,
                     position: "relative",
                     display: "inline-block",

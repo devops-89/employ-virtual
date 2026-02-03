@@ -211,17 +211,17 @@ const Introduction = () => {
   };
 
   return (
-    <Box sx={{ mt: 5 }}>
+    <Box sx={{ mt: {xs: 3, md: 5} }}>
       <Container maxWidth="xl">
-        <Grid container spacing={6}>
-          <Grid size={8}>
+        <Grid container spacing={{xs: 4, md: 6}}>
+          <Grid size={{xs: 12, md: 8}}>
             {data.map((val, i) => (
               <Stack
                 spacing={3}
                 key={i}
                 id={val.title.toLowerCase().replace(/\s+/g, "-")}
                 sx={{
-                  mt: i === 0 ? 0 : 10,
+                  mt: i === 0 ? 0 : {xs: 6, md: 10},
                   mb: 6,
                   scrollMarginTop: "140px",
                 }}
@@ -229,7 +229,7 @@ const Introduction = () => {
                 <Typography
                   sx={{
                     fontFamily: poppins.style.fontFamily,
-                    fontSize: { xs: 32, md: 42 },
+                    fontSize: {xs: 32, md: 42},
                     fontWeight: 700,
                     color: COLORS.TEXT_BLACK,
                     position: "relative",
@@ -254,7 +254,7 @@ const Introduction = () => {
                       sx={{
                         fontFamily: poppins.style.fontFamily,
                         color: "text.secondary",
-                        fontSize: 18,
+                        fontSize: {xs: 16, md: 18},
                         lineHeight: 1.8,
                         textAlign: "justify",
                       }}
@@ -264,14 +264,14 @@ const Introduction = () => {
                   ))}
 
                 {val.listDetails && (
-                  <List sx={{ pt: 1 }}>
+                  <List sx={{pt: 1}}>
                     {val.listDetails.map((listitem, index) => (
                       <ListItem
                         key={index}
                         disablePadding
-                        sx={{ mb: 2, alignItems: "flex-start" }}
+                        sx={{mb: 2, alignItems: "flex-start"}}
                       >
-                        <ListItemAvatar sx={{ minWidth: 32, mt: 0.5 }}>
+                        <ListItemAvatar sx={{minWidth: 32, mt: 0.5}}>
                           <Box
                             sx={{
                               width: 8,
@@ -288,7 +288,7 @@ const Introduction = () => {
                             primary: {
                               sx: {
                                 fontFamily: poppins.style.fontFamily,
-                                fontSize: 17,
+                                fontSize: {xs: 15, md: 17},
                                 color: "text.secondary",
                                 lineHeight: 1.6,
                               },
@@ -302,10 +302,10 @@ const Introduction = () => {
               </Stack>
             ))}
           </Grid>
-          <Grid size={4}>
+          <Grid size={{xs: 12, md: 4}}>
             <Box
               sx={{
-                position: "sticky",
+                position: {xs: "static", md: "sticky"},
                 top: "0px",
                 p: 4,
                 borderRadius: 4,
@@ -339,7 +339,7 @@ const Introduction = () => {
               >
                 Content Overview
               </Typography>
-              <List sx={{ p: 0 }}>
+              <List sx={{p: 0}}>
                 {data.map((val, i) => {
                   const targetId = val.title.toLowerCase().replace(/\s+/g, "-");
                   return (

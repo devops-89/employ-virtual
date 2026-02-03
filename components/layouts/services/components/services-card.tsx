@@ -27,7 +27,14 @@ const ServicesCard = ({ img, heading, data }: SERVICE_CARD_PROPS) => {
     };
 
   return (
-    <Box>
+    <Box
+      sx={{
+        textAlign: { xs: "center", sm: "left" },
+        display: "flex",
+        flexDirection: "column",
+        alignItems: { xs: "center", sm: "flex-start" },
+      }}
+    >
       <Image src={img} alt="" width={80} />
       <Typography
         sx={{
@@ -47,11 +54,10 @@ const ServicesCard = ({ img, heading, data }: SERVICE_CARD_PROPS) => {
             sx={{
               p: 0,
               width: "fit-content",
+              alignSelf: { xs: "center", sm: "flex-start" },
               ":hover": { color: COLORS.PRIMARY },
             }}
             onClick={() => navigateToPage(val.url || "#")}
-           
-          
           >
             <ListItemText
               primary={val.label}
@@ -71,7 +77,7 @@ const ServicesCard = ({ img, heading, data }: SERVICE_CARD_PROPS) => {
                 width: "fit-content",
                 ":hover": { color: COLORS.PRIMARY },
               }}
-                onClick={() => navigateToPage(val.url || "#")}
+              onClick={() => navigateToPage(val.url || "#")}
             >
               <ListItemText
                 primary={val.label}
@@ -89,11 +95,12 @@ const ServicesCard = ({ img, heading, data }: SERVICE_CARD_PROPS) => {
 
       <Button
         sx={{
-          fontSize: 12,
-          fontFamily: poppins.style.fontFamily,
-          color: COLORS.PRIMARY,
-          ":hover": { textDecoration: "underline" },
-        }}
+  fontSize: 12,
+  fontFamily: poppins.style.fontFamily,
+  color: COLORS.PRIMARY,
+  alignSelf: { xs: "center", sm: "flex-start" },
+  ":hover": { textDecoration: "underline" },
+}}
         onClick={toggleExpand}
       >
         {expanded ? "View Less" : "View More"}

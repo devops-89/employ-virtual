@@ -1,4 +1,4 @@
-import {
+  import {
   Box,
   Button,
   Container,
@@ -38,21 +38,27 @@ const Herosection = () => {
       <Box
         sx={{
           backgroundImage: `url(${bannerGif.src})`,
-          height: "100vh",
+          minHeight: { lg: "100vh", md: "50vh", xs: "80vh" },
+          pt: { xs: 20, sm: 18, lg: 0 },
           backgroundRepeat: "no-repeat",
           width: "100%",
-          backgroundSize: "contain",
+          backgroundSize: { lg: "contain", xs: "cover" },
           backgroundPosition: "center",
           display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
+          alignItems: { xs: "flex-start", lg: "center" },
+          justifyContent: { xs: "flex-start", lg: "center" },
           position: "relative",
-          backgroundAttachment: "fixed",
+          backgroundAttachment: { lg: "fixed", xs: "scroll" },
         }}
       >
-        <Container maxWidth="lg">
+        <Container
+          maxWidth="lg"
+          sx={{
+            px: { xs: 2.5, sm: 3, md: 2 },
+          }}
+        >
           <Grid container>
-            <Grid size={{ lg: 10, xs: 12 }} margin="auto">
+            <Grid size={{ lg: 10, md: 10, xs: 12 }} mx="auto">
               <Typography
                 sx={{
                   fontSize: 13,
@@ -77,16 +83,17 @@ const Herosection = () => {
               </Typography>
               <Typography
                 sx={{
-                  fontSize: { lg: 50, xs: 30 },
+                  fontSize: { lg: 50, md: 40, xs: 26 },
                   color: COLORS.WHITE,
                   fontFamily: impact.style.fontFamily,
                   textAlign: "center",
+                  px: { xs: 1, sm: 0 },
                 }}
               >
                 360° virtual resourcing services
               </Typography>
               <Grid container sx={{ my: 4 }}>
-                <Grid size={6} margin="auto">
+                <Grid size={{ lg: 6, xs: 12 }} margin="auto">
                   <Box sx={{ border: "1px solid  #ffffff" }}></Box>
                   <Typography
                     sx={{
@@ -116,9 +123,13 @@ const Herosection = () => {
                   <Box sx={{ border: "1px solid  #ffffff" }}></Box>
                 </Grid>
               </Grid>
-              <Grid container spacing={5}>
+              <Grid
+                container
+                spacing={{ xs: 2.5, sm: 3, lg: 4 }}
+                mt={{ xs: 3, lg: 5 }}
+              >
                 {HERO_CARD_DATA.map((val, i) => (
-                  <Grid size={{ lg: 4, xs: 12 }} key={i}>
+                  <Grid size={{ lg: 4, md: 6, xs: 12 }} key={i}>
                     <HeroCard
                       img={val.img}
                       title={val.title}
@@ -134,8 +145,9 @@ const Herosection = () => {
                       backgroundColor: COLORS.TRANSPARENT,
                       border: `2px solid ${COLORS.WHITE}`,
                       borderRadius: 0,
-                      p: 1.5,
-                      mt: 4,
+                      p: { lg: 1.5, xs: 1 },
+                      fontSize: { lg: 16, xs: 14 },
+                      mt: { xs: 3, md: 4 },
                       fontFamily: poppins.style.fontFamily,
                       color: COLORS.WHITE,
                       ":hover": {
@@ -153,9 +165,9 @@ const Herosection = () => {
           <Box
             sx={{
               position: "absolute",
-              right: 30,
+              right: { lg: 30 },
               top: "30%",
-              display: { lg: "flex", xs: "none" },
+              display: { lg: "flex", md: "flex", xs: "none" },
             }}
           >
             <Stack alignItems={"center"} spacing={3}>

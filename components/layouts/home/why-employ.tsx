@@ -10,10 +10,11 @@ const WhyEmploy = () => {
     <Box sx={{ backgroundColor: COLORS.WHITE, py: 5 }}>
       <Container maxWidth="xl">
         <Grid container spacing={7}>
-          <Grid size={{ lg: 4, xs: 12 }}>
+          <Grid size={{ lg: 4, md:12, xs: 12 }}>
             <Typography
               sx={{
-                fontSize: { lg: 50, xs: 30 },
+                fontSize: { lg: 50, md:40, xs: 28 },
+                textAlign:{lg: "left", md: "center", xs: "center"},
                 fontFamily: poppins.style.fontFamily,
                 fontWeight: 900,
                 lineHeight: 1.1,
@@ -24,7 +25,8 @@ const WhyEmploy = () => {
             </Typography>
             <Typography
               sx={{
-                fontSize: 17,
+                fontSize:{lg: 17, md: 16, xs: 15},
+                textAlign:{lg: "left", md: "center", xs: "center"},
                 fontFamily: poppins.style.fontFamily,
                 color: COLORS.TEXT_GREY,
                 fontWeight: 300,
@@ -36,10 +38,10 @@ const WhyEmploy = () => {
               you get the real experience.
             </Typography>
           </Grid>
-          <Grid size={{ lg: 8, xs: 12 }}>
+          <Grid size={{ lg: 8, md: 12, xs: 12 }}>
             <Grid container spacing={7}>
               {WHY_EMPLOY_DATA.map((val, i) => (
-                <Grid size={{ lg: 4, xs: 12 }} key={i}>
+                <Grid size={{ lg: 4, md:6, xs: 12 }} key={i}>
                   <WhyEmployCard
                     img={val.img}
                     title={val.title}

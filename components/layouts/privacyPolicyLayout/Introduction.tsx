@@ -7,20 +7,20 @@ const PrivacyPolicyintroduction = () => {
   return (
     <div>
       <Container maxWidth="xl">
-        <Box sx={{ py: 5 }}>
+        <Box sx={{ py: { xs: 3, md: 5 } }}>
           <Typography
             variant="h4"
             sx={{
               fontFamily: poppins.style.fontFamily,
               fontWeight: 700,
-              fontSize: 40,
+              fontSize: { xs: 28, md: 40 },
             }}
           >
             Privacy Policy
           </Typography>
           <Typography
             sx={{
-              fontSize: 16,
+              fontSize: { xs: 14, md: 16 },
               fontFamily: poppins.style.fontFamily,
               mt: 2,
             }}
@@ -44,7 +44,7 @@ const PrivacyPolicyintroduction = () => {
           </Typography>
           <Typography
             sx={{
-              fontSize: 16,
+              fontSize: { xs: 14, md: 16 },
               fontFamily: poppins.style.fontFamily,
               mt: 2,
             }}

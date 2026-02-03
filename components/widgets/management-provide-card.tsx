@@ -59,7 +59,7 @@ const ManagementSuited = ({
               ))}
             </Grid>
             {isButton && (
-              <Box sx={{ textAlign: "center" }}>
+              <Box sx={{ textAlign: "left" }}>
                 <Button
                   sx={{
                     border: "1px solid #ffffff ",

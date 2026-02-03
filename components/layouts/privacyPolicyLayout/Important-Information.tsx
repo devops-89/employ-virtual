@@ -84,32 +84,37 @@ const ImportantInformation = () => {
         <Typography
           sx={{
             fontWeight: 700,
-            fontSize: 24,
+            fontSize: {xs: 18, md: 24, lg: 28},
             fontFamily: poppins.style.fontFamily,
+            mb: {xs: 2, md: 3},
           }}
         >
           1. IMPORTANT INFORMATION ABOUT US
         </Typography>
         {data.map((val, i) => (
-          <Box sx={{ my: 2 }} key={i}>
+          <Box sx={{ my: {xs: 2, md: 3}, px: {xs: 1, md: 3} }} key={i}>
             <Typography
               sx={{
                 fontFamily: poppins.style.fontFamily,
                 fontWeight: 600,
-                fontSize: 18,
+                fontSize: {xs: 16, md: 18, lg: 20},
                 mb: 1,
               }}
             >
               {val.title}
             </Typography>
             {val.description?.map((item, i) => (
-              <Typography sx={{ fontFamily: poppins.style.fontFamily }} key={i}>
+              <Typography sx={{ fontFamily: poppins.style.fontFamily, fontSize: {xs: 14, md: 16},}} key={i}>
                 {item.label}
               </Typography>
             ))}
             {val.contactDetails?.map((item, i) => (
               <Typography
-                sx={{ fontFamily: poppins.style.fontFamily, fontWeight: 550 }}
+                sx={{
+                  fontFamily: poppins.style.fontFamily,
+                  fontSize: {xs: 14, md: 16},
+                  fontWeight: 550,
+                }}
                 key={i}
               >
                 {item.label}{" "}

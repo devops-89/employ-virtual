@@ -76,13 +76,14 @@ const YourLegalRights = () => {
   ];
 
   return (
-    <Box sx={{ mt: 4 }}>
-      <Container maxWidth="xl">
+    <Box sx={{ mt: {xs: 3, md: 4} }}>
+      <Container maxWidth="xl" sx={{ px: {xs: 1, md: 3} }}>
         <Typography
           sx={{
             fontWeight: 700,
-            fontSize: 24,
+            fontSize: {xs: 20, md: 24, lg: 28},
             fontFamily: poppins.style.fontFamily,
+            mb: {xs: 2, md: 3},
           }}
         >
           7. YOUR LEGAL RIGHTS
@@ -90,20 +91,29 @@ const YourLegalRights = () => {
         {data.map((val, i) => (
           <Box key={i}>
             {val.description?.map((item, idx) => (
-              <Box key={idx} sx={{ mb: 4, mt: 2 }}>
+              <Box
+                key={idx}
+                sx={{ mb: {xs: 3, md: 4}, mt: {xs: 1.5, md: 2} }}
+              >
                 {val.title && (
                   <Typography
                     sx={{
-                      fontSize: 18,
+                      fontSize: {xs: 16, md: 18, lg: 20},
                       fontFamily: poppins.style.fontFamily,
                       fontWeight: 700,
+                      mb: {xs: 1, md: 1.5},
                     }}
                   >
                     {val.title}
                   </Typography>
                 )}
 
-                <Typography sx={{ fontFamily: poppins.style.fontFamily }}>
+                <Typography
+                  sx={{
+                    fontFamily: poppins.style.fontFamily,
+                    fontSize: {xs: 14, md: 16},
+                  }}
+                >
                   {item.label}
                 </Typography>
               </Box>
@@ -112,16 +122,17 @@ const YourLegalRights = () => {
         ))}
         <Typography
           sx={{
-            fontSize: 18,
+            fontSize: {xs: 16, md: 18, lg: 20},
             fontWeight: 700,
-            mt: 4,
+            mt: {xs: 3, md: 4},
+            mb: {xs: 1.5, md: 2},
             fontFamily: poppins.style.fontFamily,
           }}
         >
           You have the right to:
         </Typography>
 
-        <List sx={{ pl: 2, mt: 2 }}>
+        <List sx={{ pl: {xs: 2, md: 3}, mt: {xs: 1, md: 2} }}>
           {rightsList.map((item, index) => (
             <ListItem
               key={index}
@@ -129,16 +140,21 @@ const YourLegalRights = () => {
               sx={{
                 display: "list-item",
                 listStyleType: "disc",
-                mb: 2,
+                mb: {xs: 1, md: 2},
               }}
             >
               <Box>
-                <Typography sx={{ fontFamily: poppins.style.fontFamily }}>
+                <Typography
+                  sx={{
+                    fontFamily: poppins.style.fontFamily,
+                    fontSize: {xs: 14, md: 16},
+                  }}
+                >
                   <strong>{item.title}</strong> {item.description}
                 </Typography>
 
                 {item.lists && (
-                  <List sx={{ pl: 3, mt: 1 }}>
+                  <List sx={{ pl: {xs: 3, md: 4}, mt: {xs: 0.5, md: 1} }}>
                     {item.lists.map((list, i) => (
                       <ListItem
                         key={i}
@@ -146,11 +162,14 @@ const YourLegalRights = () => {
                         sx={{
                           display: "list-item",
                           listStyleType: "decimal",
-                          mb: 0.5,
+                          mb: {xs: 0.5, md: 0.75},
                         }}
                       >
                         <Typography
-                          sx={{ fontFamily: poppins.style.fontFamily }}
+                          sx={{
+                            fontFamily: poppins.style.fontFamily,
+                            fontSize: {xs: 14, md: 16},
+                          }}
                         >
                           {list}
                         </Typography>
@@ -164,7 +183,7 @@ const YourLegalRights = () => {
         </List>
       </Container>
     </Box>
-  );
+  ); 
 };
 
 export default YourLegalRights;

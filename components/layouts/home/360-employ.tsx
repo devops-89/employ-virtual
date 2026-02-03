@@ -20,7 +20,8 @@ const Employ360 = () => {
     <Box
       sx={{
         backgroundImage: `url(${banner_360.src})`,
-        height: "100vh",
+        height: { lg: "100vh", md: "100vh", xs: "auto" },
+        py: { xs: 6, md: 0 },
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -37,11 +38,14 @@ const Employ360 = () => {
       >
         <Container maxWidth="lg">
           <Grid container spacing={3}>
-            <Grid size={{ lg: 6, xs: 12 }}>
+            <Grid
+              size={{ lg: 6, md: 6, xs: 12 }}
+              sx={{ textAlign: { xs: "center", md: "center", lg: "left" } }}
+            >
               <Image
                 src={image360}
                 alt=""
-                width={phone ? 380 : 400}
+                width={phone ? 280 : 400}
                 style={{ border: "10px solid #ffffff" }}
               />
             </Grid>
@@ -50,7 +54,8 @@ const Employ360 = () => {
                 sx={{
                   color: COLORS.WHITE,
                   fontFamily: fjalla.style.fontFamily,
-                  fontSize: 20,
+                  fontSize: { xs: 16, md: 18, lg: 20 },
+                  textAlign: { xs: "center", md: "center", lg: "left" },
                 }}
               >
                 360° VIRTUAL RESOURCING COMPANY
@@ -59,9 +64,10 @@ const Employ360 = () => {
                 sx={{
                   color: COLORS.WHITE,
                   fontFamily: poppins.style.fontFamily,
-                  fontSize: 28,
+                  fontSize: { xs: 22, md: 26, lg: 28 },
                   fontWeight: 800,
                   my: 2,
+                  textAlign: { xs: "center", md: "center", lg: "left" },
                 }}
               >
                 #EMPLOYVIRTUAL
@@ -70,9 +76,10 @@ const Employ360 = () => {
                 sx={{
                   color: COLORS.WHITE,
                   fontFamily: poppins.style.fontFamily,
-                  fontSize: 20,
+                  fontSize: { xs: 15, md: 17, lg: 20 },
                   fontWeight: 400,
                   my: 2,
+                  textAlign: { xs: "center", md: "center", lg: "left" },
                 }}
               >
                 Employ Virtual is a 360° virtual resourcing service provider,
@@ -92,9 +99,10 @@ const Employ360 = () => {
                     },
                     backgroundColor: COLORS.TRANSPARENT,
                     fontFamily: poppins.style.fontFamily,
-                    p: 1.5,
+                    p: { xs: 1, md: 1.3, lg: 1.5 },
                     mt: 4,
-                    width: 150,
+                    width: { xs: "100%", md: 160, lg: 150 },
+                    mx: { xs: "auto", md: 0 },
                   }}
                 >
                   Know More

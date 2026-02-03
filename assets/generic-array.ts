@@ -67,10 +67,10 @@ export const NAVBAR_LINKS = [
     label: "Services",
     url: "/services",
   },
-  {
-    label: "Blog",
-    url: "/blogs",
-  },
+  // {
+  //   label: "Blog",
+  //   url: "/blogs",
+  // },
   {
     label: "Contact Us",
     url: "/contact-us",
@@ -269,10 +269,10 @@ export const FOOTER_LINKS_URL: FOOTER_LINKS[] = [
         label: "Careers",
         url: "/careers",
       },
-      {
-        label: "Blogs",
-        url: "/blogs",
-      },
+      // {
+      //   label: "Blogs",
+      //   url: "/blogs",
+      // },
       {
         label: "Terms of use",
         url: "/terms-of-use",

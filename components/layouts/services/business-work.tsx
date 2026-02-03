@@ -23,7 +23,7 @@ const BusinessWork = () => {
               alt=""
               style={{
                 width: "100%",
-                height: phone ? 400 : 500,
+                height: phone ? 350 : 500,
                 borderRadius: "20px",
               }}
             />
@@ -31,7 +31,9 @@ const BusinessWork = () => {
           <Grid size={{ lg: 6, xs: 12 }}>
             <Typography
               sx={{
-                fontSize: 20,
+                fontSize: {lg: 20, md: 18, xs:15},
+                textAlign:{lg: "left", xs: "center"},
+                mt:{lg: 0, xs: 2},
                 fontFamily: poppins.style.fontFamily,
                 fontWeight: 300,
                 lineHeight: "30px",
@@ -50,9 +52,9 @@ const BusinessWork = () => {
             </Typography>
           </Grid>
         </Grid>
-        <Grid container sx={{ mt: 10 }} spacing={6}>
+        <Grid container sx={{ mt: {md: 10, xs: 6} }} spacing={{md: 6, xs: 4}}>
           {SERVICE_CARD_DATA.map((val, i) => (
-            <Grid size={{ lg: 3, xs: 12 }} key={i}>
+            <Grid size={{ lg: 3, md: 6,xs: 12 }} key={i}>
               <ServicesCard
                 img={val.img}
                 heading={val.heading}

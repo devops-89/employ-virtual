@@ -128,24 +128,35 @@ const HowwecollectpersonalData = () => {
     },
   ];
   return (
-    <Box sx={{ mt: 4 }}>
+    <Box sx={{ mt: {xs: 3, md: 4} }}>
       <Container maxWidth="xl">
         <Typography
           sx={{
             fontWeight: 700,
-            fontSize: 24,
+            fontSize: {xs: 20, md: 24, lg: 28},
             fontFamily: poppins.style.fontFamily,
+            mb: {xs: 2, md: 3},
           }}
         >
           3. HOW WE COLLECT YOUR PERSONAL DATA
         </Typography>
         {data.map((val, i) => (
-          <Box key={i}>
+          <Box
+            key={i}
+            sx={{
+              mt: {xs: 1.5, md: 2},
+              px: {xs: 1, md: 3},
+            }}
+          >
             {i === 0 &&
               val.description?.map((item, idx) => (
                 <Typography
                   key={idx}
-                  sx={{ fontFamily: poppins.style.fontFamily, my: 2 }}
+                  sx={{
+                    fontFamily: poppins.style.fontFamily,
+                    fontSize: {xs: 14, md: 16},
+                    my: {xs: 1, md: 2},
+                  }}
                 >
                   {item.label}
                 </Typography>
@@ -157,7 +168,7 @@ const HowwecollectpersonalData = () => {
                 sx={{
                   display: "list-item",
                   listStyleType: "disc",
-                  ml: 3,
+                  ml: {xs: 2, md: 3},
                 }}
               >
                 <Box
@@ -170,6 +181,7 @@ const HowwecollectpersonalData = () => {
                     sx={{
                       fontFamily: poppins.style.fontFamily,
                       fontWeight: 600,
+                      fontSize: {xs: 14, md: 16},
                       mr: 1,
                     }}
                   >
@@ -182,6 +194,7 @@ const HowwecollectpersonalData = () => {
                       component="span"
                       sx={{
                         fontFamily: poppins.style.fontFamily,
+                        fontSize: {xs: 14, md: 16},
                       }}
                     >
                       {desc.label}
@@ -190,7 +203,7 @@ const HowwecollectpersonalData = () => {
                 </Box>
               </ListItem>
             ))}
-            <List component="ol" sx={{ pl: 0 }}>
+            <List component="ol" sx={{pl: 0}}>
               {val.technicalData?.map((item, i) => (
                 <ListItem
                   disablePadding
@@ -198,12 +211,15 @@ const HowwecollectpersonalData = () => {
                   sx={{
                     display: "list-item",
                     listStyleType: "decimal",
-                    ml: 8,
+                    ml: {xs: 4, md: 8},
                   }}
                 >
                   <Typography
                     component="span"
-                    sx={{ fontFamily: poppins.style.fontFamily }}
+                    sx={{
+                      fontFamily: poppins.style.fontFamily,
+                      fontSize: {xs: 14, md: 16},
+                    }}
                   >
                     {item.label}
                   </Typography>
@@ -213,17 +229,23 @@ const HowwecollectpersonalData = () => {
 
             {i === 1 &&
               val.description?.map((item, idx) => (
-                <Box key={idx} sx={{ mb: 4 }}>
+                <Box key={idx} sx={{ mb: {xs: 3, md: 4} }}>
                   <Typography
                     sx={{
-                      fontSize: 18,
+                      fontSize: {xs: 16, md: 18, lg: 20},
                       fontFamily: poppins.style.fontFamily,
                       fontWeight: 900,
                     }}
                   >
                     {val.title}
                   </Typography>
-                  <Typography sx={{ fontFamily: poppins.style.fontFamily }}>
+                  <Typography
+                    sx={{
+                      fontFamily: poppins.style.fontFamily,
+                      fontSize: {xs: 14, md: 16},
+                      mt: 0.5,
+                    }}
+                  >
                     {item.label}
                   </Typography>
                 </Box>
@@ -236,10 +258,13 @@ const HowwecollectpersonalData = () => {
           <Box key={i}>
             {i >= 2 &&
               val.description?.map((item, idx) => (
-                <Box key={idx} sx={{ mb: 4, mt:2 }}>
+                <Box
+                  key={idx}
+                  sx={{ mb: {xs: 3, md: 4}, mt: {xs: 1.5, md: 2} }}
+                >
                   <Typography
                     sx={{
-                      fontSize: 18,
+                      fontSize: {xs: 16, md: 18, lg: 20},
                       fontFamily: poppins.style.fontFamily,
                       fontWeight: 700,
                     }}
@@ -247,14 +272,19 @@ const HowwecollectpersonalData = () => {
                     {val.title}
                   </Typography>
 
-                  <Typography sx={{ fontFamily: poppins.style.fontFamily }}>
+                  <Typography
+                    sx={{
+                      fontFamily: poppins.style.fontFamily,
+                      fontSize: {xs: 14, md: 16},
+                      mt: 0.5,
+                    }}
+                  >
                     {item.label}
                   </Typography>
                 </Box>
               ))}
           </Box>
         ))}
-      
       </Container>
     </Box>
   );

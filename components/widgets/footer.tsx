@@ -38,10 +38,11 @@ const Footer = () => {
       <Box
         sx={{
           backgroundImage: `url(${footer_banner.src})`,
-          height: { lg: "80vh", xs: "70vh" },
+          height: { lg: "80vh", md: "auto", xs: "auto" },
+          py: { lg: 0, md: 6, xs: 6 },
           backgroundRepeat: "no-repeat",
           width: "100%",
-          backgroundSize: "contain",
+          backgroundSize: { lg: "contain", xs: "cover" },
           backgroundPosition: "center",
           display: "flex",
           alignItems: "center",
@@ -50,21 +51,32 @@ const Footer = () => {
         }}
       >
         <Container maxWidth="xl">
-          <Grid container spacing={{ lg: 0, xs: 4 }}>
+          <Grid
+            container
+            spacing={{ lg: 0, xs: 4 }}
+            sx={{ pb: { xs: 12, md: 10, lg: 8 } }}
+          >
             <Grid
-              size={{ lg: 4, xs: 12 }}
+              size={{ lg: 4, md: 12, xs: 12 }}
               sx={{
                 borderRight: { lg: "1px solid #ffffff", xs: "none" },
                 pr: { lg: 4, xs: 0 },
               }}
             >
-              <Image src={logo} alt="" width={250} />
+              <Box
+                sx={{
+                  textAlign: { xs: "center", md: "center", lg: "left" },
+                }}
+              >
+                <Image src={logo} alt="" width={250} />
+              </Box>
               <Typography
                 sx={{
                   fontSize: 15,
                   fontFamily: poppins.style.fontFamily,
                   color: COLORS.WHITE,
                   mt: 2,
+                  textAlign: { xs: "center", md: "center", lg: "left" },
                 }}
               >
                 Employ Virtual is a 360° virtual resourcing service provider,
@@ -75,13 +87,17 @@ const Footer = () => {
             </Grid>
             {FOOTER_LINKS_URL.map((val, i) => (
               <Grid
-                size={{ lg: 4, xs: 6 }}
+                size={{ lg: 4, md: 6, xs: 12 }}
                 key={i}
                 sx={{
-                  borderRight:
-                    FOOTER_LINKS_URL.length - 1 !== i
-                      ? "1px solid #ffffff"
-                      : "",
+                  borderRight: {
+                    lg:
+                      FOOTER_LINKS_URL.length - 1 !== i
+                        ? "1px solid #ffffff"
+                        : "none",
+                    md: "none",
+                    xs: "none",
+                  },
                 }}
               >
                 <FooterLinks heading={val.heading} data={val.data} />
@@ -91,8 +107,8 @@ const Footer = () => {
           <Box
             sx={{
               position: "absolute",
-              bottom: 0,
-              width: "85%",
+              bottom: { lg: 40, md: 30, xs: 20 },
+              width: { lg: "85%", xs: "100%" },
               transform: "translateX(-50%)",
               left: "50%",
             }}
@@ -102,6 +118,7 @@ const Footer = () => {
               alignItems={"center"}
               justifyContent={"center"}
               spacing={3}
+              sx={{ mt: { xs: 3, md: 2, lg: 5 } }}
             >
               {socialIcons.map((val, i) => (
                 <IconButton
@@ -129,6 +146,7 @@ const Footer = () => {
                 fontSize: 13,
                 fontFamily: poppins.style.fontFamily,
                 mt: 1,
+                mx:2
               }}
             >
               © Copyright 2025 Digixito Media Pvt. Ltd & Infraguard Inc. All

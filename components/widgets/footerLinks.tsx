@@ -17,22 +17,23 @@ const FooterLinks = ({ heading, data }: FOOTER_LINKS) => {
     <Box>
       <Typography
         sx={{
-          fontSize: 20,
+          fontSize: {lg: 20, md: 18, xs: 16},
           fontWeight: 800,
           fontFamily: poppins.style.fontFamily,
-          textAlign: "center",
+          textAlign: {lg: "center", md: "center", xs: "center"},
           color: COLORS.WHITE,
         }}
       >
         {heading}
       </Typography>
-      <List>
+      <List sx={{mt:{xs: 1,md: 5}}}>
         {data.map((val, i) => (
           <Link href={val.url || ""} style={{ textDecoration: "none" }} key={i}>
             <ListItemButton
               sx={{
                 padding: 0,
-                width: "fit-content",
+                width: {md: "fit-content", xs:"100%"},
+                justifyContent:"center",
                 margin: "auto",
                 ":hover": {
                   color: COLORS.PRIMARY,
@@ -49,7 +50,7 @@ const FooterLinks = ({ heading, data }: FOOTER_LINKS) => {
                     sx={{
                       color: COLORS.WHITE,
                       fontFamily: poppins.style.fontFamily,
-                      fontSize: 13,
+                      fontSize: {lg: 13, md: 13, xs:12},
                       textAlign: "center",
                       fontWeight: 500,
                     }}
@@ -61,6 +62,7 @@ const FooterLinks = ({ heading, data }: FOOTER_LINKS) => {
               />
             </ListItemButton>
           </Link>
+          
         ))}
       </List>
     </Box>

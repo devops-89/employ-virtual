@@ -1,7 +1,7 @@
 import { poppins } from "@/utils/fonts";
 import { Box, Typography, Container, ListItem, List } from "@mui/material";
 import React from "react";
-// this is my codebbgit credential reject
+
 
 const Glossary = () => {
   const data = [
@@ -35,27 +35,28 @@ const Glossary = () => {
   ];
 
   return (
-    <Box sx={{ mt: 4 }}>
-      <Container maxWidth="xl">
+    <Box sx={{ mt: {xs: 3, md: 4} }}>
+      <Container maxWidth="xl" sx={{ px: {xs: 1, md: 3} }}>
         <Typography
           sx={{
             fontWeight: 700,
-            fontSize: 24,
-            mt: 6,
+            fontSize: {xs: 20, md: 24, lg: 28},
+            mt: {xs: 4, md: 6},
             fontFamily: poppins.style.fontFamily,
+            mb: {xs: 2, md: 3},
           }}
         >
           8. GLOSSARY
         </Typography>
 
-        <List sx={{ pl: 0, mt: 3 }}>
+        <List sx={{ pl: 0, mt: {xs: 2, md: 3} }}>
           {data.map((item, index) => (
-            <Box key={index} sx={{ mt: index === 0 ? 0 : 2 }}>
+            <Box key={index} sx={{mt: index === 0 ? 0 : {xs: 1.5, md: 2} }}>
               {index === 0 ? (
                 <>
                   <Typography
                     sx={{
-                      fontSize: 18,
+                      fontSize: {xs: 16, md: 18, lg: 20},
                       fontFamily: poppins.style.fontFamily,
                       fontWeight: 700,
                     }}
@@ -63,7 +64,11 @@ const Glossary = () => {
                     {item.title}
                   </Typography>
                   <Typography
-                    sx={{ fontFamily: poppins.style.fontFamily, mt: 1 }}
+                    sx={{
+                      fontFamily: poppins.style.fontFamily,
+                      fontSize: {xs: 14, md: 16},
+                      mt: {xs: 0.5, md: 1},
+                    }}
                   >
                     {item.description[0].label}
                   </Typography>
@@ -74,11 +79,16 @@ const Glossary = () => {
                   sx={{
                     display: "list-item",
                     listStyleType: "decimal",
-                    mb: 2,
-                    ml:4
+                    mb: {xs: 1, md: 2},
+                    ml: {xs: 2, md: 4},
                   }}
                 >
-                  <Typography sx={{ fontFamily: poppins.style.fontFamily }}>
+                  <Typography
+                    sx={{
+                      fontFamily: poppins.style.fontFamily,
+                      fontSize: {xs: 14, md: 16},
+                    }}
+                  >
                     <strong>{item.title}</strong> {item.description[0].label}
                   </Typography>
                 </ListItem>
@@ -92,4 +102,3 @@ const Glossary = () => {
 };
 
 export default Glossary;
-

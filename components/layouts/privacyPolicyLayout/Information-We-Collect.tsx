@@ -68,23 +68,30 @@ const InformationWeCollect = () => {
     },
   ];
   return (
-    <Box sx={{ mt: 4 }}>
+    <Box sx={{ mt: {xs: 3, md: 4} }}>
       <Container maxWidth="xl">
         <Typography
           sx={{
             fontWeight: 700,
-            fontSize: 24,
+            fontSize: {xs: 20, md: 24, lg: 28},
             fontFamily: poppins.style.fontFamily,
+            mb: {xs: 2, md: 3},
           }}
         >
           2. THE INFORMATION WE COLLECT ABOUT YOU
         </Typography>
 
         {data.map((val, i) => (
-          <Box key={i} sx={{ mt: 2 }}>
+          <Box
+            key={i}
+            sx={{
+              mt: {xs: 2, md: 3},
+              px: {xs: 1, md: 3},
+            }}
+          >
             <Typography
               sx={{
-                fontSize: 18,
+                fontSize: {xs: 16, md: 18, lg: 20},
                 fontFamily: poppins.style.fontFamily,
                 fontWeight: 600,
               }}
@@ -92,26 +99,47 @@ const InformationWeCollect = () => {
               {val.title}
             </Typography>
             {val.description?.map((item, i) => (
-              <Typography sx={{ fontFamily: poppins.style.fontFamily }} key={i}>
+              <Typography
+                sx={{
+                  fontFamily: poppins.style.fontFamily,
+                  fontSize: {xs: 14, md: 16},
+                  mb: 0.5,
+                }}
+                key={i}
+              >
                 {item.label}
               </Typography>
             ))}
             {val.listDetails && (
-              <List>
+              <List sx={{ pl: {xs: 2, md: 3} }}>
                 {val.listDetails.map((item, index) => (
-                  <ListItem disablePadding key={index}>
+                  <ListItem disablePadding key={index} sx={{mb: 0.5}}>
                     <ListItemAvatar
-                      sx={{ minWidth: 20, alignItems: "flex-start" }}
+                      sx={{minWidth: 20, alignItems: "flex-start"}}
                     >
-                      <Circle sx={{ fontSize: 5, color: "#000" }} />
+                      <Circle sx={{fontSize: 5, color: "#000"}} />
                     </ListItemAvatar>
-                    <ListItemText primary={item.label} slotProps={{}} />
+                    <ListItemText
+                      primary={item.label}
+                      sx={{
+                        fontSize: {xs: 14, md: 16},
+                        fontFamily: poppins.style.fontFamily,
+                      }}
+                      slotProps={{}}
+                    />
                   </ListItem>
                 ))}
               </List>
             )}
             {val.footerDescription?.map((item, i) => (
-              <Typography sx={{ fontFamily: poppins.style.fontFamily }} key={i}>
+              <Typography
+                sx={{
+                  fontFamily: poppins.style.fontFamily,
+                  fontSize: {xs: 14, md: 16}, 
+                  mt: 0.5,
+                }}
+                key={i}
+              >
                 {item.label}
               </Typography>
             ))}

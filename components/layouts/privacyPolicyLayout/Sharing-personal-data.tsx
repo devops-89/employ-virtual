@@ -36,19 +36,27 @@ const SharingpersonalData = () => {
     },
   ];
   return (
-    <Box sx={{ mt: 4 }}>
-      <Container maxWidth="xl">
+    <Box sx={{ mt: {xs: 3, md: 4} }}>
+      <Container maxWidth="xl" sx={{ px: {xs: 1, md: 3} }}>
         <Typography
           sx={{
             fontWeight: 700,
-            fontSize: 24,
+            fontSize: {xs: 20, md: 24, lg: 28},
             fontFamily: poppins.style.fontFamily,
+            mb: {xs: 2, md: 3},
           }}
         >
           4. Sharing Of Your Personal Data
         </Typography>
         {data.map((val, i) => (
-          <List component="ol" sx={{ listStyleType: "disc" }}>
+          <List
+            component="ol"
+            sx={{
+              listStyleType: "disc",
+              pl: {xs: 2, md: 4},
+              mb: {xs: 1.5, md: 2},
+            }}
+          >
             {i <= 2 &&
               val.description?.map((item, idx) => (
                 <ListItem
@@ -57,26 +65,33 @@ const SharingpersonalData = () => {
                   sx={{
                     display: "list-item",
                     listStyleType: "disc",
-                    ml: 4,
+                    ml: {xs: 2, md: 4 },
+                    mb: {xs: 1, md: 1.5},
                   }}
                 >
                   <Typography
                     key={idx}
-                    sx={{ fontFamily: poppins.style.fontFamily }}
+                    sx={{
+                      fontFamily: poppins.style.fontFamily,
+                      fontSize: {xs: 14, md: 16},
+                    }}
                   >
                     {item.label}
                   </Typography>
                 </ListItem>
               ))}
-            {i ===3 &&
+            {i === 3 &&
               val.description?.map((item, idx) => (
-               
-                  <Typography
-                    key={idx}
-                    sx={{ fontFamily: poppins.style.fontFamily }}
-                  >
-                    {item.label}
-                  </Typography>
+                <Typography
+                  key={idx}
+                  sx={{
+                    fontFamily: poppins.style.fontFamily,
+                    fontSize: {xs: 14, md: 16}, 
+                    mb: {xs: 1, md: 1.5},
+                  }}
+                >
+                  {item.label}
+                </Typography>
               ))}
           </List>
         ))}

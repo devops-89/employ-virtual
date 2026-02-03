@@ -13,7 +13,7 @@ const HiringRemoteStaff = () => {
           <Typography
             sx={{
               fontFamily: poppins.style.fontFamily,
-              fontSize: { lg: 50, xs: 30 },
+              fontSize: { lg: 50, md: 40, xs: 28 },
               fontWeight: 900,
               textAlign: "center",
               color: COLORS.TEXT_BLACK,
@@ -25,7 +25,7 @@ const HiringRemoteStaff = () => {
             sx={{
               fontFamily: poppins.style.fontFamily,
               color: COLORS.TEXT_GREY,
-              fontSize: 20,
+              fontSize: { lg: 20, md: 18, xs: 16 },
               fontWeight: 300,
               mt: 1,
               textAlign: "center",
@@ -33,9 +33,9 @@ const HiringRemoteStaff = () => {
           >
             was never this easy. Choose your team in four simple steps.
           </Typography>
-          <Grid container spacing={5} sx={{ mt: 4 }}>
+          <Grid container spacing={{ lg: 5, xs: 3 }} sx={{ mt: 4 }}>
             {REMOTE_CARD_DATA.map((val, i) => (
-              <Grid size={{ lg: 3, xs: 12 }} key={i}>
+              <Grid size={{ lg: 3, md: 6, xs: 12 }} key={i}>
                 <WhyEmployCard
                   img={val.img}
                   title={val.title}

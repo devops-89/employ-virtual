@@ -140,20 +140,29 @@ const PersonalDataTable = () => {
     },
   ];
     return (
-      <Box>
-        <Typography sx={{ fontFamily: poppins.style.fontFamily,mb:2 }}>
+      <Box sx={{ px: { xs: 1, md: 3 }, mb: { xs: 2, md: 4 } }}>
+        <Typography
+          sx={{
+            fontFamily: poppins.style.fontFamily,
+            fontSize: { xs: 14, md: 16 },
+            mb: { xs: 1.5, md: 2 },
+          }}
+        >
           For the objectives listed in the above table, we could be required to
           disclose your personal information to the parties listed below.
         </Typography>
 
-        <TableContainer component={Paper}>
-          <Table>
+        <TableContainer
+          component={Paper}
+          sx={{ overflowX: { xs: "auto", md: "unset" } }}
+        >
+          <Table sx={{ minWidth: { xs: 600, md: "auto" } }}>
             <TableHead>
               <TableRow>
                 <TableCell
                   sx={{
                     fontWeight: 900,
-                    fontSize: 14,
+                    fontSize: { xs: 12, md: 14 },
                     fontFamily: poppins.style.fontFamily,
                   }}
                 >
@@ -162,7 +171,7 @@ const PersonalDataTable = () => {
                 <TableCell
                   sx={{
                     fontWeight: 900,
-                    fontSize: 14,
+                    fontSize: { xs: 12, md: 14 },
                     fontFamily: poppins.style.fontFamily,
                   }}
                 >
@@ -171,7 +180,7 @@ const PersonalDataTable = () => {
                 <TableCell
                   sx={{
                     fontWeight: 900,
-                    fontSize: 14,
+                    fontSize: { xs: 12, md: 14 },
                     fontFamily: poppins.style.fontFamily,
                   }}
                 >
@@ -189,9 +198,9 @@ const PersonalDataTable = () => {
                         <ListItem key={j} disablePadding>
                           <Box
                             sx={{
-                              fontSize: 16,
+                              fontSize: { xs: 12, md: 16 },
                               fontFamily: poppins.style.fontFamily,
-                              mb: 2,
+                              mb: { xs: 1, md: 2 },
                             }}
                           >
                             {text}
@@ -206,9 +215,9 @@ const PersonalDataTable = () => {
                         <ListItem key={j} disablePadding>
                           <Box
                             sx={{
-                              fontSize: 16,
+                              fontSize: { xs: 12, md: 16 },
                               fontFamily: poppins.style.fontFamily,
-                              mb: 2,
+                              mb: { xs: 1, md: 2 },
                             }}
                           >
                             {text}
@@ -223,9 +232,9 @@ const PersonalDataTable = () => {
                         <ListItem key={j} disablePadding>
                           <Box
                             sx={{
-                              fontSize: 16,
+                              fontSize: { xs: 12, md: 16 },
                               fontFamily: poppins.style.fontFamily,
-                              mb: 2,
+                              mb: { xs: 1, md: 2 },
                             }}
                           >
                             {text}

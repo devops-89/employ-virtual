@@ -14,8 +14,16 @@ import {
 const FeaturesCard = ({ heading, data }: FOOTER_LINKS) => {
   return (
     <Box>
-      <Stack direction={"row"} alignItems={"flex-start"} spacing={5}>
-        <Stack direction="row" alignItems={"flex-end"}>
+      <Stack
+        direction={{ xs: "column", sm: "row" }}
+        alignItems={{ xs: "center", sm: "flex-start" }}
+        spacing={{ xs: 2.5, sm: 5 }}
+      >
+        <Stack
+          direction="row"
+          alignItems="center"
+          sx={{ mb: { xs: 1, sm: 0 } }}
+        >
           <Typography
             sx={{
               color: COLORS.WHITE,
@@ -27,7 +35,13 @@ const FeaturesCard = ({ heading, data }: FOOTER_LINKS) => {
           >
             {heading}
           </Typography>
-          <Divider sx={{ borderColor: COLORS.WHITE,width:50 }} />
+          <Divider
+            sx={{
+              borderColor: COLORS.WHITE,
+              width: { xs: 30, sm: 50 },
+              ml: 1,
+            }}
+          />
         </Stack>
 
         <List>
@@ -40,7 +54,7 @@ const FeaturesCard = ({ heading, data }: FOOTER_LINKS) => {
                     fontSize: 15,
                     fontFamily: poppins.style.fontFamily,
                     color: COLORS.WHITE,
-                    textAlign: "left",
+                    textAlign: { xs: "center", sm: "left" },
                   },
                 }}
               />
