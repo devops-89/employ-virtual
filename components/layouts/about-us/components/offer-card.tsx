@@ -5,6 +5,7 @@ import Image from "next/image";
 import { poppins } from "@/utils/fonts";
 import { COLORS } from "@/utils/enum";
 import { OFFER_CARD_PROPS } from "@/utils/types";
+import Link from "next/link";
 const OfferCard = ({ img, heading, description }: OFFER_CARD_PROPS) => {
   return (
     <Box
@@ -38,29 +39,30 @@ const OfferCard = ({ img, heading, description }: OFFER_CARD_PROPS) => {
         >
           {description}
         </Typography>
-
-        <Button
-          sx={{
-            "&::after": {
-              content: '""',
-              position: "absolute",
-              left: 0,
-              bottom: -4,
-              height: "3px",
-              width: "0%",
-              backgroundColor: COLORS.PRIMARY,
-              transition: "width 0.4s ease-in-out",
-            },
-            "&:hover::after": {
-              width: "100%",
-            },
-            fontFamily: poppins.style.fontFamily,
-            color: COLORS.PRIMARY,
-            fontWeight: 800,
-          }}
-        >
-          Read More
-        </Button>
+        <Link href="/services">
+          <Button
+            sx={{
+              "&::after": {
+                content: '""',
+                position: "absolute",
+                left: 0,
+                bottom: -4,
+                height: "3px",
+                width: "0%",
+                backgroundColor: COLORS.PRIMARY,
+                transition: "width 0.4s ease-in-out",
+              },
+              "&:hover::after": {
+                width: "100%",
+              },
+              fontFamily: poppins.style.fontFamily,
+              color: COLORS.PRIMARY,
+              fontWeight: 800,
+            }}
+          >
+            Read More
+          </Button>
+        </Link>
       </Stack>
     </Box>
   );

@@ -16,11 +16,7 @@ import { matchIsValidTel, MuiTelInput, MuiTelInputInfo } from "mui-tel-input";
 import React, { useState } from "react";
 import * as Yup from "yup";
 import { useFormik } from "formik";
-import emailjs from "@emailjs/browser";
-
-const SERVICE_ID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || "";
-const TEMPLATE_ID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || "";
-const PUBLIC_KEY = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || "";
+import axios from "axios";
 
 const contactValidationSchema = Yup.object().shape({
   name: Yup.string().required("Name is required"),
@@ -55,47 +51,34 @@ const Form = () => {
       target_sales: "",
     },
     validationSchema: contactValidationSchema,
-    onSubmit: (values, { setSubmitting, resetForm }) => {
-      if (!SERVICE_ID || !TEMPLATE_ID || !PUBLIC_KEY) {
-        console.error(
-          "EmailJS credentials are not set in environment variables.",
-        );
+    onSubmit: async (values, { setSubmitting, resetForm }) => {
+      setSubmitting(true);
+      try {
+        const response = await axios.post("/api/contact", values);
+        if (response.data.success) {
+          setSnackbarOpen({
+            open: true,
+            message: "Your message has been sent successfully!",
+            severity: "success",
+          });
+          resetForm();
+          setCountry(null);
+          setPhone("");
+        } else {
+          throw new Error(response.data.error || "Failed to send message");
+        }
+      } catch (err: any) {
+        // console.error("FAILED...", err);
         setSnackbarOpen({
           open: true,
           message:
-            "Sorry, there was an error sending your message. Please try again later.",
+            err.response?.data?.error ||
+            "Failed to send the message. Please check your connection or try again later.",
           severity: "error",
         });
+      } finally {
         setSubmitting(false);
-        return;
       }
-
-      setSubmitting(true);
-
-      emailjs
-        .send(SERVICE_ID, TEMPLATE_ID, values, PUBLIC_KEY)
-        .then(
-          (response) => {
-            setSnackbarOpen({
-              open: true,
-              message: "Your message has been sent successfully!",
-              severity: "success",
-            });
-            resetForm();
-          },
-          (err) => {
-            console.error("FAILED...", err);
-            setSnackbarOpen({
-              open: true,
-              message:
-                "Failed to send the message. Please check your connection or try again later.",
-              severity: "error",
-            });
-          },
-        )
-        .finally(() => {
-          setSubmitting(false);
-        });
     },
   });
 
@@ -113,7 +96,7 @@ const Form = () => {
 
   const [country, setCountry] = useState(null);
 
-  const countryChangeHandler = (value: any) => {
+  const countryChangeHandler = (event: any, value: any) => {
     setCountry(value);
     if (value?.label) {
       formik.setFieldValue("country", value.label);
@@ -275,7 +258,8 @@ const Form = () => {
                 fullWidth
                 label="Current Sales Figure"
                 placeholder="Enter number of SKU sold online per day"
-                id="currentSalesFigure"
+                id="current_sales_figure"
+                name="current_sales_figure"
                 value={formik.values.current_sales_figure}
                 onChange={formik.handleChange}
                 error={
@@ -294,7 +278,8 @@ const Form = () => {
                 fullWidth
                 label="Average Sales Price"
                 placeholder="Enter ASP/ product"
-                id="averageSalesPrice"
+                id="average_sales_price"
+                name="average_sales_price"
                 value={formik.values.average_sales_price}
                 onChange={formik.handleChange}
                 error={
@@ -313,7 +298,8 @@ const Form = () => {
                 fullWidth
                 label="Target Sales"
                 placeholder="Enter Daily sales you would like us to achieve"
-                id="targetSales"
+                id="target_sales"
+                name="target_sales"
                 value={formik.values.target_sales}
                 onChange={formik.handleChange}
                 error={

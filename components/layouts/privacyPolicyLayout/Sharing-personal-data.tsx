@@ -1,5 +1,5 @@
 import { poppins } from "@/utils/fonts";
-import { Box, Typography, Container,ListItem, List} from "@mui/material";
+import { Box, Typography, Container, ListItem, List } from "@mui/material";
 import React from "react";
 
 const SharingpersonalData = () => {
@@ -57,7 +57,7 @@ const SharingpersonalData = () => {
                   sx={{
                     display: "list-item",
                     listStyleType: "disc",
-                    ml: 4,
+                    ml: { lg: 4, xs: 1 },
                   }}
                 >
                   <Typography
@@ -68,15 +68,14 @@ const SharingpersonalData = () => {
                   </Typography>
                 </ListItem>
               ))}
-            {i ===3 &&
+            {i === 3 &&
               val.description?.map((item, idx) => (
-               
-                  <Typography
-                    key={idx}
-                    sx={{ fontFamily: poppins.style.fontFamily }}
-                  >
-                    {item.label}
-                  </Typography>
+                <Typography
+                  key={idx}
+                  sx={{ fontFamily: poppins.style.fontFamily }}
+                >
+                  {item.label}
+                </Typography>
               ))}
           </List>
         ))}

@@ -100,3 +100,27 @@ export interface DETAILS_DATA {
     data: VIRTUAL_CARD_PROPS[];
   };
 }
+
+export interface BLOG_CARD_PROPS {
+  img: string;
+  title: string;
+  description: string;
+  slug: string;
+}
+
+export interface BLOG_DETAIL_ITEM {
+  heading: string;
+  description?: string;
+  list?: {
+    label: string;
+    value?: string;
+  }[];
+}
+
+export interface BLOG_DETAILS {
+  data: BLOG_DETAIL_ITEM[];
+}
+
+export interface BLOG_DATA_PROPS extends BLOG_CARD_PROPS {
+  details: BLOG_DETAILS;
+}

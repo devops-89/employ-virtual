@@ -16,29 +16,37 @@ import { FOOTER_LINKS_URL } from "../../assets/generic-array";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import { X } from "@mui/icons-material";
 import { LiaLinkedinIn } from "react-icons/lia";
+import Link from "next/link";
 const Footer = () => {
   const socialIcons = [
     {
       icon: FaFacebookF,
+      url: "https://www.facebook.com/employvirtual",
     },
     {
       icon: X,
+      url: "https://x.com/EmployVirtual",
     },
     {
       icon: FaInstagram,
+      url: "https://www.instagram.com/employvirtual/",
     },
     {
       icon: LiaLinkedinIn,
+      url: "https://www.linkedin.com/company/employ-virtual/",
     },
   ];
   return (
     <Box
-      sx={{ backgroundColor: COLORS.BLACK, height: { lg: "80vh", xs: "70vh" } }}
+      sx={{
+        backgroundColor: COLORS.BLACK,
+        height: { lg: "80vh", xs: "100vh" },
+      }}
     >
       <Box
         sx={{
           backgroundImage: `url(${footer_banner.src})`,
-          height: { lg: "80vh", xs: "70vh" },
+          height: { lg: "80vh", xs: "100vh" },
           backgroundRepeat: "no-repeat",
           width: "100%",
           backgroundSize: "contain",
@@ -104,22 +112,24 @@ const Footer = () => {
               spacing={3}
             >
               {socialIcons.map((val, i) => (
-                <IconButton
-                  key={i}
-                  sx={{
-                    "& svg": {
-                      color: COLORS.WHITE,
-                      width: 25,
-                    },
-                    ":hover": {
+                <Link href={val.url}>
+                  <IconButton
+                    key={i}
+                    sx={{
                       "& svg": {
-                        color: COLORS.PRIMARY,
+                        color: COLORS.WHITE,
+                        width: 25,
                       },
-                    },
-                  }}
-                >
-                  <val.icon />
-                </IconButton>
+                      ":hover": {
+                        "& svg": {
+                          color: COLORS.PRIMARY,
+                        },
+                      },
+                    }}
+                  >
+                    <val.icon />
+                  </IconButton>
+                </Link>
               ))}
             </Stack>
             <Typography

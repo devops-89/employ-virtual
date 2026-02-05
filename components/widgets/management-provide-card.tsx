@@ -3,6 +3,7 @@ import { Box, Button, Container, Grid, Typography } from "@mui/material";
 import { BEST_SUITED_CARD } from "@/assets/generic-array";
 import WhyEmployCard from "./common/why-employ-card";
 import { SUITED_CARD_DATA } from "@/utils/types";
+import Link from "next/link";
 
 const ManagementSuited = ({
   heading,
@@ -60,21 +61,23 @@ const ManagementSuited = ({
             </Grid>
             {isButton && (
               <Box sx={{ textAlign: "center" }}>
-                <Button
-                  sx={{
-                    border: "1px solid #ffffff ",
-                    borderRadius: 0,
-                    color: COLORS.WHITE,
-                    ":hover": {
-                      color: COLORS.PRIMARY,
-                    },
-                    mt: 3,
-                    width: 150,
-                    p: 1.5,
-                  }}
-                >
-                  hire now
-                </Button>
+                <Link href="/contact-us">
+                  <Button
+                    sx={{
+                      border: "1px solid #ffffff ",
+                      borderRadius: 0,
+                      color: COLORS.WHITE,
+                      ":hover": {
+                        color: COLORS.PRIMARY,
+                      },
+                      mt: 3,
+                      width: 150,
+                      p: 1.5,
+                    }}
+                  >
+                    hire now
+                  </Button>
+                </Link>
               </Box>
             )}
           </Grid>

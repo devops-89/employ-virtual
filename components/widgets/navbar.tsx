@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   Box,
   Container,
@@ -20,6 +20,20 @@ import Link from "next/link";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [slide, setSlide] = useState<"none" | "in" | "out">("none");
+  const [isSticky, setIsSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 100) {
+        setIsSticky(true);
+      } else {
+        setIsSticky(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   const handleOpen = () => {
     setSlide("in");
@@ -58,17 +72,38 @@ const Navbar = () => {
 
   return (
     <Container maxWidth="xl">
-      <Box sx={{ position: "relative" }}>
-        <Box
-          sx={{ position: "absolute", width: "100%", top: 20, zIndex: 9999 }}
-        >
+      <Box
+        sx={{
+          position: isSticky ? "fixed" : "absolute",
+          width: "100%",
+          top: isSticky ? 0 : 20,
+          left: 0,
+          zIndex: 9999,
+          backgroundColor: isSticky ? "rgba(0, 0, 0, 0.6)" : COLORS.TRANSPARENT,
+          backdropFilter: isSticky ? "blur(10px)" : "none",
+          WebkitBackdropFilter: isSticky ? "blur(10px)" : "none",
+          transition: "all 0.3s ease-in-out",
+          animation: isSticky ? "navbarSlideDown 0.5s ease-in-out" : "none",
+          py: isSticky ? 1 : 0,
+          boxShadow: isSticky ? "0px 4px 30px rgba(0, 0, 0, 0.1)" : "none",
+          borderBottom: isSticky
+            ? "1px solid rgba(255, 255, 255, 0.1)"
+            : "none",
+        }}
+      >
+        <Container maxWidth="xl">
           <Stack
             direction="row"
             alignItems="center"
             justifyContent="space-between"
           >
             <Link href="/" onClick={handleClick}>
-              <Image src={logo} alt="logo" width={phone ? 150 : 250} />
+              <Image
+                src={logo}
+                alt="logo"
+                width={phone ? 120 : isSticky ? 180 : 250}
+                style={{ transition: "width 0.3s ease-in-out" }}
+              />
             </Link>
             <Stack direction="row" alignItems="center" spacing={2}>
               <Typography
@@ -98,7 +133,7 @@ const Navbar = () => {
               </IconButton>
             </Stack>
           </Stack>
-        </Box>
+        </Container>
       </Box>
 
       {slide !== "none" && (
@@ -205,6 +240,15 @@ const Navbar = () => {
           100% {
             width: 0%;
             left: 100%;
+          }
+        }
+
+        @keyframes navbarSlideDown {
+          from {
+            transform: translateY(-100%);
+          }
+          to {
+            transform: translateY(0);
           }
         }
       `}</style>

@@ -28,7 +28,7 @@ const ContactLayout = () => {
         heading="& REST WE WILL TAKE CARE"
         CARD_DATA={TAKE_CARE_CARD_DATA}
         description="The managers and management make sure that your employees are 100% dedicated & productive."
-        isButton={true}
+        isButton={false}
       />
       <Partners />
     </div>

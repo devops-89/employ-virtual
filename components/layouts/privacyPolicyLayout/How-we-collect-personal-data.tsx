@@ -1,5 +1,5 @@
 import { poppins } from "@/utils/fonts";
-import { Box, Typography, Container,ListItem, List} from "@mui/material";
+import { Box, Typography, Container, ListItem, List } from "@mui/material";
 import React from "react";
 import PersonalDataTable from "./Personal-data-table";
 
@@ -113,7 +113,7 @@ const HowwecollectpersonalData = () => {
       description: [
         {
           label:
-          "Before we disclose your personal information with any firm other than DIGIXITO for marketing reasons, we will need your express opt-in consent You can request that we or third parties stop sending you marketing messages at any time by following the opt-out buttons in any marketing message you get or by contacting us at any time. If you opt-out of receiving these marketing messages, your personal data submitted to us as a consequence of a product/service purchase, warranty registration, product/service experience, or other transactions will not be affected.",
+            "Before we disclose your personal information with any firm other than DIGIXITO for marketing reasons, we will need your express opt-in consent You can request that we or third parties stop sending you marketing messages at any time by following the opt-out buttons in any marketing message you get or by contacting us at any time. If you opt-out of receiving these marketing messages, your personal data submitted to us as a consequence of a product/service purchase, warranty registration, product/service experience, or other transactions will not be affected.",
         },
       ],
     },
@@ -157,7 +157,7 @@ const HowwecollectpersonalData = () => {
                 sx={{
                   display: "list-item",
                   listStyleType: "disc",
-                  ml: 3,
+                  ml: { lg: 3, xs: 0 },
                 }}
               >
                 <Box
@@ -198,7 +198,7 @@ const HowwecollectpersonalData = () => {
                   sx={{
                     display: "list-item",
                     listStyleType: "decimal",
-                    ml: 8,
+                    ml: { lg: 8, xs: 0 },
                   }}
                 >
                   <Typography
@@ -236,7 +236,7 @@ const HowwecollectpersonalData = () => {
           <Box key={i}>
             {i >= 2 &&
               val.description?.map((item, idx) => (
-                <Box key={idx} sx={{ mb: 4, mt:2 }}>
+                <Box key={idx} sx={{ mb: 4, mt: 2 }}>
                   <Typography
                     sx={{
                       fontSize: 18,
@@ -254,7 +254,6 @@ const HowwecollectpersonalData = () => {
               ))}
           </Box>
         ))}
-      
       </Container>
     </Box>
   );

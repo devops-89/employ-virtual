@@ -14,6 +14,7 @@ import TextTrail from "./text-trail";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import { X } from "@mui/icons-material";
 import { LiaLinkedinIn } from "react-icons/lia";
+import Link from "next/link";
 const InnerHeroSection = ({
   heading,
   description,
@@ -26,15 +27,19 @@ const InnerHeroSection = ({
   const socialIcons = [
     {
       icon: FaFacebookF,
+      url: "https://www.facebook.com/employvirtual",
     },
     {
       icon: X,
+      url: "https://x.com/EmployVirtual",
     },
     {
       icon: FaInstagram,
+      url: "https://www.instagram.com/employvirtual/",
     },
     {
       icon: LiaLinkedinIn,
+      url: "https://www.linkedin.com/company/employ-virtual/",
     },
   ];
   return (
@@ -135,21 +140,23 @@ const InnerHeroSection = ({
         >
           <Stack alignItems={"center"} spacing={3}>
             {socialIcons.map((val, i) => (
-              <IconButton
-                key={i}
-                sx={{
-                  "& svg": {
-                    color: COLORS.WHITE,
-                  },
-                  ":hover": {
+              <Link href={val.url}>
+                <IconButton
+                  key={i}
+                  sx={{
                     "& svg": {
-                      color: COLORS.PRIMARY,
+                      color: COLORS.WHITE,
                     },
-                  },
-                }}
-              >
-                <val.icon />
-              </IconButton>
+                    ":hover": {
+                      "& svg": {
+                        color: COLORS.PRIMARY,
+                      },
+                    },
+                  }}
+                >
+                  <val.icon />
+                </IconButton>
+              </Link>
             ))}
           </Stack>
         </Box>

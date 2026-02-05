@@ -20,7 +20,7 @@ const Employ360 = () => {
     <Box
       sx={{
         backgroundImage: `url(${banner_360.src})`,
-        height: "100vh",
+        height: { lg: "100vh", xs: "100%" },
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -33,6 +33,7 @@ const Employ360 = () => {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
+          py: { lg: 0, xs: 10 },
         }}
       >
         <Container maxWidth="lg">

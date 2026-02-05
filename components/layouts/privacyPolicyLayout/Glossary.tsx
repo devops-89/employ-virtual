@@ -75,7 +75,7 @@ const Glossary = () => {
                     display: "list-item",
                     listStyleType: "decimal",
                     mb: 2,
-                    ml:4
+                    ml: { lg: 4, xs: 1 },
                   }}
                 >
                   <Typography sx={{ fontFamily: poppins.style.fontFamily }}>
@@ -92,4 +92,3 @@ const Glossary = () => {
 };
 
 export default Glossary;
-

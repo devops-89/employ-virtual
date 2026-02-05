@@ -214,7 +214,7 @@ const Introduction = () => {
     <Box sx={{ mt: 5 }}>
       <Container maxWidth="xl">
         <Grid container spacing={6}>
-          <Grid size={8}>
+          <Grid size={{ xs: 12, md: 8 }}>
             {data.map((val, i) => (
               <Stack
                 spacing={3}
@@ -302,7 +302,10 @@ const Introduction = () => {
               </Stack>
             ))}
           </Grid>
-          <Grid size={4}>
+          <Grid
+            size={{ xs: 12, md: 4 }}
+            sx={{ display: { xs: "none", md: "block" } }}
+          >
             <Box
               sx={{
                 position: "sticky",

@@ -22,15 +22,19 @@ const Herosection = () => {
   const socialIcons = [
     {
       icon: FaFacebookF,
+      url: "https://www.facebook.com/employvirtual",
     },
     {
       icon: X,
+      url: "https://x.com/EmployVirtual",
     },
     {
       icon: FaInstagram,
+      url: "https://www.instagram.com/employvirtual/",
     },
     {
       icon: LiaLinkedinIn,
+      url: "https://www.linkedin.com/company/employ-virtual/",
     },
   ];
   return (
@@ -38,7 +42,7 @@ const Herosection = () => {
       <Box
         sx={{
           backgroundImage: `url(${bannerGif.src})`,
-          height: "100vh",
+          height: { lg: "100vh", xs: "100%" },
           backgroundRepeat: "no-repeat",
           width: "100%",
           backgroundSize: "contain",
@@ -48,6 +52,7 @@ const Herosection = () => {
           justifyContent: "center",
           position: "relative",
           backgroundAttachment: "fixed",
+          py: 10,
         }}
       >
         <Container maxWidth="lg">
@@ -160,21 +165,23 @@ const Herosection = () => {
           >
             <Stack alignItems={"center"} spacing={3}>
               {socialIcons.map((val, i) => (
-                <IconButton
-                  key={i}
-                  sx={{
-                    "& svg": {
-                      color: COLORS.WHITE,
-                    },
-                    ":hover": {
+                <Link href={val.url}>
+                  <IconButton
+                    key={i}
+                    sx={{
                       "& svg": {
-                        color: COLORS.PRIMARY,
+                        color: COLORS.WHITE,
                       },
-                    },
-                  }}
-                >
-                  <val.icon />
-                </IconButton>
+                      ":hover": {
+                        "& svg": {
+                          color: COLORS.PRIMARY,
+                        },
+                      },
+                    }}
+                  >
+                    <val.icon />
+                  </IconButton>
+                </Link>
               ))}
             </Stack>
           </Box>
