@@ -1,8 +1,7 @@
+import { ABOUT_FEATURES_CARD_DATA } from "@/assets/generic-array";
 import { COLORS } from "@/utils/enum";
 import { Box, Container, Grid } from "@mui/material";
-import React from "react";
 import FeaturesCard from "./components/features-card";
-import { ABOUT_FEATURES_CARD_DATA } from "@/assets/generic-array";
 
 const Features = () => {
   return (
@@ -15,7 +14,7 @@ const Features = () => {
         justifyContent: "center",
       }}
     >
-      <Container maxWidth="xl">
+      <Container maxWidth="xl" sx={{ px: { xs: 2.5, sm: 4, md: 6 } }}>
         <Grid container>
           {ABOUT_FEATURES_CARD_DATA.map((val, i) => (
             <Grid size={{ lg: 6, xs: 12 }} key={i}>

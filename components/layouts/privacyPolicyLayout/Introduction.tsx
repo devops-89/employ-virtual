@@ -6,7 +6,7 @@ import React from "react";
 const PrivacyPolicyintroduction = () => {
   return (
     <div>
-      <Container maxWidth="xl">
+      <Container maxWidth="xl" sx={{ px: { xs: 2.5, sm: 4, md: 6 } }}>
         <Box sx={{ py: 5 }}>
           <Typography
             variant="h4"

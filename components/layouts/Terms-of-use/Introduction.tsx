@@ -212,7 +212,7 @@ const Introduction = () => {
 
   return (
     <Box sx={{ mt: 5 }}>
-      <Container maxWidth="xl">
+      <Container maxWidth="xl" sx={{ px: { xs: 2.5, sm: 4, md: 6 } }}>
         <Grid container spacing={6}>
           <Grid size={8}>
             {data.map((val, i) => (

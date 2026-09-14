@@ -2,26 +2,22 @@
 import lines from "@/banner/lines.png";
 import { COLORS } from "@/utils/enum";
 import { poppins } from "@/utils/fonts";
-import {
-  Box,
-  Container,
-  IconButton,
-  Stack,
-  Typography,
-  useMediaQuery,
-} from "@mui/material";
-import TextTrail from "./text-trail";
-import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import { X } from "@mui/icons-material";
+import { Box, Container, IconButton, Stack, Typography } from "@mui/material";
+import Image, { StaticImageData } from "next/image";
+import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import { LiaLinkedinIn } from "react-icons/lia";
+
 const InnerHeroSection = ({
-  heading,
-  description,
+  heading = "",
+  description = "",
+  bgImage,
 }: {
-  heading: string;
-  description: string;
+  heading?: string;
+  description?: string;
+  bgImage?: string | StaticImageData;
 }) => {
-  const phone = useMediaQuery("(max-width:600px)");
+  const headingLength = (heading || "").length;
 
   const socialIcons = [
     {
@@ -41,84 +37,124 @@ const InnerHeroSection = ({
     <Box
       sx={{
         width: "100%",
-        minHeight: { lg: "650px", xs: "450px" },
+        minHeight: { lg: "520px", md: "440px", sm: "380px", xs: "340px" },
         display: "flex",
-        flexWrap: "wrap",
         flexDirection: "column",
+        justifyContent: "center",
         background: COLORS.DARK,
         left: 0,
         top: 0,
         position: "relative",
+        py: { xs: 8, sm: 10, md: 12 },
         "::after": {
           content: '""',
           width: "100%",
           height: "100%",
-          position: "absoulte",
+          position: "absolute",
           left: 0,
           top: 0,
           background: `url(${lines.src})`,
           zIndex: 1,
           backgroundAttachment: "fixed",
+          pointerEvents: "none",
         },
-        height: "100%",
       }}
     >
-      <Box
-        sx={{
-          backgroundColor: COLORS.DARK,
-          position: "absolute",
-          top: 0,
-          left: 0,
-          width: "100%",
-          height: "100%",
-          overflow: "hidden",
-          opacity: 0.1,
-          mixBlendMode: "luminosity",
-          backgroundAttachment: "fixed",
-        }}
-      >
-        <video
-          src="https://employvirtual.com/wp-content/uploads/2019/01/video-3.mp4"
-          muted
-          autoPlay
-          loop
-          style={{ width: "100%", display: phone ? "none" : "block" }}
-        ></video>
-      </Box>
-      <Container maxWidth="xl">
+      {bgImage ? (
         <Box
           sx={{
             position: "absolute",
-            top: "25%",
-            zIndex: 3,
-            width: { lg: "80%", xs: "90%" },
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%",
+            overflow: "hidden",
+            zIndex: 0,
           }}
         >
-          {/* <GlitchText speed={1}>About us</GlitchText> */}
-          {/* <TextTrail text="About Us" textColor="#ffffff" /> */}
+          <Image
+            src={bgImage}
+            alt={heading}
+            fill
+            style={{ objectFit: "cover", objectPosition: "center" }}
+            priority
+          />
+          <Box
+            sx={{
+              position: "absolute",
+              top: 0,
+              left: 0,
+              width: "100%",
+              height: "100%",
+              backgroundColor: "rgba(0, 0, 0, 0.65)",
+              zIndex: 1,
+            }}
+          />
+        </Box>
+      ) : (
+        <Box
+          sx={{
+            backgroundColor: COLORS.DARK,
+            position: "absolute",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%",
+            overflow: "hidden",
+            opacity: 0.1,
+            mixBlendMode: "luminosity",
+            backgroundAttachment: "fixed",
+          }}
+        >
+          <Box
+            component="video"
+            src="https://employvirtual.com/wp-content/uploads/2019/01/video-3.mp4"
+            muted
+            autoPlay
+            loop
+            sx={{
+              width: "100%",
+              height: "100%",
+              objectFit: "cover",
+              display: { xs: "none", sm: "block" },
+            }}
+          />
+        </Box>
+      )}
+      <Container maxWidth="xl" sx={{ px: { xs: 2.5, sm: 4, md: 6 }, position: "relative", zIndex: 3 }}>
+        <Box
+          sx={{
+            width: { lg: "75%", md: "85%", xs: "100%" },
+          }}
+        >
           <Typography
             sx={{
-              fontSize: { lg: 80, xs: 50 },
+              fontSize: {
+                xl: headingLength > 35 ? 54 : 70,
+                lg: headingLength > 35 ? 46 : 58,
+                md: headingLength > 35 ? 38 : 46,
+                sm: headingLength > 35 ? 30 : 38,
+                xs: headingLength > 35 ? 24 : 30,
+              },
               fontFamily: poppins.style.fontFamily,
               color: COLORS.WHITE,
               fontWeight: 900,
               textTransform: "capitalize",
-              lineHeight: { lg: "140px", xs: "80px" },
+              lineHeight: 1.25,
+              wordBreak: "break-word",
             }}
           >
             {heading}
           </Typography>
           <Typography
             sx={{
-              fontSize: { lg: 26, xs: 16 },
+              fontSize: { lg: 20, md: 18, sm: 16, xs: 14 },
               fontFamily: poppins.style.fontFamily,
               color: COLORS.WHITE,
-              //   fontWeight: 900,
-              //   width: "60%",
-              lineHeight: "40px",
+              lineHeight: 1.6,
               fontWeight: 300,
-              mt: 2,
-              width: { lg: "60%", xs: "90%" },
+              mt: { xs: 1.5, sm: 2 },
+              width: { lg: "70%", md: "85%", xs: "100%" },
             }}
           >
             {description}
@@ -127,8 +163,9 @@ const InnerHeroSection = ({
         <Box
           sx={{
             position: "absolute",
-            right: 30,
-            top: "30%",
+            right: { xs: 20, sm: 32, md: 48 },
+            top: "50%",
+            transform: "translateY(-50%)",
             zIndex: 3,
             display: { lg: "block", xs: "none" },
           }}

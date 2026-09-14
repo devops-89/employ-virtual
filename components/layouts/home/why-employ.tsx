@@ -8,7 +8,7 @@ import { WHY_EMPLOY_DATA } from "@/assets/generic-array";
 const WhyEmploy = () => {
   return (
     <Box sx={{ backgroundColor: COLORS.WHITE, py: 5 }}>
-      <Container maxWidth="xl">
+      <Container maxWidth="xl" sx={{ px: { xs: 2.5, sm: 4, md: 6 } }}>
         <Grid container spacing={7}>
           <Grid size={{ lg: 4, xs: 12 }}>
             <Typography
@@ -37,9 +37,9 @@ const WhyEmploy = () => {
             </Typography>
           </Grid>
           <Grid size={{ lg: 8, xs: 12 }}>
-            <Grid container spacing={7}>
+            <Grid container spacing={7} justifyContent="center">
               {WHY_EMPLOY_DATA.map((val, i) => (
-                <Grid size={{ lg: 4, xs: 12 }} key={i}>
+                <Grid size={{ lg: 4, md: 6, sm: 6, xs: 12 }} key={i}>
                   <WhyEmployCard
                     img={val.img}
                     title={val.title}

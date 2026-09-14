@@ -1,12 +1,11 @@
 import { COLORS } from "@/utils/enum";
 import { poppins } from "@/utils/fonts";
 import { Box, Container, Grid, Typography } from "@mui/material";
-import React from "react";
 
 const Skilled = () => {
   return (
     <Box sx={{ backgroundColor: COLORS.WHITE, py: 5 }}>
-      <Container maxWidth="xl">
+      <Container maxWidth="xl" sx={{ px: { xs: 2.5, sm: 4, md: 6 } }}>
         <Grid container spacing={{ lg: 0, xs: 4 }}>
           <Grid size={{ lg: 4, xs: 12 }}>
             <Typography

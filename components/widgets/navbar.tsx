@@ -1,5 +1,9 @@
 "use client";
-import React, { useState } from "react";
+import { NAVBAR_LINKS } from "@/assets/generic-array";
+import logo from "@/logo/employ_virtual_logo.png";
+import { COLORS } from "@/utils/enum";
+import { fjalla } from "@/utils/fonts";
+import { Close, DragHandle } from "@mui/icons-material";
 import {
   Box,
   Container,
@@ -7,15 +11,10 @@ import {
   IconButton,
   Stack,
   Typography,
-  useMediaQuery,
 } from "@mui/material";
-import logo from "@/logo/employ_virtual_logo.png";
 import Image from "next/image";
-import { COLORS } from "@/utils/enum";
-import { fjalla } from "@/utils/fonts";
-import { Close, DragHandle } from "@mui/icons-material";
-import { NAVBAR_LINKS } from "@/assets/generic-array";
 import Link from "next/link";
+import { useState } from "react";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -54,10 +53,8 @@ const Navbar = () => {
     }, 600);
   };
 
-  const phone = useMediaQuery("(max-width:600px)");
-
   return (
-    <Container maxWidth="xl">
+    <Container maxWidth="xl" sx={{ px: { xs: 2.5, sm: 4, md: 6 } }}>
       <Box sx={{ position: "relative" }}>
         <Box
           sx={{ position: "absolute", width: "100%", top: 20, zIndex: 9999 }}
@@ -68,7 +65,14 @@ const Navbar = () => {
             justifyContent="space-between"
           >
             <Link href="/" onClick={handleClick}>
-              <Image src={logo} alt="logo" width={phone ? 150 : 250} />
+              <Box sx={{ width: { xs: 150, sm: 250 }, height: "auto" }}>
+                <Image
+                  src={logo}
+                  alt="logo"
+                  style={{ width: "100%", height: "auto" }}
+                  priority
+                />
+              </Box>
             </Link>
             <Stack direction="row" alignItems="center" spacing={2}>
               <Typography

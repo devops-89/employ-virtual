@@ -11,7 +11,7 @@ const HireDeveloperEmploy = () => {
   //   console.log("test", details);
   return (
     <Box>
-      <Container maxWidth="xl">
+      <Container maxWidth="xl" sx={{ px: { xs: 2.5, sm: 4, md: 6 } }}>
         <Grid
           container
           spacing={6}

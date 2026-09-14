@@ -1,14 +1,13 @@
+import { BEST_SUITED_CARD, TAKE_CARE_CARD_DATA } from "@/assets/generic-array";
+import career from "@/banner/career.png";
+import HiringRemoteStaff from "@/components/widgets/hiring-remote-staff";
 import InnerHeroSection from "@/components/widgets/inner-hero-section";
+import ManagementSuited from "@/components/widgets/management-provide-card";
+import Partners from "@/components/widgets/partners";
+import { COLORS } from "@/utils/enum";
 import { poppins } from "@/utils/fonts";
 import { Box, Container, Grid, Typography } from "@mui/material";
-import React from "react";
-import career from "@/banner/career.png";
 import Image from "next/image";
-import { COLORS } from "@/utils/enum";
-import ManagementSuited from "@/components/widgets/management-provide-card";
-import { BEST_SUITED_CARD, TAKE_CARE_CARD_DATA } from "@/assets/generic-array";
-import HiringRemoteStaff from "@/components/widgets/hiring-remote-staff";
-import Partners from "@/components/widgets/partners";
 const CareersLayout = () => {
   return (
     <div>
@@ -17,7 +16,7 @@ const CareersLayout = () => {
         description="We're creating positive impact in the world of virtual resources."
       />
       <Box sx={{ py: 5 }}>
-        <Container maxWidth="xl">
+        <Container maxWidth="xl" sx={{ px: { xs: 2.5, sm: 4, md: 6 } }}>
           <Grid container spacing={5}>
             <Grid size={{ lg: 6, xs: 12 }}>
               <Typography

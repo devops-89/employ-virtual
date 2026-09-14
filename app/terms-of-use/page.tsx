@@ -1,4 +1,4 @@
-import TermsOfuseLayout from "@/components/layouts/Terms-of-use/Index";
+import TermsOfuseLayout from "@/components/layouts/Terms-of-use";
 import React from "react";
 
 const TermsofUse = () => {

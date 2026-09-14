@@ -8,7 +8,7 @@ const WhyHireEmploy = () => {
   const { details } = useDetailsStore();
   return (
     <Box>
-      <Container maxWidth="xl">
+      <Container maxWidth="xl" sx={{ px: { xs: 2.5, sm: 4, md: 6 } }}>
         <Grid container spacing={4}>
           {details?.details_list.map(
             (val: { heading: string; data: LIST[] }, i: number) => (

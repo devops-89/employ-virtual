@@ -2,6 +2,7 @@
 import { countries } from "@/assets/generic-array";
 import { COLORS } from "@/utils/enum";
 import { poppins } from "@/utils/fonts";
+import emailjs from "@emailjs/browser";
 import {
   AlertColor,
   Autocomplete,
@@ -12,11 +13,10 @@ import {
   Grid,
   TextField,
 } from "@mui/material";
-import { matchIsValidTel, MuiTelInput, MuiTelInputInfo } from "mui-tel-input";
-import React, { useState } from "react";
-import * as Yup from "yup";
 import { useFormik } from "formik";
-import emailjs from "@emailjs/browser";
+import { matchIsValidTel, MuiTelInput, MuiTelInputInfo } from "mui-tel-input";
+import { useState } from "react";
+import * as Yup from "yup";
 
 const SERVICE_ID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || "";
 const TEMPLATE_ID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || "";
@@ -124,7 +124,7 @@ const Form = () => {
 
   return (
     <div>
-      <Container maxWidth="xl">
+      <Container maxWidth="xl" sx={{ px: { xs: 2.5, sm: 4, md: 6 } }}>
         <form onSubmit={formik.handleSubmit}>
           <Grid container spacing={7}>
             <Grid size={6}>

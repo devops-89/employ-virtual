@@ -1,10 +1,8 @@
-import React from "react";
-import { Box, Stack, Typography } from "@mui/material";
-import resource1 from "@/banner/talent.png";
-import Image from "next/image";
 import { COLORS } from "@/utils/enum";
 import { poppins } from "@/utils/fonts";
 import { HERO_CARD_PROPS } from "@/utils/types";
+import { Box, Stack, Typography } from "@mui/material";
+import Image from "next/image";
 const HeroCard = ({ img, title, description }: HERO_CARD_PROPS) => {
   return (
     <Box>
@@ -26,7 +24,6 @@ const HeroCard = ({ img, title, description }: HERO_CARD_PROPS) => {
               fontWeight: 500,
               mt: 1,
               fontFamily: poppins.style.fontFamily,
-           
             }}
           >
             {description}

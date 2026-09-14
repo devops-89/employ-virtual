@@ -1,5 +1,4 @@
-import PrivacyPolicyLayout from "@/components/layouts/privacyPolicyLayout/Index";
-import React from "react";
+import PrivacyPolicyLayout from "@/components/layouts/privacyPolicyLayout";
 
 const PrivacyPolicy = () => {
   return (

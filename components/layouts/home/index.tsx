@@ -1,11 +1,10 @@
 import { Box } from "@mui/material";
-import React from "react";
-import Herosection from "./hero-section";
-import WhyEmploy from "./why-employ";
-import Employ360 from "./360-employ";
-import HiringRemote from "./hiring-remote";
-import BestSuited from "./best-suited";
 import Partners from "../../widgets/partners";
+import Employ360 from "./360-employ";
+import BestSuited from "./best-suited";
+import Herosection from "./hero-section";
+import HiringRemote from "./hiring-remote";
+import WhyEmploy from "./why-employ";
 
 const HomeLayout = () => {
   return (

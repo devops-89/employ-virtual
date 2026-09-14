@@ -1,8 +1,7 @@
 import { COLORS } from "@/utils/enum";
-import { Box, Button, Container, Grid, Typography } from "@mui/material";
-import { BEST_SUITED_CARD } from "@/assets/generic-array";
-import WhyEmployCard from "./common/why-employ-card";
 import { SUITED_CARD_DATA } from "@/utils/types";
+import { Box, Button, Container, Grid, Typography } from "@mui/material";
+import WhyEmployCard from "./common/why-employ-card";
 
 const ManagementSuited = ({
   heading,
@@ -21,7 +20,7 @@ const ManagementSuited = ({
         justifyContent: "center",
       }}
     >
-      <Container maxWidth="xl">
+      <Container maxWidth="xl" sx={{ px: { xs: 2.5, sm: 4, md: 6 } }}>
         <Grid container spacing={10}>
           <Grid size={{ lg: 4, xs: 12 }}>
             <Typography
@@ -46,9 +45,9 @@ const ManagementSuited = ({
             </Typography>
           </Grid>
           <Grid size={{ lg: 8, xs: 12 }}>
-            <Grid container spacing={4}>
+            <Grid container spacing={4} justifyContent="center">
               {CARD_DATA.map((val, i) => (
-                <Grid size={{ lg: 4, xs: 12 }} key={i}>
+                <Grid size={{ lg: 4, md: 6, sm: 6, xs: 12 }} key={i}>
                   <WhyEmployCard
                     img={val.img}
                     title={val.title}

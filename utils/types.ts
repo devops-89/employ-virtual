@@ -100,3 +100,15 @@ export interface DETAILS_DATA {
     data: VIRTUAL_CARD_PROPS[];
   };
 }
+
+export interface BLOG_PROPS {
+  id: string;
+  title: string;
+  excerpt: string;
+  date: string;
+  readTime: string;
+  author: string;
+  category: string;
+  slug: string;
+  img?: StaticImageData | string;
+}

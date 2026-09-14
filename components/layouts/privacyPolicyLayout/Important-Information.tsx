@@ -80,7 +80,7 @@ const ImportantInformation = () => {
   ];
   return (
     <div>
-      <Container maxWidth="xl">
+      <Container maxWidth="xl" sx={{ px: { xs: 2.5, sm: 4, md: 6 } }}>
         <Typography
           sx={{
             fontWeight: 700,

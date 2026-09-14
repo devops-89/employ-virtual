@@ -5,11 +5,11 @@ import { SERVICE_CARD_PROPS } from "@/utils/types";
 import {
   Box,
   Button,
+  Collapse,
   List,
   ListItemButton,
   ListItemText,
   Typography,
-  Collapse,
 } from "@mui/material";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
@@ -22,68 +22,127 @@ const ServicesCard = ({ img, heading, data }: SERVICE_CARD_PROPS) => {
 
   const router = useRouter();
 
-    const navigateToPage = (slug: string) => {
-      router.push(`/${slug}`);
-    };
+  const navigateToPage = (slug: string) => {
+    router.push(`/${slug}`);
+  };
 
   return (
-    <Box>
-      <Image src={img} alt="" width={80} />
+    <Box
+      sx={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        textAlign: "center",
+        p: { xs: 2.5, sm: 3 },
+        borderRadius: 3,
+        boxShadow: "0px 6px 20px rgba(0, 0, 0, 0.05)",
+        border: "1px solid #f0f0f0",
+        backgroundColor: "#ffffff",
+        height: "100%",
+        transition: "all 0.3s ease-in-out",
+        "&:hover": {
+          transform: "translateY(-5px)",
+          boxShadow: "0px 12px 28px rgba(0, 0, 0, 0.1)",
+        },
+      }}
+    >
+      <Box sx={{ display: "flex", justifyContent: "center", mb: 1 }}>
+        <Image src={img} alt={heading} width={80} style={{ height: "auto" }} />
+      </Box>
+
       <Typography
         sx={{
           fontSize: 16,
           fontWeight: 800,
           fontFamily: poppins.style.fontFamily,
-          mt: 2,
+          mt: 1,
+          mb: 1.5,
+          color: COLORS.TEXT_BLACK,
+          textAlign: "center",
         }}
       >
         {heading}
       </Typography>
 
-      <List>
+      <List
+        sx={{
+          width: "100%",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          p: 0,
+        }}
+      >
         {data.slice(0, 3).map((val, i) => (
           <ListItemButton
             key={i}
             sx={{
-              p: 0,
-              width: "fit-content",
-              ":hover": { color: COLORS.PRIMARY },
+              p: 0.5,
+              width: "auto",
+              textAlign: "center",
+              justifyContent: "center",
+              ":hover": {
+                color: COLORS.PRIMARY,
+                backgroundColor: "transparent",
+              },
             }}
             onClick={() => navigateToPage(val.url || "#")}
-           
-          
           >
             <ListItemText
               primary={val.label}
               slotProps={{
-                primary: { fontFamily: poppins.style.fontFamily, fontSize: 13 },
+                primary: {
+                  fontFamily: poppins.style.fontFamily,
+                  fontSize: 13,
+                  textAlign: "center",
+                },
               }}
             />
           </ListItemButton>
         ))}
 
-        <Collapse in={expanded} timeout="auto" unmountOnExit>
-          {data.slice(3).map((val, i) => (
-            <ListItemButton
-              key={i + 3}
-              sx={{
-                p: 0,
-                width: "fit-content",
-                ":hover": { color: COLORS.PRIMARY },
-              }}
-                onClick={() => navigateToPage(val.url || "#")}
-            >
-              <ListItemText
-                primary={val.label}
-                slotProps={{
-                  primary: {
-                    fontFamily: poppins.style.fontFamily,
-                    fontSize: 13,
+        <Collapse
+          in={expanded}
+          timeout="auto"
+          unmountOnExit
+          sx={{ width: "100%" }}
+        >
+          <Box
+            sx={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              width: "100%",
+            }}
+          >
+            {data.slice(3).map((val, i) => (
+              <ListItemButton
+                key={i + 3}
+                sx={{
+                  p: 0.5,
+                  width: "auto",
+                  textAlign: "center",
+                  justifyContent: "center",
+                  ":hover": {
+                    color: COLORS.PRIMARY,
+                    backgroundColor: "transparent",
                   },
                 }}
-              />
-            </ListItemButton>
-          ))}
+                onClick={() => navigateToPage(val.url || "#")}
+              >
+                <ListItemText
+                  primary={val.label}
+                  slotProps={{
+                    primary: {
+                      fontFamily: poppins.style.fontFamily,
+                      fontSize: 13,
+                      textAlign: "center",
+                    },
+                  }}
+                />
+              </ListItemButton>
+            ))}
+          </Box>
         </Collapse>
       </List>
 
@@ -92,11 +151,17 @@ const ServicesCard = ({ img, heading, data }: SERVICE_CARD_PROPS) => {
           fontSize: 12,
           fontFamily: poppins.style.fontFamily,
           color: COLORS.PRIMARY,
-          ":hover": { textDecoration: "underline" },
+          fontWeight: 700,
+          mt: "auto",
+          pt: 1.5,
+          ":hover": {
+            textDecoration: "underline",
+            backgroundColor: "transparent",
+          },
         }}
         onClick={toggleExpand}
       >
-        {expanded ? "View Less" : "View More"}
+        {expanded ? "VIEW LESS" : "VIEW MORE"}
       </Button>
     </Box>
   );

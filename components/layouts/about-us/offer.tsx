@@ -1,14 +1,13 @@
-import { COLORS } from "@/utils/enum";
-import { fjalla, poppins } from "@/utils/fonts";
-import { Box, Container, Grid, Typography } from "@mui/material";
-import React from "react";
-import OfferCard from "./components/offer-card";
 import { OFFER_CARD_DATA } from "@/assets/generic-array";
+import { COLORS } from "@/utils/enum";
+import { poppins } from "@/utils/fonts";
+import { Box, Container, Grid, Typography } from "@mui/material";
+import OfferCard from "./components/offer-card";
 
 const Offer = () => {
   return (
     <Box sx={{ py: 5 }}>
-      <Container maxWidth="xl">
+      <Container maxWidth="xl" sx={{ px: { xs: 2.5, sm: 4, md: 6 } }}>
         <Typography
           sx={{
             fontSize: { lg: 50, xs: 30 },
@@ -30,9 +29,9 @@ const Offer = () => {
           Let your business meet its best suited resources from an array of our
           services.
         </Typography>
-        <Grid container spacing={4} mt={4}>
+        <Grid container spacing={4} mt={4} justifyContent="center">
           {OFFER_CARD_DATA.map((val, i) => (
-            <Grid size={{ lg: 3, xs: 12 }} key={i}>
+            <Grid size={{ lg: 3, md: 6, sm: 6, xs: 12 }} key={i}>
               <OfferCard
                 img={val.img}
                 heading={val.heading}

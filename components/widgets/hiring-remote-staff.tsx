@@ -2,14 +2,13 @@ import { REMOTE_CARD_DATA } from "@/assets/generic-array";
 import { COLORS } from "@/utils/enum";
 import { poppins } from "@/utils/fonts";
 import { Box, Container, Grid, Typography } from "@mui/material";
-import React from "react";
 import WhyEmployCard from "./common/why-employ-card";
 
 const HiringRemoteStaff = () => {
   return (
     <div>
       <Box sx={{ py: 5 }}>
-        <Container maxWidth="xl">
+        <Container maxWidth="xl" sx={{ px: { xs: 2.5, sm: 4, md: 6 } }}>
           <Typography
             sx={{
               fontFamily: poppins.style.fontFamily,
@@ -33,9 +32,9 @@ const HiringRemoteStaff = () => {
           >
             was never this easy. Choose your team in four simple steps.
           </Typography>
-          <Grid container spacing={5} sx={{ mt: 4 }}>
+          <Grid container spacing={5} sx={{ mt: 4 }} justifyContent="center">
             {REMOTE_CARD_DATA.map((val, i) => (
-              <Grid size={{ lg: 3, xs: 12 }} key={i}>
+              <Grid size={{ lg: 3, md: 6, sm: 6, xs: 12 }} key={i}>
                 <WhyEmployCard
                   img={val.img}
                   title={val.title}

@@ -1,58 +1,61 @@
+import offer7 from "@/about-icon/3D-ARVR.png";
+import offer5 from "@/about-icon/BRAND-SOLUTIONS.png";
+import offer6 from "@/about-icon/D2C-SALES-MANAGEMENT.png";
+import offer3 from "@/about-icon/DIGITAL-MEDIA.png";
+import offer8 from "@/about-icon/INFRASTRUCTURE-CLOUD.png";
+import eye_on from "@/about-icon/KEEP-AN-EYE-ON.png";
+import professionalism from "@/about-icon/PROFESSIONALISM.png";
+import helping_hand from "@/about-icon/THE-HELPING-HAND.png";
+import offer1 from "@/about-icon/VIRTUAL-RESOURCING.png";
+import offer2 from "@/about-icon/WEBSITE-DEVELOPMENT.png";
+import offer4 from "@/about-icon/workforce-solutions.png";
+import resource1 from "@/banner/talent.png";
+import resource2 from "@/banner/zero-downtime.png";
+import resource3 from "@/banner/zero-overheads.png";
+import blog1 from "@/blog/blog1.png";
+import blog2 from "@/blog/blog2.png";
+import blog3 from "@/blog/blog3.png";
+import partner4 from "@/homepage/partner/avigna.png";
+import partner6 from "@/homepage/partner/haute-baby.png";
+import partner3 from "@/homepage/partner/infraguard.png";
+import partner7 from "@/homepage/partner/kal-group.png";
+import partner5 from "@/homepage/partner/pensieve.png";
+import partner1 from "@/homepage/partner/right-cloud.png";
+import partner2 from "@/homepage/partner/skechers.png";
+import remote1 from "@/homepage/remote-1.png";
+import remote2 from "@/homepage/remote-2.png";
+import remote3 from "@/homepage/remote-3.png";
+import remote4 from "@/homepage/remote-4.png";
+import suited2 from "@/homepage/suited/CUSTOMISED-MODEL-1.png";
+import suited1 from "@/homepage/suited/DEDICATED-MODEL-1.png";
+import suited3 from "@/homepage/suited/TEAM-MODEL-1.png";
+import why1 from "@/homepage/why_employ/DEDICATED-EMPLOYEES.png";
+import why4 from "@/homepage/why_employ/DIVERSE-EXPERIENCE.png";
+import why3 from "@/homepage/why_employ/INFINITY-SHAPED-SKILLS.png";
+import why5 from "@/homepage/why_employ/REAL-TIME-ASSISTANCE.png";
+import why6 from "@/homepage/why_employ/TRUE-EMPLOYEES-1.png";
+import why2 from "@/homepage/why_employ/VALUE-FOR-MONEY.png";
+import service8 from "@/services/services-icon/3D-ARVR.png";
+import service3 from "@/services/services-icon/BRAND-SOLUTIONS.png";
+import service5 from "@/services/services-icon/D2C-SALES-MANAGEMENT.png";
+import service4 from "@/services/services-icon/DIGITAL-MEDIA.png";
+import service2 from "@/services/services-icon/INFRASTRUCTURE-CLOUD.png";
+import service1 from "@/services/services-icon/VIRTUAL-RESOURCING.png";
+import service7 from "@/services/services-icon/WEBSITE-DEVELOPMENT.png";
+import service6 from "@/services/services-icon/workforce-solutions.png";
+import { COLORS } from "@/utils/enum";
 import {
   ADDRESS_TYPE,
+  BLOG_PROPS,
   CountryType,
-  DETAILS_DATA,
   FOOTER_LINKS,
   HERO_CARD_PROPS,
   OFFER_CARD_PROPS,
   PARTNER_CARD_PROPS,
   SERVICE_CARD_PROPS,
   VIRTUAL_CARD_PROPS,
-  WHY_EMPLOY_PROPS,
+  WHY_EMPLOY_PROPS
 } from "@/utils/types";
-import resource1 from "@/banner/talent.png";
-import resource2 from "@/banner/zero-downtime.png";
-import resource3 from "@/banner/zero-overheads.png";
-import why1 from "@/homepage/why_employ/DEDICATED-EMPLOYEES.png";
-import why2 from "@/homepage/why_employ/VALUE-FOR-MONEY.png";
-import why3 from "@/homepage/why_employ/INFINITY-SHAPED-SKILLS.png";
-import why4 from "@/homepage/why_employ/DIVERSE-EXPERIENCE.png";
-import why5 from "@/homepage/why_employ/REAL-TIME-ASSISTANCE.png";
-import why6 from "@/homepage/why_employ/TRUE-EMPLOYEES-1.png";
-import remote1 from "@/homepage/remote-1.png";
-import remote2 from "@/homepage/remote-2.png";
-import remote3 from "@/homepage/remote-3.png";
-import remote4 from "@/homepage/remote-4.png";
-import { COLORS } from "@/utils/enum";
-import suited1 from "@/homepage/suited/DEDICATED-MODEL-1.png";
-import suited2 from "@/homepage/suited/CUSTOMISED-MODEL-1.png";
-import suited3 from "@/homepage/suited/TEAM-MODEL-1.png";
-import partner1 from "@/homepage/partner/right-cloud.png";
-import partner2 from "@/homepage/partner/skechers.png";
-import partner3 from "@/homepage/partner/infraguard.png";
-import partner4 from "@/homepage/partner/avigna.png";
-import partner5 from "@/homepage/partner/pensieve.png";
-import partner6 from "@/homepage/partner/haute-baby.png";
-import partner7 from "@/homepage/partner/kal-group.png";
-import offer1 from "@/about-icon/VIRTUAL-RESOURCING.png";
-import offer2 from "@/about-icon/WEBSITE-DEVELOPMENT.png";
-import offer3 from "@/about-icon/DIGITAL-MEDIA.png";
-import offer4 from "@/about-icon/workforce-solutions.png";
-import offer5 from "@/about-icon/BRAND-SOLUTIONS.png";
-import offer6 from "@/about-icon/D2C-SALES-MANAGEMENT.png";
-import offer7 from "@/about-icon/3D-ARVR.png";
-import offer8 from "@/about-icon/INFRASTRUCTURE-CLOUD.png";
-import eye_on from "@/about-icon/KEEP-AN-EYE-ON.png";
-import helping_hand from "@/about-icon/THE-HELPING-HAND.png";
-import professionalism from "@/about-icon/PROFESSIONALISM.png";
-import service1 from "@/services/services-icon/VIRTUAL-RESOURCING.png";
-import service2 from "@/services/services-icon/INFRASTRUCTURE-CLOUD.png";
-import service3 from "@/services/services-icon/BRAND-SOLUTIONS.png";
-import service4 from "@/services/services-icon/DIGITAL-MEDIA.png";
-import service5 from "@/services/services-icon/D2C-SALES-MANAGEMENT.png";
-import service6 from "@/services/services-icon/workforce-solutions.png";
-import service7 from "@/services/services-icon/WEBSITE-DEVELOPMENT.png";
-import service8 from "@/services/services-icon/3D-ARVR.png";
 
 export const NAVBAR_LINKS = [
   {
@@ -1405,5 +1408,44 @@ export const VIRTUAL_CARD_DATA: VIRTUAL_CARD_PROPS[] = [
     description:
       "Hire your HTML Developer from Employ Virtual who uses HTML to create website layouts based on templates and wireframes.",
     slug: "hire-html-developer",
+  },
+];
+
+export const BLOGS_DATA: BLOG_PROPS[] = [
+  {
+    id: "1",
+    title: "How Virtual Resourcing Reduces Employee Costs by 80%",
+    excerpt:
+      "Discover how hiring remote dedicated developers and virtual resources helps modern businesses optimize overheads and scale operations efficiently.",
+    date: "Sep 12, 2026",
+    readTime: "5 min read",
+    author: "Employ Virtual",
+    category: "Virtual Resourcing",
+    slug: "virtual-resourcing-reduces-costs",
+    img: blog1,
+  },
+  {
+    id: "2",
+    title: "Top Skills to Look For When Hiring Remote React Developers",
+    excerpt:
+      "A comprehensive guide on evaluating technical skills, communication, and remote work readiness when selecting React.js professionals for your team.",
+    date: "Sep 08, 2026",
+    readTime: "4 min read",
+    author: "Tech Team",
+    category: "Hiring Guide",
+    slug: "hiring-remote-react-developers",
+    img: blog2,
+  },
+  {
+    id: "3",
+    title: "Why Offshore Talent Is the Secret Weapon for Fast-Growing Startups",
+    excerpt:
+      "Learn how early-stage and high-growth companies leverage offshore IT teams to accelerate product development cycles and reduce time-to-market.",
+    date: "Aug 29, 2026",
+    readTime: "6 min read",
+    author: "Resource Expert",
+    category: "Business Strategy",
+    slug: "offshore-talent-for-startups",
+    img: blog3,
   },
 ];

@@ -11,7 +11,7 @@ const VirtualResourcing = () => {
   const { details } = useDetailsStore();
   return (
     <Box sx={{ mt: 5 }}>
-      <Container maxWidth="xl">
+      <Container maxWidth="xl" sx={{ px: { xs: 2.5, sm: 4, md: 6 } }}>
         <Typography
           sx={{
             textAlign: "center",
