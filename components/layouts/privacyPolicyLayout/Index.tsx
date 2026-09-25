@@ -1,11 +1,10 @@
 import InnerHeroSection from "@/components/widgets/inner-hero-section";
-import React from "react";
-import PrivacyPolicyintroduction from "./Introduction";
+import HowwecollectpersonalData from "./How-we-collect-personal-data";
 import ImportantInformation from "./Important-Information";
 import InformationWeCollect from "./Information-We-Collect";
-import HowwecollectpersonalData from "./How-we-collect-personal-data";
+import PrivacyPolicyintroduction from "./Introduction";
 
-const PrivacyPolicyLayout = () => {
+const privacyPolicyLayout = () => {
   return (
     <div>
       <InnerHeroSection heading="Privacy Policy" description="" />
@@ -17,4 +16,4 @@ const PrivacyPolicyLayout = () => {
   );
 };
 
-export default PrivacyPolicyLayout;
+export default privacyPolicyLayout;
