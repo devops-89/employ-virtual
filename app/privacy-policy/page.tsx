@@ -1,4 +1,4 @@
-import PrivacyPolicyLayout from "@/components/layouts/privacyPolicyLayout";
+import PrivacyPolicyLayout from "@/components/layouts/privacyPolicyLayout/index";
 import { getMetadata } from "@/utils/metadata";
 import { Metadata } from "next";
 
