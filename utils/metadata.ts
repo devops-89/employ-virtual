@@ -1,3 +1,5 @@
+import type { Metadata } from "next";
+
 export const pageMetadata: Record<string, { title: string; description: string }> = {
   "/": {
     title: "Best Virtual Staffing Agency to Hire Employ Virtual Efficiently",
@@ -397,3 +399,45 @@ export const pageMetadata: Record<string, { title: string; description: string }
     description: "Hire skilled remote experts for progressive web application development to build scalable, efficient, and high-quality web solutions.",
   }
 };
+
+const LOGO_URL = "https://www.employvirtual.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Femploy_virtual_logo.4a04620f.png&w=640&q=75";
+
+export function getMetadata(path: string): Metadata {
+  const meta = pageMetadata[path] || {
+    title: "Best Virtual Staffing Agency to Hire Employ Virtual Efficiently",
+    description: "Hire top virtual staff efficiently with the best virtual staffing agency. Streamline your remote hiring process and boost productivity with expert virtual professionals",
+  };
+
+  const canonicalUrl = `https://www.employvirtual.com${path === "/" ? "" : path}`;
+
+  return {
+    title: meta.title,
+    description: meta.description,
+    alternates: {
+      canonical: canonicalUrl,
+    },
+    openGraph: {
+      title: meta.title,
+      description: meta.description,
+      url: canonicalUrl,
+      siteName: "Employ Virtual",
+      type: "website",
+      images: [
+        {
+          url: LOGO_URL,
+          width: 640,
+          height: 200,
+          alt: "Employ Virtual Logo",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      site: "@Employ Virtual",
+      title: meta.title,
+      description: meta.description,
+      images: [LOGO_URL],
+    },
+  };
+}
+

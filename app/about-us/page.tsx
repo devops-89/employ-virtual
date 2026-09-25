@@ -1,13 +1,10 @@
 import AboutLayout from "@/components/layouts/about-us";
 import { Box } from "@mui/material";
 import React from "react";
-import { pageMetadata } from "@/utils/metadata";
+import { getMetadata } from "@/utils/metadata";
 import { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: pageMetadata["/about-us"].title,
-  description: pageMetadata["/about-us"].description,
-};
+export const metadata: Metadata = getMetadata("/about-us");
 
 const AboutUs = () => {
   return (

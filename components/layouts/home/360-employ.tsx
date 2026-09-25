@@ -50,6 +50,7 @@ const Employ360 = () => {
             </Grid>
             <Grid size={{ lg: 6, md: 6, xs: 12 }}>
               <Typography
+                component="h2"
                 sx={{
                   color: COLORS.WHITE,
                   fontFamily: fjalla.style.fontFamily,
@@ -60,6 +61,7 @@ const Employ360 = () => {
                 360° VIRTUAL RESOURCING COMPANY
               </Typography>
               <Typography
+                component="h3"
                 sx={{
                   color: COLORS.WHITE,
                   fontFamily: poppins.style.fontFamily,

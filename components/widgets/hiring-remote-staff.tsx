@@ -10,6 +10,7 @@ const HiringRemoteStaff = () => {
       <Box sx={{ py: 5 }}>
         <Container maxWidth="xl" sx={{ px: { xs: 2.5, sm: 4, md: 6 } }}>
           <Typography
+            component="h2"
             sx={{
               fontFamily: poppins.style.fontFamily,
               fontSize: { lg: 50, xs: 30 },

@@ -19,16 +19,24 @@ import { LiaLinkedinIn } from "react-icons/lia";
 const Footer = () => {
   const socialIcons = [
     {
+      name: "Facebook",
       icon: FaFacebookF,
+      url: "https://www.facebook.com/employvirtual/",
     },
     {
+      name: "X",
       icon: X,
+      url: "https://x.com/employvirtual",
     },
     {
+      name: "Instagram",
       icon: FaInstagram,
+      url: "https://www.instagram.com/employvirtual/",
     },
     {
+      name: "LinkedIn",
       icon: LiaLinkedinIn,
+      url: "https://www.linkedin.com/company/employ-virtual/posts/?feedView=all",
     },
   ];
   return (
@@ -106,6 +114,11 @@ const Footer = () => {
               {socialIcons.map((val, i) => (
                 <IconButton
                   key={i}
+                  component="a"
+                  href={val.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={val.name}
                   sx={{
                     "& svg": {
                       color: COLORS.WHITE,

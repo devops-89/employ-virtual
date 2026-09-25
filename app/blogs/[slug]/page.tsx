@@ -23,9 +23,37 @@ export async function generateMetadata({
     };
   }
 
+  const title = `${blog.title} | Employ Virtual Blog`;
+  const description = blog.bannerDescription || blog.intro;
+  const canonicalUrl = `https://www.employvirtual.com/blogs/${slug}`;
+  const logoUrl = "https://www.employvirtual.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Femploy_virtual_logo.4a04620f.png&w=640&q=75";
+
   return {
-    title: `${blog.title} | Employ Virtual Blog`,
-    description: blog.bannerDescription || blog.intro,
+    title,
+    description,
+    alternates: {
+      canonical: canonicalUrl,
+    },
+    openGraph: {
+      title,
+      description,
+      url: canonicalUrl,
+      siteName: "Employ Virtual",
+      type: "article",
+      images: [
+        {
+          url: logoUrl,
+          alt: blog.title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      site: "@Employ Virtual",
+      title,
+      description,
+      images: [logoUrl],
+    },
   };
 }
 

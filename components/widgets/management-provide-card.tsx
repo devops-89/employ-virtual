@@ -24,6 +24,7 @@ const ManagementSuited = ({
         <Grid container spacing={10}>
           <Grid size={{ lg: 4, xs: 12 }}>
             <Typography
+              component="h2"
               sx={{
                 fontSize: { lg: 50, xs: 30 },
                 color: COLORS.WHITE,

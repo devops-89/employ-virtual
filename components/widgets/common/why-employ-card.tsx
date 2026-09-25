@@ -13,6 +13,7 @@ const WhyEmployCard = ({
     <Box sx={{}}>
       <Image src={img} alt="" width={70} />
       <Typography
+        component="h3"
         sx={{
           fontSize: 16,
           fontWeight: 800,

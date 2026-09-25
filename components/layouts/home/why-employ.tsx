@@ -12,6 +12,7 @@ const WhyEmploy = () => {
         <Grid container spacing={7}>
           <Grid size={{ lg: 4, xs: 12 }}>
             <Typography
+              component="h2"
               sx={{
                 fontSize: { lg: 50, xs: 30 },
                 fontFamily: poppins.style.fontFamily,

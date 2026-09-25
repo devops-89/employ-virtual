@@ -19,16 +19,24 @@ import HeroCard from "./components/hero-card";
 const Herosection = () => {
   const socialIcons = [
     {
+      name: "Facebook",
       icon: FaFacebookF,
+      url: "https://www.facebook.com/employvirtual/",
     },
     {
+      name: "X",
       icon: X,
+      url: "https://x.com/employvirtual",
     },
     {
+      name: "Instagram",
       icon: FaInstagram,
+      url: "https://www.instagram.com/employvirtual/",
     },
     {
+      name: "LinkedIn",
       icon: LiaLinkedinIn,
+      url: "https://www.linkedin.com/company/employ-virtual/posts/?feedView=all",
     },
   ];
   return (
@@ -80,6 +88,7 @@ const Herosection = () => {
               </Typography>
 
               <Typography
+                component="h1"
                 sx={{
                   fontSize: { lg: 50, md: 42, sm: 34, xs: 26 },
                   color: COLORS.WHITE,
@@ -171,6 +180,11 @@ const Herosection = () => {
               {socialIcons.map((val, i) => (
                 <IconButton
                   key={i}
+                  component="a"
+                  href={val.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={val.name}
                   sx={{
                     "& svg": {
                       color: COLORS.WHITE,
