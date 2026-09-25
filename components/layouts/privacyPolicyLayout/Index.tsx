@@ -4,7 +4,7 @@ import ImportantInformation from "./Important-Information";
 import InformationWeCollect from "./Information-We-Collect";
 import PrivacyPolicyintroduction from "./Introduction";
 
-const privacyPolicyLayout = () => {
+const PrivacyPolicyLayout = () => {
   return (
     <div>
       <InnerHeroSection heading="Privacy Policy" description="" />
@@ -16,4 +16,4 @@ const privacyPolicyLayout = () => {
   );
 };
 
-export default privacyPolicyLayout;
+export default PrivacyPolicyLayout;
